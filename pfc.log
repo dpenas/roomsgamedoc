@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.4)  10 FEB 2016 16:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.4)  10 FEB 2016 16:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1428,60 +1428,63 @@ l.12
 
 ]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 15.
+(babel)             in language  on input line 13.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 15.
+(babel)             in language  on input line 13.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 15.
+(babel)             in language  on input line 13.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 15.
+(babel)             in language  on input line 13.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 15.
+(babel)             in language  on input line 13.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 15.
+(babel)             in language  on input line 13.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 22.
+(babel)             in language  on input line 20.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 22.
+(babel)             in language  on input line 20.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 22.
+(babel)             in language  on input line 20.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 22.
+(babel)             in language  on input line 20.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 22.
+(babel)             in language  on input line 20.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 22.
-LaTeX Info: Redefining \. on input line 29.
-LaTeX Info: Redefining \% on input line 29.
+(babel)             in language  on input line 20.
+
+Underfull \vbox (badness 4024) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 27.
+LaTeX Info: Redefining \% on input line 27.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 27.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 27.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 27.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 27.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 27.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 27.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 27.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 27.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 27.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 27.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 27.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 29.
+(babel)             in language  on input line 27.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.29 \paragraph
+l.27 \paragraph
                *{Capítulo 2. Estado del arte.} [2])
 LaTeX Info: Redefining \. on input line 122.
 LaTeX Info: Redefining \% on input line 122.
@@ -1547,7 +1550,7 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2
 xmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2015/texmf
 -dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on pfc.pdf (9 pages, 164341 bytes).
+Output written on pfc.pdf (9 pages, 163829 bytes).
 PDF statistics:
  140 PDF objects out of 1000 (max. 8388607)
  115 compressed objects within 2 object streams
