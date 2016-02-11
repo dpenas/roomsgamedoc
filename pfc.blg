@@ -6,12 +6,13 @@ A level-1 auxiliary file: 002_resumen.aux
 A level-1 auxiliary file: 003_palabras_clave.aux
 A level-1 auxiliary file: 004_agradecimientos.aux
 A level-1 auxiliary file: 010_introduccion.aux
+A level-1 auxiliary file: 030_fundamentos_tecnologicos.aux
 I found no \citation commands---while reading file pfc.aux
 I found no \bibdata command---while reading file pfc.aux
 I found no \bibstyle command---while reading file pfc.aux
 You've used 0 entries,
             0 wiz_defined-function locations,
-            88 strings with 575 characters,
+            89 strings with 607 characters,
 and the built_in function-call counts, 0 in all, are:
 = -- 0
 > -- 0
