@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.4)  12 FEB 2016 12:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.4)  12 FEB 2016 14:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2533,6 +2533,19 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 1.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--3
+[][][][][]$\OT1/pcr/m/n/9 http : / / www . oracle . com / technetwork / java / 
+javase / downloads /
+ []
+
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 7.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 7--7
+[][][][][][][] 
+ []
+
 )
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 136.
@@ -2559,21 +2572,17 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 136.
  [23]
-
-Package caption Warning: Unused \captionsetup[lstlisting] on input line 51.
-See the caption package documentation for explanation.
-
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 140.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
-(./pfc.aux (./001_portada.aux)
+ (./pfc.aux (./001_portada.aux)
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
- (./002_resumen.aux) (./003_palabras_clave.aux)
-(./004_agradecimientos.aux) (./010_introduccion.aux) (./020_estado_del_arte.aux
-) (./030_fundamentos_tecnologicos.aux) (./040_metodologia.aux)
-(./050_planificacion_seguimento.aux) (./060_analisis_requisitos.aux)
-(./070_desarrollo.aux) (./080_conclusiones.aux) (./A010_escogerlicencia.aux)
-(./A020_instalacion.aux))
+ (./002_resumen.aux)
+(./003_palabras_clave.aux) (./004_agradecimientos.aux) (./010_introduccion.aux)
+(./020_estado_del_arte.aux) (./030_fundamentos_tecnologicos.aux)
+(./040_metodologia.aux) (./050_planificacion_seguimento.aux)
+(./060_analisis_requisitos.aux) (./070_desarrollo.aux) (./080_conclusiones.aux)
+(./A010_escogerlicencia.aux) (./A020_instalacion.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
 Package rerunfilecheck Info: File `pfc.out' has not changed.
@@ -2583,33 +2592,37 @@ Package rerunfilecheck Info: File `pfc.out' has not changed.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 140.
- ) 
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 3 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 22580 strings out of 493089
- 420715 string characters out of 6134843
- 510137 words of memory out of 5000000
- 25452 multiletter control sequences out of 15000+600000
+ 22900 strings out of 493089
+ 423189 string characters out of 6134843
+ 510214 words of memory out of 5000000
+ 25766 multiletter control sequences out of 15000+600000
  14543 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,12n,65p,942b,686s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2015/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf
--dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2015/texmf-d
-ist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on pfc.pdf (33 pages, 219834 bytes).
+ 62i,12n,65p,942b,1150s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc
+}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on pfc.pdf (33 pages, 224390 bytes).
 PDF statistics:
- 428 PDF objects out of 1000 (max. 8388607)
- 375 compressed objects within 4 object streams
- 101 named destinations out of 1000 (max. 500000)
+ 443 PDF objects out of 1000 (max. 8388607)
+ 390 compressed objects within 4 object streams
+ 107 named destinations out of 1000 (max. 500000)
  258 words of extra memory for PDF output out of 10000 (max. 10000000)
 
