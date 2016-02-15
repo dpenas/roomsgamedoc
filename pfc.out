@@ -6,30 +6,32 @@
 \BOOKMARK [1][-]{section.1.3}{Estrutura da memoria}{chapter.1}% 6
 \BOOKMARK [0][-]{chapter.2}{Estado del Arte}{}% 7
 \BOOKMARK [1][-]{section.2.1}{La industria del entretenimiento digital en la actualidad}{chapter.2}% 8
-\BOOKMARK [1][-]{section.2.2}{Roguelikes.}{chapter.2}% 9
-\BOOKMARK [2][-]{subsection.2.2.1}{Qu\351 es y or\355genes}{section.2.2}% 10
-\BOOKMARK [2][-]{subsection.2.2.2}{En la actualidad}{section.2.2}% 11
-\BOOKMARK [2][-]{subsection.2.2.3}{Elementos roguelike en nuestro proyecto}{section.2.2}% 12
-\BOOKMARK [0][-]{chapter.3}{Fundamentos Tecnol\363gicos}{}% 13
-\BOOKMARK [1][-]{section.3.1}{Herramientas empleadas}{chapter.3}% 14
-\BOOKMARK [1][-]{section.3.2}{Bibliotecas empregadas}{chapter.3}% 15
-\BOOKMARK [0][-]{chapter.4}{Metodolog\355a}{}% 16
-\BOOKMARK [1][-]{section.4.1}{Desarrollo en cascada}{chapter.4}% 17
-\BOOKMARK [1][-]{section.4.2}{Scrum}{chapter.4}% 18
-\BOOKMARK [2][-]{subsection.4.2.1}{Pr\341cticas recomendadas de Scrum}{section.4.2}% 19
-\BOOKMARK [2][-]{subsection.4.2.2}{Valores de Scrum}{section.4.2}% 20
-\BOOKMARK [1][-]{section.4.3}{Otras consideraciones}{chapter.4}% 21
-\BOOKMARK [1][-]{section.4.4}{Metodolox\355a seguida}{chapter.4}% 22
-\BOOKMARK [0][-]{chapter.5}{Planificaci\363n y Seguimiento}{}% 23
-\BOOKMARK [0][-]{chapter.6}{An\341lisis de Requisitos}{}% 24
-\BOOKMARK [1][-]{section.6.1}{Consultas con la comunidad}{chapter.6}% 25
-\BOOKMARK [2][-]{subsection.6.1.1}{Resumen}{section.6.1}% 26
-\BOOKMARK [1][-]{section.6.2}{An\341lisis de otros elementos}{chapter.6}% 27
-\BOOKMARK [1][-]{section.6.3}{Requisitos del aplicativo}{chapter.6}% 28
-\BOOKMARK [0][-]{chapter.7}{Dise\361o e Implementaci\363n}{}% 29
-\BOOKMARK [0][-]{chapter.8}{Recepci\363n, conclusi\363n y trabajo futuro.}{}% 30
-\BOOKMARK [1][-]{section.8.1}{Recepci\363n y Feedback}{chapter.8}% 31
-\BOOKMARK [1][-]{section.8.2}{Conclusi\363n}{chapter.8}% 32
-\BOOKMARK [1][-]{section.8.3}{Trabajo Futuro}{chapter.8}% 33
-\BOOKMARK [0][-]{appendix.Alph1}{Escoger la licencia}{}% 34
-\BOOKMARK [0][-]{appendix.Alph2}{Instalaci\363n e Instrucciones}{}% 35
+\BOOKMARK [2][-]{subsection.2.1.1}{La industria, en n\372meros}{section.2.1}% 9
+\BOOKMARK [2][-]{subsection.2.1.2}{Conclusi\363n}{section.2.1}% 10
+\BOOKMARK [1][-]{section.2.2}{Roguelikes.}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.1}{Qu\351 es y or\355genes}{section.2.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.2}{En la actualidad}{section.2.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.3}{Elementos roguelike en nuestro proyecto}{section.2.2}% 14
+\BOOKMARK [0][-]{chapter.3}{Fundamentos Tecnol\363gicos}{}% 15
+\BOOKMARK [1][-]{section.3.1}{Herramientas empleadas}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.2}{Bibliotecas empregadas}{chapter.3}% 17
+\BOOKMARK [0][-]{chapter.4}{Metodolog\355a}{}% 18
+\BOOKMARK [1][-]{section.4.1}{Desarrollo en cascada}{chapter.4}% 19
+\BOOKMARK [1][-]{section.4.2}{Scrum}{chapter.4}% 20
+\BOOKMARK [2][-]{subsection.4.2.1}{Pr\341cticas recomendadas de Scrum}{section.4.2}% 21
+\BOOKMARK [2][-]{subsection.4.2.2}{Valores de Scrum}{section.4.2}% 22
+\BOOKMARK [1][-]{section.4.3}{Otras consideraciones}{chapter.4}% 23
+\BOOKMARK [1][-]{section.4.4}{Metodolox\355a seguida}{chapter.4}% 24
+\BOOKMARK [0][-]{chapter.5}{Planificaci\363n y Seguimiento}{}% 25
+\BOOKMARK [0][-]{chapter.6}{An\341lisis de Requisitos}{}% 26
+\BOOKMARK [1][-]{section.6.1}{Consultas con la comunidad}{chapter.6}% 27
+\BOOKMARK [2][-]{subsection.6.1.1}{Resumen}{section.6.1}% 28
+\BOOKMARK [1][-]{section.6.2}{An\341lisis de otros elementos}{chapter.6}% 29
+\BOOKMARK [1][-]{section.6.3}{Requisitos del aplicativo}{chapter.6}% 30
+\BOOKMARK [0][-]{chapter.7}{Dise\361o e Implementaci\363n}{}% 31
+\BOOKMARK [0][-]{chapter.8}{Recepci\363n, conclusi\363n y trabajo futuro.}{}% 32
+\BOOKMARK [1][-]{section.8.1}{Recepci\363n y Feedback}{chapter.8}% 33
+\BOOKMARK [1][-]{section.8.2}{Conclusi\363n}{chapter.8}% 34
+\BOOKMARK [1][-]{section.8.3}{Trabajo Futuro}{chapter.8}% 35
+\BOOKMARK [0][-]{appendix.Alph1}{Escoger la licencia}{}% 36
+\BOOKMARK [0][-]{appendix.Alph2}{Instalaci\363n e Instrucciones}{}% 37
