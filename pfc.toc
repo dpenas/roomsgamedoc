@@ -7,56 +7,57 @@
 \contentsline {section}{\numberline {1.3}Estrutura da memoria}{2}{section.1.3}
 \contentsline {chapter}{\numberline {2}Estado del Arte}{5}{chapter.2}
 \contentsline {section}{\numberline {2.1}La industria del entretenimiento digital en la actualidad}{5}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}La industria, en n\IeC {\'u}meros}{5}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.1}La industria, en n\IeC {\'u}meros}{6}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Conclusi\IeC {\'o}n}{6}{subsection.2.1.2}
 \contentsline {section}{\numberline {2.2}\textit {Roguelikes.}}{6}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Qu\IeC {\'e} es y or\IeC {\'\i }genes}{6}{subsection.2.2.1}
-\contentsline {paragraph}{Dificultad}{6}{section*.14}
+\contentsline {paragraph}{Dificultad}{7}{section*.14}
 \contentsline {paragraph}{Aleatoriedad}{7}{section*.15}
 \contentsline {paragraph}{Progresi\IeC {\'o}n}{7}{section*.16}
-\contentsline {subsection}{\numberline {2.2.2}En la actualidad}{7}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Elementos \textit {roguelike} en nuestro proyecto}{7}{subsection.2.2.3}
-\contentsline {chapter}{\numberline {3}Fundamentos Tecnol\IeC {\'o}gicos}{9}{chapter.3}
-\contentsline {section}{\numberline {3.1}Herramientas empleadas}{9}{section.3.1}
-\contentsline {paragraph}{Java}{9}{section*.18}
-\contentsline {paragraph}{Eclipse}{9}{section*.19}
-\contentsline {paragraph}{Git}{9}{section*.20}
-\contentsline {paragraph}{GitHub}{10}{section*.21}
-\contentsline {paragraph}{Listas de Correo}{10}{section*.22}
-\contentsline {paragraph}{Reddit}{10}{section*.23}
-\contentsline {paragraph}{Dia}{10}{section*.24}
-\contentsline {paragraph}{JSON}{10}{section*.25}
-\contentsline {paragraph}{\LaTeX }{10}{section*.26}
-\contentsline {paragraph}{NVDA}{10}{section*.27}
-\contentsline {section}{\numberline {3.2}Bibliotecas empregadas}{11}{section.3.2}
-\contentsline {paragraph}{Gson}{11}{section*.28}
-\contentsline {paragraph}{JCurses}{11}{section*.29}
-\contentsline {paragraph}{Libjcsi}{11}{section*.30}
-\contentsline {chapter}{\numberline {4}Metodolog\IeC {\'\i }a}{13}{chapter.4}
-\contentsline {section}{\numberline {4.1}Desarrollo en cascada}{14}{section.4.1}
-\contentsline {section}{\numberline {4.2}Scrum}{14}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Pr\IeC {\'a}cticas recomendadas de Scrum}{14}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Valores de Scrum}{14}{subsection.4.2.2}
-\contentsline {subsubsection}{\numberline {4.2.2.1}Concentraci\IeC {\'o}n}{14}{subsubsection.4.2.2.1}
-\contentsline {subsubsection}{\numberline {4.2.2.2}Coraje}{14}{subsubsection.4.2.2.2}
-\contentsline {subsubsection}{\numberline {4.2.2.3}Compromiso}{14}{subsubsection.4.2.2.3}
-\contentsline {subsubsection}{\numberline {4.2.2.4}Sinceridad}{14}{subsubsection.4.2.2.4}
-\contentsline {subsubsection}{\numberline {4.2.2.5}Respeto}{14}{subsubsection.4.2.2.5}
-\contentsline {section}{\numberline {4.3}Otras consideraciones}{14}{section.4.3}
-\contentsline {section}{\numberline {4.4}Metodolox\IeC {\'\i }a seguida}{14}{section.4.4}
-\contentsline {chapter}{\numberline {5}Planificaci\IeC {\'o}n y Seguimiento}{15}{chapter.5}
-\contentsline {chapter}{\numberline {6}An\IeC {\'a}lisis de Requisitos}{17}{chapter.6}
-\contentsline {section}{\numberline {6.1}Consultas con la comunidad}{17}{section.6.1}
-\contentsline {paragraph}{Blabla}{17}{section*.31}
-\contentsline {subsection}{\numberline {6.1.1}Resumen}{17}{subsection.6.1.1}
-\contentsline {paragraph}{Blabla}{17}{section*.32}
-\contentsline {section}{\numberline {6.2}An\IeC {\'a}lisis de otros elementos}{17}{section.6.2}
-\contentsline {section}{\numberline {6.3}Requisitos del aplicativo}{17}{section.6.3}
-\contentsline {chapter}{\numberline {7}Dise\IeC {\~n}o e Implementaci\IeC {\'o}n}{19}{chapter.7}
-\contentsline {chapter}{\numberline {8}Recepci\IeC {\'o}n, conclusi\IeC {\'o}n y trabajo futuro.}{21}{chapter.8}
-\contentsline {section}{\numberline {8.1}Recepci\IeC {\'o}n y \textit {Feedback}}{21}{section.8.1}
-\contentsline {section}{\numberline {8.2}Conclusi\IeC {\'o}n}{21}{section.8.2}
-\contentsline {section}{\numberline {8.3}Trabajo Futuro}{21}{section.8.3}
-\contentsline {paragraph}{Blabla.}{21}{section*.33}
-\contentsline {chapter}{\numberline {A}Escoger la licencia}{23}{appendix.Alph1}
-\contentsline {chapter}{\numberline {B}Instalaci\IeC {\'o}n e Instrucciones}{25}{appendix.Alph2}
+\contentsline {subsection}{\numberline {2.2.2}En la actualidad}{8}{subsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.1}La creaci\IeC {\'o}n de subg\IeC {\'e}neros}{8}{subsubsection.2.2.2.1}
+\contentsline {subsection}{\numberline {2.2.3}Elementos \textit {roguelike} en nuestro proyecto}{9}{subsection.2.2.3}
+\contentsline {chapter}{\numberline {3}Fundamentos Tecnol\IeC {\'o}gicos}{11}{chapter.3}
+\contentsline {section}{\numberline {3.1}Herramientas empleadas}{11}{section.3.1}
+\contentsline {paragraph}{Java}{11}{section*.19}
+\contentsline {paragraph}{Eclipse}{11}{section*.20}
+\contentsline {paragraph}{Git}{11}{section*.21}
+\contentsline {paragraph}{GitHub}{12}{section*.22}
+\contentsline {paragraph}{Listas de Correo}{12}{section*.23}
+\contentsline {paragraph}{Reddit}{12}{section*.24}
+\contentsline {paragraph}{Dia}{12}{section*.25}
+\contentsline {paragraph}{JSON}{12}{section*.26}
+\contentsline {paragraph}{\LaTeX }{12}{section*.27}
+\contentsline {paragraph}{NVDA}{12}{section*.28}
+\contentsline {section}{\numberline {3.2}Bibliotecas empregadas}{13}{section.3.2}
+\contentsline {paragraph}{Gson}{13}{section*.29}
+\contentsline {paragraph}{JCurses}{13}{section*.30}
+\contentsline {paragraph}{Libjcsi}{13}{section*.31}
+\contentsline {chapter}{\numberline {4}Metodolog\IeC {\'\i }a}{15}{chapter.4}
+\contentsline {section}{\numberline {4.1}Desarrollo en cascada}{16}{section.4.1}
+\contentsline {section}{\numberline {4.2}Scrum}{16}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Pr\IeC {\'a}cticas recomendadas de Scrum}{16}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Valores de Scrum}{16}{subsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.1}Concentraci\IeC {\'o}n}{16}{subsubsection.4.2.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2.2}Coraje}{16}{subsubsection.4.2.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.3}Compromiso}{16}{subsubsection.4.2.2.3}
+\contentsline {subsubsection}{\numberline {4.2.2.4}Sinceridad}{16}{subsubsection.4.2.2.4}
+\contentsline {subsubsection}{\numberline {4.2.2.5}Respeto}{16}{subsubsection.4.2.2.5}
+\contentsline {section}{\numberline {4.3}Otras consideraciones}{16}{section.4.3}
+\contentsline {section}{\numberline {4.4}Metodolox\IeC {\'\i }a seguida}{16}{section.4.4}
+\contentsline {chapter}{\numberline {5}Planificaci\IeC {\'o}n y Seguimiento}{17}{chapter.5}
+\contentsline {chapter}{\numberline {6}An\IeC {\'a}lisis de Requisitos}{19}{chapter.6}
+\contentsline {section}{\numberline {6.1}Consultas con la comunidad}{19}{section.6.1}
+\contentsline {paragraph}{Blabla}{19}{section*.32}
+\contentsline {subsection}{\numberline {6.1.1}Resumen}{19}{subsection.6.1.1}
+\contentsline {paragraph}{Blabla}{19}{section*.33}
+\contentsline {section}{\numberline {6.2}An\IeC {\'a}lisis de otros elementos}{19}{section.6.2}
+\contentsline {section}{\numberline {6.3}Requisitos del aplicativo}{19}{section.6.3}
+\contentsline {chapter}{\numberline {7}Dise\IeC {\~n}o e Implementaci\IeC {\'o}n}{21}{chapter.7}
+\contentsline {chapter}{\numberline {8}Recepci\IeC {\'o}n, conclusi\IeC {\'o}n y trabajo futuro.}{23}{chapter.8}
+\contentsline {section}{\numberline {8.1}Recepci\IeC {\'o}n y \textit {Feedback}}{23}{section.8.1}
+\contentsline {section}{\numberline {8.2}Conclusi\IeC {\'o}n}{23}{section.8.2}
+\contentsline {section}{\numberline {8.3}Trabajo Futuro}{23}{section.8.3}
+\contentsline {paragraph}{Blabla.}{23}{section*.34}
+\contentsline {chapter}{\numberline {A}Escoger la licencia}{25}{appendix.Alph1}
+\contentsline {chapter}{\numberline {B}Instalaci\IeC {\'o}n e Instrucciones}{27}{appendix.Alph2}
