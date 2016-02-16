@@ -1,6 +1,6 @@
 \chapter{Estado del Arte}
 
-En este capítulo hablaremos, principalmente, sobre dos importantes aspectos. El primero es la situación de la industria del entretenimiento digital hoy en día y qué es un \textit{roguelike}. El segundo son los elementos que dificultan y facilitan el uso de diferentes programas y \textit{software} a ciertos sectores de la sociedad como invidentes o daltónicos, cómo algunso programas intentan solventar estos problemas, qué opciones de accesibilidad existen en diferentes sistemas operativos y las razones por las que hemos elegido ciertas de las características de las que hemos dotado a nuestro proyecto.
+En este capítulo hablaremos, principalmente, sobre dos importantes aspectos. El primero es la situación de la industria del entretenimiento digital hoy en día y qué es un \textit{roguelike}. El segundo son los elementos que dificultan y facilitan el uso de diferentes programas y \textit{software} a ciertos sectores de la sociedad como invidentes o daltónicos, cómo algunos programas intentan solventar estos problemas, qué opciones de accesibilidad existen en diferentes sistemas operativos y las razones por las que hemos elegido ciertas de las características de las que hemos dotado a nuestro proyecto.
 
 \section{La industria del entretenimiento digital en la actualidad}
 
@@ -53,10 +53,10 @@ Tras el éxito de Rogue, fueron muchos los títulos que simularon su fórmula de
 
 \subsubsection{La creación de subgéneros}
 
-Dado que perder todo el progreso y tener que empezar desde el principio sin haber conseguido nada más que la experiencia personal es algo que no atrae a mucha gente hoy en día, son numerosos los juegos que han añadido más elementos de progreso general para que el jugador no se sienta frustrado. Estos elementos pueden ser nuevos personajes con los que jugar, puntos de experiencia o dinero con lo que poder equipar y mejorar desde un principio a nuestro personaje para poder llegar más lejos que la anterior vez.
-También es común ver juegos que se basan en partidas cortas, de como mucho una hora, para que la repetición sea continua y parte de la experiencia en vez de un ``castigo'' que tener que afrontar.
+Dado que perder todo el progreso y tener que empezar desde el principio sin haber conseguido nada más que la experiencia personal es algo que no atrae a mucha gente hoy en día, son numerosos los juegos que han añadido más elementos de progreso general para que el jugador no se sienta frustrado. Estos elementos pueden ser nuevos personajes con los que jugar, puntos de experiencia o dinero con lo que poder equipar y mejorar desde un principio a nuestro personaje para poder llegar más lejos que la anterior vez, diferentes modos de juegos que se desbloquean al llegar a una cierta puntuación, etc.
+También es común ver juegos que se basan en partidas cortas, de como mucho una hora, para que la repetición sea mayor y perder el personaje no sea un gran ``castigo'' que tener que afrontar.
 
-Estos cambios que se han realizado durante los últimos años y que, de cierta manera, han modificado el género que Rogue creó en un inicio, no siempre se han tomado positivamente por parte de la comunidad, quejándose de que muchos títulos que se definen a sí mismos como \textit{roguelike} no contienen ciertos elementos, como la dificultad, que una vez definieron el género. Por este motivo se han definido subgéneros como el \textit{roguelite}, que toman muchas de esas características, pero añaden o ignoran otras muchas para crear un título que sea un poco más sencillo y no penalice tanto al jugador.
+Estos cambios que se han realizado durante los últimos años y que, de cierta manera, han modificado el género que Rogue creó en un inicio, no siempre se han tomado positivamente por parte de la comunidad, que se queja de que muchos títulos que se definen a sí mismos como \textit{roguelike} no contienen ciertos elementos, como la dificultad, que una vez definieron el género. Por este motivo se han definido subgéneros como el \textit{roguelite}, que toman muchas de esas características, pero añaden o ignoran otras muchas para crear un título que sea un poco más sencillo y no penalice tanto al jugador.
 
 \subsection{Elementos \textit{roguelike} en nuestro proyecto}
 
@@ -65,3 +65,35 @@ En nuestro caso hemos creado un \textit{roguelike} similar a Rogue, no solamente
 El objectivo del juego es llegar lo más lejos posible dentro de la mazmorra. Cada vez que el jugador entra en un portal se añadirá un punto (el número de puntos se mostrará en la pantalla) y, cada vez que esto suceda, un nuevo mapa, con diferentes características y contenido, será generado. El juego es complicado, aleatorio y con una sensación de progreso, tal y como el género \textit{roguelike} especifica.
 
 INTRODUCIR IMAGEN DE NUESTRO JUEGO
+
+\section{Problemas de la tecnología para ciertos sectores de la sociedad}
+
+Algunos de los elementos que hacen de la tecnología un elemento prácticamente necesario hoy en día y que facilita su usabilidad crea, paradójicamente, una barrera para mucha gente que no puede disfrutar de estos elementos.
+
+En esta sección hablaremos sobre algunos de los problemas que tantos invidentes como daltónicos se encuentran hoy en día en diferentes programas y cómo, en bastantes ocasiones, solventarlos no es muy complicado, lo que clarifica que muchas de estas limitaciones son dadas más por el desconocimiento que por la dificultad de la implentación de una solución.
+
+\subsection{Dificultades a los que se enfrentan los daltónicos}
+
+Daltonismo es un defecto genérico que afecta, aproximadamente, al 1\% de la población. Lo que en un principio parece como un pequeño inconveniente que no cambia mucho la vida de la persona que lo sufre, lo cierto es que hay muchas ocasiones en las que incluso ver un simple partido de fútbol americano correctamente puede convertirse en algo casi imposible para ellos \footnote{En \href{http://goo.gl/o3GkrP}{algunos partidos} los jugadores llevan camisetas con colores problemáticos.}. 
+
+En el mercado del ocio digital, donde los gráficos y paletas de colores juegan un gran papel en el arte del título, este problema se ve acentuado. La peor parte viene si parte de las mecánicas del juego necesitan que el jugador sea capaz de distinguir colores para obtener cierta información relevante; y esto es algo que sucede en numerosos títulos. En algunos casos es una pequeña molestia como en \textit{Borderlands}\footnote{Juego de acción en primera persona lanzado inicialmente en 2009 y que cuenta con varias secuelas} donde hay armas especiales que se diferencian, únicamente, por el color en el que se encuentra un determinado texto. Sin embargo, el mayor problema viene cuando estas limitaciones pueden llegar a arruinar el juego, como ocurre en \textit{The Witness}, un juego de puzzles mencionado en apartados anteriores en el que, para poder solventar muchos de dichos puzzles, requiere que el usuario distinga (o al menos tenga la información), distintos colores. 
+También nos encontramos con juegos de lucha en dos dimensiones donde la única diferencia entre los escenarios del fondo y los personajes principales es el color de los mismos. No ver la diferencia complica a que el jugador detecte si un elemento está al frente o al fondo de dicho escenario.
+
+\subsection{Cómo solventar parte de estos problemas para los daltónicos}
+
+Para poder dar respuesta a esta cuestión, decidí preguntar en \textit{Reddit} a los usuarios daltónicos sobre cómo desarrollar un juego que sea adecuado para ellos \footnote{\url{https://goo.gl/d6cTqe}}. Fueron muchas las respuestas obtenidas, pero todo se puede resumir en un par de ideas.
+
+La primera es que, en la medida de lo posible, nunca tengamos que diferenciar dos cosas distintas simplemente por el color. Tal y como un usuario comentó, si estamos desarrollando un juego naval y la diferencia entre un barco que está ``sano'' y uno que está ``roto'' es que cambiamos el color o la silueta del barco de verde a rojo, también podemos añadir chispas u otros elementos a mayores que faciliten la idea de que algo ha cambiado y ayude al usuario a apreciarlo visualmente con elementos a mayores. Del mismo modo, si tenemos un juego como \textit{Tetris} o \textit{Candy Crush} donde las piezas son relevantes, en vez de distinguirlas por color, podríamos hacerlas de diferentes formas o añadir una imagen a cada una de ellas.
+
+La segunda idea es que, si es completamente necesario introducir diferentes colores para diferenciar ciertos elementos, o bien usamos colores que, generalmente, no crean ningún problema como el azul, amarillo, verde... (lo cual no nos garantiza que hayamos solventado el problema, dado que hay muchas formas de daltonismo y en algunas de ellas el usuario todavía puede tener problema diferenciándolos dependiendo del color contreto usado) o creamos una opción en el que podamos cambiar la paleta de colores usada. Hay algunos videojuegos (la mayor parte de ellos independientes), donde se da esta opción. 
+
+INTRODUCIR POST DE REDDIT.
+
+\subsection{Cómo hemos solventado el problema en nuestro proyecto}
+
+En nuestro caso, al haber preguntado de antemano a los usuarios, siempre tuvimos desde el primer momento la idea de crear la interfaz gráfica con soporte para daltónicos en mente, a pesar de que, al haber tenido en cuenta a las personas invidentes, cualquier persona podría jugarlo sin ninguna dificultad.
+
+Todos los elementos que se encuentran en la pantalla están diferenciados con caracteres completamente diferentes por lo que, incluso aunque todos los colores fueran iguales, sería sencillo identificar cada elemento. 
+
+También hemos creado una opción que cambia la paleta de colores a utilizar.
+
