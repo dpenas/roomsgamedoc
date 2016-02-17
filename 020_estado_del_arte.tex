@@ -1,6 +1,6 @@
 \chapter{Estado del Arte}
 
-En este capítulo hablaremos, principalmente, sobre dos importantes aspectos. El primero es la situación de la industria del entretenimiento digital hoy en día y qué es un \textit{roguelike}. El segundo son los elementos que dificultan y facilitan el uso de diferentes programas y \textit{software} a ciertos sectores de la sociedad como invidentes o daltónicos, cómo algunos programas intentan solventar estos problemas, qué opciones de accesibilidad existen en diferentes sistemas operativos y las razones por las que hemos elegido ciertas de las características de las que hemos dotado a nuestro proyecto.
+En este capítulo hablaremos, principalmente, sobre dos importantes aspectos. El primero es la situación de la industria del entretenimiento digital hoy en día y qué es un \textit{roguelike}. El segundo son los elementos que dificultan y facilitan el uso de diferentes programas y \textit{software} a ciertos sectores de la sociedad como invidentes o daltónicos, cómo algunos programas intentan solventar estos problemas y las razones por las que hemos elegido ciertas de las características de las que hemos dotado a nuestro proyecto.
 
 \section{La industria del entretenimiento digital en la actualidad}
 
@@ -68,9 +68,27 @@ INTRODUCIR IMAGEN DE NUESTRO JUEGO
 
 \section{Problemas de la tecnología para ciertos sectores de la sociedad}
 
-Algunos de los elementos que hacen de la tecnología un elemento prácticamente necesario hoy en día y que facilita su usabilidad crea, paradójicamente, una barrera para mucha gente que no puede disfrutar de estos elementos.
+Algunas de las razones que hacen de la tecnología un elemento prácticamente necesario hoy en día y que facilita su usabilidad crea, paradójicamente, una barrera para mucha gente que no puede disfrutar de ella.
 
 En esta sección hablaremos sobre algunos de los problemas que tantos invidentes como daltónicos se encuentran hoy en día en diferentes programas y cómo, en bastantes ocasiones, solventarlos no es muy complicado, lo que clarifica que muchas de estas limitaciones son dadas más por el desconocimiento que por la dificultad de la implentación de una solución.
+
+\subsection{Dificultades a los que se enfrentan los invidentes}
+
+Las dificultades que tienen invidentes o personas con diferentes grados de ceguera en nuestra sociedad es enorme y, tristemente, esto no la mayoría de dispositivos tecnológicos y software no se ven excluidos de esta lista. 
+No poder hacer uso de una interfaz gráfica o ver lo que está sucediendo en la pantalla es un problema que automáticamente imposibiliza el uso de la mayoría de las aplicaciones y videojuegos en su totalidad. Incluso navegar por internet, donde la mayoría del contenido es texto que puede ser leído fácilmente por un lector de pantalla, puede llegar a ser un quebradero de cabeza si cierta parte de ese contenido está en flash (el lector no podrá hacer nada en este caso), los enlaces a redes sociales para compartir los artículos están al principio de todo (dado que es lo primero que se reproduce y generalmente son un suplicio saltarlos), algunos de los nombres usados en programas software son poco descriptivos y dificultan su correcta identificación, etc.
+
+\subsection{Cómo solventar parte de estos problemas para los invidentes}
+
+Uno de las primeros problemas que nos comentaron en la charla de la ONCE es que muchos de los desarrolladores que programan algo específicamente para ciegos no tienen en cuenta que, la mayoría de las veces, hay gente que puede ver cerca y que les puede describir lo que está sucediendo en la pantalla, por lo que es muy importante crear una interfaz que esté actualizada y muestre la misma información que la persona invidente reciba.
+También es necesario dar la posibilidad al usuario de que repetir el contenido generado, dado que algunos lectores tienen problemas para leer ciertos caracteres o lo que leen no es del todo claro y, por lo tanto, debe de ser fácilmente repetido.
+
+Algunos videojuegos han visto versiones adaptadas para invidentes, la mayoría de ellas desarrolladas por la comunidad, o nuevos títulos que se centran en ofrecer una experiencia revolucionaria desde el principio. Un buen ejemplo de ello es Shades of Doom\footnote{\url{http://www.gmagames.com/sod.html}}, que solamente usa sonido (principalmente ruidos repetitivos) y muy pocas frases para que el jugador sea capaz de descubrir lo que tiene que hacer y dónde está.
+
+\subsection{Cómo hemos solventado el problema en nuestro proyecto}
+
+En el proyecto, dado que se basa en la generación pseudo-aleatoria de frases, hemos creado descripciones para todos los elementos de la pantalla, por lo que el jugador siempre puede saber dónde se encuentra, qué hay a su alrededor, cuáles son sus características, etc. Una vez el usuario decide conocer esto, una pequeña ventana se abrirá y la frase generada estará en ella, leyéndose automáticamente por el reproductor de pantalla que esté siendo usado en ese momento y su repetición es muy simple. De esta forma, una persona con visión siempre puede leer dicha frase y el jugador repetirla las veces que quiera.
+
+MOSTRAR IMAGEN
 
 \subsection{Dificultades a los que se enfrentan los daltónicos}
 
