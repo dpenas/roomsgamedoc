@@ -2,59 +2,47 @@
 
 En este apartado describiremos la metodología llevada a cabo en el proyecto. Una metodología es un conjunto de procesos, métodos y prácticas llevadas a cabo para asegurar, en la mayor medida posible, calidad en el producto final y en el tiempo acordado.
 
-En nuestro caso, al ser un proyecto realizado por una sola persona y con un tiempo diario muy limitado, hemos optado por adaptar una serie de ideas y valores principales de varias metodologías.
+En nuestro caso, al ser un proyecto realizado por una sola persona y con un tiempo diario limitado, hemos optado por adaptar una serie de ideas y valores principales de varias metodologías.
 
 \section{Desarrollo en cascada}
 
 \section{Scrum}
 
-\subsection{Prácticas recomendadas de Scrum}
+Scrum es una metodología ágil definida inicialmente por Hirotaka Takeuchi y Ikujiro Nonaka en 1986 \footnote{\url{https://cb.hbsp.harvard.edu/cbmp/product/86116-PDF-ENG}}. Su relativa sencillez, así como su flexibilidad y orientación al trabajo en equipo, hace que Scrum sea una de las metologías más usadas en el desarrollo de software, sobre todo en entornos laborales donde el equipo de desarrollo no es gigante (aunque su implementación también es posible en estos casos).
+
+\subsection{Prácticas recomendadas y bases de Scrum}
+
+Uno de los aspectos esenciales de scrum es el ``sprint'', que se trata de un bloque temporal de tiempo (generalmente de entre 2 y 4 semanas) donde el equipo de desarrollo trabajará para llegar a un objetivo determinado, generalmente acabar todas las tareas definidas para ese sprint. 
+Al principio de cada sprint  el ``product owner'' y ``scrum master'' definirán las tareas que se querrán realizar en dicho sprint y que se encuentran en el backlog\footnote{Lista de tareas que se quieren realizar en el producto y que suele ir creciendo a medida que los usuarios encuentran fallos o necesitan nuevas funcionalidades. Generalmente el product owner es el encargado de organizar y decidir las tareas que tienen más prioridad}. Todos los integrantes del grupo de desarrollo, así como el propio product owner y scrum master, decidirán cuánto esfuerzo o tiempo llevará realizar cada tarea (hay algunas formas de decidir esto, como planning poker, pero no es muy relevante en nuestro caso), dividiéndola en tareas menores en caso de que sea demasiado grande. También se decidirá quién hará qué.
+
+Durante cada día del desarrollo hay una pequeña reunión llamada ``sprint stand-up'' donde cada desarrollador comenta brevemente lo que ha hecho el día anterior, qué tiene planteado realizar ese día y si se ha encontrado con algún problema que le impida continuar.
+
+Al acabar cada sprint, el equipo se reúne de nuevo para analizar lo que ha ido bien, qué problemas hubo y las mejoras que se tener en cuenta de cara al futuro. De esta manera, cada nuevo sprint será más preciso (dado que sabremos la cantidad de trabajo que cada desarrollador es capaz de hacer en el periodo definido de tiempo) e incluirán el ``feedback'' de los propios programadores.
+
+Estas son las características eseciales de Scrum, pero al tratarse de una metodología ágil, nada es inamovible. Dependiendo del equipo y de las necesidades del mismo, se pueden cambiar o introducir nuevas ideas que mejoren el proceso para ese grupo de programadores en concreto.
 
 \subsection{Valores de Scrum}
 
 \subsubsection{Concentración}
 
+Al tener que finalizar las tareas asignadas al final del sprint, la concentración del equipo en general y de cada uno de los miembros es esencial. Para logar este objetivo, el product owner es el encargado de responder las preguntas del resto de la compañía en nombre de los desarrolladores y solamente molestarlos en caso de que sea realmente necesario. 
 
 \subsubsection{Coraje}
 
+Dado que Scrum es una metodología de equipo, la ayuda entre cada uno de los miembros es algo esencial. De la misma forma, cada persona debe de ser capaz de enfrentarse a nuevos retos y asumir nuevas responsabilidades para que, en conjunto, el producto final sea el deseado. 
 
 \subsubsection{Compromiso}
 
+Cada integrante tiene que saber lo que puede hacer y comprometerse a ello. Una vez la reunión inicial se haya completado, es importante que cada uno sepa lo que tiene que hacer y pregunte en caso de que no tenga algo claro o crea que no puede llegar a terminar lo especificado durante la reunión. Cada programador debe de comprometerse con lo establecido para lograr el éxito del equipo.
 
 \subsubsection{Sinceridad}
 
+Ser capaz de asumir los errores es la clave para mejorar y evolucionar como un equipo. Si un miembro del equipo de desarrollo se queda estancado en un problema y no avisa al resto de sus compañeros, el sprint en su totalidad puede llegar a fracasar. Asumir responsabilidades, errores y pedir ayuda cuando sea necesario debe de ser una práctica habitual en Scrum.
 
 \subsubsection{Respeto}
+
+Similar al anterior punto. Al trabajar en equipo es imprescindible que tanto los logros como los fracasos se tomen como una nueva forma de aprender y mejorar, por lo que el respeto mutuo y asumir los errores es la mejor forma de evolucionar, tanto individualmente como en equipo.
 
 \section{Otras consideraciones}
 
 \section{Metodoloxía seguida}
-
-
-% Para a realización deste proxecto usarase unha mestura de varias metodoloxías,
-
-% procesos e ideas de métodos de desarrollo de software. Nunha vista máis xeral do
-
-% proxecto usaremos desenvolvemento en cascada. Isto é, para cada unha das
-
-% características a implementar primero analizaremos os seus requisitos, a continuación
-
-% procederemos a deseñalo e, por último, programalo e verificalo. Isto farase de manera
-
-% global (para o análise e deseño teremos en conta o proxecto en xeral), pero cada unha
-
-% destas características consta dun número concreto de tareas individuales que
-
-% deberemos de programar e verificar individualmente. Para facilitar este traballo
-
-% usaremos "desenrolo guiado por probas" (Test Driven Development), é dicir, para cada
-
-% tarea, en vez de comezar a programala nada máis podamos, primeiro faremos as probas
-
-% (unit tests ou functional tests, dependendo do que sea necesario) basándose nos
-
-% requisitos especificados nos primeros pasos da cascada (análise e deseño) e logo a
-
-% programaremos. Deste xeito estaremos seguros de que o que queremos cumplirase tal e
-
-% como o especificamos e teremos o test como proba delo.

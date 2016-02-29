@@ -41,30 +41,30 @@
 \contentsline {paragraph}{JCurses}{19}{section*.35}
 \contentsline {paragraph}{Libjcsi}{19}{section*.36}
 \contentsline {chapter}{\numberline {4}Metodolog\IeC {\'\i }a}{21}{chapter.4}
-\contentsline {section}{\numberline {4.1}Desarrollo en cascada}{22}{section.4.1}
-\contentsline {section}{\numberline {4.2}Scrum}{22}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Pr\IeC {\'a}cticas recomendadas de Scrum}{22}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.1}Desarrollo en cascada}{21}{section.4.1}
+\contentsline {section}{\numberline {4.2}Scrum}{21}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Pr\IeC {\'a}cticas recomendadas y bases de Scrum}{21}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}Valores de Scrum}{22}{subsection.4.2.2}
 \contentsline {subsubsection}{\numberline {4.2.2.1}Concentraci\IeC {\'o}n}{22}{subsubsection.4.2.2.1}
 \contentsline {subsubsection}{\numberline {4.2.2.2}Coraje}{22}{subsubsection.4.2.2.2}
-\contentsline {subsubsection}{\numberline {4.2.2.3}Compromiso}{22}{subsubsection.4.2.2.3}
-\contentsline {subsubsection}{\numberline {4.2.2.4}Sinceridad}{22}{subsubsection.4.2.2.4}
-\contentsline {subsubsection}{\numberline {4.2.2.5}Respeto}{22}{subsubsection.4.2.2.5}
-\contentsline {section}{\numberline {4.3}Otras consideraciones}{22}{section.4.3}
-\contentsline {section}{\numberline {4.4}Metodolox\IeC {\'\i }a seguida}{22}{section.4.4}
-\contentsline {chapter}{\numberline {5}Planificaci\IeC {\'o}n y Seguimiento}{23}{chapter.5}
-\contentsline {chapter}{\numberline {6}An\IeC {\'a}lisis de Requisitos}{25}{chapter.6}
-\contentsline {section}{\numberline {6.1}Consultas con la comunidad}{25}{section.6.1}
-\contentsline {paragraph}{Blabla}{25}{section*.37}
-\contentsline {subsection}{\numberline {6.1.1}Resumen}{25}{subsection.6.1.1}
-\contentsline {paragraph}{Blabla}{25}{section*.38}
-\contentsline {section}{\numberline {6.2}An\IeC {\'a}lisis de otros elementos}{25}{section.6.2}
-\contentsline {section}{\numberline {6.3}Requisitos del aplicativo}{25}{section.6.3}
-\contentsline {chapter}{\numberline {7}Dise\IeC {\~n}o e Implementaci\IeC {\'o}n}{27}{chapter.7}
-\contentsline {chapter}{\numberline {8}Recepci\IeC {\'o}n, conclusi\IeC {\'o}n y trabajo futuro.}{29}{chapter.8}
-\contentsline {section}{\numberline {8.1}Recepci\IeC {\'o}n y \textit {Feedback}}{29}{section.8.1}
-\contentsline {section}{\numberline {8.2}Conclusi\IeC {\'o}n}{29}{section.8.2}
-\contentsline {section}{\numberline {8.3}Trabajo Futuro}{29}{section.8.3}
-\contentsline {paragraph}{Blabla.}{29}{section*.39}
-\contentsline {chapter}{\numberline {A}Escoger la licencia}{31}{appendix.Alph1}
-\contentsline {chapter}{\numberline {B}Instalaci\IeC {\'o}n e Instrucciones}{33}{appendix.Alph2}
+\contentsline {subsubsection}{\numberline {4.2.2.3}Compromiso}{23}{subsubsection.4.2.2.3}
+\contentsline {subsubsection}{\numberline {4.2.2.4}Sinceridad}{23}{subsubsection.4.2.2.4}
+\contentsline {subsubsection}{\numberline {4.2.2.5}Respeto}{23}{subsubsection.4.2.2.5}
+\contentsline {section}{\numberline {4.3}Otras consideraciones}{23}{section.4.3}
+\contentsline {section}{\numberline {4.4}Metodolox\IeC {\'\i }a seguida}{23}{section.4.4}
+\contentsline {chapter}{\numberline {5}Planificaci\IeC {\'o}n y Seguimiento}{25}{chapter.5}
+\contentsline {chapter}{\numberline {6}An\IeC {\'a}lisis de Requisitos}{27}{chapter.6}
+\contentsline {section}{\numberline {6.1}Consultas con la comunidad}{27}{section.6.1}
+\contentsline {paragraph}{Blabla}{27}{section*.37}
+\contentsline {subsection}{\numberline {6.1.1}Resumen}{27}{subsection.6.1.1}
+\contentsline {paragraph}{Blabla}{27}{section*.38}
+\contentsline {section}{\numberline {6.2}An\IeC {\'a}lisis de otros elementos}{27}{section.6.2}
+\contentsline {section}{\numberline {6.3}Requisitos del aplicativo}{27}{section.6.3}
+\contentsline {chapter}{\numberline {7}Dise\IeC {\~n}o e Implementaci\IeC {\'o}n}{29}{chapter.7}
+\contentsline {chapter}{\numberline {8}Recepci\IeC {\'o}n, conclusi\IeC {\'o}n y trabajo futuro.}{31}{chapter.8}
+\contentsline {section}{\numberline {8.1}Recepci\IeC {\'o}n y \textit {Feedback}}{31}{section.8.1}
+\contentsline {section}{\numberline {8.2}Conclusi\IeC {\'o}n}{31}{section.8.2}
+\contentsline {section}{\numberline {8.3}Trabajo Futuro}{31}{section.8.3}
+\contentsline {paragraph}{Blabla.}{31}{section*.39}
+\contentsline {chapter}{\numberline {A}Escoger la licencia}{33}{appendix.Alph1}
+\contentsline {chapter}{\numberline {B}Instalaci\IeC {\'o}n e Instrucciones}{35}{appendix.Alph2}
