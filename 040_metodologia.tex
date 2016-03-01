@@ -55,6 +55,12 @@ Al acabar cada sprint, el equipo se reúne de nuevo para analizar lo que ha ido 
 
 Estas son las características eseciales de Scrum, pero al tratarse de una metodología ágil, nada es inamovible. Dependiendo del equipo y de las necesidades del mismo, se pueden cambiar o introducir nuevas ideas que mejoren el proceso para ese grupo de programadores en concreto.
 
+\begin{figure}[H]
+		\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/scrumprocess.png}
+	\caption{Proceso concreto de scrum. En este caso el sprint dura 4 semanas}
+	\label{fig:scrumproceso}
+\end{figure}
+
 \subsection{Valores de Scrum}
 
 \subsubsection{Concentración}
@@ -77,6 +83,11 @@ Ser capaz de asumir los errores es la clave para mejorar y evolucionar como un e
 
 Similar al anterior punto. Al trabajar en equipo es imprescindible que tanto los logros como los fracasos se tomen como una nueva forma de aprender y mejorar, por lo que el respeto mutuo y asumir los errores es la mejor forma de evolucionar, tanto individualmente como en equipo.
 
-\section{Otras consideraciones}
+\section{Metodología elegida}
 
-\section{Metodoloxía seguida}
+Mayoritariamente hemos usado una metodología en cascada con algunos elementos de Scrum.
+
+Para las características grandes del proyecto como la creación de los mapas, enemigos, sistema creación de frases, etc. nos hemos basado en cascada para analizar lo que tenemos que realizar, crear el diseño, implementarlo (empezando siempre por los tests, tal y como comentaremos a continuación) y verificarlo. Sin embargo, y dado que los juegos tienden a querer mejorarse continuamente con nuevos elementos de diferente importancia y tamaño (tanto de nuestra parte como de la gente que lo ha probado), tiene sentido mantener un backlog con todas las nuevas ideas y \textit{feedback} recogido, algo de lo que Scrum es maestro. También hemos seguido la idea de la creación de tareas cortas (de no más de 8 horas, en caso de que haya algo de mayor cantidad deberá de ser dividido en subtareas) y sprints, donde cada mes intentaremos tener un elemento del juego finalizado con varias tareas finalizadas a final de cada semana. De esta manera somos capaces de seguir más fácilmente el progreso que hemos realizado y tenemos constancia de los nuevos elementos que queremos implementar en un futuro, así como los bugs que arreglar en próximos sprints.
+Al acabar con el núcleo del juego, la mayor parte de las tareas a realizar a continuación son pequeños cambios y nuevos elementos que no trastocan el diseño realizado del proyecto, por lo que seguir una metodología ágil como scrum es el mejor paso a seguir para terminar las tareas más relevantes lo antes posible.
+
+Por último, también hemos seguido la práctica de \textit{test driven development} (desarrollo guiado por pruebas) cuya base está en, por cada nueva tarea a realizar, implementar primero los tests unitarios (que, lógicamente, fallarán) y luego programar la solución en sí para que el test sea válido, refractorizando la solución en caso de que no sea la ideal. Esto nos dará desde el primer momento una clara idea de lo que queremos hacer antes de ponernos con la implementación y nos asegurará de que siempre tendremos el test hecho.
