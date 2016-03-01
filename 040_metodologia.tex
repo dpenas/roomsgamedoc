@@ -6,6 +6,40 @@ En nuestro caso, al ser un proyecto realizado por una sola persona y con un tiem
 
 \section{Desarrollo en cascada}
 
+El desarrollo en cascada, también denominado como modelo en cascada, es una metodología con varias etapas donde, para pasar a la siguiente, es completamente necesario que la anterior haya acabado y esté completada.
+
+Las ventajas que ofrece en desarrollo en cascada es que es muy sencillo de implementar en comparación con otras metodologías, requiere menos tiempo y capital para hacerlo funcionar de manera óptima y es usado con bastante frecuencia.
+
+La mayor desventaja es que detectar un error en una de las fases finales puede significar tener que replantear los pasos tomados en las anteriores, perdiendo parte del progreso realizado.
+
+\subsection{Etapas del desarrollo en cascada}
+
+\paragraph{Análisis de requisitos}: 
+
+En esta fase se definen y determinan los requisitos que el software debe de cumplir entre el desarrollador y el cliente. Generalmente se generan documentos que formalizan dichas decisiones para no tener que cambiarlas en el futuro, dado que un cambio en los requisitos puede significar cambiar gran parte del proyecto, por lo que llegar a un consenso es necesario.
+
+\paragraph{Diseño}: 
+
+Una vez del análisis haya finalizado, es hora del diseño. La idea principal es descomponer lo detallado durante el análisis de requisitos con el cliente y crear diferentes diagramas y diseños que ayuden a los programadores a entender lo que debe de ser realizado y cómo debe de funcionar, incluyendo pseudocódigo o algoritmos a alto nivel en caso de que sea necesario.
+
+\paragraph{Implementación}:
+
+En esta fase es donde se escribe el código fuente en base a lo espeficicado anteriormente, intentando dar gran importancia a la reutilización del código siempre y cuando sea posible. También es importante tener en cuenta la creación de tests y la realización de las primeras pruebas preliminares por parte de los programadores.
+
+\paragraph{Verificación}:
+
+Este es el momento final en el que el cliente es capaz de probar lo desarrollado. El programa debe de estar bien testado por parte de los programadores para evitar la mayoría de los problemas que pueden ocasionarse en esta fase.
+
+\paragraph{Mantenimiento}:
+
+Una vez el software ha finalizado y se ha entregado al usuario final, empieza la fase de mantenimiento. En ella el usuario final pedirá que se resuelvan problemas, se añadan nuevas funcionalidades y se cambien otras ya añadidas en base a los nuevos requisitos que vayan apareciendo y no se tuvieron en cuenta en el principio. Esta es una de las fases más críticas, dado que se estima que alrededor de un 80\% de los recursos de un proyecto se emplean en el mantenimiento \footnote{\url{http://eu.wiley.com/WileyCDA/WileyTitle/productCd-0471170011.html}}.
+
+\begin{figure}[H]
+		\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/Waterfall_model.png}
+	\caption{Estructura general de una etapa del desarrollo en cascada}
+	\label{fig:cascadadesarrollo}
+\end{figure}
+
 \section{Scrum}
 
 Scrum es una metodología ágil definida inicialmente por Hirotaka Takeuchi y Ikujiro Nonaka en 1986 \footnote{\url{https://cb.hbsp.harvard.edu/cbmp/product/86116-PDF-ENG}}. Su relativa sencillez, así como su flexibilidad y orientación al trabajo en equipo, hace que Scrum sea una de las metologías más usadas en el desarrollo de software, sobre todo en entornos laborales donde el equipo de desarrollo no es gigante (aunque su implementación también es posible en estos casos).
