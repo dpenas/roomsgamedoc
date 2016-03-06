@@ -1,29 +1,45 @@
 \chapter[Análisis de Requisitos]{Análisis de Requisitos globales}
 
-En este capítulos explicaremos el proceso de análisis de requisitos llevados a cabo para la elaboración de la aplicación y toda la información recibida por la comunidad.
+En este capítulos explicaremos el proceso de análisis de requisitos llevados a cabo para la elaboración de la aplicación y toda la información recibida por la comunidad así como las decisiones tomadas en base a otros proyectos similares al nuestro.
 
 \section{Consultas con la comunidad}
 
-\paragraph{Blabla} Blabla
+A la hora de realizar las consultas con la comunidad hemos decidido ir a una charla de la ONCE para recabar información sobre las dificultades que los invidentes se encuentran a la hora de utilizar diferentes dispositivos y programas. 
+También hemos preguntado a personas daltónicas para que nos guiaran sobre cómo se deberían de realizar juegos sin que ellos se vean afectados por su diseño.
 
-\subsection{Resumen}
-	\paragraph{Blabla} Blabla
+Ambas consultas, así como el resultado obtenido de las mismas, se han especificado en la sección~\ref{sec:dificultadesfeedback} 
 
-\section{Análisis de otros elementos}
-Otros proyectos de accesbilidad o juegos.
+\subsection{Resumen de las peticiones recibidas}
+	\paragraph{Fácil cambio de color de la interfaz} La interfaz gráfica tendrá diferentes colores que diferencien los distintos tipos de enemigos y elementos del juego. Tal y como hemos mencionado en la sección~\ref{sec:solventadodaltonicos}, deberíamos de tener esto en cuenta a pesar de que dichos elementos son fácilmente diferenciables.
+	\paragraph{Descripciones automáticas de todos los elementos posibles} Las personas invidentes necesitan tener un feedback auditivo para saber qué es lo que está sucediendo y así poder tomar una decisión razonada en base a la situación en la que se encuentran. Debemos de generar estas descripciones de mejor manera posible para que no sean repetitivas. 
+	\paragraph{Diferentes idiomas} Al ser un videojuego en el cual el idioma es esencial, debemos de tener en cuenta la inclusión de otras lenguas.
+	\paragraph{Multiplataforma} Tal y como mencionamos en la introducción, nuestro software debe de poder ser ejecutado en varios sistemas operativos (Linux, Mac OS, Windows...).
+
+
+\section{Análisis de los elementos del juego}
+Al ser un \textit{roguelike}, debemos de incluir lo básico del género (aleatoriedad, dificultad, progreso, etc.). Los detalles de los mismos, así como lo que hemos introducido en el proyecto sobre ellos, se encuentran en la sección~\ref{sec:roguelikeinformacion}.
 
 \section{Requisitos del aplicativo}
-Con toda la información obtenida y pensada, creamos una lista con los casos de uso que nuestro proyecto debe de cumplir.
+Con toda la información obtenida y analizada, creamos una lista con los casos de uso que nuestro proyecto debe de cumplir.
 
 \begin{itemize}
-  \item \textbf{Whatever} Blabla
+  \item \textbf{Movimiento} Un usuario siempre será capaz de moverse con su personaje a una posición válida. 
+  \item \textbf{Ataque normal} Cuando el personaje está en la misma posición que un enemigo, éste será capaz de atacar cuerpo a cuerpo.
+  \item \textbf{Ataque mágico} Cuando el personaje está a una distancia determinada del enemigo, éste será capaz de realizar un ataque mágico, siempre y cuando tenga sufiencience mana para el mismo.
+  \item \textbf{Coger elemento} En las habitaciones del mapa habrá varios objetos que se pueden recolectar, así como enemigos que soltarán diferentes objetos.
+  \item \textbf{Equipar elemento} Poder equipar un objeto que está en el inventario a nuestro personaje, siempre y cuando no tengamos un mismo objeto ya equipado.
+  \item \textbf{Desequipar elemento} De la misma manera, podremos desequipar un objeto que tenemos equipado mientras tengamos espacio en el inventario.
+  \item \textbf{Tirar elemento} En algunas ocasiones el jugador no tendrá suficiente espacio para almacenar nuevos elementos, por lo que se podrá tirar objetos del inventario para hacer hueco a aquellos nuevos que queramos recoger.
+  \item \textbf{Descripciones} Durante el transcurso del juego podremos generar diferentes descripciones dependiendo de lo que queramos saber. Por ejemplo lo que el usuario tiene en el inventario, las posiciones a las que nos podemos mover, la descripciones de los enemigos a los que nos enfrentamos, etc.
+  \item \textbf{Activación de descripciones numéricas} Algunas de las descripciones nos comentarán posiciones o características de los enemigos que podremos querer escuchar numéricamente (por ejemplo la cantidad de vida de un cierto monstruo) o con palabras (mucha, poca, bastante...), dependiendo de lo que prefiramos.
+  \item \textbf{Cambio de colores} Para gente que es daltónica hemos incluido una opción para cambiar el color de la interfaz gráfica.
 \end{itemize}
 
-FIGURA DE CASOS DE USO UML. Hacer referencia.
+Al realizar algunas de estas acciones (coger, equipar, desequipar y tirar un objeto, moverse y atacar), un turno será consumido. Al consumir un turno los enemigos realizarán el suyo, por lo que el jugador puede ser atacado o enemigos pueden acercarse a él.
 
-% \begin{figure}[h!]
-%     \centering
-%     \includegraphics[width=0.9\textheight,angle=90]{img/casosdeuso.png}
-%     \caption{Diagrama UML de casos de uso de la aplicación}
-%     \label{fig:casosdeuso}
-% \end{figure}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textheight,angle=90]{img/casosdeuso.png}
+    \caption{Diagrama UML de casos de uso del proyecto}
+    \label{fig:casosdeuso}
+\end{figure}
