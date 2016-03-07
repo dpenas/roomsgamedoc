@@ -33,21 +33,22 @@
 \contentsline {paragraph}{Listas de Correo}{18}{section*.28}
 \contentsline {paragraph}{Reddit}{18}{section*.29}
 \contentsline {paragraph}{Dia}{18}{section*.30}
-\contentsline {paragraph}{JSON}{18}{section*.31}
-\contentsline {paragraph}{\LaTeX }{18}{section*.32}
-\contentsline {paragraph}{NVDA}{18}{section*.33}
+\contentsline {paragraph}{Gantt Project}{18}{section*.31}
+\contentsline {paragraph}{JSON}{18}{section*.32}
+\contentsline {paragraph}{\LaTeX }{18}{section*.33}
+\contentsline {paragraph}{NVDA}{19}{section*.34}
 \contentsline {section}{\numberline {3.2}Bibliotecas empregadas}{19}{section.3.2}
-\contentsline {paragraph}{Gson}{19}{section*.34}
-\contentsline {paragraph}{JCurses}{19}{section*.35}
-\contentsline {paragraph}{Libjcsi}{19}{section*.36}
+\contentsline {paragraph}{Gson}{19}{section*.35}
+\contentsline {paragraph}{JCurses}{19}{section*.36}
+\contentsline {paragraph}{Libjcsi}{19}{section*.37}
 \contentsline {chapter}{\numberline {4}Metodolog\IeC {\'\i }a}{21}{chapter.4}
 \contentsline {section}{\numberline {4.1}Desarrollo en cascada}{21}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Etapas del desarrollo en cascada}{21}{subsection.4.1.1}
-\contentsline {paragraph}{An\IeC {\'a}lisis de requisitos}{21}{section*.37}
-\contentsline {paragraph}{Dise\IeC {\~n}o}{22}{section*.38}
-\contentsline {paragraph}{Implementaci\IeC {\'o}n}{22}{section*.39}
-\contentsline {paragraph}{Verificaci\IeC {\'o}n}{22}{section*.40}
-\contentsline {paragraph}{Mantenimiento}{22}{section*.41}
+\contentsline {paragraph}{An\IeC {\'a}lisis de requisitos}{21}{section*.38}
+\contentsline {paragraph}{Dise\IeC {\~n}o}{22}{section*.39}
+\contentsline {paragraph}{Implementaci\IeC {\'o}n}{22}{section*.40}
+\contentsline {paragraph}{Verificaci\IeC {\'o}n}{22}{section*.41}
+\contentsline {paragraph}{Mantenimiento}{22}{section*.42}
 \contentsline {section}{\numberline {4.2}Scrum}{23}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Pr\IeC {\'a}cticas recomendadas y bases de Scrum}{23}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}Valores de Scrum}{25}{subsection.4.2.2}
@@ -58,13 +59,16 @@
 \contentsline {subsubsection}{\numberline {4.2.2.5}Respeto}{25}{subsubsection.4.2.2.5}
 \contentsline {section}{\numberline {4.3}Metodolog\IeC {\'\i }a elegida}{26}{section.4.3}
 \contentsline {chapter}{\numberline {5}Planificaci\IeC {\'o}n y Seguimiento}{27}{chapter.5}
+\contentsline {section}{\numberline {5.1}Junio 2014 - Septiembre 2014}{27}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Primera iteraci\IeC {\'o}n: An\IeC {\'a}lises de requisitos generales, dise\IeC {\~n}o gen\IeC {\'e}rico y preparaci\IeC {\'o}n y configuraci\IeC {\'o}n de los elementos necesarios para el comienzo de la implementaci\IeC {\'o}n}{28}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Tareas y seguimiento}{28}{subsection.5.1.2}
 \contentsline {chapter}{\numberline {6}An\IeC {\'a}lisis de Requisitos}{29}{chapter.6}
 \contentsline {section}{\numberline {6.1}Consultas con la comunidad}{29}{section.6.1}
 \contentsline {subsection}{\numberline {6.1.1}Resumen de las peticiones recibidas}{29}{subsection.6.1.1}
-\contentsline {paragraph}{F\IeC {\'a}cil cambio de color de la interfaz}{29}{section*.44}
-\contentsline {paragraph}{Descripciones autom\IeC {\'a}ticas de todos los elementos posibles}{29}{section*.45}
-\contentsline {paragraph}{Diferentes idiomas}{30}{section*.46}
-\contentsline {paragraph}{Multiplataforma}{30}{section*.47}
+\contentsline {paragraph}{F\IeC {\'a}cil cambio de color de la interfaz}{29}{section*.45}
+\contentsline {paragraph}{Descripciones autom\IeC {\'a}ticas de todos los elementos posibles}{29}{section*.46}
+\contentsline {paragraph}{Diferentes idiomas}{30}{section*.47}
+\contentsline {paragraph}{Multiplataforma}{30}{section*.48}
 \contentsline {section}{\numberline {6.2}An\IeC {\'a}lisis de los elementos del juego}{30}{section.6.2}
 \contentsline {section}{\numberline {6.3}Requisitos del aplicativo}{30}{section.6.3}
 \contentsline {chapter}{\numberline {7}Dise\IeC {\~n}o e Implementaci\IeC {\'o}n}{33}{chapter.7}
@@ -72,6 +76,6 @@
 \contentsline {section}{\numberline {8.1}Recepci\IeC {\'o}n y \textit {Feedback}}{35}{section.8.1}
 \contentsline {section}{\numberline {8.2}Conclusi\IeC {\'o}n}{35}{section.8.2}
 \contentsline {section}{\numberline {8.3}Trabajo Futuro}{35}{section.8.3}
-\contentsline {paragraph}{Blabla.}{35}{section*.49}
+\contentsline {paragraph}{Blabla.}{35}{section*.50}
 \contentsline {chapter}{\numberline {A}Escoger la licencia}{37}{appendix.Alph1}
 \contentsline {chapter}{\numberline {B}Instalaci\IeC {\'o}n e Instrucciones}{39}{appendix.Alph2}
