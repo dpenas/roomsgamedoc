@@ -62,7 +62,7 @@ Para la realización de todas estas tareas se planificaron 65 horas en total. Es
 
 Desde el 15 de julio hasta el 24 de septiembre.
 
-\paragraph{Análisis de requisitos} Hay mucho escrito y realizado sobre la creación de mapas y habitaciones de forma aleatoria. En base toda esta información, debemos de elegir lo que queremos realizar en base a, por ejemplo, si el tamaño de dicho mapa siempre será el mismo o no, cómo y cuántas habitaciones queremos tener en cada mapa y el tipo de aletoriedad que queremos (completamente aleatorio o pseudo-aleatorio).
+\paragraph{Análisis de requisitos de los mapas y habitaciones} Hay mucho escrito y realizado sobre la creación de mapas y habitaciones de forma aleatoria. En base toda esta información, debemos de elegir lo que queremos realizar en base a, por ejemplo, si el tamaño de dicho mapa siempre será el mismo o no, cómo y cuántas habitaciones queremos tener en cada mapa y el tipo de aletoriedad que queremos (completamente aleatorio o pseudo-aleatorio).
 
 \paragraph{Diseño de los mapas y las habitaciones} Una vez hayamos creado el análisis de requisitos y tengamos toda la información necesaria sobre la mesa, es hora de crear el diseño. Dicho diseño debe de ser fácilmente extendible para que la realización de pequeños cambios no sean un gran reto.
 
@@ -75,9 +75,9 @@ Desde el 15 de julio hasta el 24 de septiembre.
 La descomposición de las tareas es la siguiente:
 
 \begin{enumerate}[label=\bfseries WBS 2.\arabic*]
-  \item Análisis de requisitos
+  \item Análisis de requisitos de los mapas y habitaciones.
     \begin{enumerate}[label=\bfseries WBS 2.1.\arabic*]
-      \item Estudio de diferentes algoritmos de creación aleatoria de mapas y habitaciones
+      \item Estudio de diferentes algoritmos de creación aleatoria de mapas y habitaciones.
       \item Decisión sobre la estructura y tamaño a elegir en base al tipo del juego.
     \end{enumerate}
   \item Diseño de los mapas y las habitaciones.
@@ -85,7 +85,13 @@ La descomposición de las tareas es la siguiente:
   \item Implementación del diseño de mapas y habitaciones.
 \end{enumerate}
 
-Para la realización de esta segunda iteración se planificaron 125 horas en total. La estimación fue correcta y fue posible cumplirla. Ver la figura ~\ref{fig:sec2it1}
+Para la realización de esta segunda iteración se planificaron 125 horas en total. La estimación fue correcta y fue posible cumplirla. Ver la figura ~\ref{fig:sec1it2}
+
+\begin{figure}
+    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/sec1it2.png}
+  \caption{Diagrama de Gantt de la segunda iteración de la primera etapa}
+  \label{fig:sec1it2}
+\end{figure}
 
 \section{Enero 2015 - Mayo 2015}
 
@@ -115,7 +121,7 @@ La descomposición de las tareas es la siguiente:
 
 \begin{enumerate}[label=\bfseries WBS 1.\arabic*]
   \item Mostrar los mapas y habitaciones en el interfaz de usuario.
-  \item Análisis de requisitos para sobre los objetos
+  \item Análisis de requisitos sobre los objetos.
     \begin{enumerate}[label=\bfseries WBS 1.1.\arabic*]
       \item Buscar información sobre los diferentes tipos de objetos necesarios en el juego.
       \item Estudiar cómo estos objetos deben de interactuar con el mapa.
@@ -126,7 +132,13 @@ La descomposición de las tareas es la siguiente:
   \item Implementación de los objetos en el juego y su asociación con el propio mapa y habitaciones.
 \end{enumerate}
 
-Para la realización de la primera iteración del segundo bloque de trabajo se planificaron 55 horas en total. La estimación fue correcta y fue posible cumplirla. Ver la figura ~\ref{fig:sec1it2}
+Para la realización de la primera iteración del segundo bloque de trabajo se planificaron 55 horas en total. La estimación fue correcta y fue posible cumplirla. Ver la figura ~\ref{fig:sec2it1}
+
+\begin{figure}
+    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/sec2it1.png}
+  \caption{Diagrama de Gantt de la primera iteración de la segunda etapa}
+  \label{fig:sec2it1}
+\end{figure}
 
 \subsection{Segunda iteración: análisis, diseño, tests e implementación de los personajes}
 
@@ -145,7 +157,7 @@ La segunda iteración comienza el 5 de marzo y acaba el 23 de mayo.
 La descomposición de las tareas es la siguiente:
 
 \begin{enumerate}[label=\bfseries WBS 2.\arabic*]
-  \item Análisis de requisitos para sobre personajes (jugadores y enemigos)
+  \item Análisis de requisitos sobre personajes (jugadores y enemigos)
     \begin{enumerate}[label=\bfseries WBS 2.1.\arabic*]
       \item Buscar información sobre los diferentes tipos de enemigos a los que nos enfrentaremos.
       \item Estudiar cómo estos enemigos interectuarán con el mapa y los objetos creados anteriormente.
@@ -157,3 +169,9 @@ La descomposición de las tareas es la siguiente:
 \end{enumerate}
 
 Para la realización de este \textit{sprint} se han asignado 80 horas, las cuales fueron insuficientes por solamente un par de horas, pero se cubrieron en el mismo espacio de tiempo. Ver la figura ~\ref{fig:sec2it2}
+
+\begin{figure}
+    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/sec2it2.png}
+  \caption{Diagrama de Gantt de la segunda iteración de la segunda etapa}
+  \label{fig:sec2it2}
+\end{figure}
