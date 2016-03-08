@@ -32,16 +32,19 @@
 \BOOKMARK [0][-]{chapter.5}{Planificaci\363n y Seguimiento}{}% 32
 \BOOKMARK [1][-]{section.5.1}{Junio 2014 - Septiembre 2014}{chapter.5}% 33
 \BOOKMARK [2][-]{subsection.5.1.1}{Primera iteraci\363n: An\341lisis de requisitos generales, dise\361o gen\351rico y preparaci\363n y configuraci\363n de los elementos necesarios para el comienzo de la implementaci\363n}{section.5.1}% 34
-\BOOKMARK [2][-]{subsection.5.1.2}{Tareas y seguimiento}{section.5.1}% 35
-\BOOKMARK [0][-]{chapter.6}{An\341lisis de Requisitos}{}% 36
-\BOOKMARK [1][-]{section.6.1}{Consultas con la comunidad}{chapter.6}% 37
-\BOOKMARK [2][-]{subsection.6.1.1}{Resumen de las peticiones recibidas}{section.6.1}% 38
-\BOOKMARK [1][-]{section.6.2}{An\341lisis de los elementos del juego}{chapter.6}% 39
-\BOOKMARK [1][-]{section.6.3}{Requisitos del aplicativo}{chapter.6}% 40
-\BOOKMARK [0][-]{chapter.7}{Dise\361o e Implementaci\363n}{}% 41
-\BOOKMARK [0][-]{chapter.8}{Recepci\363n, conclusi\363n y trabajo futuro.}{}% 42
-\BOOKMARK [1][-]{section.8.1}{Recepci\363n y Feedback}{chapter.8}% 43
-\BOOKMARK [1][-]{section.8.2}{Conclusi\363n}{chapter.8}% 44
-\BOOKMARK [1][-]{section.8.3}{Trabajo Futuro}{chapter.8}% 45
-\BOOKMARK [0][-]{appendix.Alph1}{Escoger la licencia}{}% 46
-\BOOKMARK [0][-]{appendix.Alph2}{Instalaci\363n e Instrucciones}{}% 47
+\BOOKMARK [2][-]{subsection.5.1.2}{Segunda iteraci\363n: Generaci\363n de mapas y habitaciones}{section.5.1}% 35
+\BOOKMARK [1][-]{section.5.2}{Enero 2015 - Mayo 2015}{chapter.5}% 36
+\BOOKMARK [2][-]{subsection.5.2.1}{Primera iteraci\363n: mapas en IU, an\341lisis, dise\361o, tests e implementaci\363n de los objetos}{section.5.2}% 37
+\BOOKMARK [2][-]{subsection.5.2.2}{Segunda iteraci\363n: an\341lisis, dise\361o, tests e implementaci\363n de los personajes}{section.5.2}% 38
+\BOOKMARK [0][-]{chapter.6}{An\341lisis de Requisitos}{}% 39
+\BOOKMARK [1][-]{section.6.1}{Consultas con la comunidad}{chapter.6}% 40
+\BOOKMARK [2][-]{subsection.6.1.1}{Resumen de las peticiones recibidas}{section.6.1}% 41
+\BOOKMARK [1][-]{section.6.2}{An\341lisis de los elementos del juego}{chapter.6}% 42
+\BOOKMARK [1][-]{section.6.3}{Requisitos del aplicativo}{chapter.6}% 43
+\BOOKMARK [0][-]{chapter.7}{Dise\361o e Implementaci\363n}{}% 44
+\BOOKMARK [0][-]{chapter.8}{Recepci\363n, conclusi\363n y trabajo futuro.}{}% 45
+\BOOKMARK [1][-]{section.8.1}{Recepci\363n y Feedback}{chapter.8}% 46
+\BOOKMARK [1][-]{section.8.2}{Conclusi\363n}{chapter.8}% 47
+\BOOKMARK [1][-]{section.8.3}{Trabajo Futuro}{chapter.8}% 48
+\BOOKMARK [0][-]{appendix.Alph1}{Escoger la licencia}{}% 49
+\BOOKMARK [0][-]{appendix.Alph2}{Instalaci\363n e Instrucciones}{}% 50
