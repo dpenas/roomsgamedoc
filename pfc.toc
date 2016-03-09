@@ -1,5 +1,5 @@
 \select@language {spanish}
-\contentsline {chapter}{\'{I}ndice de figuras}{\es@scroman {ix}}{chapter*.5}
+\contentsline {chapter}{\'{I}ndice de figuras}{\es@scroman {vii}}{chapter*.5}
 \contentsline {chapter}{\numberline {1}Introduci\IeC {\'o}n}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Videojuegos y personas invidentes}{1}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Visita a la \textit {ONCE}}{2}{subsection.1.1.1}
@@ -66,45 +66,75 @@
 \contentsline {paragraph}{B\IeC {\'u}squeda de bibliotecas que se adapten a nuestros requisitos}{28}{section*.47}
 \contentsline {paragraph}{Creaci\IeC {\'o}n y configuraci\IeC {\'o}n del ambiente de desarrollo para poder empezar la implementaci\IeC {\'o}n}{28}{section*.48}
 \contentsline {subsubsection}{\numberline {5.1.1.1}Tareas y seguimiento}{28}{subsubsection.5.1.1.1}
+\contentsline {subsubsection}{\numberline {5.1.1.2}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{29}{subsubsection.5.1.1.2}
+\contentsline {subsubsection}{\numberline {5.1.1.3}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{29}{subsubsection.5.1.1.3}
 \contentsline {subsection}{\numberline {5.1.2}Segunda iteraci\IeC {\'o}n: Generaci\IeC {\'o}n de mapas y habitaciones}{29}{subsection.5.1.2}
-\contentsline {paragraph}{An\IeC {\'a}lisis de requisitos de los mapas y habitaciones}{29}{section*.50}
-\contentsline {paragraph}{Dise\IeC {\~n}o de los mapas y las habitaciones}{29}{section*.51}
+\contentsline {paragraph}{An\IeC {\'a}lisis de requisitos de los mapas y habitaciones}{30}{section*.50}
+\contentsline {paragraph}{Dise\IeC {\~n}o de los mapas y las habitaciones}{30}{section*.51}
 \contentsline {paragraph}{Creaci\IeC {\'o}n de tests que cubran lo analizado}{30}{section*.52}
 \contentsline {paragraph}{Implementaci\IeC {\'o}n del dise\IeC {\~n}o de mapas y habitaciones}{30}{section*.53}
 \contentsline {subsubsection}{\numberline {5.1.2.1}Tareas y seguimiento}{30}{subsubsection.5.1.2.1}
-\contentsline {section}{\numberline {5.2}Enero 2015 - Mayo 2015}{30}{section.5.2}
+\contentsline {subsubsection}{\numberline {5.1.2.2}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{31}{subsubsection.5.1.2.2}
+\contentsline {subsubsection}{\numberline {5.1.2.3}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{31}{subsubsection.5.1.2.3}
+\contentsline {section}{\numberline {5.2}Enero 2015 - Mayo 2015}{31}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}Primera iteraci\IeC {\'o}n: mapas en IU, an\IeC {\'a}lisis, dise\IeC {\~n}o, tests e implementaci\IeC {\'o}n de los objetos}{31}{subsection.5.2.1}
-\contentsline {paragraph}{Mostrar los mapas y habitaciones en el interfaz de usuario}{31}{section*.55}
-\contentsline {paragraph}{An\IeC {\'a}lisis de requisitos para sobre los objetos}{31}{section*.56}
-\contentsline {paragraph}{Crear un dise\IeC {\~n}o simple sobre c\IeC {\'o}mo los objetos interactuar\IeC {\'a}n con el mapa}{31}{section*.57}
-\contentsline {paragraph}{Creaci\IeC {\'o}n de tests que cubran lo analizado}{31}{section*.58}
-\contentsline {paragraph}{Implementaci\IeC {\'o}n de los objetos en el juego}{31}{section*.59}
-\contentsline {subsubsection}{\numberline {5.2.1.1}Tareas y seguimiento}{31}{subsubsection.5.2.1.1}
-\contentsline {subsection}{\numberline {5.2.2}Segunda iteraci\IeC {\'o}n: an\IeC {\'a}lisis, dise\IeC {\~n}o, tests e implementaci\IeC {\'o}n de los personajes}{32}{subsection.5.2.2}
-\contentsline {paragraph}{An\IeC {\'a}lisis de requisitos para sobre personajes}{32}{section*.61}
-\contentsline {paragraph}{Creaci\IeC {\'o}n del dise\IeC {\~n}o de los personajes}{32}{section*.62}
-\contentsline {paragraph}{Implementaci\IeC {\'o}n de los tests}{32}{section*.63}
-\contentsline {paragraph}{Programaci\IeC {\'o}n de lo dise\IeC {\~n}ado y analizado previamente}{33}{section*.64}
-\contentsline {subsubsection}{\numberline {5.2.2.1}Tareas y seguimiento}{33}{subsubsection.5.2.2.1}
-\contentsline {subsection}{\numberline {5.2.3}Tercera iteraci\IeC {\'o}n: interacci\IeC {\'o}n entre personajes, tests e implementaci\IeC {\'o}n}{33}{subsection.5.2.3}
-\contentsline {paragraph}{Ampliar los tests sobre la interacci\IeC {\'o}n entre los objetos y personajes}{34}{section*.66}
-\contentsline {paragraph}{Implementaci\IeC {\'o}n en base a los tests, an\IeC {\'a}lisis y dise\IeC {\~n}o de la anterior iteraci\IeC {\'o}n}{34}{section*.67}
-\contentsline {subsubsection}{\numberline {5.2.3.1}Tareas y seguimiento}{34}{subsubsection.5.2.3.1}
-\contentsline {section}{\numberline {5.3}Enero 2015 - Mayo 2015}{34}{section.5.3}
-\contentsline {chapter}{\numberline {6}An\IeC {\'a}lisis de Requisitos}{35}{chapter.6}
-\contentsline {section}{\numberline {6.1}Consultas con la comunidad}{35}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Resumen de las peticiones recibidas}{35}{subsection.6.1.1}
-\contentsline {paragraph}{F\IeC {\'a}cil cambio de color de la interfaz}{35}{section*.68}
-\contentsline {paragraph}{Descripciones autom\IeC {\'a}ticas de todos los elementos posibles}{35}{section*.69}
-\contentsline {paragraph}{Diferentes idiomas}{36}{section*.70}
-\contentsline {paragraph}{Multiplataforma}{36}{section*.71}
-\contentsline {section}{\numberline {6.2}An\IeC {\'a}lisis de los elementos del juego}{36}{section.6.2}
-\contentsline {section}{\numberline {6.3}Requisitos del aplicativo}{36}{section.6.3}
-\contentsline {chapter}{\numberline {7}Dise\IeC {\~n}o e Implementaci\IeC {\'o}n}{39}{chapter.7}
-\contentsline {chapter}{\numberline {8}Recepci\IeC {\'o}n, conclusi\IeC {\'o}n y trabajo futuro.}{41}{chapter.8}
-\contentsline {section}{\numberline {8.1}Recepci\IeC {\'o}n y \textit {Feedback}}{41}{section.8.1}
-\contentsline {section}{\numberline {8.2}Conclusi\IeC {\'o}n}{41}{section.8.2}
-\contentsline {section}{\numberline {8.3}Trabajo Futuro}{41}{section.8.3}
-\contentsline {paragraph}{Blabla.}{41}{section*.73}
-\contentsline {chapter}{\numberline {A}Escoger la licencia}{43}{appendix.Alph1}
-\contentsline {chapter}{\numberline {B}Instalaci\IeC {\'o}n e Instrucciones}{45}{appendix.Alph2}
+\contentsline {paragraph}{Mostrar los mapas y habitaciones en el interfaz de usuario}{32}{section*.55}
+\contentsline {paragraph}{An\IeC {\'a}lisis de requisitos para sobre los objetos}{32}{section*.56}
+\contentsline {paragraph}{Crear un dise\IeC {\~n}o simple sobre c\IeC {\'o}mo los objetos interactuar\IeC {\'a}n con el mapa}{32}{section*.57}
+\contentsline {paragraph}{Creaci\IeC {\'o}n de tests que cubran lo analizado}{32}{section*.58}
+\contentsline {paragraph}{Implementaci\IeC {\'o}n de los objetos en el juego}{32}{section*.59}
+\contentsline {subsubsection}{\numberline {5.2.1.1}Tareas y seguimiento}{32}{subsubsection.5.2.1.1}
+\contentsline {subsubsection}{\numberline {5.2.1.2}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{33}{subsubsection.5.2.1.2}
+\contentsline {subsubsection}{\numberline {5.2.1.3}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{33}{subsubsection.5.2.1.3}
+\contentsline {subsection}{\numberline {5.2.2}Segunda iteraci\IeC {\'o}n: an\IeC {\'a}lisis, dise\IeC {\~n}o, tests e implementaci\IeC {\'o}n de los personajes}{33}{subsection.5.2.2}
+\contentsline {paragraph}{An\IeC {\'a}lisis de requisitos para sobre personajes}{33}{section*.61}
+\contentsline {paragraph}{Creaci\IeC {\'o}n del dise\IeC {\~n}o de los personajes}{33}{section*.62}
+\contentsline {paragraph}{Implementaci\IeC {\'o}n de los tests}{33}{section*.63}
+\contentsline {paragraph}{Programaci\IeC {\'o}n de lo dise\IeC {\~n}ado y analizado previamente}{34}{section*.64}
+\contentsline {subsubsection}{\numberline {5.2.2.1}Tareas y seguimiento}{34}{subsubsection.5.2.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2.2}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{34}{subsubsection.5.2.2.2}
+\contentsline {subsubsection}{\numberline {5.2.2.3}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{35}{subsubsection.5.2.2.3}
+\contentsline {subsection}{\numberline {5.2.3}Tercera iteraci\IeC {\'o}n: interacci\IeC {\'o}n entre personajes, tests e implementaci\IeC {\'o}n}{35}{subsection.5.2.3}
+\contentsline {paragraph}{Ampliar los tests sobre la interacci\IeC {\'o}n entre los objetos y personajes}{35}{section*.66}
+\contentsline {paragraph}{Implementaci\IeC {\'o}n en base a los tests, an\IeC {\'a}lisis y dise\IeC {\~n}o de la anterior iteraci\IeC {\'o}n}{35}{section*.67}
+\contentsline {subsubsection}{\numberline {5.2.3.1}Tareas y seguimiento}{35}{subsubsection.5.2.3.1}
+\contentsline {subsubsection}{\numberline {5.2.3.2}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{36}{subsubsection.5.2.3.2}
+\contentsline {subsubsection}{\numberline {5.2.3.3}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{36}{subsubsection.5.2.3.3}
+\contentsline {section}{\numberline {5.3}Septiembre 2015 - Abril 2016}{36}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Primera iteraci\IeC {\'o}n: Aumentar interacci\IeC {\'o}n entre objetos, mapas y personajes, a\IeC {\~n}adir movimiento para el jugador}{36}{subsection.5.3.1}
+\contentsline {paragraph}{Aumentar la interacci\IeC {\'o}n entre objetos, personajes y mapa}{36}{section*.69}
+\contentsline {paragraph}{Agregar \textit {listeners} para que el jugador pueda decidir lo que hacer}{37}{section*.70}
+\contentsline {subsubsection}{\numberline {5.3.1.1}Tareas y seguimiento}{37}{subsubsection.5.3.1.1}
+\contentsline {subsubsection}{\numberline {5.3.1.2}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{37}{subsubsection.5.3.1.2}
+\contentsline {subsubsection}{\numberline {5.3.1.3}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{37}{subsubsection.5.3.1.3}
+\contentsline {subsection}{\numberline {5.3.2}Segunda iteraci\IeC {\'o}n: Dise\IeC {\~n}o e implementaci\IeC {\'o}n de los portales, IA de los enemigos y accesibilidad para dalt\IeC {\'o}nicos}{38}{subsection.5.3.2}
+\contentsline {paragraph}{Dise\IeC {\~n}o e implementaci\IeC {\'o}n de los portales}{38}{section*.72}
+\contentsline {paragraph}{A\IeC {\~n}adir inteligencia artificial}{38}{section*.73}
+\contentsline {paragraph}{A\IeC {\~n}adir opciones para cambiar el color de la interfaz gr\IeC {\'a}fica}{38}{section*.74}
+\contentsline {subsubsection}{\numberline {5.3.2.1}Tareas y seguimiento}{38}{subsubsection.5.3.2.1}
+\contentsline {subsubsection}{\numberline {5.3.2.2}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{39}{subsubsection.5.3.2.2}
+\contentsline {subsubsection}{\numberline {5.3.2.3}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{39}{subsubsection.5.3.2.3}
+\contentsline {subsection}{\numberline {5.3.3}Tercera iteraci\IeC {\'o}n: An\IeC {\'a}lisis, dise\IeC {\~n}o b\IeC {\'a}sico y comienzo de la implementaci\IeC {\'o}n de las gram\IeC {\'a}ticas}{39}{subsection.5.3.3}
+\contentsline {paragraph}{An\IeC {\'a}lisis de las gram\IeC {\'a}ticas}{40}{section*.76}
+\contentsline {paragraph}{Dise\IeC {\~n}o general sobre la generaci\IeC {\'o}n del lenguaje}{40}{section*.77}
+\contentsline {paragraph}{Creaci\IeC {\'o}n de gram\IeC {\'a}ticas y diccionarios base}{40}{section*.78}
+\contentsline {subsubsection}{\numberline {5.3.3.1}Tareas y seguimiento}{40}{subsubsection.5.3.3.1}
+\contentsline {subsubsection}{\numberline {5.3.3.2}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{41}{subsubsection.5.3.3.2}
+\contentsline {subsubsection}{\numberline {5.3.3.3}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{41}{subsubsection.5.3.3.3}
+\contentsline {chapter}{\numberline {6}An\IeC {\'a}lisis de Requisitos}{43}{chapter.6}
+\contentsline {section}{\numberline {6.1}Consultas con la comunidad}{43}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Resumen de las peticiones recibidas}{43}{subsection.6.1.1}
+\contentsline {paragraph}{F\IeC {\'a}cil cambio de color de la interfaz}{43}{section*.80}
+\contentsline {paragraph}{Descripciones autom\IeC {\'a}ticas de todos los elementos posibles}{43}{section*.81}
+\contentsline {paragraph}{Diferentes idiomas}{44}{section*.82}
+\contentsline {paragraph}{Multiplataforma}{44}{section*.83}
+\contentsline {section}{\numberline {6.2}An\IeC {\'a}lisis de los elementos del juego}{44}{section.6.2}
+\contentsline {section}{\numberline {6.3}Requisitos del aplicativo}{44}{section.6.3}
+\contentsline {chapter}{\numberline {7}Dise\IeC {\~n}o e Implementaci\IeC {\'o}n}{47}{chapter.7}
+\contentsline {chapter}{\numberline {8}Recepci\IeC {\'o}n, conclusi\IeC {\'o}n y trabajo futuro.}{49}{chapter.8}
+\contentsline {section}{\numberline {8.1}Recepci\IeC {\'o}n y \textit {Feedback}}{49}{section.8.1}
+\contentsline {section}{\numberline {8.2}Conclusi\IeC {\'o}n}{49}{section.8.2}
+\contentsline {section}{\numberline {8.3}Trabajo Futuro}{49}{section.8.3}
+\contentsline {paragraph}{Blabla.}{49}{section*.85}
+\contentsline {chapter}{\numberline {A}Escoger la licencia}{51}{appendix.Alph1}
+\contentsline {chapter}{\numberline {B}Instalaci\IeC {\'o}n e Instrucciones}{53}{appendix.Alph2}

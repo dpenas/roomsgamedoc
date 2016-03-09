@@ -58,6 +58,14 @@ Para la realización de todas estas tareas se planificaron 65 horas en total. Es
   \label{fig:sec1it1}
 \end{figure}
 
+\subsubsection{Qué hemos conseguido en esta iteración}
+
+Comenzar un nuevo proyecto y recabar toda la información necesaria para tener una idea donde asentar las bases en las que se sembrarán las próximas iteraciones siempre es una tarea ardua y complicada. En esta iteración hemos sentado estas bases, definiendo lo que debemos de realizar y creando un primer boceto de lo que tendremos que cumplir durante los próximos meses.
+
+\subsubsection{Qué queremos conseguir en la próxima iteración}
+
+Con todo lo básico definido, ahora debemos de materalizarlo. Durante las siguientes iteraciones deberemos de empezar a crear el juego en sí, empezando por los mapas y habitaciones.
+
 \subsection{Segunda iteración: Generación de mapas y habitaciones}
 
 Desde el 15 de julio hasta el 24 de septiembre.
@@ -85,13 +93,21 @@ La descomposición de las tareas es la siguiente:
   \item Implementación del diseño de mapas y habitaciones.
 \end{enumerate}
 
-Para la realización de esta segunda iteración se planificaron 125 horas en total. La estimación fue correcta y fue posible cumplirla. Ver la figura ~\ref{fig:sec1it2}
+Para la realización de esta segunda iteración se planificaron 125 horas en total. La estimación no fue correcta y no fuimos capaces de finalizar todo lo necesario, por lo que tuvimos que dejar la tarea de representar este mapa para la siguiente iteración. Ver la figura ~\ref{fig:sec1it2}
 
 \begin{figure}
     \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/sec1it2.png}
   \caption{Diagrama de Gantt de la segunda iteración de la primera etapa}
   \label{fig:sec1it2}
 \end{figure}
+
+\subsubsection{Qué hemos conseguido en esta iteración}
+
+Hemos conseguido generar mapas y habitaciones de manera aleatoria, pero todavía no mostrarlos en la interfaz de usuario. Uno de los puntos esenciales del género de los \textit{roguelike} es su aleatoriedad y conseguir que los mapas es el primer gran punto.
+
+\subsubsection{Qué queremos conseguir en la próxima iteración}
+
+En la siguiente iteración debemos de terminar lo que no hemos conseguido hacer en ésta, por lo que representar estos mapas en la interfaz gráfica toma prioridad. A continuación comenzaremos con la creación de objetos. Dichos objetos es otro de los puntos esenciales del género.
 
 \section{Enero 2015 - Mayo 2015}
 
@@ -140,6 +156,14 @@ Para la realización de la primera iteración del segundo bloque de trabajo se p
   \label{fig:sec2it1}
 \end{figure}
 
+\subsubsection{Qué hemos conseguido en esta iteración}
+
+Terminar la tarea restante del sprint anterior y la creación de diferentes objetos (pociones, armas y armaduras) que los personajes podrán utilizar. También podemos representar dichos objetos en el mapa, además de que la creación de nuevos elementos sea muy sencilla.
+
+\subsubsection{Qué queremos conseguir en la próxima iteración}
+
+Crear los personajes. Ésta es uno de los últimos pilares esenciales del género, por lo que tomará prioridad y será realizado a continuación.
+
 \subsection{Segunda iteración: análisis, diseño, tests e implementación de los personajes}
 
 La segunda iteración comienza el 5 de marzo y acaba el 23 de mayo.
@@ -176,6 +200,14 @@ Para la realización de este \textit{sprint} se han asignado 80 horas, las cuale
   \label{fig:sec2it2}
 \end{figure}
 
+\subsubsection{Qué hemos conseguido en esta iteración}
+
+Al igual que con los objetos, hemos conseguido facilitar su creación, así como la representación del mapa de los mismos. Hemos creado un personaje principal (controlado por el usuario) y diferentes tipos de enemigos (doblins, ratas y dragones). Ambos tipos se muestran en el mapa.
+
+\subsubsection{Qué queremos conseguir en la próxima iteración}
+
+Tal y como tenemos el proyecto actualmente, tenemos el mapa creado aleatoriamente y podemos mostrar objetos y personajes con facilidad. El siguiente paso consiste en que los personajes puedan interactuar con los objetos.
+
 \subsection{Tercera iteración: interacción entre personajes, tests e implementación}
 
 Esta última iteración de la sección, y la más corta, comienza el 24 de mayo y acaba el 31 del mismo mes.
@@ -195,6 +227,152 @@ La descomposición de las tareas es la siguiente:
   \item Implementación en base al diseño de la anterior iteración y los nuevos tests creados.
 \end{enumerate}
 
+\begin{figure}
+    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/sec2it3.png}
+  \caption{Diagrama de Gantt de la tercera iteración de la segunda etapa}
+  \label{fig:sec2it3}
+\end{figure}
+
 Al ser un pequeño sprint, hemos sido capaces de terminarlo sin problema. El diagrama de Gantt puede verse en la figura ~\ref{fig:sec2it3}
 
-\section{Enero 2015 - Mayo 2015}
+\subsubsection{Qué hemos conseguido en esta iteración}
+
+Interacción básica entre personajes y objetos.
+
+\subsubsection{Qué queremos conseguir en la próxima iteración}
+
+Aumentar esta interacción (que podamos atacar a los personaje, por ejemplo) y dar control al usuario, por lo que tendremos que diseñar la manera de que el usuario pueda decidir moverse, atacar, coger un objeto del mapa, etc.
+
+\section{Septiembre 2015 - Abril 2016}
+
+Este periodo empieza el 1 de septiembre, tras un breve descanso en verano, y termina el 31 de abril. Durante este tiempo hemos empleado más tiempo que anteriormente en el proyecto y desarrollado mucho más (20 horas a la semana). También hemos buscado \textit{feedback} una vez tuvimos tiempo disponible para poder tener tiempo para implementarlo y asegurarnos de que lo que hemos realizado es aceptado por la comunidad. 
+Este periodo consta de un total de 34 semanas.
+
+En total, 680 horas fueron dedicadas para este sprint inicialmente.
+
+\subsection{Primera iteración: Aumentar interacción entre objetos, mapas y personajes, añadir movimiento para el jugador}
+
+Esta primera iteración da comienzo el 1 de septiembre y acaba el 5 de octubre, es decir, damos 5 semanas para su realización.
+
+\paragraph{Aumentar la interacción entre objetos, personajes y mapa} Hasta el momento tenemos el mapa, objetos y personajes, pero debemos de ser capaces de interactuar completamente y aumentar en características. Por ejemplo añadiendo puertas entre habitaciones, que también se muestren en el mapa, que los personajes puedan atacarse entre sí (teniendo en cuenta las armaduras y armas que llevan) y la creación de un campo de visión para el usuario para que solamente pueda ver lo que hay a su alrededor y no todo el mapa.
+
+\paragraph{Agregar \textit{listeners} para que el jugador pueda decidir lo que hacer} En este momento el jugador no puede hacer nada. Ahora es el momento de introducir los elementos necesarios para que nos podamos mover por el mapa y realizar todas las acciones implementadas anteriormente con nuestro personaje.
+
+\subsubsection{Tareas y seguimiento}
+
+La descomposición de las tareas es la siguiente:
+
+\begin{enumerate}[label=\bfseries WBS 1.\arabic*]
+  \item Aumentar la interacción entre objetos, personajes y mapa.
+    \begin{enumerate}[label=\bfseries WBS 1.1.\arabic*]
+      \item Crear tests para los elementos posteriores
+      \item Añadir puertas que unan las habitaciones para que el jugador pueda pasar de habitación a habitación.
+      \item Añadir la posibilidad de ataque entre personajes.
+      \item Añadir un campo de visión al usuario para que no sea capaz de ver todo el mapa, pero solamente cierta área a su alrededor.
+    \end{enumerate}
+  \item Agregar \textit{listeners} para que el jugador pueda decidir lo que hacer.
+\end{enumerate}
+
+Hemos asignado 100 horas para la estimación de este \textit{sprint}, las cuales cumplimos sin problema. Ver la figura ~\ref{fig:sec3it1}
+
+\begin{figure}
+    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/sec3it1.png}
+  \caption{Diagrama de Gantt de la primera iteración de la tercera etapa}
+  \label{fig:sec3it1}
+\end{figure}
+
+\subsubsection{Qué hemos conseguido en esta iteración}
+
+Al acabar esta iteración tenemos lo básico de un juego: nos podemos mover por un mapa, coger objetos y combatir enemigos (aunque estos enemigos todavía no tienen inteligencia artificial, por lo que no se mueven).
+
+\subsubsection{Qué queremos conseguir en la próxima iteración}
+
+En la próxima iteración deberemos terminar lo básico del juego. Para ello tendremos que implementar el sistema de portales (que nos transportarán a un mapa completamente diferente, consiguiendo puntos de esta manera), añadir básica inteligencia artifial a los enemigos e incorporar la opción de cambiar el color de la interfaz de usuario para que se adapte a los jugadores daltónicos, tal y como hemos explicado en la sección \label{sec:daltonicossolventar}
+
+\subsection{Segunda iteración: Diseño e implementación de los portales, IA de los enemigos y accesibilidad para daltónicos}
+
+Esta segunda iteración comienza el 6 de octubre y termina el 8 de noviembre, con 4 semanas y media para su finalización.
+
+\paragraph{Diseño e implementación de los portales} El sistema de portales fue la idea principal que tuvimos para crear un sistema de puntuación y progreso para el usuario. El objetivo está en encontrar el portal dentro del mapa y, una vez encontrado, un nuevo mapa será generado, igual que otro portal en ese mapa. De esta manera la meta del juego se centra en derrotar enemigos (consiguiendo mejores armas y armaduras en el proceso) para encontrar el mayor número de portales posibles.
+Deberemos de diseñar e implementar estos portales en esta iteración.
+
+\paragraph{Añadir inteligencia artificial} Dependiendo del enemigo al que nos enfrentemos, éste se comportará de forma distinta. Habrá enemigos que sean activos y vayan contra el usuario, mientras que otros serán pasivos y no quieran atacar al usuario. Puede ser que en el futuro queramos incrementar el número de este tipo de comportamientos, por lo que deberemos de diseñarlo de la mejor forma.
+
+\paragraph{Añadir opciones para cambiar el color de la interfaz gráfica} El punto central de este proyecto es la accesibilidad e incluir una opción para que daltónicos puedan disfrutar de nuestro juego es decisivo.
+
+\subsubsection{Tareas y seguimiento}
+
+La descomposición de las tareas es la siguiente:
+
+\begin{enumerate}[label=\bfseries WBS 2.\arabic*]
+  \item Diseño e implementación de los portales.
+    \begin{enumerate}[label=\bfseries WBS 2.1.\arabic*]
+      \item Diseñar la mejor manera para incluir los portales en nuestro diseño (en el análisis es algo que se había considerado hacer).
+      \item Creación de los tests.
+      \item Implementación de los portales.
+    \end{enumerate}
+  \item Añadir inteligencia artificial.
+  	\begin{enumerate}[label=\bfseries WBS 2.2.\arabic*]
+      \item Diseñar la mejor manera para incluir diferentes tipos de IA.
+      \item Crear los tests de IA.
+      \item Implementar esta IA para los enemigos.
+    \end{enumerate}
+  \item Añadir opciones para cambiar el color de la interfaz gráfica para usuarios daltónicos
+\end{enumerate}
+
+48 horas fueron las que creímos suficientes para la estimación del \textit{sprint} y que fueron necesarias para la conclusión del mismo con todas las tareas terminadas. Ver la figura ~\ref{fig:sec3it2} como referencia.
+
+\begin{figure}
+    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/sec3it2.png}
+  \caption{Diagrama de Gantt de la segunda iteración de la tercera etapa}
+  \label{fig:sec3it2}
+\end{figure}
+
+\subsubsection{Qué hemos conseguido en esta iteración}
+
+Con esta última iteración tenemos la parte básica del juego completada. Hay un objetivo, enemigos con IA, diferentes objetos, puertas que conectan distintas habitaciones y varias acciones que se pueden realizar.
+
+\subsubsection{Qué queremos conseguir en la próxima iteración}
+
+Con el juego en sí completado (o por lo menos la parte primordial), es hora de empezar a analizar y diseñar la parte de la generación automática del lenguaje.
+
+\subsection{Tercera iteración: Análisis, diseño básico y comienzo de la implementación de las gramáticas}
+
+Esta segunda iteración comienza el 9 de noviembre y termina el 31 de diciembre, con 6 semanas y media para su finalización.
+
+\paragraph{Análisis de las gramáticas} Una parte muy importante del juego es crear frases que sean generadas de forma automática y pseudo-aleatoria en base a una serie de gramáticas y diccionario dado. Si conseguimos realizar esto, crear diferentes idiomas sería trivial (solamente tendríamos que cambiar la gramática en caso de que en dicho idioma sea diferente y traducir el diccionario). Para ello tendremos que investigar cómo podemos hacer esto en nuestro caso y cómo han solventado este problema otra gente.
+
+\paragraph{Diseño general sobre la generación del lenguaje} Una vez hemos analizado y decidido lo que debemos de realizar, crearemos un diseño lo más simple y adaptable posible para la generación de dichas frases en base a las gramáticas dadas.
+
+\paragraph{Creación de gramáticas y diccionarios base} Para empezar el desarrollo necesitamos tener una gramática y diccionaro base con lo que poder ver los diferentes resultados obtenidos.
+
+\subsubsection{Tareas y seguimiento}
+
+La descomposición de las tareas es la siguiente:
+
+\begin{enumerate}[label=\bfseries WBS 3.\arabic*]
+  \item Análisis de las gramáticas.
+    \begin{enumerate}[label=\bfseries WBS 3.1.\arabic*]
+      \item Leer la información que existe sobre la generación automática de lenguaje.
+      \item Estudiar cómo lo podemos implementar en nuestro proyecto con lo ya existente.
+      \item Tomar la decisión en base a lo encontrado y sentar las bases sobre ello.
+    \end{enumerate}
+  \item Diseño general sobre la generación del lenguaje y cómo las gramáticas interactuarán con nuestro programa.
+  \item Creación de gramáticas y diccionarios base para tener una base con lo que testar lo que implementaremos.
+\end{enumerate}
+
+Hemos reservado 130 horas para esta iteración y hemos conseguido terminar todas las tareas asignadas a tiempo. Ver la figura ~\ref{fig:sec3it3} para más información.
+
+\begin{figure}
+    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/sec3it3.png}
+  \caption{Diagrama de Gantt de la tercera iteración de la tercera etapa}
+  \label{fig:sec3it3}
+\end{figure}
+
+\subsubsection{Qué hemos conseguido en esta iteración}
+
+Hemos sentado las bases de lo que queremos implementar con las gramáticas.
+
+\subsubsection{Qué queremos conseguir en la próxima iteración}
+
+Empezar con los tests y desarrollo de lo investigado en esta iteración.

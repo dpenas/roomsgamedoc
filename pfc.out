@@ -37,16 +37,19 @@
 \BOOKMARK [2][-]{subsection.5.2.1}{Primera iteraci\363n: mapas en IU, an\341lisis, dise\361o, tests e implementaci\363n de los objetos}{section.5.2}% 37
 \BOOKMARK [2][-]{subsection.5.2.2}{Segunda iteraci\363n: an\341lisis, dise\361o, tests e implementaci\363n de los personajes}{section.5.2}% 38
 \BOOKMARK [2][-]{subsection.5.2.3}{Tercera iteraci\363n: interacci\363n entre personajes, tests e implementaci\363n}{section.5.2}% 39
-\BOOKMARK [1][-]{section.5.3}{Enero 2015 - Mayo 2015}{chapter.5}% 40
-\BOOKMARK [0][-]{chapter.6}{An\341lisis de Requisitos}{}% 41
-\BOOKMARK [1][-]{section.6.1}{Consultas con la comunidad}{chapter.6}% 42
-\BOOKMARK [2][-]{subsection.6.1.1}{Resumen de las peticiones recibidas}{section.6.1}% 43
-\BOOKMARK [1][-]{section.6.2}{An\341lisis de los elementos del juego}{chapter.6}% 44
-\BOOKMARK [1][-]{section.6.3}{Requisitos del aplicativo}{chapter.6}% 45
-\BOOKMARK [0][-]{chapter.7}{Dise\361o e Implementaci\363n}{}% 46
-\BOOKMARK [0][-]{chapter.8}{Recepci\363n, conclusi\363n y trabajo futuro.}{}% 47
-\BOOKMARK [1][-]{section.8.1}{Recepci\363n y Feedback}{chapter.8}% 48
-\BOOKMARK [1][-]{section.8.2}{Conclusi\363n}{chapter.8}% 49
-\BOOKMARK [1][-]{section.8.3}{Trabajo Futuro}{chapter.8}% 50
-\BOOKMARK [0][-]{appendix.Alph1}{Escoger la licencia}{}% 51
-\BOOKMARK [0][-]{appendix.Alph2}{Instalaci\363n e Instrucciones}{}% 52
+\BOOKMARK [1][-]{section.5.3}{Septiembre 2015 - Abril 2016}{chapter.5}% 40
+\BOOKMARK [2][-]{subsection.5.3.1}{Primera iteraci\363n: Aumentar interacci\363n entre objetos, mapas y personajes, a\361adir movimiento para el jugador}{section.5.3}% 41
+\BOOKMARK [2][-]{subsection.5.3.2}{Segunda iteraci\363n: Dise\361o e implementaci\363n de los portales, IA de los enemigos y accesibilidad para dalt\363nicos}{section.5.3}% 42
+\BOOKMARK [2][-]{subsection.5.3.3}{Tercera iteraci\363n: An\341lisis, dise\361o b\341sico y comienzo de la implementaci\363n de las gram\341ticas}{section.5.3}% 43
+\BOOKMARK [0][-]{chapter.6}{An\341lisis de Requisitos}{}% 44
+\BOOKMARK [1][-]{section.6.1}{Consultas con la comunidad}{chapter.6}% 45
+\BOOKMARK [2][-]{subsection.6.1.1}{Resumen de las peticiones recibidas}{section.6.1}% 46
+\BOOKMARK [1][-]{section.6.2}{An\341lisis de los elementos del juego}{chapter.6}% 47
+\BOOKMARK [1][-]{section.6.3}{Requisitos del aplicativo}{chapter.6}% 48
+\BOOKMARK [0][-]{chapter.7}{Dise\361o e Implementaci\363n}{}% 49
+\BOOKMARK [0][-]{chapter.8}{Recepci\363n, conclusi\363n y trabajo futuro.}{}% 50
+\BOOKMARK [1][-]{section.8.1}{Recepci\363n y Feedback}{chapter.8}% 51
+\BOOKMARK [1][-]{section.8.2}{Conclusi\363n}{chapter.8}% 52
+\BOOKMARK [1][-]{section.8.3}{Trabajo Futuro}{chapter.8}% 53
+\BOOKMARK [0][-]{appendix.Alph1}{Escoger la licencia}{}% 54
+\BOOKMARK [0][-]{appendix.Alph2}{Instalaci\363n e Instrucciones}{}% 55
