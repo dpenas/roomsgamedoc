@@ -95,9 +95,9 @@ Para la realización de esta segunda iteración se planificaron 125 horas en tot
 
 \section{Enero 2015 - Mayo 2015}
 
-Este periodo comienza el 2 de enero, tras los días libres de navidad y nuevo año, y termina el 5 de mayo, en el que pararemos para preparar los exámenes. Por lo tanto, este periodo consta de un total de 18 semanas. Durante estas semanas he estado trabajando a tiempo completo y algunos días se los dediqué a estudiar para los exámenes, por lo que el tiempo semanal empleado fue de alrededor de 12 horas de media, aunque algunas de estas semanas fueron de más trabajo que otras.
+Este periodo comienza el 2 de enero, tras los días libres de navidad y nuevo año, y termina el 31 de mayo, en el que pararemos para preparar los exámenes. Por lo tanto, este periodo consta de un total de 21 semanas. Durante estas semanas he estado trabajando a tiempo completo y algunos días se los dediqué a estudiar para los exámenes, por lo que el tiempo semanal empleado fue de alrededor de 12 horas de media, aunque algunas de estas semanas fueron de más trabajo que otras.
 
-En total, 135 horas fueron dedicadas para este sprint inicialmente.
+En total, 170 horas fueron dedicadas para este sprint inicialmente.
 
 Durante este sprint nos hemos centrado en continuar lo realizado anteriormente y, en general, seguir con el desarrollo del juego en sí.
 
@@ -165,13 +165,36 @@ La descomposición de las tareas es la siguiente:
     \end{enumerate}
   \item Crear un diseño para crear, fácilmente, nuevos enemigos que aparezcan aleatoriamente en el mapa.
   \item Creación de tests que cubran lo analizado.
-  \item Implementación de los enemigos en el juego y su asociación con el propio mapa y habitaciones.
+  \item Implementación de los enemigos en el juego y su asociación con el propio mapa, habitaciones y objetos.
 \end{enumerate}
 
-Para la realización de este \textit{sprint} se han asignado 80 horas, las cuales fueron insuficientes por solamente un par de horas, pero se cubrieron en el mismo espacio de tiempo. Ver la figura ~\ref{fig:sec2it2}
+Para la realización de este \textit{sprint} se han asignado 80 horas, las cuales fueron suficientes para cubrir todo lo que se quiso realizar. Ver la figura ~\ref{fig:sec2it2}
 
 \begin{figure}
     \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/sec2it2.png}
   \caption{Diagrama de Gantt de la segunda iteración de la segunda etapa}
   \label{fig:sec2it2}
 \end{figure}
+
+\subsection{Tercera iteración: interacción entre personajes, tests e implementación}
+
+Esta última iteración de la sección, y la más corta, comienza el 24 de mayo y acaba el 31 del mismo mes.
+
+En la anterior iteración teníamos el objetivo de crear los personajes y enemigos y que éstos fueran capaces de ser representados en la interfaz gráfica. En este caso daremos un paso más allá y deberemos de añadir funciones que dichos personajes puedan realizar con los objetos: creación de un inventario para que puedan almacernarlos y, de tal modo, el usuario y enemigos puedan tener la habilidad de coger objetos (del mapa al inventario), tirarlos (del inventario al mapa), equiparlos (del inventario al personaje) y desequiparlos (del personaje al inventario).
+
+\paragraph{Ampliar los tests sobre la interacción entre los objetos y personajes} En la iteración anterior fuimos capaces de crear los personajes de forma genérica y en este caso deberemos crear nuevas funciones que ayuden a la interacción entre los objetos y los personajes, tal y como hemos descrito anteriormente.
+
+\paragraph{Implementación en base a los tests, análisis y diseño de la anterior iteración} El diseño y el análisis ya lo tenemos hecho y, una vez tengamos los tests creados, podremos realizar la implementación.
+
+\subsubsection{Tareas y seguimiento}
+
+La descomposición de las tareas es la siguiente:
+
+\begin{enumerate}[label=\bfseries WBS 3.\arabic*]
+  \item Ampliar los tests que tengan que ver con la interacción entre los objetos y personajes
+  \item Implementación en base al diseño de la anterior iteración y los nuevos tests creados.
+\end{enumerate}
+
+Al ser un pequeño sprint, hemos sido capaces de terminarlo sin problema. El diagrama de Gantt puede verse en la figura ~\ref{fig:sec2it3}
+
+\section{Enero 2015 - Mayo 2015}
