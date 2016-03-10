@@ -379,9 +379,9 @@ Empezar con los tests y desarrollo de lo investigado en esta iteración.
 
 \subsection{Cuarta iteración: Análisis, diseño y comienzo de la implementación de las gramáticas}
 
-Esta segunda iteración comienza el 1 de enero y termina el 19 de enero. Es decir, tiene 2 semanas y media de duración.
+Esta segunda iteración comienza el 1 de enero y termina el 14 de enero. Es decir, tiene 2 semanas.
 
-\paragraph{Análisis sobre cómo crear las gramáticas NP\footnote{\textit{noun phrase}. Sintagma nominal.} Las gramáticas NP son básicas, pero no iguales en todos los idiomas. Debemos de estudiar qué planteamientos existen que faciliten su implementación de la mejor forma posible.
+\paragraph{Análisis sobre cómo crear las gramáticas NP\footnote{\textit{noun phrase}. Sintagma nominal.}} Las gramáticas NP son básicas, pero no iguales en todos los idiomas. Debemos de estudiar qué planteamientos existen que faciliten su implementación de la mejor forma posible.
 
 \paragraph{Diseño de las gramáticas NP} Las frases de sintagma nominal serán las más usadas dentro de nuestro juego. No solamente serán utilizadas para la generación de las frases, pero también a la hora de representar los elementos en la interfaz de usuario. Por ello debemos de crearlas de la forma más extendible y accesible que podamos.
 
@@ -400,7 +400,7 @@ La descomposición de las tareas es la siguiente:
   \item Implementación de las gramáticas NP y \textit{link} con el diccionario.
 \end{enumerate}
 
-Hemos reservado 50 horas para esta iteración y terminamos todas las tareas a tiempo. Ver la figura ~\ref{fig:sec3it4} para más información.
+Hemos reservado 40 horas para esta iteración y terminamos todas las tareas a tiempo. Ver la figura ~\ref{fig:sec3it4} para más información.
 
 \begin{figure}
     \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/sec3it4.png}
@@ -416,4 +416,83 @@ Al finalizar esta iteración hemos conseguido generar sintagmas nominales de for
 
 Aumentar estas gramáticas para que lo generado no solamente sean sintagmas nominales, pero también frases que usen estos sintagmas nominales.
 
-% Add restrictions for Spanish language in following sprints. Añadir UI para las gramáticas.
+\subsection{Quinta iteración: Análisis, diseño e implementación de las gramáticas y frases más complejas}
+
+Esta segunda iteración comienza el 15 de enero y termina el 29 de enero. Es decir, tiene 2 semanas y media de duración, igual que la iteración anterior.
+
+\paragraph{Análisis sobre cómo crear las gramáticas complejas de forma genérica} Una vez somos capaces de crear sintagmas nominales, deberemos de ser capaces de combinarlos con otros elementos del lenguaje como verbos para crear frases que sean capaces de describir todo lo que realmente deseamos. Deberemos de analizar las diferentes formas de hacer esto.
+
+\paragraph{Diseño de dichas gramáticas} Una vez hemos analizado y decidido los pasos que vamos a seguir, nos quedará realizar el diseño del mismo.
+
+\paragraph{Creación de los tests para las gramáticas complejas} Al igual que en las veces anteriores, tendremos que crear los tests antes de empezar con la implementación.
+
+\paragraph{Implementación y \textit{link} con el diccionario} Implementar las gramáticas más complejas que se comuniquen con las gramáticas NP y nos permitan generar frases que describan lo que ocurre en el juego de forma aleatoria y automática.
+
+\subsubsection{Tareas y seguimiento}
+
+La descomposición de las tareas es la siguiente:
+
+\begin{enumerate}[label=\bfseries WBS 5.\arabic*]
+  \item Análisis sobre cómo crear las gramáticas complejas de forma genérica, extendibles para otros idiomas y que hagan uso de las NP.
+  \item Diseño de dichas gramáticas.
+  \item Creación de los tests para las gramáticas complejas, al igual que su relación con las NP y diccionario.
+  \item Implementación y \textit{link} con el diccionario.
+\end{enumerate}
+
+Hemos reservado 48 horas para esta iteración y la hemos acabado a tiempo. En la figura ~\ref{fig:sec3it5} se muestra el diagrama de Gantt de esta iteración.
+
+\begin{figure}
+    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/sec3it5.png}
+  \caption{Diagrama de Gantt de la quinta iteración de la tercera etapa}
+  \label{fig:sec3it5}
+\end{figure}
+
+\subsubsection{Qué hemos conseguido en esta iteración}
+
+Tener gramáticas que generen frases de manera pseudo-aleatoria para todas las descripciones que contemplamos actualmente en el juego.
+
+\subsubsection{Qué queremos conseguir en la próxima iteración}
+
+Las frases son generadas, pero todavía no las mostramos en ninguna parte de la interfaz gráfica, por lo que el jugador no puede ni verla ni escucharla. En el siguiente sprint tenemos que añadir esta opción, además de añadir otros idiomas (es decir, añadir las gramáticas y diccionarios) como el gallego y español, lo que significará añadir las restricciones adicionales que tienen de género.
+
+\subsection{Sexta iteración: Implementación de las restricciones, gallego y castellano, creación de la interfaz de usuario para con las frases generadas y primer vídeo}
+
+Esta segunda iteración comienza el 30 de enero y termina el 6 de febrero. Es decir, tiene solamente 1 semana de desarrollo, pero fue una semana de 8 horas al día en la práctica, por lo que en total fueron 56 horas de trabajo en la misma.
+
+\paragraph{Creación de la interfaz de usuario para mostrar las frases generadas al usuario} Hasta ahora somos capaces de generar frases que describan lo que sucede en el juego, pero no las mostramos. Ahora es el momento de mostrar en una ventana la frase generada.
+
+\paragraph{Implementación de las restricciones para el resto de idiomas} En inglés solamente tenemos la restrición en número, pero otros idiomas, como el castellano o gallego, tienen un restricciones adicionales como el género. Tenemos que tener esto en cuenta e introducirlo en el código. 
+
+\paragraph{Añadir gramáticas y diccionarios para gallego y castellano} La idea desde un principio fue en tener el proyecto en la mayor cantidad posible de idiomas, por lo que añadirlo en gallego y castellano es importante.
+
+\paragraph{Crear primer vídeo para recibir \textit{feedback}} Al terminar esta iteración tendremos la base del proyecto completada. Por ello crearemos un vídeo mostrando el punto en el que estamos y con el que recibiremos comentarios con lo que podremos crear mejoras en las futuras iteraciones \footnote{\url{https://www.youtube.com/watch?v=RgND1IGZ-68}}.
+
+\paragraph{Añadir las teclas necesarias para mostrar las descripciones del inventario y ambiente} El usuario podrá pedir que se genere una frase que describa algo en concreto. Se debería de realizar en base a lo que está especificado en el diagrama de casos de uso.
+
+\subsubsection{Tareas y seguimiento}
+
+La descomposición de las tareas es la siguiente:
+
+\begin{enumerate}[label=\bfseries WBS 6.\arabic*]
+  \item Creación de la interfaz de usuario para mostrar las frases generadas al usuario.
+  \item Añadir las teclas necesarias para mostrar las descripciones del inventario y ambiente, tal y como está definido en el diagrama de casos de uso.
+  \item Implementación de las restricciones para el resto de idiomas.
+  \item Añadir gramáticas y diccionarios para gallego y castellano.
+  \item Crear primer vídeo para recibir \textit{feedback}.
+\end{enumerate}
+
+En la figura ~\ref{fig:sec3it6} se muestra el diagrama de Gantt de esta iteración. Hemos reservado, tal y como ya hemos comentado, 56 horas, que fueron suficiente para terminar todas las tareas mencionadas.
+
+\begin{figure}
+    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/sec3it6.png}
+  \caption{Diagrama de Gantt de la sexta iteración de la tercera etapa}
+  \label{fig:sec3it6}
+\end{figure}
+
+\subsubsection{Qué hemos conseguido en esta iteración}
+
+Terminar lo básico del juego, generando las frases necesarias al usuario y añadiendo más idiomas disponibles.
+
+\subsubsection{Qué queremos conseguir en la próxima iteración}
+
+Debemos de esperar por los comentarios recibidos en el vídeo y, mientras, podremos mejorar diferentes aspectos y características del juego haciendo las tareas que hay en el \textit{backlog}.
