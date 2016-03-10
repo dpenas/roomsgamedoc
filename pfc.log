@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.4)  9 MAR 2016 16:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.4)  10 MAR 2016 11:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1819,7 +1819,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 30.
 
-[6] <./img/roguegame.PNG, id=345, 641.39626pt x 298.11375pt>
+[6] <./img/roguegame.PNG, id=296, 641.39626pt x 298.11375pt>
 File: ./img/roguegame.PNG Graphic file (type png)
 
 <use ./img/roguegame.PNG>
@@ -1864,7 +1864,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 46.
  [7 <./img/roguegame.PNG>]
-<./img/Vultures.jpg, id=359, 1204.5pt x 903.375pt>
+<./img/Vultures.jpg, id=310, 1204.5pt x 903.375pt>
 File: ./img/Vultures.jpg Graphic file (type jpg)
  <use ./img/Vultures.jpg>
 Package pdftex.def Info: ./img/Vultures.jpg used on input line 48.
@@ -1910,7 +1910,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 60.
 
-<./img/roomsGameGeneral.png, id=366, 330.63525pt x 484.81125pt>
+<./img/roomsGameGeneral.png, id=318, 330.63525pt x 484.81125pt>
 File: ./img/roomsGameGeneral.png Graphic file (type png)
 
 <use ./img/roomsGameGeneral.png>
@@ -2052,7 +2052,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 91.
 
-<./img/roomsGameTextArea.png, id=385, 348.70274pt x 200.54926pt>
+<./img/roomsGameTextArea.png, id=337, 348.70274pt x 200.54926pt>
 File: ./img/roomsGameTextArea.png Graphic file (type png)
 
 <use ./img/roomsGameTextArea.png>
@@ -2136,21 +2136,21 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 116.
  [13]
-<./img/redditcolorblind1.png, id=408, 525.76425pt x 174.6525pt>
+<./img/redditcolorblind1.png, id=360, 525.76425pt x 174.6525pt>
 File: ./img/redditcolorblind1.png Graphic file (type png)
 
 <use ./img/redditcolorblind1.png>
 Package pdftex.def Info: ./img/redditcolorblind1.png used on input line 118.
 (pdftex.def)             Requested size: 426.79732pt x 141.77689pt.
 
-<./img/redditcolorblind2.png, id=409, 532.389pt x 485.4135pt>
+<./img/redditcolorblind2.png, id=361, 532.389pt x 485.4135pt>
 File: ./img/redditcolorblind2.png Graphic file (type png)
 
 <use ./img/redditcolorblind2.png>
 Package pdftex.def Info: ./img/redditcolorblind2.png used on input line 124.
 (pdftex.def)             Requested size: 426.79724pt x 389.13866pt.
 
-<./img/redditcolorblind3.png, id=410, 528.7755pt x 239.09325pt>
+<./img/redditcolorblind3.png, id=362, 528.7755pt x 239.09325pt>
 File: ./img/redditcolorblind3.png Graphic file (type png)
 
 <use ./img/redditcolorblind3.png>
@@ -2470,7 +2470,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 20.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 20.
-[21] <./img/Waterfall_model.png, id=481, 602.25pt x 451.6875pt>
+[21] <./img/Waterfall_model.png, id=433, 602.25pt x 451.6875pt>
 File: ./img/Waterfall_model.png Graphic file (type png)
 
 <use ./img/Waterfall_model.png>
@@ -2558,7 +2558,7 @@ Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 51.
 
 [23 <./img/Waterfall_model.png>]
-<./img/scrumprocess.png, id=501, 1284.8pt x 642.4pt>
+<./img/scrumprocess.png, id=453, 1284.8pt x 642.4pt>
 File: ./img/scrumprocess.png Graphic file (type png)
 
 <use ./img/scrumprocess.png>
@@ -2771,7 +2771,7 @@ Package babel Info: Redefining spanish shorthand "?
 
 LaTeX Warning: Reference `fig:sec1it1' on page 29 undefined on input line 53.
 
-<./img/sec1it1.png, id=536, 1142.46825pt x 160.80075pt>
+<./img/sec1it1.png, id=488, 1142.46825pt x 160.80075pt>
 File: ./img/sec1it1.png Graphic file (type png)
 
 <use ./img/sec1it1.png>
@@ -2819,7 +2819,7 @@ Package babel Info: Redefining spanish shorthand "?
 
 LaTeX Warning: Reference `fig:sec1it2' on page 30 undefined on input line 96.
 
-<./img/sec1it2.png, id=552, 1147.28625pt x 182.48175pt>
+<./img/sec1it2.png, id=504, 1147.28625pt x 182.48175pt>
 File: ./img/sec1it2.png Graphic file (type png)
 
 <use ./img/sec1it2.png>
@@ -2906,7 +2906,7 @@ Package babel Info: Redefining spanish shorthand "?
 
 LaTeX Warning: Reference `fig:sec2it1' on page 32 undefined on input line 151.
 
-<./img/sec2it1.png, id=577, 1049.72176pt x 184.2885pt>
+<./img/sec2it1.png, id=528, 1049.72176pt x 184.2885pt>
 File: ./img/sec2it1.png Graphic file (type png)
  <use ./img/sec2it1.png>
 Package pdftex.def Info: ./img/sec2it1.png used on input line 154.
@@ -2981,7 +2981,7 @@ Package babel Info: Redefining spanish shorthand "?
 
 LaTeX Warning: Reference `fig:sec2it2' on page 34 undefined on input line 195.
 
-<./img/sec2it2.png, id=608, 1147.28625pt x 160.1985pt>
+<./img/sec2it2.png, id=560, 1147.28625pt x 160.1985pt>
 File: ./img/sec2it2.png Graphic file (type png)
  <use ./img/sec2it2.png>
 Package pdftex.def Info: ./img/sec2it2.png used on input line 198.
@@ -3026,7 +3026,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 211.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 211.
- <./img/sec2it3.png, id=625, 1168.365pt x 148.555pt>
+ <./img/sec2it3.png, id=577, 1168.365pt x 148.555pt>
 File: ./img/sec2it3.png Graphic file (type png)
 
 <use ./img/sec2it3.png>
@@ -3117,7 +3117,7 @@ Package babel Info: Redefining spanish shorthand "?
 
 LaTeX Warning: Reference `fig:sec3it1' on page 37 undefined on input line 276.
 
-<./img/sec3it1.png, id=645, 1260.71pt x 229.85875pt>
+<./img/sec3it1.png, id=597, 1260.71pt x 229.85875pt>
 File: ./img/sec3it1.png Graphic file (type png)
  <use ./img/sec3it1.png>
 Package pdftex.def Info: ./img/sec3it1.png used on input line 279.
@@ -3192,7 +3192,7 @@ Package babel Info: Redefining spanish shorthand "?
 
 LaTeX Warning: Reference `fig:sec3it2' on page 39 undefined on input line 323.
 
-<./img/sec3it2.png, id=674, 1254.6875pt x 298.11375pt>
+<./img/sec3it2.png, id=626, 1254.6875pt x 298.11375pt>
 File: ./img/sec3it2.png Graphic file (type png)
  <use ./img/sec3it2.png>
 Package pdftex.def Info: ./img/sec3it2.png used on input line 326.
@@ -3240,7 +3240,7 @@ Package babel Info: Redefining spanish shorthand "?
 
 LaTeX Warning: Reference `fig:sec3it3' on page 40 undefined on input line 364.
 
-<./img/sec3it3.png, id=690, 1884.03876pt x 242.9075pt>
+<./img/sec3it3.png, id=641, 1884.03876pt x 242.9075pt>
 File: ./img/sec3it3.png Graphic file (type png)
  <use ./img/sec3it3.png>
 Package pdftex.def Info: ./img/sec3it3.png used on input line 367.
@@ -3272,7 +3272,28 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 376.
 
-[40 <./img/sec3it3.png>])
+[40 <./img/sec3it3.png>]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 380.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 380.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 380.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 380.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 380.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 380.
+)
+Runaway argument?
+{Análisis sobre cómo crear las gramáticas NP\footnote {\textit {no\ETC.
+! File ended while scanning use of \@xdblarg.
+<inserted text> 
+                \par 
+l.129 ...   \include{050_planificacion_seguimento}
+                                                  
+? 
 LaTeX Info: Redefining \. on input line 129.
 LaTeX Info: Redefining \% on input line 129.
 Package babel Info: Redefining spanish shorthand <<
@@ -3299,7 +3320,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 129.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 129.
- [41]
+[41]
 \openout2 = `060_analisis_requisitos.aux'.
 
  (./060_analisis_requisitos.tex
@@ -3459,7 +3480,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 34.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 34.
-[44] <img/casosdeuso.png, id=729, 1225.57875pt x 566.115pt>
+[44] <img/casosdeuso.png, id=687, 1225.57875pt x 566.115pt>
 File: img/casosdeuso.png Graphic file (type png)
 
 <use img/casosdeuso.png>
@@ -3853,9 +3874,15 @@ LaTeX Info: Redefining \% on input line 24.
 (./A010_escogerlicencia.aux) (./A020_instalacion.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
-Package rerunfilecheck Info: File `pfc.out' has not changed.
-(rerunfilecheck)             Checksum: 8C5C5DBD594D2E6538ADEA15E8743FFA;4873.
 
+
+Package rerunfilecheck Warning: File `pfc.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `pfc.out':
+(rerunfilecheck)             Before: B6A987336FA11115A4586AFBDB6F88EF;4025
+(rerunfilecheck)             After:  CE371DC2FE2C22A9DF0FB9F7211EC038;5026.
 
 LaTeX Warning: There were undefined references.
 
@@ -3869,10 +3896,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 140.
 ### simple group (level 1) entered at line 3 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 23252 strings out of 493089
- 428285 string characters out of 6134843
- 506357 words of memory out of 5000000
- 25922 multiletter control sequences out of 15000+600000
+ 23241 strings out of 493089
+ 428140 string characters out of 6134843
+ 506347 words of memory out of 5000000
+ 25910 multiletter control sequences out of 15000+600000
  14902 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,12n,68p,1219b,1150s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3890,10 +3917,10 @@ texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texliv
 e/2015/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on pfc.pdf (63 pages, 1443549 bytes).
+Output written on pfc.pdf (63 pages, 1443641 bytes).
 PDF statistics:
- 897 PDF objects out of 1000 (max. 8388607)
- 777 compressed objects within 8 object streams
- 311 named destinations out of 1000 (max. 500000)
- 543 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 862 PDF objects out of 1000 (max. 8388607)
+ 742 compressed objects within 8 object streams
+ 312 named destinations out of 1000 (max. 500000)
+ 447 words of extra memory for PDF output out of 10000 (max. 10000000)
 

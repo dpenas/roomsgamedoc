@@ -376,3 +376,44 @@ Hemos sentado las bases de lo que queremos implementar con las gramáticas.
 \subsubsection{Qué queremos conseguir en la próxima iteración}
 
 Empezar con los tests y desarrollo de lo investigado en esta iteración.
+
+\subsection{Cuarta iteración: Análisis, diseño y comienzo de la implementación de las gramáticas}
+
+Esta segunda iteración comienza el 1 de enero y termina el 19 de enero. Es decir, tiene 2 semanas y media de duración.
+
+\paragraph{Análisis sobre cómo crear las gramáticas NP\footnote{\textit{noun phrase}. Sintagma nominal.} Las gramáticas NP son básicas, pero no iguales en todos los idiomas. Debemos de estudiar qué planteamientos existen que faciliten su implementación de la mejor forma posible.
+
+\paragraph{Diseño de las gramáticas NP} Las frases de sintagma nominal serán las más usadas dentro de nuestro juego. No solamente serán utilizadas para la generación de las frases, pero también a la hora de representar los elementos en la interfaz de usuario. Por ello debemos de crearlas de la forma más extendible y accesible que podamos.
+
+\paragraph{Creación de los tests para las gramáticas NP} Al igual que en otras iteraciones, realizamos los tests antes de nada.
+
+\paragraph{Implementación de las gramáticas NP} Con los tests realizados, debemos de empezar con la implementación. Tenemos que tener en cuenta que hay que ser capaces de sustituir las clases de palabras por las palabras en sí que se encuentra en el diccionario. También hay que tener en cuenta las restricciones posibles (por el momento solamente contamos con las restricciones de inglés. Es decir, número).
+
+\subsubsection{Tareas y seguimiento}
+
+La descomposición de las tareas es la siguiente:
+
+\begin{enumerate}[label=\bfseries WBS 4.\arabic*]
+  \item Análisis sobre cómo crear las gramáticas NP de forma genérica y fácilmente extendibles para otros idiomas.
+  \item Diseño de las gramáticas NP.
+  \item Creación de los tests para las gramáticas NP.
+  \item Implementación de las gramáticas NP y \textit{link} con el diccionario.
+\end{enumerate}
+
+Hemos reservado 50 horas para esta iteración y terminamos todas las tareas a tiempo. Ver la figura ~\ref{fig:sec3it4} para más información.
+
+\begin{figure}
+    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/sec3it4.png}
+  \caption{Diagrama de Gantt de la cuarta iteración de la tercera etapa}
+  \label{fig:sec3it4}
+\end{figure}
+
+\subsubsection{Qué hemos conseguido en esta iteración}
+
+Al finalizar esta iteración hemos conseguido generar sintagmas nominales de forma pseudo-aleatoria que basan su información en las gramáticas y diccionarios dados.
+
+\subsubsection{Qué queremos conseguir en la próxima iteración}
+
+Aumentar estas gramáticas para que lo generado no solamente sean sintagmas nominales, pero también frases que usen estos sintagmas nominales.
+
+% Add restrictions for Spanish language in following sprints. Añadir UI para las gramáticas.
