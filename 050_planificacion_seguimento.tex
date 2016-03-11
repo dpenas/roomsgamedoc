@@ -457,7 +457,7 @@ Las frases son generadas, pero todavía no las mostramos en ninguna parte de la 
 
 \subsection{Sexta iteración: Implementación de las restricciones, gallego y castellano, creación de la interfaz de usuario para con las frases generadas y primer vídeo}
 
-Esta segunda iteración comienza el 30 de enero y termina el 6 de febrero. Es decir, tiene solamente 1 semana de desarrollo, pero fue una semana de 8 horas al día en la práctica, por lo que en total fueron 56 horas de trabajo en la misma.
+La sexta iteración dará comienzo el 30 de enero y terminará el 6 de febrero. Es decir, tiene solamente 1 semana de desarrollo, pero fue una semana de 8 horas al día en la práctica, por lo que en total fueron 56 horas de trabajo en la misma.
 
 \paragraph{Creación de la interfaz de usuario para mostrar las frases generadas al usuario} Hasta ahora somos capaces de generar frases que describan lo que sucede en el juego, pero no las mostramos. Ahora es el momento de mostrar en una ventana la frase generada.
 
@@ -496,3 +496,43 @@ Terminar lo básico del juego, generando las frases necesarias al usuario y aña
 \subsubsection{Qué queremos conseguir en la próxima iteración}
 
 Debemos de esperar por los comentarios recibidos en el vídeo y, mientras, podremos mejorar diferentes aspectos y características del juego haciendo las tareas que hay en el \textit{backlog}.
+
+\subsection{Séptima iteración: Resolución de bugs detectados y añadidas pequeñas funcionalidades}
+
+La séptima iteración empieza el 7 de febrero y acaba el 21 de febrero, con una duración de 2 semanas, volviendo a las 20 horas de trabajo por semana y 40 horas en total para la iteración.
+
+\paragraph{Solucionar bug donde la pantalla no se refresca} En algunas ocasiones y al realizar ciertas acciones, la interfaz gráfica no se actualiza hasta la siguiente acción. Tenemos que solucionar este problema para que lo que se muestre siempre sea lo más nuevo.
+
+\paragraph{Cambiar las teclas que usamos por defecto} Las teclas que tenemos por defecto no son del todo intuitivas. Deberemos de cambiarlo para que sí lo sean.
+
+\paragraph{Hacer los adjetivos que definen los personajes variables} Si un enemigo tiene poca vida y el personaje que controla el usuario tiene mucha más vida, habrá la posibilidad de que el adjetivo a usar sobre el enemigo sea ``pequeño'', ``insignificante''... mientras que si es al revés, se usará ``grande'', ``poderoso'', de forma que se verá al enemigo de forma diferente.
+
+\paragraph{Añadir opción para que las descripciones sean descriptivas o numéricas} Cuando escuchamos una descripción, a veces queremos que dicha descripción sea numérica, es decir, que mencione exactamente la vida o posición de los personajes. Otras veces deseamos que esto no sea así y que todas las descripciones se hagan de una forma más poética y se usen palabras para las definiciones. Crearemos una opción en la que el usuario será capaz de seleccionar lo que prefiera.
+
+\subsubsection{Tareas y seguimiento}
+
+La descomposición de las tareas es la siguiente:
+
+\begin{enumerate}[label=\bfseries WBS 7.\arabic*]
+  \item Solucionar bug donde la pantalla no se refresca cuando es necesario.
+  \item Cambiar las teclas que usamos por defecto.
+  \item Cambiar los adjetivos que definen los personajes dependiendo de la vida de dichos personajes.
+  \item Añadir opción para que las descripciones sean descriptivas o numéricas, dependiendo de lo que el usuario desee.
+\end{enumerate}
+
+
+En la figura ~\ref{fig:sec3it7} se muestra el diagrama de Gantt de esta iteración.
+
+\begin{figure}
+    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/sec3it6.png}
+  \caption{Diagrama de Gantt de la séptima iteración de la tercera etapa}
+  \label{fig:sec3it7}
+\end{figure}
+
+\subsubsection{Qué hemos conseguido en esta iteración}
+
+Mejorar el juego en diferentes aspectos al añadir nuevas funcionalidades que afectarán directamente al jugador y solucionar algunos de los \textit{bugs} que detectados mientras jugábamos.
+
+\subsubsection{Qué queremos conseguir en la próxima iteración}
+
+El día 19 de febrero es cuando recibimos el feedback que presentamos en la anterior iteración, así que crearemos un sprint donde podamos analizarla e implementar los cambios que nos piden.
