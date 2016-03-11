@@ -524,7 +524,7 @@ La descomposición de las tareas es la siguiente:
 En la figura ~\ref{fig:sec3it7} se muestra el diagrama de Gantt de esta iteración.
 
 \begin{figure}
-    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/sec3it6.png}
+    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/sec3it7.png}
   \caption{Diagrama de Gantt de la séptima iteración de la tercera etapa}
   \label{fig:sec3it7}
 \end{figure}
@@ -536,3 +536,60 @@ Mejorar el juego en diferentes aspectos al añadir nuevas funcionalidades que af
 \subsubsection{Qué queremos conseguir en la próxima iteración}
 
 El día 19 de febrero es cuando recibimos el feedback que presentamos en la anterior iteración, así que crearemos un sprint donde podamos analizarla e implementar los cambios que nos piden.
+
+\subsection{Octava iteración: Implementación en base al \textit{feedback} recibido}
+
+En esta iteración implementaremos los cambios más importantes sobre el \textit{feedback} recibido. Dado que estos comentarios pueden llevar bastante tiempo (quizás haya más cambios o los realizados desencadenan más ideas a implementar), es mejor terminarlos en menor tiempo posible para poder recibir \textit{feedback} más rápidamente.
+Por este motivo esta iteración contará solamente con 4 días y 20 horas en total, empezando el 22 y acabando el 26, que es cuando crearemos el vídeo.
+
+\subsubsection{Feedback recibido}
+
+Todo este feedback es el recibido por parte de mis supervisores que a su vez se basaron en lo que ellos mismos y otros usuarios les han comentado.
+
+\paragraph{Tener en cuenta la persistencia del tiempo} Si matamos a un enemigo, sería una buen adición que las descripciones lo tuvieran en cuenta. Por ejemplo a la hora de enumerar los elementos que hay alrededor del usuario, se podría comentar que también se encuentra un ``goblin'' muerto.
+
+\paragraph{Cambiar el sistema de salida de las frases generadas} Hasta ahora, cada vez que una frase era generada (tanto a petición del usuario o en base a algo que ha sucedido en el juego), mostrábamos una nueva ventana con dicha frase, que tendríamos que cerrar en cada ocasión. Esto es un inconveniente para aquellas personas que sí pueden ver y no quieren ser molestados por este tipo de ventanas y para los usuarios invidentes tampoco es la mejor solución disponible, dado que no es lo que se suelen encontrar en otros juegos del género. Lo que mayoría de juegos usan es una \textit{textarea}, es decir, una ventana aparte donde se vaya almacenando todas las frases generadas, de tal forma que siempre podemos volver a ella cuando queramos y servirá como un log. Lo importante está en cambiar el ``foco'' del juego a esta ventana cada vez que una frase sea generada para que el lector sea capaz de leerla.
+
+\paragraph{Pequeños cambios en los adjetivos usados} En algunas ocasiones usábamos adjetivos poco comunes a la hora de definir ciertos nombres.
+
+\paragraph{Adición de niveles y experiencia} Los enemigos, armas y el propio usuario deberían de tener niveles para que el juego escale en dificultad. Cada vez que se destruye un enemigo, el personaje del usuario ganará una serie de puntos que serán usados para subir niveles.
+
+\paragraph{Cambio en la aleatoriedad} Hasta ahora, todo lo generado era aleatorio (el tipo de enemigos que nos encontrábamos, los objetos que soltaban, los propios objetos encontrados...). Es mejor que esta aleatoriedad venga dada por el nivel del usuario para que el juego escale mejor en dificultad. Esto se explica con mayor profundidad en la sección: TODOOOOOOOOOOOOOOOOOOOOOOO
+
+\paragraph{Evitar la repetitividad} Algunas de las frases que generamos tienden a ser bastante repetitivas (el héroe desequipa la espada, el héroe desequipa la armadura...), en vez de tener un lenguaje más natural (el héroe desequipa la espada, la armadura...). Esto sucede en un par de casos y debemos de tratarlo.
+
+\paragraph{Darle nombre al héroe} Siempre nos referimos al personaje que controla el usuario como ``héroe'' o por su pronombre (``él''). Podríamos darle un nombre o dejar que el usuario elija para dar una mayor variedad.
+
+\paragraph{Mostrar una serie de estadísticas al cambiar de mazmorra} Cuando pasamos de una mazmorra a otra usando el portal, podríamos mostrar una serie de estadísticas de los enemigos batidos, la cantidad de experiencia obtenida, el nivel actual del usuario...
+
+A mayores, crearemos otro vídeo informando sobre los cambios que hemos realizado en base a estos comentarios \footnote{\url{https://www.youtube.com/watch?v=3lS0WFrwOeQ}}.
+
+\subsubsection{Tareas y seguimiento}
+
+La descomposición de las tareas que realizaremos este \textit{sprint} es la siguiente:
+
+\begin{enumerate}[label=\bfseries WBS 8.\arabic*]
+  \item Tener en cuenta la persistencia del tiempo.
+  \item Cambiar el sistema de salida de las frases generadas.
+  \item Pequeños cambios en los adjetivos usados.
+  \item Adición de niveles y experiencia.
+  \item Cambio en la aleatoriedad.
+  \item Evitar la repetitividad.
+\end{enumerate}
+
+
+En la figura ~\ref{fig:sec3it8} se muestra el diagrama de Gantt de esta iteración.
+
+\begin{figure}
+    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/sec3it8.png}
+  \caption{Diagrama de Gantt de la octava iteración de la tercera etapa}
+  \label{fig:sec3it8}
+\end{figure}
+
+\subsubsection{Qué hemos conseguido en esta iteración}
+
+Hemos conseguido implementar los cambios más importantes en base a los comentarios recibidos.
+
+\subsubsection{Qué queremos conseguir en la próxima iteración}
+
+Seguir implementando el resto de cambios y tener en cuenta el \textit{feedback} del resto de usuarios.

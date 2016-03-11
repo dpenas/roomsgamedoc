@@ -44,15 +44,17 @@
 \BOOKMARK [2][-]{subsection.5.3.4}{Cuarta iteraci\363n: An\341lisis, dise\361o y comienzo de la implementaci\363n de las gram\341ticas}{section.5.3}% 44
 \BOOKMARK [2][-]{subsection.5.3.5}{Quinta iteraci\363n: An\341lisis, dise\361o e implementaci\363n de las gram\341ticas y frases m\341s complejas}{section.5.3}% 45
 \BOOKMARK [2][-]{subsection.5.3.6}{Sexta iteraci\363n: Implementaci\363n de las restricciones, gallego y castellano, creaci\363n de la interfaz de usuario para con las frases generadas y primer v\355deo}{section.5.3}% 46
-\BOOKMARK [0][-]{chapter.6}{An\341lisis de Requisitos}{}% 47
-\BOOKMARK [1][-]{section.6.1}{Consultas con la comunidad}{chapter.6}% 48
-\BOOKMARK [2][-]{subsection.6.1.1}{Resumen de las peticiones recibidas}{section.6.1}% 49
-\BOOKMARK [1][-]{section.6.2}{An\341lisis de los elementos del juego}{chapter.6}% 50
-\BOOKMARK [1][-]{section.6.3}{Requisitos del aplicativo}{chapter.6}% 51
-\BOOKMARK [0][-]{chapter.7}{Dise\361o e Implementaci\363n}{}% 52
-\BOOKMARK [0][-]{chapter.8}{Recepci\363n, conclusi\363n y trabajo futuro.}{}% 53
-\BOOKMARK [1][-]{section.8.1}{Recepci\363n y Feedback}{chapter.8}% 54
-\BOOKMARK [1][-]{section.8.2}{Conclusi\363n}{chapter.8}% 55
-\BOOKMARK [1][-]{section.8.3}{Trabajo Futuro}{chapter.8}% 56
-\BOOKMARK [0][-]{appendix.Alph1}{Escoger la licencia}{}% 57
-\BOOKMARK [0][-]{appendix.Alph2}{Instalaci\363n e Instrucciones}{}% 58
+\BOOKMARK [2][-]{subsection.5.3.7}{S\351ptima iteraci\363n: Resoluci\363n de bugs detectados y a\361adidas peque\361as funcionalidades}{section.5.3}% 47
+\BOOKMARK [2][-]{subsection.5.3.8}{Octava iteraci\363n: Implementaci\363n en base al feedback recibido}{section.5.3}% 48
+\BOOKMARK [0][-]{chapter.6}{An\341lisis de Requisitos}{}% 49
+\BOOKMARK [1][-]{section.6.1}{Consultas con la comunidad}{chapter.6}% 50
+\BOOKMARK [2][-]{subsection.6.1.1}{Resumen de las peticiones recibidas}{section.6.1}% 51
+\BOOKMARK [1][-]{section.6.2}{An\341lisis de los elementos del juego}{chapter.6}% 52
+\BOOKMARK [1][-]{section.6.3}{Requisitos del aplicativo}{chapter.6}% 53
+\BOOKMARK [0][-]{chapter.7}{Dise\361o e Implementaci\363n}{}% 54
+\BOOKMARK [0][-]{chapter.8}{Recepci\363n, conclusi\363n y trabajo futuro.}{}% 55
+\BOOKMARK [1][-]{section.8.1}{Recepci\363n y Feedback}{chapter.8}% 56
+\BOOKMARK [1][-]{section.8.2}{Conclusi\363n}{chapter.8}% 57
+\BOOKMARK [1][-]{section.8.3}{Trabajo Futuro}{chapter.8}% 58
+\BOOKMARK [0][-]{appendix.Alph1}{Escoger la licencia}{}% 59
+\BOOKMARK [0][-]{appendix.Alph2}{Instalaci\363n e Instrucciones}{}% 60
