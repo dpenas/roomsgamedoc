@@ -75,23 +75,25 @@ Este es un ejemplo en inglés, cuyas restricciones son más sencillas que en otr
 
 Nótese que no solamente hemos añadido el género a las restricciones (para que no podamos generar frases como ``la espada rojo'' o ``el espada roja''), pero también hemos cambiado el orden del nombre y adjetivo para que se adapten a ambos idiomas. 
 
+A la hora de cambiar las palabras disponemos de un array donde ordenamos las palabras por importancia. Un sustantivo es más importante que un determinante, por lo que si una de las restricciones no se cumple por culpa de algunos de estos dos elementos, el determinante será en que cambiará para adaptarse al nombre.
+
 De esta manera podemos adaptar gramáticas a idiomas diferentes de una forma muy fácil y sin necesidad de tocar nada de código.
 
 \subsubsection{Gramáticas: Frases}
 
-Gramáticas para la generación de frases que usa las gramáticas de sintagma nominal: 
+Las gramáticas para la generación de frases también usa las gramáticas de sintagma nominal: 
 
 \begin{lstlisting}[style=json]
 "ATTACK": {
 	"S1": {
 	    "S": [
-	        {"SIMPLE_1": ""},
+	        {"DETADJN_1": ""},
 	        {"V_1": ""},
-	        {"SIMPLE_2": ""},
+	        {"DETADJN_2": ""},
 	        {"SIMPLEPREP_1": ""}
 	    ],
 	    "restrictions": [
-	        {"SIMPLE_1.num": "V_1.num"}
+	        {"DETADJN_1.num": "V_1.num"}
 	    ]
 	},
 	"S2": {
@@ -107,3 +109,7 @@ Gramáticas para la generación de frases que usa las gramáticas de sintagma no
 	}
 }
 \end{lstlisting}
+
+La estructura de esta gramática es idéntica a la mencionada anteriormente. En este caso vemos que dentro de ``ATTACK'' disponemos de dos gramáticas distintas (este es solamente un ejemplo, en el juego tenemos muchas más disponibles) y éstas llaman a sintagmas nominales como el anterior.
+Con la primera gramática podríamos generar una frase como ``The mighty dragon attacks the brave hero with the sword"". En este ejemplo cabe destacar que las restricciones se pueden definir, no solamente entre palabras, pero también entre sintagmas nominales (siempre y cuando sea en comparación con una palabra que pueda ser cambiante, en este caso el verbo) y que los sintagmas nominales que son creados dentro de esta gramática tienen sus propias restricciones, por lo que siempre serán generadas de manera correcta.
+

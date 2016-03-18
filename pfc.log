@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.4)  18 MAR 2016 15:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.4)  18 MAR 2016 16:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4013,32 +4013,32 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 57.
  [57]
-LaTeX Info: Redefining \. on input line 97.
-LaTeX Info: Redefining \% on input line 97.
+LaTeX Info: Redefining \. on input line 94.
+LaTeX Info: Redefining \% on input line 94.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 97.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 97.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 97.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 97.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 97.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 97.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 97.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 97.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 97.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 97.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 97.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 97.
+(babel)             in language  on input line 94.
  [58])
 LaTeX Info: Redefining \. on input line 180.
 LaTeX Info: Redefining \% on input line 180.
@@ -4363,10 +4363,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 189.
 ### simple group (level 1) entered at line 3 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 23496 strings out of 493089
- 431765 string characters out of 6134843
- 548617 words of memory out of 5000000
- 26009 multiletter control sequences out of 15000+600000
+ 23500 strings out of 493089
+ 431817 string characters out of 6134843
+ 542617 words of memory out of 5000000
+ 26013 multiletter control sequences out of 15000+600000
  14902 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,13n,68p,1219b,2000s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -4384,7 +4384,7 @@ texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texliv
 e/2015/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on pfc.pdf (75 pages, 1672036 bytes).
+Output written on pfc.pdf (75 pages, 1673394 bytes).
 PDF statistics:
  1157 PDF objects out of 1200 (max. 8388607)
  1011 compressed objects within 11 object streams
