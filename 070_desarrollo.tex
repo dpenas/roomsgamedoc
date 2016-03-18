@@ -113,3 +113,57 @@ Las gramáticas para la generación de frases también usa las gramáticas de si
 La estructura de esta gramática es idéntica a la mencionada anteriormente. En este caso vemos que dentro de ``ATTACK'' disponemos de dos gramáticas distintas (este es solamente un ejemplo, en el juego tenemos muchas más disponibles) y éstas llaman a sintagmas nominales como el anterior.
 Con la primera gramática podríamos generar una frase como ``The mighty dragon attacks the brave hero with the sword"". En este ejemplo cabe destacar que las restricciones se pueden definir, no solamente entre palabras, pero también entre sintagmas nominales (siempre y cuando sea en comparación con una palabra que pueda ser cambiante, en este caso el verbo) y que los sintagmas nominales que son creados dentro de esta gramática tienen sus propias restricciones, por lo que siempre serán generadas de manera correcta.
 
+\subsubsection{Diccionarios}
+
+Al igual que las gramáticas, los diccionarios también están divididos por idiomas y son archivos JSON. Éste es un ejemplo de parte de una gramática en inglés:
+
+\begin{lstlisting}[style=json]
+"DET": {
+    "the": [
+        {"num": ""},
+        {"translation": "the"},
+        {"numopposite": "the"},
+        {"genopposite": ""}
+        {"gender": ""}
+    ]
+},
+\end{lstlisting}
+
+El primer elemento, ``DET'', especifica el tipo de palabra que es (determinante). El siguiente elemento, en la clave, se menciona la palabra en sí y el resto de elementos serán un array, aunque en este caso no importa el orden. El primer elemento en esta lista es ``num'', es decir, si el elemento es singular o plural (para esta palabra esta información es innecesaria, por eso es un string vacío) y en ``numopposite'' guardaremos la palabra en el número contrario (si la palabra es singular, entonces guardaremos la palabra en plural).
+El segundo es ``translation''. Todas las palabras entre los diccionarios serán las mismas o, por lo menos, las que están definidas en inglés también deben de estar en otros idiomas. En este valor almacenaremos la traducción de esta palabra en el idioma del diccionario que estaremos definiendo.
+``gender'' y ``genopposite'', al igual que con ``num'' y ``numopposite'', almacenan el género de la palabra y la palabra en el género contrario.
+
+Con los determinantes en inglés no hay mucho cambio, pero en español sí que es bastante diferente:
+
+\begin{lstlisting}[style=json]
+"DET": {
+        "the": [
+            {"num": "sing"},
+            {"translation": "el"},
+            {"numopposite": "los"},
+            {"genopposite": "la"},
+            {"gen": "mas"}
+        ],
+        "la": [
+            {"num": "sing"},
+            {"translation": "la"},
+            {"numopposite": "las"},
+            {"genopposite": "the"},
+            {"gen": "fem"}
+        ],
+        "los": [
+            {"num": "plural"},
+            {"translation": "los"},
+            {"numopposite": "the"},
+            {"genopposite": "las"},
+            {"gen": "mas"}
+        ],
+        "las": [
+            {"num": "plural"},
+            {"translation": "las"},
+            {"numopposite": "la"},
+            {"genopposite": "los"},
+            {"gen": "fem"}
+        ]
+    },
+\end{lstlisting}
