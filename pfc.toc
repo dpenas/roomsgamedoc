@@ -1,5 +1,5 @@
 \select@language {spanish}
-\contentsline {chapter}{\'{I}ndice de figuras}{\es@scroman {ix}}{chapter*.5}
+\contentsline {chapter}{\'{I}ndice de figuras}{\es@scroman {vii}}{chapter*.5}
 \contentsline {chapter}{\numberline {1}Introduci\IeC {\'o}n}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Videojuegos y personas invidentes}{1}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Visita a la \textit {ONCE}}{2}{subsection.1.1.1}
@@ -177,10 +177,14 @@
 \contentsline {section}{\numberline {6.2}An\IeC {\'a}lisis de los elementos del juego}{52}{section.6.2}
 \contentsline {section}{\numberline {6.3}Requisitos del aplicativo}{52}{section.6.3}
 \contentsline {chapter}{\numberline {7}Dise\IeC {\~n}o e Implementaci\IeC {\'o}n}{55}{chapter.7}
-\contentsline {chapter}{\numberline {8}Recepci\IeC {\'o}n, conclusi\IeC {\'o}n y trabajo futuro.}{57}{chapter.8}
-\contentsline {section}{\numberline {8.1}Recepci\IeC {\'o}n y \textit {Feedback}}{57}{section.8.1}
-\contentsline {section}{\numberline {8.2}Conclusi\IeC {\'o}n}{57}{section.8.2}
-\contentsline {section}{\numberline {8.3}Trabajo Futuro}{57}{section.8.3}
-\contentsline {paragraph}{Blabla.}{57}{section*.115}
-\contentsline {chapter}{\numberline {A}Escoger la licencia}{59}{appendix.Alph1}
-\contentsline {chapter}{\numberline {B}Instalaci\IeC {\'o}n e Instrucciones}{61}{appendix.Alph2}
+\contentsline {section}{\numberline {7.1}Gram\IeC {\'a}ticas y frases}{55}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}\textit {Input} de gram\IeC {\'a}ticas y diccionario}{55}{subsection.7.1.1}
+\contentsline {subsubsection}{\numberline {7.1.1.1}Gram\IeC {\'a}ticas: Sintagmas nominales}{57}{subsubsection.7.1.1.1}
+\contentsline {subsubsection}{\numberline {7.1.1.2}Gram\IeC {\'a}ticas: Frases}{58}{subsubsection.7.1.1.2}
+\contentsline {chapter}{\numberline {8}Recepci\IeC {\'o}n, conclusi\IeC {\'o}n y trabajo futuro.}{61}{chapter.8}
+\contentsline {section}{\numberline {8.1}Recepci\IeC {\'o}n y \textit {Feedback}}{61}{section.8.1}
+\contentsline {section}{\numberline {8.2}Conclusi\IeC {\'o}n}{61}{section.8.2}
+\contentsline {section}{\numberline {8.3}Trabajo Futuro}{61}{section.8.3}
+\contentsline {paragraph}{Blabla.}{61}{section*.116}
+\contentsline {chapter}{\numberline {A}Escoger la licencia}{63}{appendix.Alph1}
+\contentsline {chapter}{\numberline {B}Instalaci\IeC {\'o}n e Instrucciones}{65}{appendix.Alph2}
