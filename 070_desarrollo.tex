@@ -12,7 +12,37 @@ La parte de la generación automática de frases y definición de gramáticas es
   \label{fig:clasesgramaticas}
 \end{figure}
 
-Tal y como se muestra en la figura ~\ref{clasesgramaticas}, la parte esencial de esta sección consta de seis clases, cuyo funcionamiento detalarremos un poco más adelante.
+Tal y como se muestra en la figura ~\ref{clasesgramaticas}, la parte esencial de esta sección consta de seis clases, cuyo funcionamiento detallarremos a continuación.
+
+\subsection{Explicación general del funcionamiento}
+
+Tenemos dos clases (GrammarSelectorS y GrammarSelectorNP) que se encargan de generar las frases de manera aleatoria en base al nombre o nombres sobre los que queremos obtener dicha frase. La clase GrammarSelectorNP crea sintagmas nominales mientras que GrammarSelectorS crea frases usando dichos sintagmas nominales. Ambas usan diccionarios y gramáticas en un idioma en concreto especificado en el archivo de configuración \textit{language.properties}:
+
+\begin{verbatim}
+language=EN
+\end{verbatim}
+
+Parte de la dificultad de generar estas frases está en que todos los elementos de la misma deben de coincidir en base a las restricciones del propio idioma. Por ejemplo, los nombres, verbos y determinantes de una frase en español deben de coincidir en género y número. Este tipo de restricciones vienen dadas en las gramáticas que están especificadas en archivos JSON y que se comentarán más adelante.
+
+Una vez detectemos que dos de las palabras no coinciden, cambiaremos la que tenga menor relevancia por la contraria dependiendo del tipo que sea (género o número):
+
+\begin{lstlisting}[style=java]
+
+if (toChange.equals(value1)) {
+    changeToValue = JSONParsing.getElement(restrictions1, type + "opposite");
+    typeChangeToValue = typeFirstRestriction; 
+     
+} else {
+    changeToValue = JSONParsing.getElement(restrictions2, type + "opposite");
+    typeChangeToValue = typeSecondRestriction;
+}
+this.changeValue(sentenceArray, toChange, changeToValue, typeChangeToValue);
+
+\end{lstlisting}
+
+De esta manera, siempre que haya una discordancia entre algunas de las palabras de una frase, iteraremos entre toda ella buscando una solución hasta que la frase sea coherente.
+
+La clase GeneralGrammar, por su parte, obtiene la información de varias gramáticas (que es como vienen dadas en la gramática, dado que para describir una misma situación puede haber varias gramáticas que funcionen de la misma forma) y dispone de una función que devuelve una gramática individual (de la clase GrammarIndividual), que es la que usaremos a la hora de generar la frase en sí.  
 
 Cabe destacar que estas gramáticas, al igual que los diccionarios usados para cada uno de los idiomas, se obtienen en base a ficheros JSON dados.
 
@@ -169,3 +199,5 @@ Con los determinantes en inglés no hay mucho cambio, pero en español sí que e
 \end{lstlisting}
 
 En este caso seguimos definiendo ``the'', dado que es la clave en inglés y la palabra que se tiene que mantener. Sí que vemos que ``numopposite'' y ``genopposite'' apuntan a ``la''y ``los'', que son las nuevas entradas de determinantes en español. De esta forma siempre obtendremos la palabra que queramos siempre y cuando el programa quiera obtener un tipo de palabra concreta en base a las restricciones que contenga la gramática.
+
+\section{Otras partes del sistema}
