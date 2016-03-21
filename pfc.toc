@@ -184,10 +184,16 @@
 \contentsline {subsubsection}{\numberline {7.1.2.2}Gram\IeC {\'a}ticas: Frases}{60}{subsubsection.7.1.2.2}
 \contentsline {subsubsection}{\numberline {7.1.2.3}Diccionarios}{61}{subsubsection.7.1.2.3}
 \contentsline {section}{\numberline {7.2}Otras partes del sistema}{62}{section.7.2}
-\contentsline {chapter}{\numberline {8}Recepci\IeC {\'o}n, conclusi\IeC {\'o}n y trabajo futuro.}{63}{chapter.8}
-\contentsline {section}{\numberline {8.1}Recepci\IeC {\'o}n y \textit {Feedback}}{63}{section.8.1}
-\contentsline {section}{\numberline {8.2}Conclusi\IeC {\'o}n}{63}{section.8.2}
-\contentsline {section}{\numberline {8.3}Trabajo Futuro}{63}{section.8.3}
-\contentsline {paragraph}{Blabla.}{63}{section*.116}
-\contentsline {chapter}{\numberline {A}Escoger la licencia}{65}{appendix.Alph1}
-\contentsline {chapter}{\numberline {B}Instalaci\IeC {\'o}n e Instrucciones}{67}{appendix.Alph2}
+\contentsline {subsection}{\numberline {7.2.1}Interfaz de usuario para el texto generado}{62}{subsection.7.2.1}
+\contentsline {subsubsection}{\numberline {7.2.1.1}Primera idea}{62}{subsubsection.7.2.1.1}
+\contentsline {subsubsection}{\numberline {7.2.1.2}Segunda idea}{64}{subsubsection.7.2.1.2}
+\contentsline {subsection}{\numberline {7.2.2}Generaci\IeC {\'o}n aleatoria de mapas y elementos}{64}{subsection.7.2.2}
+\contentsline {subsubsection}{\numberline {7.2.2.1}Primera idea: Generaci\IeC {\'o}n completamente aleatoria}{64}{subsubsection.7.2.2.1}
+\contentsline {subsubsection}{\numberline {7.2.2.2}Segunda idea: Generador de encuentros}{66}{subsubsection.7.2.2.2}
+\contentsline {chapter}{\numberline {8}Recepci\IeC {\'o}n, conclusi\IeC {\'o}n y trabajo futuro.}{67}{chapter.8}
+\contentsline {section}{\numberline {8.1}Recepci\IeC {\'o}n y \textit {Feedback}}{67}{section.8.1}
+\contentsline {section}{\numberline {8.2}Conclusi\IeC {\'o}n}{67}{section.8.2}
+\contentsline {section}{\numberline {8.3}Trabajo Futuro}{67}{section.8.3}
+\contentsline {paragraph}{Blabla.}{67}{section*.118}
+\contentsline {chapter}{\numberline {A}Escoger la licencia}{69}{appendix.Alph1}
+\contentsline {chapter}{\numberline {B}Instalaci\IeC {\'o}n e Instrucciones}{71}{appendix.Alph2}

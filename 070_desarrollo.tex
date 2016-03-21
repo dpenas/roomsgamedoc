@@ -203,3 +203,55 @@ Con los determinantes en inglés no hay mucho cambio, pero en español sí que e
 En este caso seguimos definiendo ``the'', dado que es la clave en inglés y la palabra que se tiene que mantener. Sí que vemos que ``numopposite'' y ``genopposite'' apuntan a ``la''y ``los'', que son las nuevas entradas de determinantes en español. De esta forma siempre obtendremos la palabra que queramos siempre y cuando el programa quiera obtener un tipo de palabra concreta en base a las restricciones que contenga la gramática.
 
 \section{Otras partes del sistema}
+
+Las gramáticas juegan un papel muy importante en el proyecto, pero hay otras partes también relevantes que requieren una atención especial.
+
+\subsection{Interfaz de usuario para el texto generado}
+
+\subsubsection{Primera idea}
+
+\begin{figure}
+    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/firstiterationui.png}
+  \caption{Versión definitiva de la interfaz de usuario para el texto generado}
+  \label{fig:firstiterationui}
+\end{figure}
+
+La imagen ~\ref{lastiterationui} muestra el aspecto de nuestro \textit{roguelike} con esta idea implementada.
+
+\subsubsection{Segunda idea}
+
+Tras recibir el feedback decidimos cambiar la forma en la que mostramos al usuario estas frases por tres razones. La primera es que resulta desconcertante para el jugador vidente, dado que no es necesario para él o ella. Esto se podría solventar añadiendo una opción que se permita activar o desactivar esta opción, pero no es una solución óptima.
+La segunda razón es que estos ``popups'' no son un mecanismo de salida óptimo para las salidas rutinarias, como en nuestro caso, y rompe el ``flujo de trabajo''.
+La tercera y última razón es que los usuarios invidentes no suelen usar elementos de este tipo, si no que están más acostumbrados a usar areas de texto donde se almacenan las últimas frases generadas.
+
+En base a estas ideas decidimos crear el área de texto seleccionada, que permanecerá abierta siempre y cuando el jugador no decida cerrarla (permitiendo a los usuarios videntes no usarla). Una vez que algo suceda en el juego que requiera que se genere una descripción, dicha descripción será enviada al área de texto, el ``foco'' de las aplicaciones cambiará para que se sitúa en esa área de texto y el lector de pantalla que usemos leerá dicha descripción. Para que el ``foco'' vuelva a situarse en el juego, deberemos de pulsar cualquier tecla.
+De esta forma solucionamos todos los inconvenientes que los ``popups'' causaban a los usuarios y mejoramos la interfaz gráfica y accesibilidad del proyecto.
+
+En ~\ref{lastiterationui} se puede encontrar una captura de pantalla donde se muestra el estado final de la parte de la interfaz de usuario que muestra las frases generadas.
+
+\begin{figure}
+    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/lastiterationui.png}
+  \caption{Versión definitiva de la interfaz de usuario para el texto generado}
+  \label{fig:lastiterationui}
+\end{figure}
+
+\subsection{Generación aleatoria de mapas y elementos}
+
+La generación aleatoria de mapas y elementos dentro del mismo es muy importante en un juego de género \textit{roguelike}. A continuación explicaremos las decisiones tomadas en base a este tema.
+
+\subsubsection{Primera idea: Generación completamente aleatoria}
+
+En un primer momento nuestra decisión fue la de generar todo de manera aleatoria, sin considerar ningún aspecto externo, pero manteniendo la generalidad en el código para poder cambiar su comportamiento en cualquier momento. Esto causaba que algunas mazmorras fueran muy complicadas cuando el jugador todavía no tenía el equipamiento necesario para enfrentarse a dichos enemigos.
+
+Este problema fue mencionado la primera vez que recibimos feedback y por ello decidimos cambiarlo por algo un poco más complejo. En el mundo del rol, tener en cuenta ciertas características del usuario para generar elementos externos se denomina \textit{generación de encuentros}, que es lo que tuvimos en cuenta.
+
+\subsubsection{Segunda idea: Generador de encuentros}
+\label{generadorencuentros}
+
+En vez de generar mapas, enemigos y elementos de manera completamente aleatoria, podemos generarlos en base al nivel que tienen ciertos personajes. Si el personaje que controla el usuario tiene nivel 10, entonces los enemigos que se encuentran deben de ser de un nivel, por ejemplo, entre 8 y 12, mientras que los elementos que los enemigos sueltan al morir (como las espadas y armaduras) también deben de tener un nivel similar para que la progresión tenga sentido.
+
+De esta forma podremos, en base al nivel dado, generar enemigos con diferentes características:
+
+\begin{lstlisting}[language=java]
+Rat rat = new Rat(this.getMap(), this, position, new ArrayList<String>(), level);
+\end{lstlisting}
