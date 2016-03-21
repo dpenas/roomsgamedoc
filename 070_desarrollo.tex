@@ -26,7 +26,7 @@ Parte de la dificultad de generar estas frases está en que todos los elementos 
 
 Una vez detectemos que dos de las palabras no coinciden, cambiaremos la que tenga menor relevancia por la contraria dependiendo del tipo que sea (género o número):
 
-\begin{lstlisting}[style=java]
+\begin{lstlisting}[language=java]
 
 if (toChange.equals(value1)) {
     changeToValue = JSONParsing.getElement(restrictions1, type + "opposite");
@@ -42,7 +42,9 @@ this.changeValue(sentenceArray, toChange, changeToValue, typeChangeToValue);
 
 De esta manera, siempre que haya una discordancia entre algunas de las palabras de una frase, iteraremos entre toda ella buscando una solución hasta que la frase sea coherente.
 
-La clase GeneralGrammar, por su parte, obtiene la información de varias gramáticas (que es como vienen dadas en la gramática, dado que para describir una misma situación puede haber varias gramáticas que funcionen de la misma forma) y dispone de una función que devuelve una gramática individual (de la clase GrammarIndividual), que es la que usaremos a la hora de generar la frase en sí.  
+La clase GeneralGrammar, por su parte, obtiene la información de varias gramáticas (que es como vienen dadas en el fichero, dado que para describir una misma situación puede haber varias gramáticas que funcionen de la misma forma) y dispone de una función que devuelve una gramática individual (de la clase GrammarIndividual), que es la que usaremos a la hora de generar la frase en sí. Es decir, cuando queremos generar una frase de una gramática en concreto (por ejemplo cuando un personaje ataca a otro), seleccionaremos una de estas gramáticas al azar de todas las que estén disponibles en el idioma que tenemos (esto lo realiza la clase GrammarsGeneral) y luego usamos esa gramática en particular con GrammarIndividual.  De esta forma no siempre usamos la misma gramática y dependerá de la seleccionada aleatoriamente en GrammarsGeneral.
+
+La clase PrintableObject es una superclase abstracta de la que heredan todos los objetos que pueden ser representados en el juego. Esta clase se encarga de obligar que dichos objetos tengan ciertas variables como el nombre o la capacidad de traducir su nombre a diferentes idiomas, así como una función que devuelve la posición en la que se encuentra en base al usuario (usado a la hora de describir lo que hay alrededor de un personaje).
 
 Cabe destacar que estas gramáticas, al igual que los diccionarios usados para cada uno de los idiomas, se obtienen en base a ficheros JSON dados.
 
