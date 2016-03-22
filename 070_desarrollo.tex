@@ -262,6 +262,21 @@ Rat rat = new Rat(this.getMap(), this, position, new ArrayList<String>(), level)
 
 \subsection{Comportamiento de los enemigos}
 
+Como cabe suponer, los enemigos que nos encontramos en el juego se moverán de diferentes formas, por lo que tendremos que diseñarlo de una manera genérica que nos permita realizar esto de la forma más simple posible.
+Para ello nos hemos basado en el patrón de diseño \textit{estrategia} porque se adapta perfectamente a nuestros requisitos.
+
+Los tipos de movimiento que tenemos en el juego actualmente son los siguientes:
+
+\paragraph{RandomMovement} Los enemigos son ``pasivos'', es decir, no atacarán al usuario ni tampoco irán hacia él en ningún momento.
+
+\paragraph{FollowingMovementDumb} Los personajes que tengan este tipo de movimiento son ``agresivos''. Seguirán al jugador e intentarán atacarle, pero no se mueven de una forma óptima para lograr su meta, por lo que esquivarlos no suele ser muy complicado.
+
+\paragraph{FollowingMovement} Este tipo de movimiento es el más complejo. El enemigo se moverá de manera precisa para llegar lo antes posible al usuario y usará todo tipo de herramientas para derrotarlo (como el uso de magia o atacándole cuerpo a cuerpo).
+
+Crear nuevos tipos de movimientos es una tarea trivial, ya que solamente tendríamos que implementar la interfaz \textit{Movement} con la única función que posee e insertar el código del nuevo tipo de movimimiento en él.
+
+En ~\ref{iaenemy} mostramos el diagrama de clases que hemos implementado en nuestro sistema y que contiene el patrón de diseño \textit{estrategia}, tal y como hemos comentado.
+
 \begin{figure}
     \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/iaenemy.png}
   \caption{Diagrama de clases sobre el comportamiento de los enemigos}

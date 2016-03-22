@@ -191,10 +191,13 @@
 \contentsline {subsubsection}{\numberline {7.2.2.1}Primera idea: Generaci\IeC {\'o}n completamente aleatoria}{64}{subsubsection.7.2.2.1}
 \contentsline {subsubsection}{\numberline {7.2.2.2}Segunda idea: Generador de encuentros}{66}{subsubsection.7.2.2.2}
 \contentsline {subsection}{\numberline {7.2.3}Comportamiento de los enemigos}{66}{subsection.7.2.3}
-\contentsline {chapter}{\numberline {8}Recepci\IeC {\'o}n, conclusi\IeC {\'o}n y trabajo futuro.}{67}{chapter.8}
-\contentsline {section}{\numberline {8.1}Recepci\IeC {\'o}n y \textit {Feedback}}{67}{section.8.1}
-\contentsline {section}{\numberline {8.2}Conclusi\IeC {\'o}n}{67}{section.8.2}
-\contentsline {section}{\numberline {8.3}Trabajo Futuro}{67}{section.8.3}
-\contentsline {paragraph}{Blabla.}{67}{section*.119}
-\contentsline {chapter}{\numberline {A}Escoger la licencia}{69}{appendix.Alph1}
-\contentsline {chapter}{\numberline {B}Instalaci\IeC {\'o}n e Instrucciones}{71}{appendix.Alph2}
+\contentsline {paragraph}{RandomMovement}{66}{section*.118}
+\contentsline {paragraph}{FollowingMovementDumb}{66}{section*.119}
+\contentsline {paragraph}{FollowingMovement}{66}{section*.120}
+\contentsline {chapter}{\numberline {8}Recepci\IeC {\'o}n, conclusi\IeC {\'o}n y trabajo futuro.}{69}{chapter.8}
+\contentsline {section}{\numberline {8.1}Recepci\IeC {\'o}n y \textit {Feedback}}{69}{section.8.1}
+\contentsline {section}{\numberline {8.2}Conclusi\IeC {\'o}n}{69}{section.8.2}
+\contentsline {section}{\numberline {8.3}Trabajo Futuro}{69}{section.8.3}
+\contentsline {paragraph}{Blabla.}{69}{section*.122}
+\contentsline {chapter}{\numberline {A}Escoger la licencia}{71}{appendix.Alph1}
+\contentsline {chapter}{\numberline {B}Instalaci\IeC {\'o}n e Instrucciones}{73}{appendix.Alph2}
