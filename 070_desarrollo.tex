@@ -208,7 +208,13 @@ Las gramáticas juegan un papel muy importante en el proyecto, pero hay otras pa
 
 \subsection{Interfaz de usuario para el texto generado}
 
-\subsubsection{Primera idea}
+Los invidentes usan diferentes programas que leen el texto que se muestra en la pantalla. Para ello nuestro juego debe de mostrar texto de alguna forma y ser capaz de que el lector pueda leerlo, lo que no es del todo trivial dado que hay que tener en cuenta diferentes aspectos para que el lector lea lo que queramos y no otras partes que no nos interesan (TODOOOOOOOOO PONER LO DE JAVA THINGY).
+
+\subsubsection{Primera idea: pop-up}
+
+La forma más sencilla de mostrar este texto es generar un ``pop-up'' cada vez que una frase es generada. De esta forma el usuario se enterará inmediatamente de lo que está sucediendo y, en caso de que haya una persona vidente a su lado, ésta también podrá leer la frase que se ha generado. Además, la frase no desaparecerá hasta que se presione la tecla de intro o se haga click en \textit{Aceptar}, por lo que es muy sencillo que reproducirla la cantidad de veces que se quiera.
+
+La imagen ~\ref{lastiterationui} muestra el aspecto de nuestro \textit{roguelike} con esta idea implementada.
 
 \begin{figure}
     \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/firstiterationui.png}
@@ -216,16 +222,14 @@ Las gramáticas juegan un papel muy importante en el proyecto, pero hay otras pa
   \label{fig:firstiterationui}
 \end{figure}
 
-La imagen ~\ref{lastiterationui} muestra el aspecto de nuestro \textit{roguelike} con esta idea implementada.
-
-\subsubsection{Segunda idea}
+\subsubsection{Segunda idea: \textit{TextArea}}
 
 Tras recibir el feedback decidimos cambiar la forma en la que mostramos al usuario estas frases por tres razones. La primera es que resulta desconcertante para el jugador vidente, dado que no es necesario para él o ella. Esto se podría solventar añadiendo una opción que se permita activar o desactivar esta opción, pero no es una solución óptima.
-La segunda razón es que estos ``popups'' no son un mecanismo de salida óptimo para las salidas rutinarias, como en nuestro caso, y rompe el ``flujo de trabajo''.
+La segunda razón es que estos ``pop-ups'' no son un mecanismo de salida óptimo para las salidas rutinarias, como en nuestro caso, y rompe el ``flujo de trabajo''.
 La tercera y última razón es que los usuarios invidentes no suelen usar elementos de este tipo, si no que están más acostumbrados a usar areas de texto donde se almacenan las últimas frases generadas.
 
 En base a estas ideas decidimos crear el área de texto seleccionada, que permanecerá abierta siempre y cuando el jugador no decida cerrarla (permitiendo a los usuarios videntes no usarla). Una vez que algo suceda en el juego que requiera que se genere una descripción, dicha descripción será enviada al área de texto, el ``foco'' de las aplicaciones cambiará para que se sitúa en esa área de texto y el lector de pantalla que usemos leerá dicha descripción. Para que el ``foco'' vuelva a situarse en el juego, deberemos de pulsar cualquier tecla.
-De esta forma solucionamos todos los inconvenientes que los ``popups'' causaban a los usuarios y mejoramos la interfaz gráfica y accesibilidad del proyecto.
+De esta forma solucionamos todos los inconvenientes que los ``pop-ups'' causaban a los usuarios y mejoramos la interfaz gráfica y accesibilidad del proyecto.
 
 En ~\ref{lastiterationui} se puede encontrar una captura de pantalla donde se muestra el estado final de la parte de la interfaz de usuario que muestra las frases generadas.
 
@@ -241,17 +245,25 @@ La generación aleatoria de mapas y elementos dentro del mismo es muy importante
 
 \subsubsection{Primera idea: Generación completamente aleatoria}
 
-En un primer momento nuestra decisión fue la de generar todo de manera aleatoria, sin considerar ningún aspecto externo, pero manteniendo la generalidad en el código para poder cambiar su comportamiento en cualquier momento. Esto causaba que algunas mazmorras fueran muy complicadas cuando el jugador todavía no tenía el equipamiento necesario para enfrentarse a dichos enemigos.
+En un primer momento nuestra decisión fue la de generar todo de manera aleatoria, sin considerar ningún aspecto externo, pero manteniendo la generalidad en el código para poder cambiar su comportamiento en cualquier momento. Esto causaba que algunas mazmorras fueran muy complicadas cuando el jugador todavía no tenía el equipamiento necesario para enfrentarse a dichos enemigos o demasiado sencilla en otros momentos.
 
 Este problema fue mencionado la primera vez que recibimos feedback y por ello decidimos cambiarlo por algo un poco más complejo. En el mundo del rol, tener en cuenta ciertas características del usuario para generar elementos externos se denomina \textit{generación de encuentros}, que es lo que tuvimos en cuenta.
 
 \subsubsection{Segunda idea: Generador de encuentros}
 \label{generadorencuentros}
 
-En vez de generar mapas, enemigos y elementos de manera completamente aleatoria, podemos generarlos en base al nivel que tienen ciertos personajes. Si el personaje que controla el usuario tiene nivel 10, entonces los enemigos que se encuentran deben de ser de un nivel, por ejemplo, entre 8 y 12, mientras que los elementos que los enemigos sueltan al morir (como las espadas y armaduras) también deben de tener un nivel similar para que la progresión tenga sentido.
+En vez de generar mapas, enemigos y elementos de manera completamente aleatoria, podemos generarlos en base al nivel que tienen ciertos personajes. Si el personaje que controla el usuario tiene nivel 10, entonces los enemigos que se encuentran deben de ser de un nivel, por ejemplo, entre 8 y 12, mientras que los elementos que los enemigos sueltan al morir (como las espadas y armaduras) también deben de tener un nivel similar para que la progresión tenga sentido y eliminar enemigos tenga un cierto nivel de recompensa.
 
-De esta forma podremos, en base al nivel dado, generar enemigos con diferentes características:
+De esta forma podremos, en base al nivel dado, podremos generar enemigos con diferentes características que se adapten a lo que necesitamos:
 
 \begin{lstlisting}[language=java]
 Rat rat = new Rat(this.getMap(), this, position, new ArrayList<String>(), level);
 \end{lstlisting}
+
+\subsection{Comportamiento de los enemigos}
+
+\begin{figure}
+    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/iaenemy.png}
+  \caption{Diagrama de clases sobre el comportamiento de los enemigos}
+  \label{fig:iaenemy}
+\end{figure}
