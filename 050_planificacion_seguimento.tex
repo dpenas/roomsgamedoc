@@ -240,7 +240,7 @@ Al ser un pequeño sprint y teniendo más tiempo del normal, hemos sido capaces 
 
 \subsubsection{Qué hemos conseguido en esta iteración}
 
-En esta iteración hemos conseguido que los personajes y objetos interacciones de una forma básica, lo que nos permitirá, en un futuro, que los personajes utilicen estos objetos para interaccionar entre ellos mismos, usándolos.
+En esta iteración hemos conseguido que los personajes y objetos interacciones de una forma básica, lo que nos permitirá, en un futuro, que los personajes utilicen estos objetos para interaccionar entre ellos mismos.
 
 \subsubsection{Qué queremos conseguir en la próxima iteración}
 
@@ -249,18 +249,19 @@ También dedicaremos algo de tiempo en dar control al usuario, por lo que tendre
 
 \section{Septiembre 2015 - Abril 2016}
 
-Este periodo empieza el 1 de septiembre, tras un breve descanso en verano, y termina el 31 de abril. Durante este tiempo hemos empleado más tiempo que anteriormente en el proyecto y desarrollado mucho más (20 horas a la semana). También hemos buscado \textit{feedback} una vez tuvimos tiempo disponible para poder tener tiempo para implementarlo y asegurarnos de que lo que hemos realizado es aceptado por la comunidad. 
-Este periodo consta de un total de 34 semanas.
+Este periodo empieza el 1 de septiembre, tras un breve descanso en verano, y termina el 31 de abril. Durante este tiempo hemos empleado más tiempo que anteriormente en el proyecto y desarrollando mucho más que durante las iteraciones anteriores (alrededor de 20 horas a la semana durante todos estos meses). También hemos buscado \textit{feedback} sobre lo que hemos realizado y, una vez recibido, también tuvimos tiempo disponible para poder tenerlo en cuenta e implementarlo durante las últimas iteraciones de este sprint asegurarnos, de este emodo, de que lo que hemos realizado es aceptado por la comunidad.
 
-En total, 680 horas fueron dedicadas para este sprint inicialmente.
+Tal y como se puede calcular, este periodo consta de un total de 34 semanas, siendo el periodo más largo de todos los que hemos tenido hasta ahora.
+
+En total, 680 horas fueron dedicadas para este sprint.
 
 \subsection{Primera iteración: Aumentar interacción entre objetos, mapas y personajes, añadir movimiento para el jugador}
 
-Esta primera iteración da comienzo el 1 de septiembre y acaba el 5 de octubre, es decir, damos 5 semanas para su realización.
+Esta primera iteración da comienzo el 1 de septiembre y acaba el 5 de octubre. Su duración total es de 5 semanas.
 
-\paragraph{Aumentar la interacción entre objetos, personajes y mapa} Hasta el momento tenemos el mapa, objetos y personajes, pero debemos de ser capaces de interactuar completamente y aumentar en características. Por ejemplo añadiendo puertas entre habitaciones, que también se muestren en el mapa, que los personajes puedan atacarse entre sí (teniendo en cuenta las armaduras y armas que llevan) y la creación de un campo de visión para el usuario para que solamente pueda ver lo que hay a su alrededor y no todo el mapa.
+\paragraph{Aumentar la interacción entre objetos, personajes y mapa} Hasta el momento tenemos el mapa, objetos y personajes, pero debemos de ser capaces de interactuar completamente (sobre todo entre los personajes, dado que entre personajes y objetos ya lo hemos realizado en iteraciones anteriores) y aumentar en características. Por ejemplo añadiendo puertas entre habitaciones que también se muestren en el mapa, que los personajes puedan atacarse entre sí (teniendo en cuenta las armaduras y armas que llevan) y la creación de un campo de visión para que el usuario solamente pueda ver lo que hay a su alrededor y no todo el mapa, habitaciones, objetos y enemigos que se han generado.
 
-\paragraph{Agregar \textit{listeners} para que el jugador pueda decidir lo que hacer} En este momento el jugador no puede hacer nada. Ahora es el momento de introducir los elementos necesarios para que nos podamos mover por el mapa y realizar todas las acciones implementadas anteriormente con nuestro personaje.
+\paragraph{Agregar \textit{listeners} para que el jugador pueda decidir lo que hacer} En este momento el jugador no puede hacer nada, dado que no hemos creado un sistema para que el usuario pueda moverse o atacar. Ahora es el momento de introducir los elementos necesarios para que nos podamos mover por el mapa y realizar todas las acciones implementadas anteriormente con nuestro personaje.
 
 \subsubsection{Tareas y seguimiento}
 
@@ -277,7 +278,7 @@ La descomposición de las tareas es la siguiente:
   \item Agregar \textit{listeners} para que el jugador pueda decidir lo que hacer.
 \end{enumerate}
 
-Hemos asignado 100 horas para la estimación de este \textit{sprint}, las cuales cumplimos sin problema. Ver la figura ~\ref{fig:sec3it1}
+Hemos asignado 100 horas para la estimación de este \textit{sprint}, las cuales cumplimos sin problema. Ver la figura ~\ref{fig:sec3it1} para ver el diagrama de Gantt y obtener más información sobre la división de las tareas de forma más detallada.
 
 \begin{figure}
     \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/sec3it1.png}
@@ -287,20 +288,20 @@ Hemos asignado 100 horas para la estimación de este \textit{sprint}, las cuales
 
 \subsubsection{Qué hemos conseguido en esta iteración}
 
-Al acabar esta iteración tenemos lo básico de un juego: nos podemos mover por un mapa, coger objetos y combatir enemigos (aunque estos enemigos todavía no tienen inteligencia artificial, por lo que no se mueven).
+Al acabar esta iteración tenemos lo básico de un juego: el usuario puede moverse por el mapa usando el teclado, coger objetos y combatir enemigos (aunque estos enemigos todavía no tienen inteligencia artificial, por lo que no se mueven) e ir de habitación en habitación.
 
 \subsubsection{Qué queremos conseguir en la próxima iteración}
 
-En la próxima iteración deberemos terminar lo básico del juego. Para ello tendremos que implementar el sistema de portales (que nos transportarán a un mapa completamente diferente, consiguiendo puntos de esta manera), añadir básica inteligencia artifial a los enemigos e incorporar la opción de cambiar el color de la interfaz de usuario para que se adapte a los jugadores daltónicos, tal y como hemos explicado en la sección \label{sec:daltonicossolventar}
+En la próxima iteración deberemos terminar lo básico del juego para poder empezar a diseñar la parte de las gramáticas y la generación automática de frases. Para ello tendremos que implementar el sistema de portales (que nos transportarán a un mapa completamente diferente, consiguiendo puntos de esta manera), añadir básica inteligencia artifial a los enemigos e incorporar la opción de cambiar el color de la interfaz de usuario para que se adapte a los jugadores daltónicos, tal y como hemos explicado en la sección \label{sec:daltonicossolventar}
 
 \subsection{Segunda iteración: Diseño e implementación de los portales, IA de los enemigos y accesibilidad para daltónicos}
 
-Esta segunda iteración comienza el 6 de octubre y termina el 8 de noviembre, con 4 semanas y media para su finalización.
+Esta segunda iteración comienza el 6 de octubre y termina el 8 de noviembre, con 4 semanas y media para su completa realización.
 
-\paragraph{Diseño e implementación de los portales} El sistema de portales fue la idea principal que tuvimos para crear un sistema de puntuación y progreso para el usuario. El objetivo está en encontrar el portal dentro del mapa y, una vez encontrado, un nuevo mapa será generado, igual que otro portal en ese mapa. De esta manera la meta del juego se centra en derrotar enemigos (consiguiendo mejores armas y armaduras en el proceso) para encontrar el mayor número de portales posibles.
-Deberemos de diseñar e implementar estos portales en esta iteración.
+\paragraph{Diseño e implementación de los portales} El sistema de portales fue la idea principal que tuvimos para crear un sistema de puntuación y progreso para el usuario. El objetivo está en encontrar el portal dentro del mapa y, una vez encontrado, un nuevo mapa será generado, con otro portal en una posición diferente a la anterior. De esta manera, la meta del juego se centra en derrotar enemigos (consiguiendo mejores armas y armaduras en el proceso) para encontrar el mayor número de portales posibles, consiguiendo así mejor puntuación.
+Deberemos de diseñar e implementar estos portales en esta iteración, dado que otorgará de un objetivo al juego.
 
-\paragraph{Añadir inteligencia artificial} Dependiendo del enemigo al que nos enfrentemos, éste se comportará de forma distinta. Habrá enemigos que sean activos y vayan contra el usuario, mientras que otros serán pasivos y no quieran atacar al usuario. Puede ser que en el futuro queramos incrementar el número de este tipo de comportamientos, por lo que deberemos de diseñarlo de la mejor forma.
+\paragraph{Añadir inteligencia artificial} Dependiendo del enemigo al que nos enfrentemos, éste se comportará de forma distinta. Habrá enemigos que sean activos y vayan contra el usuario, mientras que otros serán pasivos y no querrán atacar al usuario. Puede ser que en el futuro queramos incrementar el número de este tipo de comportamientos, por lo que deberemos de diseñarlo de la mejor forma.
 
 \paragraph{Añadir opciones para cambiar el color de la interfaz gráfica} El punto central de este proyecto es la accesibilidad e incluir una opción para que daltónicos puedan disfrutar de nuestro juego es decisivo.
 
@@ -324,7 +325,7 @@ La descomposición de las tareas es la siguiente:
   \item Añadir opciones para cambiar el color de la interfaz gráfica para usuarios daltónicos
 \end{enumerate}
 
-48 horas fueron las que creímos suficientes para la estimación del \textit{sprint} y que fueron necesarias para la conclusión del mismo con todas las tareas terminadas. Ver la figura ~\ref{fig:sec3it2} como referencia.
+48 horas fueron las que creímos suficientes para la estimación del \textit{sprint} y que fueron necesarias para la conclusión del mismo con todas las tareas terminadas. Ver la figura ~\ref{fig:sec3it2} como referencia para recabar más información sobre la distribución de las tareas mencionadas en este \textit{sprint}.
 
 \begin{figure}
     \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/sec3it2.png}
@@ -334,21 +335,21 @@ La descomposición de las tareas es la siguiente:
 
 \subsubsection{Qué hemos conseguido en esta iteración}
 
-Con esta última iteración tenemos la parte básica del juego completada. Hay un objetivo, enemigos con IA, diferentes objetos, puertas que conectan distintas habitaciones y varias acciones que se pueden realizar.
+Con esta última iteración tenemos la parte básica del juego completada. Hay un objetivo, enemigos con IA que deberemos de batir, diferentes objetos que podemos coger, puertas que conectan distintas habitaciones y varias acciones que se pueden realizar y que nos permitirán interactuar con el resto de elementos que acabamos de mencionar.
 
 \subsubsection{Qué queremos conseguir en la próxima iteración}
 
-Con el juego en sí completado (o por lo menos la parte primordial), es hora de empezar a analizar y diseñar la parte de la generación automática del lenguaje.
+Con el juego en sí completado (o por lo menos la parte primordial), es hora de empezar a analizar y diseñar la parte de la generación automática del lenguaje y estudiar su relación con lo que ya tenemos terminado.
 
 \subsection{Tercera iteración: Análisis, diseño básico y comienzo de la implementación de las gramáticas}
 
 Esta segunda iteración comienza el 9 de noviembre y termina el 31 de diciembre, con 6 semanas y media para su finalización.
 
-\paragraph{Análisis de las gramáticas} Una parte muy importante del juego es crear frases que sean generadas de forma automática y pseudo-aleatoria en base a una serie de gramáticas y diccionario dado. Si conseguimos realizar esto, crear diferentes idiomas sería trivial (solamente tendríamos que cambiar la gramática en caso de que en dicho idioma sea diferente y traducir el diccionario). Para ello tendremos que investigar cómo podemos hacer esto en nuestro caso y cómo han solventado este problema otra gente.
+\paragraph{Análisis de las gramáticas} Una parte muy importante del juego es crear frases que sean generadas de forma automática y pseudo-aleatoria en base a una serie de gramáticas y diccionario dado. Si conseguimos realizar esto, traducir nuestro juego a diferentes idiomas sería trivial (solamente tendríamos que cambiar la gramática en caso de que en dicho idioma sea diferente y traducir el diccionario empleado). Para ello tendremos que investigar cómo podemos hacerlo en nuestro caso de la manera más genérica posible y cómo han solventado este problema otros proyectos similares.
 
-\paragraph{Diseño general sobre la generación del lenguaje} Una vez hemos analizado y decidido lo que debemos de realizar, crearemos un diseño lo más simple y adaptable posible para la generación de dichas frases en base a las gramáticas dadas.
+\paragraph{Diseño general sobre la generación del lenguaje} Una vez hemos analizado y decidido lo que debemos de realizar, crearemos un diseño lo más simple y adaptable posible para la generación de dichas frases en base a las gramáticas dadas. El objetivo primordial es que la traducción y la adición de nuevas palabras sea lo más fácil posible para que añadir variedad sea una tarea sencilla.
 
-\paragraph{Creación de gramáticas y diccionarios base} Para empezar el desarrollo necesitamos tener una gramática y diccionaro base con lo que poder ver los diferentes resultados obtenidos.
+\paragraph{Creación de gramáticas y diccionarios base} Para empezar el desarrollo necesitamos tener una gramática y diccionaro base con lo que poder ver los diferentes resultados obtenidos. Empezaremos con gramáticas y diccionarios en inglés, dado que sus restricciones son más fáciles que en otros idiomas.
 
 \subsubsection{Tareas y seguimiento}
 
@@ -365,7 +366,7 @@ La descomposición de las tareas es la siguiente:
   \item Creación de gramáticas y diccionarios base para tener una base con lo que testar lo que implementaremos.
 \end{enumerate}
 
-Hemos reservado 130 horas para esta iteración y hemos conseguido terminar todas las tareas asignadas a tiempo. Ver la figura ~\ref{fig:sec3it3} para más información.
+Hemos reservado 130 horas para esta iteración y hemos conseguido terminar todas las tareas asignadas a tiempo. Ver la figura ~\ref{fig:sec3it3} para ver el diagrama de Gantt asociado y obtener más información sobre esta iteración.
 
 \begin{figure}
     \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/sec3it3.png}
@@ -375,23 +376,23 @@ Hemos reservado 130 horas para esta iteración y hemos conseguido terminar todas
 
 \subsubsection{Qué hemos conseguido en esta iteración}
 
-Hemos sentado las bases de lo que queremos implementar con las gramáticas.
+Hemos sentado las bases de lo que queremos implementar con las gramáticas en un futuro y hemos empezado a crear gramáticas y diccionarios en inglés que iremos ampliando y que servirán de base para el resto de idiomas.
 
 \subsubsection{Qué queremos conseguir en la próxima iteración}
 
-Empezar con los tests y desarrollo de lo investigado en esta iteración.
+En la siguiente iteración empezaremos creando los tests para definir cómo las frases automáticas deben de generarse y empezaremos con el desarrollo de lo que hemos investigado en esta iteración.
 
 \subsection{Cuarta iteración: Análisis, diseño y comienzo de la implementación de las gramáticas}
 
-Esta segunda iteración comienza el 1 de enero y termina el 14 de enero. Es decir, tiene 2 semanas.
+Esta segunda iteración comienza el 1 de enero y termina el 14 de enero. Es decir, solamente durará 2 semanas.
 
-\paragraph{Análisis sobre cómo crear las gramáticas NP} Las gramáticas NP\footnote{Sintagma nominal.} son básicas, pero no iguales en todos los idiomas. Debemos de estudiar qué planteamientos existen que faciliten su implementación de la mejor forma posible.
+\paragraph{Análisis sobre cómo crear las gramáticas NP} Las gramáticas NP\footnote{Gramáticas de sintagma nominal.} son básicas para describir substantivos usando, solamente determinantes y adjetivos, pero no iguales en todos los idiomas (por ejemplo, su orden cambian entre inglés y castellano o gallego). Debemos de estudiar qué planteamientos existen que faciliten su implementación de la forma más genérica posible.
 
 \paragraph{Diseño de las gramáticas NP} Las frases de sintagma nominal serán las más usadas dentro de nuestro juego. No solamente serán utilizadas para la generación de las frases, pero también a la hora de representar los elementos en la interfaz de usuario. Por ello debemos de crearlas de la forma más extendible y accesible que podamos.
 
-\paragraph{Creación de los tests para las gramáticas NP} Al igual que en otras iteraciones, realizamos los tests antes de nada.
+\paragraph{Creación de los tests para las gramáticas NP} Al igual que en otras iteraciones, realizamos los tests antes de empezar con ningún tipo de implementación para tener una base sobre cómo las funciones y clases deben de comportase.
 
-\paragraph{Implementación de las gramáticas NP} Con los tests realizados, debemos de empezar con la implementación. Tenemos que tener en cuenta que hay que ser capaces de sustituir las clases de palabras por las palabras en sí que se encuentra en el diccionario. También hay que tener en cuenta las restricciones posibles (por el momento solamente contamos con las restricciones de inglés. Es decir, número).
+\paragraph{Implementación de las gramáticas NP} Con los tests realizados, debemos de empezar con la implementación. Tenemos que tener en cuenta que hay que ser capaces de sustituir las clases de palabras por las palabras en sí que se encuentran en el diccionario. También hay que tener en cuenta las restricciones posibles. Por el momento solamente contamos con las restricciones que existen en inglés. Es decir, restricciones en número.
 
 \subsubsection{Tareas y seguimiento}
 
@@ -404,7 +405,7 @@ La descomposición de las tareas es la siguiente:
   \item Implementación de las gramáticas NP y \textit{link} con el diccionario.
 \end{enumerate}
 
-Hemos reservado 40 horas para esta iteración y terminamos todas las tareas a tiempo. Ver la figura ~\ref{fig:sec3it4} para más información.
+Hemos reservado 40 horas para esta iteración y terminamos todas las tareas a tiempo. Ver la figura ~\ref{fig:sec3it4} para más información y para ver el diagrama de Gantt que muestra la distribución de tiempo durante estas semanas para estas tareas.
 
 \begin{figure}
     \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/sec3it4.png}
@@ -414,21 +415,21 @@ Hemos reservado 40 horas para esta iteración y terminamos todas las tareas a ti
 
 \subsubsection{Qué hemos conseguido en esta iteración}
 
-Al finalizar esta iteración hemos conseguido generar sintagmas nominales de forma pseudo-aleatoria que basan su información en las gramáticas y diccionarios dados.
+Al finalizar esta iteración hemos conseguido generar sintagmas nominales de forma pseudo-aleatoria que recogen la información en las gramáticas y diccionarios dados. De momento esto solamente está disponible en inglés, pero su implementación en otros idiomas es sencillo y será algo que se realizará en iteraciones posteriores.
 
 \subsubsection{Qué queremos conseguir en la próxima iteración}
 
-Aumentar estas gramáticas para que lo generado no solamente sean sintagmas nominales, pero también frases que usen estos sintagmas nominales.
+Aumentar lo que las gramáticas pueden generar para que lo que generamos no solamente sean sintagmas nominales, pero también frases que usen estos sintagmas nominales. De esta forma podríamos crear todo tipo de clases que serían capaces de describir todo lo que tenemos en nuestro juego sin problema.
 
 \subsection{Quinta iteración: Análisis, diseño e implementación de las gramáticas y frases más complejas}
 
-Esta segunda iteración comienza el 15 de enero y termina el 29 de enero. Es decir, tiene 2 semanas y media de duración, igual que la iteración anterior.
+Esta segunda iteración comienza el 15 de enero y termina el 29 de enero. Es decir, tiene 2 semanas y media de duración, un poco más que la anterior.
 
 \paragraph{Análisis sobre cómo crear las gramáticas complejas de forma genérica} Una vez somos capaces de crear sintagmas nominales, deberemos de ser capaces de combinarlos con otros elementos del lenguaje como verbos para crear frases que sean capaces de describir todo lo que realmente deseamos. Deberemos de analizar las diferentes formas de hacer esto.
 
 \paragraph{Diseño de dichas gramáticas} Una vez hemos analizado y decidido los pasos que vamos a seguir, nos quedará realizar el diseño del mismo.
 
-\paragraph{Creación de los tests para las gramáticas complejas} Al igual que en las veces anteriores, tendremos que crear los tests antes de empezar con la implementación.
+\paragraph{Creación de los tests para las gramáticas complejas} Al igual que en las veces anteriores, tendremos que crear los tests antes de empezar con la implementación para estar seguros de que lo que implementamos sea coherente con lo que queremos realizar.
 
 \paragraph{Implementación y \textit{link} con el diccionario} Implementar las gramáticas más complejas que se comuniquen con las gramáticas NP y nos permitan generar frases que describan lo que ocurre en el juego de forma aleatoria y automática.
 
@@ -453,25 +454,25 @@ Hemos reservado 48 horas para esta iteración y la hemos acabado a tiempo. En la
 
 \subsubsection{Qué hemos conseguido en esta iteración}
 
-Tener gramáticas que generen frases de manera pseudo-aleatoria para todas las descripciones que contemplamos actualmente en el juego.
+Tener gramáticas que generen frases de manera pseudo-aleatoria para todas las descripciones que contemplamos actualmente en el juego. Estas nuevas gramáticas utilizan lo creado en la iteración anterior para formar frases complejas. También hemos aumentado el tipo de palabras a usar (ahora incluimos verbos y una mayor cantidad de adjetivos y sustantivos), por lo que el diccionario en ingés va creciendo. En esta iteración todavía no hemos añadido diccionarios o gramáticas en otros idiomas.
 
 \subsubsection{Qué queremos conseguir en la próxima iteración}
 
-Las frases son generadas, pero todavía no las mostramos en ninguna parte de la interfaz gráfica, por lo que el jugador no puede ni verla ni escucharla. En el siguiente sprint tenemos que añadir esta opción, además de añadir otros idiomas (es decir, añadir las gramáticas y diccionarios) como el gallego y español, lo que significará añadir las restricciones adicionales que tienen de género.
+Las frases son generadas, pero todavía no las mostramos en ninguna parte de la interfaz gráfica, por lo que el jugador no puede ni verla ni escucharla. En el siguiente \textit{sprint} tenemos que añadir esta opción, además de añadir otros idiomas (es decir, añadir las gramáticas y diccionarios) como el gallego y español, lo que significará añadir las restricciones adicionales que tienen de género.
 
 \subsection{Sexta iteración: Implementación de las restricciones, gallego y castellano, creación de la interfaz de usuario para con las frases generadas y primer vídeo}
 
-La sexta iteración dará comienzo el 30 de enero y terminará el 6 de febrero. Es decir, tiene solamente 1 semana de desarrollo, pero fue una semana de 8 horas al día en la práctica, por lo que en total fueron 56 horas de trabajo en la misma.
+La sexta iteración dará comienzo el 30 de enero y terminará el 6 de febrero, por lo que solamente tiene 1 semana de desarrollo, una de las más cortas del todo el proyecto, pero fue una semana de 8 horas al día en la práctica, por lo que en total fueron 56 horas de trabajo en la misma.
 
-\paragraph{Creación de la interfaz de usuario para mostrar las frases generadas al usuario} Hasta ahora somos capaces de generar frases que describan lo que sucede en el juego, pero no las mostramos. Ahora es el momento de mostrar en una ventana la frase generada.
+\paragraph{Creación de la interfaz de usuario para mostrar las frases generadas al usuario} Hasta ahora somos capaces de generar frases que describan lo que sucede en el juego, pero no las mostramos. Ahora es el momento de mostrar en una ventana la frase generada (similar a un \textit{popup}).
 
-\paragraph{Implementación de las restricciones para el resto de idiomas} En inglés solamente tenemos la restrición en número, pero otros idiomas, como el castellano o gallego, tienen un restricciones adicionales como el género. Tenemos que tener esto en cuenta e introducirlo en el código. 
+\paragraph{Implementación de las restricciones para el resto de idiomas} En inglés solamente tenemos la restrición en número entre palabras, pero otros idiomas, como el castellano o gallego, tienen otras restricciones adicionales como la restricción en género. Tenemos que tener esto en cuenta e introducirlo en el código.
 
-\paragraph{Añadir gramáticas y diccionarios para gallego y castellano} La idea desde un principio fue en tener el proyecto en la mayor cantidad posible de idiomas, por lo que añadirlo en gallego y castellano es importante.
-
-\paragraph{Crear primer vídeo para recibir \textit{feedback}} Al terminar esta iteración tendremos la base del proyecto completada. Por ello crearemos un vídeo mostrando el punto en el que estamos y con el que recibiremos comentarios con lo que podremos crear mejoras en las futuras iteraciones \footnote{\url{https://www.youtube.com/watch?v=RgND1IGZ-68}}.
+\paragraph{Añadir gramáticas y diccionarios para gallego y castellano} La idea desde un principio fue en tener el proyecto en la mayor cantidad posible de idiomas, por lo que añadirlo en gallego y castellano es importante. Para ello tendremos que traducir las gramáticas y diccionarios a ambos idiomas y crear una opción para elegir su uso en un fichero de configuración.
 
 \paragraph{Añadir las teclas necesarias para mostrar las descripciones del inventario y ambiente} El usuario podrá pedir que se genere una frase que describa algo en concreto. Se debería de realizar en base a lo que está especificado en el diagrama de casos de uso.
+
+\paragraph{Crear primer vídeo para recibir \textit{feedback}} Al terminar esta iteración tendremos la base del proyecto completada. Por ello crearemos un vídeo mostrando el punto en el que estamos y con el que recibiremos comentarios con los que podremos crear mejoras en las futuras iteraciones \footnote{\url{https://www.youtube.com/watch?v=RgND1IGZ-68}}.
 
 \subsubsection{Tareas y seguimiento}
 
@@ -485,7 +486,7 @@ La descomposición de las tareas es la siguiente:
   \item Crear primer vídeo para recibir \textit{feedback}.
 \end{enumerate}
 
-En la figura ~\ref{fig:sec3it6} se muestra el diagrama de Gantt de esta iteración. Hemos reservado, tal y como ya hemos comentado, 56 horas, que fueron suficiente para terminar todas las tareas mencionadas.
+En la figura ~\ref{fig:sec3it6} se muestra el diagrama de Gantt de esta iteración. Hemos reservado, tal y como ya hemos comentado, 56 horas, que fueron suficientes para terminar todas las tareas mencionadas. En dicha figura mostraremos la distribución del tiempo que hemos pasado en cada una de las tareas.
 
 \begin{figure}
     \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/sec3it6.png}
@@ -495,19 +496,19 @@ En la figura ~\ref{fig:sec3it6} se muestra el diagrama de Gantt de esta iteraci�
 
 \subsubsection{Qué hemos conseguido en esta iteración}
 
-Terminar lo básico del juego, generando las frases necesarias al usuario y añadiendo más idiomas disponibles.
+Terminar el funcionamiento básico de las gramáticas en dos idiomas adicionales (inglés, español y gallego), generando las frases necesarias para que el usuario tenga toda la información necesaria y creando un vídeo que nos ayudará a mostrar el funcionamiento del juego a toda la gente interesada par que poder mejorarlo en base a sus comentarios.
 
 \subsubsection{Qué queremos conseguir en la próxima iteración}
 
-Debemos de esperar por los comentarios recibidos en el vídeo y, mientras, podremos mejorar diferentes aspectos y características del juego haciendo las tareas que hay en el \textit{backlog}.
+Debemos de esperar por los comentarios recibidos en el vídeo y, mientras, podremos mejorar diferentes aspectos y características del juego haciendo las tareas que tenemos en el \textit{backlog}.
 
 \subsection{Séptima iteración: Resolución de bugs detectados y añadidas pequeñas funcionalidades}
 
-La séptima iteración empieza el 7 de febrero y acaba el 21 de febrero, con una duración de 2 semanas, volviendo a las 20 horas de trabajo por semana y 40 horas en total para la iteración.
+La séptima iteración empieza el 7 de febrero y acaba el 21 de febrero, con una duración de 2 semanas, volviendo a las 20 horas de trabajo por semana y 40 horas en total para la iteración. Se han decidido dar un par de semanas de margen para poder leer y recopilar el \textit{feedback} recibido de la iteración anterior.
 
-\paragraph{Solucionar bug donde la pantalla no se refresca} En algunas ocasiones y al realizar ciertas acciones, la interfaz gráfica no se actualiza hasta la siguiente acción. Tenemos que solucionar este problema para que lo que se muestre siempre sea lo más nuevo.
+\paragraph{Solucionar bug donde la pantalla no se refresca} En algunas ocasiones y al realizar ciertas acciones, la interfaz gráfica no se actualiza hasta la siguiente acción. Tenemos que solucionar este problema para que lo que se muestre siempre sea lo más nuevo y no haya ningún tipo de retraso.
 
-\paragraph{Cambiar las teclas que usamos por defecto} Las teclas que tenemos por defecto no son del todo intuitivas. Deberemos de cambiarlo para que sí lo sean.
+\paragraph{Cambiar las teclas que usamos por defecto} Las teclas que tenemos por defecto no son del todo intuitivas. Deberemos de cambiarlo para que tengan más sentido.
 
 \paragraph{Hacer los adjetivos que definen los personajes variables} Si un enemigo tiene poca vida y el personaje que controla el usuario tiene mucha más vida, habrá la posibilidad de que el adjetivo a usar sobre el enemigo sea ``pequeño'', ``insignificante''... mientras que si es al revés, se usará ``grande'', ``poderoso'', de forma que se verá al enemigo de forma diferente.
 
@@ -535,7 +536,7 @@ En la figura ~\ref{fig:sec3it7} se muestra el diagrama de Gantt de esta iteraci�
 
 \subsubsection{Qué hemos conseguido en esta iteración}
 
-Mejorar el juego en diferentes aspectos al añadir nuevas funcionalidades que afectarán directamente al jugador y solucionar algunos de los \textit{bugs} que detectados mientras jugábamos.
+Mejorar el juego en diferentes aspectos al añadir nuevas funcionalidades que afectarán directamente al jugador y solucionar algunos de los \textit{bugs} que fueron detectados mientras jugábamos.
 
 \subsubsection{Qué queremos conseguir en la próxima iteración}
 
@@ -544,7 +545,7 @@ El día 19 de febrero es cuando recibimos el feedback que presentamos en la ante
 \subsection{Octava iteración: Implementación en base al \textit{feedback} recibido}
 
 En esta iteración implementaremos los cambios más importantes sobre el \textit{feedback} recibido. Dado que estos comentarios pueden llevar bastante tiempo (quizás haya más cambios o los realizados desencadenan más ideas a implementar), es mejor terminarlos en menor tiempo posible para poder recibir \textit{feedback} más rápidamente.
-Por este motivo esta iteración contará solamente con 4 días y 20 horas en total, empezando el 22 y acabando el 26, que es cuando crearemos el vídeo.
+Por este motivo esta iteración contará solamente con 4 días y 20 horas en total, empezando el 22 y acabando el 26, que es cuando crearemos un nuevo vídeo con los cambios realizados durante las últimas dos iteraciones.
 
 \subsubsection{Feedback recibido}
 
@@ -554,11 +555,11 @@ Todo este feedback es el recibido por parte de mis supervisores que a su vez se 
 
 \paragraph{Cambiar el sistema de salida de las frases generadas} Hasta ahora, cada vez que una frase era generada (tanto a petición del usuario o en base a algo que ha sucedido en el juego), mostrábamos una nueva ventana con dicha frase, que tendríamos que cerrar en cada ocasión. Esto es un inconveniente para aquellas personas que sí pueden ver y no quieren ser molestados por este tipo de ventanas y para los usuarios invidentes tampoco es la mejor solución disponible, dado que no es lo que se suelen encontrar en otros juegos del género. Lo que mayoría de juegos usan es una \textit{textarea}, es decir, una ventana aparte donde se vaya almacenando todas las frases generadas, de tal forma que siempre podemos volver a ella cuando queramos y servirá como un log. Lo importante está en cambiar el ``foco'' del juego a esta ventana cada vez que una frase sea generada para que el lector sea capaz de leerla.
 
-\paragraph{Pequeños cambios en los adjetivos usados} En algunas ocasiones usábamos adjetivos poco comunes a la hora de definir ciertos nombres.
+\paragraph{Pequeños cambios en los adjetivos usados} En algunas ocasiones usábamos adjetivos poco comunes a la hora de definir ciertos nombres. Tenemos que cambiarlo para que dichos adjetivos tengan sentido.
 
-\paragraph{Adición de niveles y experiencia} Los enemigos, armas y el propio usuario deberían de tener niveles para que el juego escale en dificultad. Cada vez que se destruye un enemigo, el personaje del usuario ganará una serie de puntos que serán usados para subir niveles.
+\paragraph{Adición de niveles y experiencia} Los enemigos, armas y el propio usuario deberían de tener niveles para que el juego escale en dificultad. Cada vez que se destruye un enemigo, el personaje del usuario ganará una serie de puntos que serán usados para subir niveles y, a su vez, cambien el tipo de enemigos a los que se enfrentarán para que la progresión tenga sentido.
 
-\paragraph{Cambio en la aleatoriedad} Hasta ahora, todo lo generado era aleatorio (el tipo de enemigos que nos encontrábamos, los objetos que soltaban, los propios objetos encontrados...). Es mejor que esta aleatoriedad venga dada por el nivel del usuario para que el juego escale mejor en dificultad. Esto se explica con mayor profundidad en la sección: ~\ref{generado}
+\paragraph{Cambio en la aleatoriedad} Hasta ahora, todo lo generado era aleatorio (el tipo de enemigos que nos encontrábamos, los objetos que soltaban, los propios objetos encontrados...). Es mejor que esta aleatoriedad venga dada por el nivel del usuario para que el juego escale mejor en dificultad. Esto se explica con mayor profundidad en la sección: ~\ref{generado}.
 
 \paragraph{Evitar la repetitividad} Algunas de las frases que generamos tienden a ser bastante repetitivas (el héroe desequipa la espada, el héroe desequipa la armadura...), en vez de tener un lenguaje más natural (el héroe desequipa la espada, la armadura...). Esto sucede en un par de casos y debemos de tratarlo.
 
@@ -591,8 +592,9 @@ En la figura ~\ref{fig:sec3it8} se muestra el diagrama de Gantt de esta iteraci�
 
 \subsubsection{Qué hemos conseguido en esta iteración}
 
-Hemos conseguido implementar los cambios más importantes en base a los comentarios recibidos.
+Hemos conseguido implementar los cambios más importantes en base a los comentarios recibidos, teniendo así un juego mucho más sólido y adaptado a lo que la comunidad ha considerado más importante.
 
 \subsubsection{Qué queremos conseguir en la próxima iteración}
 
-Seguir implementando el resto de cambios y tener en cuenta el \textit{feedback} del resto de usuarios.
+En la próxima iteración, que será la última, tendremos que seguir implementando algunas de las tareas que se encuentran en el \textit{backlog} y debemos de tener en cuenta el \textit{feedback} del resto de usuarios, así como el que recibamos de esta iteración.
+Las tareas que no vayamos a implementar porque no son completamente necesarias deberán de añadirse al \textit{backlog} para que otros desarrolladores o nosotros mismos podamos tenerlas en cuenta en el futuro.
