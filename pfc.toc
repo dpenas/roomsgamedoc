@@ -1,5 +1,5 @@
 \select@language {spanish}
-\contentsline {chapter}{\'{I}ndice de figuras}{\es@scroman {vii}}{chapter*.5}
+\contentsline {chapter}{\'{I}ndice de figuras}{\es@scroman {ix}}{chapter*.5}
 \contentsline {chapter}{\numberline {1}Introduci\IeC {\'o}n}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Videojuegos y personas invidentes}{1}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Visita a la \textit {ONCE}}{2}{subsection.1.1.1}
@@ -194,10 +194,18 @@
 \contentsline {paragraph}{RandomMovement}{70}{section*.118}
 \contentsline {paragraph}{FollowingMovementDumb}{70}{section*.119}
 \contentsline {paragraph}{FollowingMovement}{70}{section*.120}
-\contentsline {chapter}{\numberline {8}Recepci\IeC {\'o}n, conclusi\IeC {\'o}n y trabajo futuro.}{73}{chapter.8}
+\contentsline {chapter}{\numberline {8}Recepci\IeC {\'o}n, conclusi\IeC {\'o}n y trabajo futuro}{73}{chapter.8}
 \contentsline {section}{\numberline {8.1}Recepci\IeC {\'o}n y \textit {Feedback}}{73}{section.8.1}
 \contentsline {section}{\numberline {8.2}Conclusi\IeC {\'o}n}{73}{section.8.2}
-\contentsline {section}{\numberline {8.3}Trabajo Futuro}{73}{section.8.3}
-\contentsline {paragraph}{Blabla.}{73}{section*.122}
-\contentsline {chapter}{\numberline {A}Escoger la licencia}{75}{appendix.Alph1}
-\contentsline {chapter}{\numberline {B}Instalaci\IeC {\'o}n e Instrucciones}{77}{appendix.Alph2}
+\contentsline {section}{\numberline {8.3}Trabajo Futuro}{74}{section.8.3}
+\contentsline {paragraph}{Creaci\IeC {\'o}n de un men\IeC {\'u}.}{74}{section*.122}
+\contentsline {paragraph}{A\IeC {\~n}adir m\IeC {\'a}s variedad de enemigos y elementos.}{74}{section*.123}
+\contentsline {paragraph}{Crear un modo historia.}{74}{section*.124}
+\contentsline {paragraph}{Crear un tutorial.}{74}{section*.125}
+\contentsline {paragraph}{Crear un ``modo resumen''.}{75}{section*.126}
+\contentsline {paragraph}{Incluir elementos sonoros.}{75}{section*.127}
+\contentsline {paragraph}{A\IeC {\~n}adir m\IeC {\'a}s complejidad a las gram\IeC {\'a}ticas.}{75}{section*.128}
+\contentsline {paragraph}{A\IeC {\~n}adir m\IeC {\'a}s complejidad a los diccionarios.}{75}{section*.129}
+\contentsline {paragraph}{Crear opci\IeC {\'o}n de jugar en base a una semilla.}{75}{section*.130}
+\contentsline {chapter}{\numberline {A}Escoger la licencia}{77}{appendix.Alph1}
+\contentsline {chapter}{\numberline {B}Instalaci\IeC {\'o}n e Instrucciones}{79}{appendix.Alph2}
