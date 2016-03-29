@@ -17,46 +17,48 @@ A level-1 auxiliary file: A010_escogerlicencia.aux
 A level-1 auxiliary file: A020_instalacion.aux
 The style file: alpha.bst
 Database file #1: pfc_biblio.bib
+Warning--empty publisher in book:tdd
+Warning--empty publisher in book:designpatterns
 Warning--empty publisher in book:swordscircuitry
-You've used 9 entries,
+You've used 12 entries,
             2543 wiz_defined-function locations,
-            608 strings with 6020 characters,
-and the built_in function-call counts, 2401 in all, are:
-= -- 222
-> -- 72
-< -- 9
-+ -- 18
-- -- 18
-* -- 97
-:= -- 388
-add.period$ -- 27
-call.type$ -- 9
-change.case$ -- 44
-chr.to.int$ -- 9
-cite$ -- 10
-duplicate$ -- 104
-empty$ -- 226
-format.name$ -- 35
-if$ -- 504
+            620 strings with 6278 characters,
+and the built_in function-call counts, 3258 in all, are:
+= -- 297
+> -- 107
+< -- 11
++ -- 28
+- -- 28
+* -- 142
+:= -- 532
+add.period$ -- 36
+call.type$ -- 12
+change.case$ -- 57
+chr.to.int$ -- 12
+cite$ -- 15
+duplicate$ -- 146
+empty$ -- 301
+format.name$ -- 48
+if$ -- 679
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 2
-newline$ -- 48
-num.names$ -- 27
-pop$ -- 97
+missing$ -- 6
+newline$ -- 64
+num.names$ -- 36
+pop$ -- 126
 preamble$ -- 1
-purify$ -- 54
+purify$ -- 72
 quote$ -- 0
-skip$ -- 90
+skip$ -- 122
 stack$ -- 0
-substring$ -- 63
-swap$ -- 9
-text.length$ -- 9
-text.prefix$ -- 8
+substring$ -- 84
+swap$ -- 12
+text.length$ -- 11
+text.prefix$ -- 9
 top$ -- 0
-type$ -- 68
-warning$ -- 1
-while$ -- 18
-width$ -- 12
-write$ -- 101
-(There was 1 warning)
+type$ -- 84
+warning$ -- 3
+while$ -- 25
+width$ -- 16
+write$ -- 135
+(There were 3 warnings)

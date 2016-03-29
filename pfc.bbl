@@ -1,10 +1,21 @@
-\begin{thebibliography}{NH01}
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{EG{\etalchar{+}}95}
+
+\bibitem[Bec02]{book:tdd}
+Kent Beck.
+\newblock {\em {Test Driven Development: By Example}}.
+\newblock 2002.
 
 \bibitem[CNB]{website:gamingsales}
 CNBC.
 \newblock {Digital gaming sales hit record \$61 billion in 2015: Report}.
 \newblock
   \url{http://www.cnbc.com/2016/01/26/digital-gaming-sales-hit-record-61-billion-in-2015-report.html}.
+
+\bibitem[EG{\etalchar{+}}95]{book:designpatterns}
+Richard~Helm Erich~Gamma et~al.
+\newblock {\em {Elements of Reusable Object-Oriented Software}}.
+\newblock 1995.
 
 \bibitem[fou]{website:gameaccessibility}
 The~Ablegamers foundation.
@@ -21,6 +32,11 @@ PC~Gamer.
 Git.
 \newblock {Git Documentation}.
 \newblock \url{https://git-scm.com/documentation}.
+
+\bibitem[JS]{website:scrumguide}
+Ken~Schwaber Jeff~Sutherland.
+\newblock {Scrum Guides}.
+\newblock \url{http://www.scrumguides.org/}.
 
 \bibitem[NH01]{book:swordscircuitry}
 Jana~Halford Neal~Halford.
