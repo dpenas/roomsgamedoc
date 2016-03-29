@@ -2,20 +2,25 @@
 
 \bibitem[CNB]{website:gamingsales}
 CNBC.
-\newblock {Digital gaming sales hit record \&61 billion in 2015: Report}.
+\newblock {Digital gaming sales hit record \$61 billion in 2015: Report}.
 \newblock
-  \href{http://www.cnbc.com/2016/01/26/digital-gaming-sales-hit-record-61-billion-in-2015-report.html}.
+  \url{http://www.cnbc.com/2016/01/26/digital-gaming-sales-hit-record-61-billion-in-2015-report.html}.
 
 \bibitem[fou]{website:gameaccessibility}
 The~Ablegamers foundation.
 \newblock {A Practica Guide to Game Accessibility}.
+\newblock \url{http://www.includification.com/AbleGamers\_Includification.pdf}.
+
+\bibitem[Gam]{website:steamgamesmarket}
+PC~Gamer.
+\newblock {Steam games market worth \$3.5 billion in 2015}.
 \newblock
-  \href{http://www.includification.com/AbleGamers\_Includification.pdf}.
+  \url{http://www.pcgamer.com/steam-games-market-worth-35-billion-in-2015/}.
 
 \bibitem[Git]{website:gitdoc}
 Git.
 \newblock {Git Documentation}.
-\newblock \href{https://git-scm.com/documentation}.
+\newblock \url{https://git-scm.com/documentation}.
 
 \bibitem[NH01]{book:swordscircuitry}
 Jana~Halford Neal~Halford.
@@ -26,18 +31,24 @@ Jana~Halford Neal~Halford.
 \bibitem[Ora]{website:javadoc}
 Oracle.
 \newblock {Java Documentation}.
-\newblock \href{https://docs.oracle.com/javase/7/docs/api/}.
+\newblock \url{https://docs.oracle.com/javase/7/docs/api/}.
 
-\bibitem[Rad]{podcast:designvisuallyimpaired}
+\bibitem[Pou]{website:machinesnetworks}
+Jerry Pournelle.
+\newblock {New Machines, Networks and Sundry Software}.
+\newblock
+  \url{http://archive.org/stream/byte-magazine-1984-03/1984_03_BYTE_09-03_Simulation#page/n47/mode/2up}.
+
+\bibitem[Rad]{website:designvisuallyimpaired}
 Roguelike Radio.
 \newblock {Designing for the Visually Impaired}.
 \newblock
-  \href{http://www.roguelikeradio.com/2012/10/episode-48-designing-for-visually.html}.
+  \url{http://www.roguelikeradio.com/2012/10/episode-48-designing-for-visually.html}.
 
 \bibitem[The]{website:gamesimprovingeconomy}
 Theesa.
 \newblock {Games: Improving the Economy}.
 \newblock
-  \href{http://www.theesa.com/wp-content/uploads/2014/11/Games\_Economy-11-4-14.pdf}.
+  \url{http://www.theesa.com/wp-content/uploads/2014/11/Games\_Economy-11-4-14.pdf}.
 
 \end{thebibliography}
