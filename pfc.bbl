@@ -1,0 +1,43 @@
+\begin{thebibliography}{NH01}
+
+\bibitem[CNB]{website:gamingsales}
+CNBC.
+\newblock {Digital gaming sales hit record \&61 billion in 2015: Report}.
+\newblock
+  \href{http://www.cnbc.com/2016/01/26/digital-gaming-sales-hit-record-61-billion-in-2015-report.html}.
+
+\bibitem[fou]{website:gameaccessibility}
+The~Ablegamers foundation.
+\newblock {A Practica Guide to Game Accessibility}.
+\newblock
+  \href{http://www.includification.com/AbleGamers\_Includification.pdf}.
+
+\bibitem[Git]{website:gitdoc}
+Git.
+\newblock {Git Documentation}.
+\newblock \href{https://git-scm.com/documentation}.
+
+\bibitem[NH01]{book:swordscircuitry}
+Jana~Halford Neal~Halford.
+\newblock {\em {Swords \& circuitry: a designer's guide to computer role
+  playing games}}.
+\newblock 2001.
+
+\bibitem[Ora]{website:javadoc}
+Oracle.
+\newblock {Java Documentation}.
+\newblock \href{https://docs.oracle.com/javase/7/docs/api/}.
+
+\bibitem[Rad]{podcast:designvisuallyimpaired}
+Roguelike Radio.
+\newblock {Designing for the Visually Impaired}.
+\newblock
+  \href{http://www.roguelikeradio.com/2012/10/episode-48-designing-for-visually.html}.
+
+\bibitem[The]{website:gamesimprovingeconomy}
+Theesa.
+\newblock {Games: Improving the Economy}.
+\newblock
+  \href{http://www.theesa.com/wp-content/uploads/2014/11/Games\_Economy-11-4-14.pdf}.
+
+\end{thebibliography}
