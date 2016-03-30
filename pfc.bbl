@@ -33,6 +33,12 @@ Git.
 \newblock {Git Documentation}.
 \newblock \url{https://git-scm.com/documentation}.
 
+\bibitem[Goo]{website:xboxonesales}
+Owen~S. Good.
+\newblock {EA exec's remarks shine a light on Xbox One sales}.
+\newblock
+  \url{http://www.polygon.com/2016/1/30/10876042/ps4-xbox-one-sales-lifetime-million}.
+
 \bibitem[JS]{website:scrumguide}
 Ken~Schwaber Jeff~Sutherland.
 \newblock {Scrum Guides}.
@@ -60,6 +66,12 @@ Roguelike Radio.
 \newblock {Designing for the Visually Impaired}.
 \newblock
   \url{http://www.roguelikeradio.com/2012/10/episode-48-designing-for-visually.html}.
+
+\bibitem[Sar]{website:ps4sales}
+Samit Sarkar.
+\newblock {PS4 sales surpass 35.9M units worldwide}.
+\newblock
+  \url{http://www.polygon.com/2016/1/5/10717142/ps4-lifetime-sales-35-9-million-holiday-2015}.
 
 \bibitem[The]{website:gamesimprovingeconomy}
 Theesa.
