@@ -1,6 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2015)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: pfc.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: pfc.aux
 A level-1 auxiliary file: 001_portada.aux
 A level-1 auxiliary file: 002_resumen.aux
 A level-1 auxiliary file: 003_palabras_clave.aux
@@ -21,45 +19,4 @@ Warning--I didn't find a database entry for "xboxonesales"
 Warning--empty publisher in book:tdd
 Warning--empty publisher in book:designpatterns
 Warning--empty publisher in book:swordscircuitry
-You've used 14 entries,
-            2543 wiz_defined-function locations,
-            629 strings with 6616 characters,
-and the built_in function-call counts, 3784 in all, are:
-= -- 347
-> -- 123
-< -- 13
-+ -- 32
-- -- 32
-* -- 162
-:= -- 614
-add.period$ -- 42
-call.type$ -- 14
-change.case$ -- 67
-chr.to.int$ -- 14
-cite$ -- 17
-duplicate$ -- 168
-empty$ -- 351
-format.name$ -- 56
-if$ -- 791
-int.to.chr$ -- 1
-int.to.str$ -- 0
-missing$ -- 6
-newline$ -- 74
-num.names$ -- 42
-pop$ -- 148
-preamble$ -- 1
-purify$ -- 84
-quote$ -- 0
-skip$ -- 142
-stack$ -- 0
-substring$ -- 98
-swap$ -- 14
-text.length$ -- 13
-text.prefix$ -- 11
-top$ -- 0
-type$ -- 100
-warning$ -- 3
-while$ -- 29
-width$ -- 18
-write$ -- 157
 (There were 4 warnings)
