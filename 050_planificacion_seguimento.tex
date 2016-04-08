@@ -598,3 +598,40 @@ Hemos conseguido implementar los cambios más importantes en base a los comentar
 
 En la próxima iteración, que será la última, tendremos que seguir implementando algunas de las tareas que se encuentran en el \textit{backlog} y debemos de tener en cuenta el \textit{feedback} del resto de usuarios, así como el que recibamos de esta iteración.
 Las tareas que no vayamos a implementar porque no son completamente necesarias deberán de añadirse al \textit{backlog} para que otros desarrolladores o nosotros mismos podamos tenerlas en cuenta en el futuro.
+
+\subsection{Novena iteración: Más implementación en base al \textit{feedback} recibido}
+
+En esta última iteración daremos los últimos retoques en base al \textit{feedback} recibido de la anterior iteración. TODOOOOOO: Poner las fechas correctas
+
+\subsubsection{Feedback recibido}
+
+\paragraph{Añadir el resto de signos de puntuación necesarios} Algunas de las frases son generadas con los signos de puntuación correspondientes, pero todavía existen partes que no tienen estos signos de puntuación.
+
+\paragraph{Incrementar el tamaño de la fuente dentro del área de texto} El texto que usamos en la \textit{textarea} no es muy grande, por lo que podría causar problemas a aquellas personas con dificultad para leer. Debemos de incrementar el tamaño de la fuente.
+
+\paragraph{Generar todas las frases con las gramáticas} En el juego tenemos algunas frases que no usan las gramáticas para ser generadas (como cuando el usuario muere). Tenemos que cambiar esto para que se adapte al resto del juego y puedan ser fácilmente traducibles.
+
+\paragraph{Cuando pulsemos una tecla en la \textit{textarea}, el resultado debería de afectar el juego} Cuando pulsamos una tecla mientras el foco está en el área de texto, el foco cambia para el juego, pero la tecla pulsada no es ejecutada en el juego. Esto es lo que debemos de cambiar.
+
+\subsubsection{Tareas y seguimiento}
+
+La descomposición de las tareas que realizaremos este \textit{sprint} es la siguiente:
+
+\begin{enumerate}[label=\bfseries WBS 9.\arabic*]
+  \item Añadir el resto de signos de puntuación necesarios.
+  \item Incrementar el tamaño de la fuente dentro del área de texto.
+  \item Generar todas las frases con las gramáticas.
+  \item Cuando pulsemos una tecla en la \textit{textarea}, el resultado debería de afectar el juego.
+\end{enumerate}
+
+En la figura ~\ref{fig:sec3it9} se muestra el diagrama de Gantt de esta iteración.
+
+\begin{figure}
+    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/sec3it9.png}
+  \caption{Diagrama de Gantt de la novena iteración de la tercera etapa}
+  \label{fig:sec3it9}
+\end{figure}
+
+\subsubsection{Qué hemos conseguido en esta iteración}
+
+Terminamos de implementar los puntos más importantes que faltaban o necesitaban revisión del juego entregado, por lo que al final esta iteración tenemos un juego sólido y listo para ser jugado y extendible por el resto de la comunidad.
