@@ -93,6 +93,27 @@
 	\end{itemize}
 \end{tframe}
 
+\begin{tframe}{Elementos \textit{roguelike} en nuestro proyecto}
+	En nuestro proyecto tenemos las siguientes características:
+	\begin{itemize}
+		\item Gran dificultad
+			\begin{itemize}
+				\item Diferentes clases de enemigos que se adaptan al nivel del usuario
+				\item Enemigos con distintas IAs
+			\end{itemize}
+		\item Aleatoriedad
+		\begin{itemize}
+			\item Aleatoriedad en mapa y habitaciones
+			\item Generador de encuentros: enemigos y objetos
+		\end{itemize}
+		\item<+-| alert@+> Exploración
+		\begin{itemize}
+			\item Nuevos objetos
+			\item Encontrar la salida
+		\end{itemize}
+	\end{itemize}
+\end{tframe}
+
 % NO ES NADA DIFERENTE %
 
 \begin{tframe}{Otros \textit{roguelikes} con las mismas ideas}
@@ -113,28 +134,115 @@
 
 \begin{tframe}{Objetivos}
 	\begin{itemize}
-			\item Crear las bases, extendibles y genéricas, de un videojuego \textit{roguelike}
-			\item<+-| alert@+> Añadir elementos de accesibilidad, en especial para invidentes
+		\item Crear las bases, extendibles y genéricas, de un videojuego \textit{roguelike}
+		\item<+-| alert@+> Añadir elementos de accesibilidad, en especial para invidentes
 	\end{itemize}
 \end{tframe}
 
 \begin{tframe}{¿Por qué discriminar?}
 	\begin{itemize}
-			\item<+-| alert@+> Limitar el campo de visión (FOV)
+			\item<+-| alert@+> Limitar el campo de visión (FOV)	
 	\end{itemize}
 \end{tframe}
 
 \begin{tframe}{¿Por qué discriminar?}
 	\begin{itemize}
-			\item Limitar el campo de visión (FOV)
-			\item<+-| alert@+> No poder cambiar las teclas a usar
+		\item Limitar el campo de visión (FOV)
+		\item<+-| alert@+> No poder cambiar las teclas a usar
 	\end{itemize}
 \end{tframe}
 
 \begin{tframe}{¿Por qué discriminar?}
 	\begin{itemize}
-			\item Limitar el campo de visión (FOV)
-			\item No poder cambiar las teclas a usar
-			\item<+-| alert@+> Obligar al jugador a distinguir colores para progresar
+		\item Limitar el campo de visión (FOV)
+		\item No poder cambiar las teclas a usar
+		\item<+-| alert@+> Obligar al jugador a distinguir colores para progresar
 	\end{itemize}
 \end{tframe}
+
+% ELEMENTOS DE ACCESIBILIDAD EN NUESTRO PROYECTO %
+
+\begin{tframe}{Elementos de accesbilidad en nuestro proyecto}
+	\begin{itemize}
+		\item<+-| alert@+> Posibilidad de cambiar las teclas (\textit{rebindable keys})
+	\end{itemize}
+\end{tframe}
+
+\begin{tframe}{Elementos de accesbilidad en nuestro proyecto}
+	\begin{itemize}
+		\item Posibilidad de cambiar las teclas (\textit{rebindable keys})
+		\item<+-| alert@+> Tamaño de letra grande para facilitar la lectura
+	\end{itemize}
+\end{tframe}
+
+\begin{tframe}{Elementos de accesbilidad en nuestro proyecto}
+	\begin{itemize}
+		\item Posibilidad de cambiar las teclas (\textit{rebindable keys})
+		\item Tamaño de letra grande para facilitar la lectura
+		\item<+-| alert@+> Elementos en la interfaz distinguibles, no solamente por color, pero también forma
+	\end{itemize}
+\end{tframe}
+
+\begin{tframe}{Elementos de accesbilidad en nuestro proyecto}
+	\begin{itemize}
+		\item Posibilidad de cambiar las teclas (\textit{rebindable keys})
+		\item Tamaño de letra grande para facilitar la lectura
+		\item Elementos en la interfaz distinguibles, no solamente por color, pero también forma
+		\item<+-| alert@+> Posibilidad de cambiar la paleta de colores
+	\end{itemize}
+\end{tframe}
+
+\begin{tframe}{Elementos de accesbilidad en nuestro proyecto}
+	\begin{itemize}
+		\item Posibilidad de cambiar las teclas (\textit{rebindable keys})
+		\item Tamaño de letra grande para facilitar la lectura
+		\item Elementos en la interfaz distinguibles, no solamente por color, pero también forma
+		\item Posibilidad de cambiar la paleta de colores
+		\item<+-| alert@+> Soporte para invidentes
+	\end{itemize}
+\end{tframe}
+
+% NUESTROS OBJETIVOS PARA DAR SOPORTE A INVIDENTES %
+
+\begin{tframe}{Objetivos para dar soporte a invidentes}
+	\begin{itemize}
+		\item<+-| alert@+> Generar frases que describan todo lo que el jugador necesita		
+	\end{itemize}
+\end{tframe}
+
+\begin{tframe}{Objetivos para dar soporte a invidentes}
+	\begin{itemize}
+		\item Generar frases que describan todo lo que el jugador necesita
+		\item<+-| alert@+> Evitar que dichas frases sean muy repetitivas
+	\end{itemize}
+\end{tframe}
+
+\begin{tframe}{Objetivos para dar soporte a invidentes}
+	\begin{itemize}
+		\item Generar frases que describan todo lo que el jugador necesita
+		\item Evitar que dichas frases sean muy repetitivas
+		\item<+-| alert@+> Tener en cuenta la temporalidad
+	\end{itemize}
+\end{tframe}
+
+\begin{tframe}{Objetivos para dar soporte a invidentes}
+	\begin{itemize}
+		\item Generar frases que describan todo lo que el jugador necesita
+		\item Evitar que dichas frases sean muy repetitivas
+		\item Tener en cuenta la temporalidad
+		\item<+-| alert@+> Crearlo lo más extensible/fácilmente posible
+	\end{itemize}
+\end{tframe}
+
+\begin{tframe}{Objetivos para dar soporte a invidentes}
+	\begin{itemize}
+		\item Generar frases que describan todo lo que el jugador necesita
+		\item Evitar que dichas frases sean muy repetitivas
+		\item Tener en cuenta la temporalidad
+		\item Crearlo lo más extensible/fácilmente posible
+		\item<+-| alert@+> No dejar de lado al usuario vidente
+	\end{itemize}
+\end{tframe}
+
+% ¿CÓMO GENERAR FRASES AUTOMÁTICAMENTE/ALEATORIAMENTE? %
+
