@@ -280,21 +280,42 @@ El    héroe   coge   la   espada   metálica
 \end{frame}
 
 \begin{frame}[t, fragile]{Gramáticas}
-En inglés...
-	\vspace*{\fill}
+En inglés:
+
 	\begin{Verbatim}
-The     hero   picks    the    metalic    sword
+The     hero   picks    the    metallic    sword
 	\end{Verbatim}
+	\begin{Verbatim}
+DET       S      V        D        ADJ       S
+	\end{Verbatim}
+\vspace*{12px}
+En español:
+	\begin{Verbatim}
+El    héroe   coge   la   espada   metálica
+	\end{Verbatim}
+	\begin{Verbatim}
+DET     S       V     D     S        ADJ
+	\end{Verbatim}
+\end{frame}
+
+\begin{frame}[t, fragile]{Gramáticas}
+Estas gramáticas las especificamos en un archivo JSON, que dependerá del idioma:
 	\begin{verbatim}
-		DET       S      V        D        ADJ       S
+		"S": [
+	    	{"DET_1": ""},
+	    	{"S_1": ""},
+	    	{"V_1": ""},
+	    	{"D_2": ""},
+	    	{"S_2": ""},
+	    	{"ADJ_1": ""}
+		],
 	\end{verbatim}
-	\vspace*{\fill}
 \end{frame}
 
 \begin{frame}[t, fragile]{Gramáticas}
 	\vspace*{\fill}
 		\begin{Verbatim}[commandchars=+\[\]]
-El    +underline[héroe]   coge   la   +underline[espada]   metálica
+El    +underline[héroe]   coge   +underline[el]   espada   +underline[metálico]
 		\end{Verbatim}
 		\begin{verbatim}
 			DET     S       V     D     S        ADJ
@@ -302,6 +323,105 @@ El    +underline[héroe]   coge   la   +underline[espada]   metálica
 	\vspace*{\fill}
 \end{frame}
 
+\begin{frame}[t, fragile]{Gramáticas}
+	Debemos de añadir restricciones, diferentes para cada idioma:
+	\begin{verbatim}
+		"S": [
+	    	{"DET_1": ""},
+	    	{"S_1": ""},
+	    	{"V_1": ""},
+	    	{"D_2": ""},
+	    	{"S_2": ""},
+	    	{"ADJ_1": ""}
+		]
+	\end{verbatim}
+\end{frame}
+
+\begin{frame}[t, fragile]{Gramáticas}
+	Debemos de añadir restricciones, diferentes para cada idioma:
+	\begin{verbatim}
+		"S": [
+	    	{"DET_1": ""},
+	    	{"S_1": ""},
+	    	{"ADJ_1": ""}
+		],
+        "restrictions": [
+            {"DET_1.num": "S_1.num"},
+            {"DET_1.gen": "S_1.gen"},
+            {"ADJ_1.num": "S_1.num"},
+            {"ADJ_1.gen": "S_1.gen"}
+        ]
+	\end{verbatim}
+\end{frame}
+
+\begin{frame}[t, fragile]{Gramáticas}
+	Las gramáticas acaban siendo demasiado grandes y limitadas. Dos archivos:
+	\begin{itemize}
+		\item<+-| alert@+> Sintagmas nominales
+		\item Frases que usan estos sintagmas nominales
+	\end{itemize}
+\end{frame}
+
+\begin{frame}[t, fragile]{Gramáticas: Sintagmas nominales}
+	\begin{verbatim}
+		"GENERAL": {
+        	"GM_1": {
+            	"S": 
+                	[
+	                {"DET_1": ""}, 
+	                {"S_1": ""},
+	                {"ADJ_1": ""}
+	            ],
+	            "restrictions": [
+	                {"DET_1.num": "S_1.num"},
+	                {"DET_1.gen": "S_1.gen"},
+	                {"ADJ_1.num": "S_1.num"},
+	                {"ADJ_1.gen": "S_1.gen"}
+	            ]
+	        }
+    	}
+	\end{verbatim}
+\end{frame}
+
+\begin{frame}[t, fragile]{Gramáticas}
+	Las gramáticas acaban siendo demasiado grandes y limitadas. Dos archivos:
+	\begin{itemize}
+		\item Sintagmas nominales
+		\item<+-| alert@+> Frases que usan estos sintagmas nominales
+	\end{itemize}
+\end{frame}
+
+\begin{frame}[t, fragile]{Gramáticas: Sintagmas nominales}
+	\begin{verbatim}
+		"S1": {
+            "S": [
+                {"GENERAL_1": ""},
+                {"V_1": ""},
+                {"GENERAL_2": ""}
+            ],
+            "restrictions": [
+                {"GENERAL_1.num": "V_1.num"},
+                {"GENERAL_1.gen": "V_1.gen"},
+                {"GENERAL_2.num": "V_2.num"},
+                {"GENERAL_2.gen": "V_2.gen"}
+            ]
+        },
+	\end{verbatim}
+\end{frame}
+
+\begin{frame}[t, fragile]{Gramáticas}
+Sin embargo, frases incorrectas pueden ser generadas:
+	\vspace*{\fill}
+		\begin{Verbatim}[commandchars=+\[\]]
++underline[La]    héroe   +underline[cogen]   la   +underline[espada]   metálica
+		\end{Verbatim}
+		\begin{verbatim}
+			DET     S       V     D     S        ADJ
+		\end{verbatim}
+	\vspace*{\fill}
+\end{frame}
+
+% Hablar de la importancia de cada una de las palabras dentro de una frase
 % Hablar de temporalidad
 % Hablar de otros pequeños elementos como el "otra vez", las comas 
 % Hablar de todos los diferentes casos y gramáticas que tenemos que generar

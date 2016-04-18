@@ -1,7 +1,7 @@
 \frametitle{Gramáticas}
 \vspace*{\fill}
 		\begin{Verbatim}[commandchars=+\[\]]
-El    +underline[héroe]   coge   la   +underline[espada]   metálica
+El    +underline[héroe]   coge   +underline[el]   espada   +underline[metálico]
 		\end{Verbatim}
 		\begin{verbatim}
 			DET     S       V     D     S        ADJ
