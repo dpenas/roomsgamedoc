@@ -313,9 +313,10 @@ Estas gramáticas las especificamos en un archivo JSON, que dependerá del idiom
 \end{frame}
 
 \begin{frame}[t, fragile]{Gramáticas}
+La frase generada puede ser errónea:
 	\vspace*{\fill}
 		\begin{Verbatim}[commandchars=+\[\]]
-El    +underline[héroe]   coge   +underline[el]   espada   +underline[metálico]
++underline[La]    héroe   coge   +underline[el]   espada   +underline[metálico]
 		\end{Verbatim}
 		\begin{verbatim}
 			DET     S       V     D     S        ADJ
@@ -326,31 +327,17 @@ El    +underline[héroe]   coge   +underline[el]   espada   +underline[metálico
 \begin{frame}[t, fragile]{Gramáticas}
 	Debemos de añadir restricciones, diferentes para cada idioma:
 	\begin{verbatim}
-		"S": [
-	    	{"DET_1": ""},
-	    	{"S_1": ""},
-	    	{"V_1": ""},
-	    	{"D_2": ""},
-	    	{"S_2": ""},
-	    	{"ADJ_1": ""}
-		]
-	\end{verbatim}
-\end{frame}
-
-\begin{frame}[t, fragile]{Gramáticas}
-	Debemos de añadir restricciones, diferentes para cada idioma:
-	\begin{verbatim}
-		"S": [
-	    	{"DET_1": ""},
-	    	{"S_1": ""},
-	    	{"ADJ_1": ""}
-		],
-        "restrictions": [
-            {"DET_1.num": "S_1.num"},
-            {"DET_1.gen": "S_1.gen"},
-            {"ADJ_1.num": "S_1.num"},
-            {"ADJ_1.gen": "S_1.gen"}
-        ]
+"S": [
+   {"DET_1": ""},
+   {"S_1": ""},
+   {"ADJ_1": ""}
+   ],
+"restrictions": [
+   {"DET_1.num": "S_1.num"},
+   {"DET_1.gen": "S_1.gen"},
+   {"ADJ_1.num": "S_1.num"},
+   {"ADJ_1.gen": "S_1.gen"}
+]
 	\end{verbatim}
 \end{frame}
 
@@ -363,24 +350,21 @@ El    +underline[héroe]   coge   +underline[el]   espada   +underline[metálico
 \end{frame}
 
 \begin{frame}[t, fragile]{Gramáticas: Sintagmas nominales}
-	\begin{verbatim}
-		"GENERAL": {
-        	"GM_1": {
-            	"S": 
-                	[
-	                {"DET_1": ""}, 
-	                {"S_1": ""},
-	                {"ADJ_1": ""}
-	            ],
-	            "restrictions": [
-	                {"DET_1.num": "S_1.num"},
-	                {"DET_1.gen": "S_1.gen"},
-	                {"ADJ_1.num": "S_1.num"},
-	                {"ADJ_1.gen": "S_1.gen"}
-	            ]
-	        }
-    	}
-	\end{verbatim}
+	\begin{Verbatim}
+"GENERAL": {
+   "S": [
+      {"DET_1": ""}, 
+      {"S_1": ""},
+      {"ADJ_1": ""}
+   ],
+   "restrictions": [
+      {"DET_1.num": "S_1.num"},
+      {"DET_1.gen": "S_1.gen"},
+      {"ADJ_1.num": "S_1.num"},
+      {"ADJ_1.gen": "S_1.gen"}
+   ]
+}
+	\end{Verbatim}
 \end{frame}
 
 \begin{frame}[t, fragile]{Gramáticas}
@@ -392,21 +376,21 @@ El    +underline[héroe]   coge   +underline[el]   espada   +underline[metálico
 \end{frame}
 
 \begin{frame}[t, fragile]{Gramáticas: Sintagmas nominales}
-	\begin{verbatim}
-		"S1": {
-            "S": [
-                {"GENERAL_1": ""},
-                {"V_1": ""},
-                {"GENERAL_2": ""}
-            ],
-            "restrictions": [
-                {"GENERAL_1.num": "V_1.num"},
-                {"GENERAL_1.gen": "V_1.gen"},
-                {"GENERAL_2.num": "V_2.num"},
-                {"GENERAL_2.gen": "V_2.gen"}
-            ]
-        },
-	\end{verbatim}
+	\begin{Verbatim}
+"S1": {
+   "S": [
+      {"GENERAL_1": ""},
+      {"V_1": ""},
+      {"GENERAL_2": ""}
+      ],
+   "restrictions": [
+      {"GENERAL_1.num": "V_1.num"},
+      {"GENERAL_1.gen": "V_1.gen"},
+      {"GENERAL_2.num": "V_2.num"},
+      {"GENERAL_2.gen": "V_2.gen"}
+   ]
+  },
+	\end{Verbatim}
 \end{frame}
 
 \begin{frame}[t, fragile]{Gramáticas}

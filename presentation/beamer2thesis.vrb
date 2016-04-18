@@ -1,7 +1,8 @@
 \frametitle{Gramáticas}
-\vspace*{\fill}
+Sin embargo, frases incorrectas pueden ser generadas:
+	\vspace*{\fill}
 		\begin{Verbatim}[commandchars=+\[\]]
-El    +underline[héroe]   coge   +underline[el]   espada   +underline[metálico]
++underline[La]    héroe   +underline[cogen]   la   +underline[espada]   metálica
 		\end{Verbatim}
 		\begin{verbatim}
 			DET     S       V     D     S        ADJ
