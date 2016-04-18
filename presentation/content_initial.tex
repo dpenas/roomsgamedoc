@@ -246,3 +246,62 @@
 
 % ¿CÓMO GENERAR FRASES AUTOMÁTICAMENTE/ALEATORIAMENTE? %
 
+\begin{tframe}{¿Cómo generamos las frases automáticamente?}
+	\begin{itemize}
+		\item Gramáticas
+		\item Diccionarios
+	\end{itemize}
+\end{tframe}
+
+\begin{tframe}{¿Cómo generamos las frases automáticamente?}
+	\begin{itemize}
+		\item<+-| alert@+> Gramáticas
+		\item Diccionarios
+	\end{itemize}
+\end{tframe}
+
+\begin{frame}[t, fragile]{Gramáticas}
+	\vspace*{\fill}
+	\begin{Verbatim}
+El    héroe   coge   la   espada   metálica
+	\end{Verbatim}
+	\vspace*{\fill}
+\end{frame}
+
+\begin{frame}[t, fragile]{Gramáticas}
+	\vspace*{\fill}
+	\begin{Verbatim}
+El    héroe   coge   la   espada   metálica
+	\end{Verbatim}
+	\begin{verbatim}
+		DET     S       V     D     S        ADJ
+	\end{verbatim}
+	\vspace*{\fill}
+\end{frame}
+
+\begin{frame}[t, fragile]{Gramáticas}
+En inglés...
+	\vspace*{\fill}
+	\begin{Verbatim}
+The     hero   picks    the    metalic    sword
+	\end{Verbatim}
+	\begin{verbatim}
+		DET       S      V        D        ADJ       S
+	\end{verbatim}
+	\vspace*{\fill}
+\end{frame}
+
+\begin{frame}[t, fragile]{Gramáticas}
+	\vspace*{\fill}
+		\begin{Verbatim}[commandchars=+\[\]]
+El    +underline[héroe]   coge   la   +underline[espada]   metálica
+		\end{Verbatim}
+		\begin{verbatim}
+			DET     S       V     D     S        ADJ
+		\end{verbatim}
+	\vspace*{\fill}
+\end{frame}
+
+% Hablar de temporalidad
+% Hablar de otros pequeños elementos como el "otra vez", las comas 
+% Hablar de todos los diferentes casos y gramáticas que tenemos que generar

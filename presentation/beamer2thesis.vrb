@@ -1,11 +1,9 @@
-\frametitle{Highlighting formulas (II)}
-\begin{itemize}
-\item Example:
-\[\tikzmarkin<2->{a}x+\tikzmarkin<1>{b}y\tikzmarkend{b}=10\tikzmarkend{a}\]
-\item<2-> Code:
-\begin{verbatim}
-\[\tikzmarkin<2->{a}x+
-  \tikzmarkin<1>{b}y\tikzmarkend{b}
-  =10\tikzmarkend{a}\]
-\end{verbatim}
-\end{itemize}
+\frametitle{Gramáticas}
+\vspace*{\fill}
+		\begin{Verbatim}[commandchars=+\[\]]
+El    +underline[héroe]   coge   la   +underline[espada]   metálica
+		\end{Verbatim}
+		\begin{verbatim}
+			DET     S       V     D     S        ADJ
+		\end{verbatim}
+	\vspace*{\fill}
