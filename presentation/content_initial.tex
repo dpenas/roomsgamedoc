@@ -341,6 +341,48 @@ La frase generada puede ser errónea:
 	\end{verbatim}
 \end{frame}
 
+% CANTIDAD DE GRAMÁTICAS QUE GENERAMOS %
+
+\begin{frame}[t, fragile]{Gramáticas: Importancia de las palabras}
+	Tenemos que generar frases para muchas situaciones diferentes:
+	\begin{itemize}
+		\item<+-| alert@+> Descripciones en base al usuario
+			\begin{itemize}
+				\item Inventario
+				\item Lo que lleva equipado
+				\item Magias disponibles
+				\item Estadísticas (nivel, experiencia, vida, maná...)
+			\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}[t, fragile]{Gramáticas: Importancia de las palabras}
+	Tenemos que generar frases para muchas situaciones diferentes:
+	\begin{itemize}
+		\item Descripciones en base al usuario
+		\item<+-| alert@+> Descripciones del mapa
+			\begin{itemize}
+				\item Enemigos (vida, magia, nivel...)
+				\item Posiciones a las que nos podemos mover
+				\item Lo que se encuentra alrededor del usuario (ítems, puertas, enemigos...)
+			\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}[t, fragile]{Gramáticas: Importancia de las palabras}
+	Tenemos que generar frases para muchas situaciones diferentes:
+	\begin{itemize}
+		\item Descripciones en base al usuario
+		\item Descripciones del mapa
+		\item<+-| alert@+> Acciones
+			\begin{itemize}
+				\item Ataque cuerpo a cuerpo (tanto del usuario como enemigos)
+				\item Ataques mágicos (tanto del usuario como enemigos)
+				\item Coger/Tirar/Equipar/Desequipar elementos
+			\end{itemize}
+	\end{itemize}
+\end{frame}
+
 \begin{frame}[t, fragile]{Gramáticas}
 	Las gramáticas acaban siendo demasiado grandes y limitadas. Dos archivos:
 	\begin{itemize}
@@ -398,9 +440,6 @@ La frase generada puede ser errónea:
 		\begin{Verbatim}[commandchars=+\[\]]
 	El    +underline[héroe]   coge   la   +underline[espada]   metálica
 		\end{Verbatim}
-		\begin{verbatim}
-			DET     S       V     D     S        ADJ
-		\end{verbatim}
 	\vspace*{\fill}
 \end{frame}
 
@@ -410,27 +449,83 @@ La frase generada puede ser errónea:
 		\begin{Verbatim}[commandchars=+\[\]]
 	Los    +underline[héroes]   cogen   las   +underline[espadas]   metálicas
 		\end{Verbatim}
-		\begin{verbatim}
-			DET     S       V     D     S        ADJ
-		\end{verbatim}
 	\vspace*{\fill}
 \end{frame}
 
-% GRAMÁTICAS: TEMPORALIDAD %
+% GRAMÁTICAS: IDIOMAS DISPONIBLES %
 
-\begin{frame}[t, fragile]{Gramáticas: Temporalidad}
-	Tenemos en cuenta la temporalidad:
+\begin{frame}[t, fragile]{Idiomas disponibles}
+	El juego lo tenemos disponible, con gramáticas y diccionarios, en los siguientes idiomas:
 	\begin{itemize}
-		\item<+-| alert@+> 
+		\item Gallego
+		\item Castellano
+		\item Inglés
+		\item Holandés
 	\end{itemize}
 \end{frame}
 
-% El héroe equipa/desequipa la espada corta y el casco... lo mismo cuando tiramos objetos.
-% Ataques
-% Descripciones con enemigos muertos
-% Cuando enemigos fallan al atacar
+\begin{tframe}{¿Cómo generamos las frases automáticamente?}
+	\begin{itemize}
+		\item Gramáticas
+		\item<+-| alert@+> Diccionarios
+	\end{itemize}
+\end{tframe}
 
-% Hablar de la importancia de cada una de las palabras dentro de una frase
-% Hablar de temporalidad
-% Hablar de otros pequeños elementos como el "otra vez", las comas 
+% DICCIONARIOS %
+
+% TEMPORALIDAD %
+
+\begin{frame}[t, fragile]{Otros elementos}
+	Otros detalles que tenemos en cuenta:
+	\begin{itemize}
+		\item<+-| alert@+> Temporalidad
+		\item Cambiar el tipo de descripciones (numéricas o no)
+		\item Estados que cambian en base a ciertos elementos
+	\end{itemize}
+\end{frame}
+
+\begin{frame}[t, fragile]{Otros elementos}
+	Otros detalles que tenemos en cuenta:
+	\begin{itemize}
+		\item Temporalidad
+		\item Cambiar el tipo de descripciones (numéricas o no)
+		\item Estados que cambian en base a ciertos elementos
+	\end{itemize}
+\end{frame}
+
+\begin{frame}[t, fragile]{Temporalidad}
+	Tenemos en cuenta la temporalidad:
+	\begin{itemize}
+		\item<+-| alert@+> Cuando el usuario equipa/desequipa/tira/use un elemento del inventario
+		\begin{figure}[h]
+			\includegraphics[width=8cm]{../img/temporalidadEquipar.PNG}
+		\end{figure}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}[t, fragile]{Temporalidad}
+	Tenemos en cuenta la temporalidad:
+	\begin{itemize}
+		\item Cuando el usuario equipa/desequipa/tira/use un elemento del inventario
+		\item<+-| alert@+> Durante los ataques del usuario y enemigos
+		\begin{figure}[h]
+			\includegraphics[width=8cm]{../img/temporalidadAtaque.PNG}
+		\end{figure}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}[t, fragile]{Temporalidad}
+	Tenemos en cuenta la temporalidad:
+	\begin{itemize}
+		\item Cuando el usuario equipa/desequipa/tira/use un elemento del inventario
+		\item Durante los ataques del usuario y enemigos
+		\item<+-| alert@+> Con las descripciones de los enemigos derrotados
+		\begin{figure}[h]
+			\includegraphics[width=8cm]{../img/temporalidadAtaque.PNG}
+		\end{figure}
+	\end{itemize}
+\end{frame}
+
+
 % Hablar de todos los diferentes casos y gramáticas que tenemos que generar
+% Otros detalles como el modo numeric description

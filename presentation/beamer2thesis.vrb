@@ -1,10 +1,10 @@
-\frametitle{Gramáticas}
-Sin embargo, frases incorrectas pueden ser generadas:
-	\vspace*{\fill}
-		\begin{Verbatim}[commandchars=+\[\]]
-+underline[La]    héroe   +underline[cogen]   la   +underline[espada]   metálica
-		\end{Verbatim}
-		\begin{verbatim}
-			DET     S       V     D     S        ADJ
-		\end{verbatim}
-	\vspace*{\fill}
+\frametitle{Temporalidad}
+Tenemos en cuenta la temporalidad:
+	\begin{itemize}
+		\item Cuando el usuario equipa/desequipa/tira/use un elemento del inventario
+		\item Durante los ataques del usuario y enemigos
+		\item<+-| alert@+> Con las descripciones de los enemigos derrotados
+		\begin{figure}[h]
+			\includegraphics[width=8cm]{../img/temporalidadAtaque.PNG}
+		\end{figure}
+	\end{itemize}
