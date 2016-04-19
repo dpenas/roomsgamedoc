@@ -464,21 +464,53 @@ La frase generada puede ser errónea:
 	\end{itemize}
 \end{frame}
 
-\begin{tframe}{¿Cómo generamos las frases automáticamente?}
+% DICCIONARIOS %
+
+\begin{tframe}{Diccionarios}
 	\begin{itemize}
 		\item Gramáticas
 		\item<+-| alert@+> Diccionarios
 	\end{itemize}
 \end{tframe}
 
-% DICCIONARIOS %
+\begin{tframe}{Diccionarios}
+	\begin{itemize}
+		\item<+-| alert@+> Diccionario para cada idioma
+	\end{itemize}
+\end{tframe}
+
+\begin{tframe}{Diccionarios}
+	\begin{itemize}
+		\item Diccionario para cada idioma
+		\item<+-| alert@+> Contienen la información necesaria de cada palabra
+	\end{itemize}
+\end{tframe}
+
+\begin{tframe}{Diccionarios}
+	\begin{itemize}
+		\item Diccionario para cada idioma
+		\item Contienen la información necesaria de cada palabra
+		\item<+-| alert@+> Fácilmente traducible y ampliable
+	\end{itemize}
+\end{tframe}
+
+\begin{frame}[t, fragile]{Diccionarios. Ejemplo}
+	\begin{Verbatim}
+"goblin": [
+    {"num": "sing"},
+    {"translation": "goblin"},
+    {"numopposite": "goblins"},
+    {"gen": "mas"}
+],
+	\end{Verbatim}
+\end{frame}
 
 % TEMPORALIDAD %
 
 \begin{frame}[t, fragile]{Otros elementos}
 	Otros detalles que tenemos en cuenta:
 	\begin{itemize}
-		\item<+-| alert@+> Temporalidad
+		\item Temporalidad
 		\item Cambiar el tipo de descripciones (numéricas o no)
 		\item Estados que cambian en base a ciertos elementos
 	\end{itemize}
@@ -487,7 +519,7 @@ La frase generada puede ser errónea:
 \begin{frame}[t, fragile]{Otros elementos}
 	Otros detalles que tenemos en cuenta:
 	\begin{itemize}
-		\item Temporalidad
+		\item<+-| alert@+> Temporalidad
 		\item Cambiar el tipo de descripciones (numéricas o no)
 		\item Estados que cambian en base a ciertos elementos
 	\end{itemize}
