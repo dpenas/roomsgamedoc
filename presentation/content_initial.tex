@@ -305,7 +305,7 @@ Estas gramáticas las especificamos en un archivo JSON, que dependerá del idiom
 	    	{"DET_1": ""},
 	    	{"S_1": ""},
 	    	{"V_1": ""},
-	    	{"D_2": ""},
+	    	{"DET_2": ""},
 	    	{"S_2": ""},
 	    	{"ADJ_1": ""}
 		],
@@ -393,17 +393,42 @@ La frase generada puede ser errónea:
 	\end{Verbatim}
 \end{frame}
 
-\begin{frame}[t, fragile]{Gramáticas}
-Sin embargo, frases incorrectas pueden ser generadas:
+\begin{frame}[t, fragile]{Gramáticas: Importancia de las palabras}
 	\vspace*{\fill}
 		\begin{Verbatim}[commandchars=+\[\]]
-+underline[La]    héroe   +underline[cogen]   la   +underline[espada]   metálica
+	El    +underline[héroe]   coge   la   +underline[espada]   metálica
 		\end{Verbatim}
 		\begin{verbatim}
 			DET     S       V     D     S        ADJ
 		\end{verbatim}
 	\vspace*{\fill}
 \end{frame}
+
+\begin{frame}[t, fragile]{Gramáticas: Importancia de las palabras}
+	Si las palabras importantes cambian, el resto se adaptan a ellas:
+	\vspace*{\fill}
+		\begin{Verbatim}[commandchars=+\[\]]
+	Los    +underline[héroes]   cogen   las   +underline[espadas]   metálicas
+		\end{Verbatim}
+		\begin{verbatim}
+			DET     S       V     D     S        ADJ
+		\end{verbatim}
+	\vspace*{\fill}
+\end{frame}
+
+% GRAMÁTICAS: TEMPORALIDAD %
+
+\begin{frame}[t, fragile]{Gramáticas: Temporalidad}
+	Tenemos en cuenta la temporalidad:
+	\begin{itemize}
+		\item<+-| alert@+> 
+	\end{itemize}
+\end{frame}
+
+% El héroe equipa/desequipa la espada corta y el casco... lo mismo cuando tiramos objetos.
+% Ataques
+% Descripciones con enemigos muertos
+% Cuando enemigos fallan al atacar
 
 % Hablar de la importancia de cada una de las palabras dentro de una frase
 % Hablar de temporalidad
