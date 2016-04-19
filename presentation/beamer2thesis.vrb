@@ -1,10 +1,8 @@
-\frametitle{Temporalidad}
-Tenemos en cuenta la temporalidad:
+\frametitle{Idiomas disponibles}
+El juego lo tenemos disponible, con gramáticas y diccionarios, en los siguientes idiomas:
 	\begin{itemize}
-		\item Cuando el usuario equipa/desequipa/tira/use un elemento del inventario
-		\item Durante los ataques del usuario y enemigos
-		\item<+-| alert@+> Con las descripciones de los enemigos derrotados
-		\begin{figure}[h]
-			\includegraphics[width=8cm]{../img/temporalidadAtaque.PNG}
-		\end{figure}
+		\item Gallego
+		\item Castellano
+		\item Inglés
+		\item Holandés
 	\end{itemize}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.4)  19 APR 2016 12:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.4)  19 APR 2016 15:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1392,14 +1392,25 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [19
 
-]
+] <../img/temporalidadAtaque.PNG, id=195, 457.71pt x 52.39575pt>
+File: ../img/temporalidadAtaque.PNG Graphic file (type png)
+
+<use ../img/temporalidadAtaque.PNG>
+Package pdftex.def Info: ../img/temporalidadAtaque.PNG used on input line 200.
+(pdftex.def)             Requested size: 227.62204pt x 26.05629pt.
+
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
 [20
 
-]
+ <../img/temporalidadAtaque.PNG>]
+File: ../img/temporalidadAtaque.PNG Graphic file (type png)
+ <use ../img/temporalidadAtaque.PNG>
+Package pdftex.def Info: ../img/temporalidadAtaque.PNG used on input line 207.
+(pdftex.def)             Requested size: 227.62204pt x 26.05629pt.
+
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1449,9 +1460,6 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [27
 
 ]
-\openout4 = `beamer2thesis.vrb'.
-
- (./beamer2thesis.vrb)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1459,9 +1467,6 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [28
 
 ]
-\openout4 = `beamer2thesis.vrb'.
-
- (./beamer2thesis.vrb)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1552,10 +1557,6 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \openout4 = `beamer2thesis.vrb'.
 
  (./beamer2thesis.vrb)
-Overfull \vbox (9.99426pt too high) detected at line 410
- []
-
-
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1576,7 +1577,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \openout4 = `beamer2thesis.vrb'.
 
  (./beamer2thesis.vrb)
-Overfull \vbox (10.60262pt too high) detected at line 436
+Overfull \vbox (9.99426pt too high) detected at line 424
  []
 
 
@@ -1600,6 +1601,10 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \openout4 = `beamer2thesis.vrb'.
 
  (./beamer2thesis.vrb)
+Overfull \vbox (10.60262pt too high) detected at line 450
+ []
+
+
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1617,6 +1622,9 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [43
 
 ]
+\openout4 = `beamer2thesis.vrb'.
+
+ (./beamer2thesis.vrb)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1645,9 +1653,6 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [47
 
 ]
-\openout4 = `beamer2thesis.vrb'.
-
- (./beamer2thesis.vrb)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1665,9 +1670,6 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [49
 
 ]
-\openout4 = `beamer2thesis.vrb'.
-
- (./beamer2thesis.vrb)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1675,54 +1677,167 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [50
 
 ]
-\openout4 = `beamer2thesis.vrb'.
-
- (./beamer2thesis.vrb
-<../img/temporalidadEquipar.PNG, id=451, 198.14024pt x 68.6565pt>
-File: ../img/temporalidadEquipar.PNG Graphic file (type png)
-
-<use ../img/temporalidadEquipar.PNG>
-Package pdftex.def Info: ../img/temporalidadEquipar.PNG used on input line 6.
-(pdftex.def)             Requested size: 227.62204pt x 78.87785pt.
-)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
 [51
 
- <../img/temporalidadEquipar.PNG>]
-\openout4 = `beamer2thesis.vrb'.
-
- (./beamer2thesis.vrb
-<../img/temporalidadAtaque.PNG, id=462, 457.71pt x 52.39575pt>
-File: ../img/temporalidadAtaque.PNG Graphic file (type png)
-
-<use ../img/temporalidadAtaque.PNG>
-Package pdftex.def Info: ../img/temporalidadAtaque.PNG used on input line 7.
-(pdftex.def)             Requested size: 227.62204pt x 26.05629pt.
-)
+]
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
 [52
 
- <../img/temporalidadAtaque.PNG>]
+]
 \openout4 = `beamer2thesis.vrb'.
 
- (./beamer2thesis.vrb
-File: ../img/temporalidadAtaque.PNG Graphic file (type png)
-
-<use ../img/temporalidadAtaque.PNG>
-Package pdftex.def Info: ../img/temporalidadAtaque.PNG used on input line 8.
-(pdftex.def)             Requested size: 227.62204pt x 26.05629pt.
-)
+ (./beamer2thesis.vrb)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
 [53
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[54
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[55
+
+] <../img/temporalidadEquipar.PNG, id=495, 198.14024pt x 68.6565pt>
+File: ../img/temporalidadEquipar.PNG Graphic file (type png)
+
+<use ../img/temporalidadEquipar.PNG>
+Package pdftex.def Info: ../img/temporalidadEquipar.PNG used on input line 571.
+
+(pdftex.def)             Requested size: 227.62204pt x 78.87785pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[56
+
+ <../img/temporalidadEquipar.PNG>]
+File: ../img/temporalidadAtaque.PNG Graphic file (type png)
+ <use ../img/temporalidadAtaque.PNG>
+Package pdftex.def Info: ../img/temporalidadAtaque.PNG used on input line 582.
+(pdftex.def)             Requested size: 227.62204pt x 26.05629pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[57
+
+]
+File: ../img/temporalidadAtaque.PNG Graphic file (type png)
+ <use ../img/temporalidadAtaque.PNG>
+Package pdftex.def Info: ../img/temporalidadAtaque.PNG used on input line 594.
+(pdftex.def)             Requested size: 227.62204pt x 26.05629pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[58
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[59
+
+]
+File: ../img/temporalidadAtaque.PNG Graphic file (type png)
+ <use ../img/temporalidadAtaque.PNG>
+Package pdftex.def Info: ../img/temporalidadAtaque.PNG used on input line 612.
+(pdftex.def)             Requested size: 227.62204pt x 26.05629pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[60
+
+]
+File: ../img/temporalidadAtaque.PNG Graphic file (type png)
+ <use ../img/temporalidadAtaque.PNG>
+Package pdftex.def Info: ../img/temporalidadAtaque.PNG used on input line 619.
+(pdftex.def)             Requested size: 227.62204pt x 26.05629pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[61
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[62
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[63
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[64
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[65
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[66
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[67
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[68
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[69
 
 ])
 \tf@nav=\write7
@@ -1752,10 +1867,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 23.
  ) 
 Here is how much of TeX's memory you used:
- 27917 strings out of 493089
- 549705 string characters out of 6134843
+ 27971 strings out of 493089
+ 550117 string characters out of 6134843
  614751 words of memory out of 5000000
- 30700 multiletter control sequences out of 15000+600000
+ 30732 multiletter control sequences out of 15000+600000
  16715 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,18n,63p,10411b,741s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1767,10 +1882,10 @@ b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on beamer2thesis.pdf (53 pages, 527688 bytes).
+Output written on beamer2thesis.pdf (69 pages, 542934 bytes).
 PDF statistics:
- 532 PDF objects out of 1000 (max. 8388607)
- 437 compressed objects within 5 object streams
- 107 named destinations out of 1000 (max. 500000)
+ 671 PDF objects out of 1000 (max. 8388607)
+ 559 compressed objects within 6 object streams
+ 139 named destinations out of 1000 (max. 500000)
  126 words of extra memory for PDF output out of 10000 (max. 10000000)
 

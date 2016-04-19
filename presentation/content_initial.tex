@@ -193,6 +193,20 @@
 \end{tframe}
 
 \begin{tframe}{Elementos de accesbilidad en nuestro proyecto}
+	Una paleta de colores:
+		\begin{figure}[h]
+			\includegraphics[width=8cm]{../img/temporalidadAtaque.PNG}
+		\end{figure}
+\end{tframe}
+
+\begin{tframe}{Elementos de accesbilidad en nuestro proyecto}
+	Otra paleta de colores:
+		\begin{figure}[h]
+			\includegraphics[width=8cm]{../img/temporalidadAtaque.PNG}
+		\end{figure}
+\end{tframe}
+
+\begin{tframe}{Elementos de accesbilidad en nuestro proyecto}
 	\begin{itemize}
 		\item Posibilidad de cambiar las teclas (\textit{rebindable keys})
 		\item Tamaño de letra grande para facilitar la lectura
@@ -438,7 +452,7 @@ La frase generada puede ser errónea:
 \begin{frame}[t, fragile]{Gramáticas: Importancia de las palabras}
 	\vspace*{\fill}
 		\begin{Verbatim}[commandchars=+\[\]]
-	El    +underline[héroe]   coge   la   +underline[espada]   metálica
+El    +underline[héroe]   coge   la   +underline[espada]   metálica
 		\end{Verbatim}
 	\vspace*{\fill}
 \end{frame}
@@ -447,21 +461,9 @@ La frase generada puede ser errónea:
 	Si las palabras importantes cambian, el resto se adaptan a ellas:
 	\vspace*{\fill}
 		\begin{Verbatim}[commandchars=+\[\]]
-	Los    +underline[héroes]   cogen   las   +underline[espadas]   metálicas
+Los    +underline[héroes]   cogen   las   +underline[espadas]   metálicas
 		\end{Verbatim}
 	\vspace*{\fill}
-\end{frame}
-
-% GRAMÁTICAS: IDIOMAS DISPONIBLES %
-
-\begin{frame}[t, fragile]{Idiomas disponibles}
-	El juego lo tenemos disponible, con gramáticas y diccionarios, en los siguientes idiomas:
-	\begin{itemize}
-		\item Gallego
-		\item Castellano
-		\item Inglés
-		\item Holandés
-	\end{itemize}
 \end{frame}
 
 % DICCIONARIOS %
@@ -505,37 +507,70 @@ La frase generada puede ser errónea:
 	\end{Verbatim}
 \end{frame}
 
+\begin{tframe}{¿Por qué no usar Wordnet?}
+	\begin{itemize}
+		\item<+-| alert@+> Está disponible para muchos idiomas, pero no para todos
+	\end{itemize}
+\end{tframe}
+
+\begin{tframe}{¿Por qué no usar Wordnet?}
+	\begin{itemize}
+		\item Está disponible para muchos idiomas, pero no para todos
+		\item<+-| alert@+> No contiene todas las palabras/información que necesitamos en cada idioma
+	\end{itemize}
+\end{tframe}
+
+\begin{tframe}{¿Por qué no usar Wordnet?}
+	\begin{itemize}
+		\item Está disponible para muchos idiomas, pero no para todos
+		\item No contiene todas las palabras/información que necesitamos en cada idioma
+		\item<+-| alert@+> Rompería la idea de que el proyecto es fácilmente extendible y traducible
+	\end{itemize}
+\end{tframe}
+
+% GRAMÁTICAS: IDIOMAS DISPONIBLES %
+
+\begin{frame}[t, fragile]{Idiomas disponibles}
+	El juego lo tenemos disponible, con gramáticas y diccionarios, en los siguientes idiomas:
+	\begin{itemize}
+		\item Gallego
+		\item Castellano
+		\item Inglés
+		\item Holandés
+	\end{itemize}
+\end{frame}
+
 % TEMPORALIDAD %
 
-\begin{frame}[t, fragile]{Otros elementos}
+\begin{tframe}{Otros elementos}
 	Otros detalles que tenemos en cuenta:
 	\begin{itemize}
 		\item Temporalidad
 		\item Cambiar el tipo de descripciones (numéricas o no)
 		\item Estados que cambian en base a ciertos elementos
 	\end{itemize}
-\end{frame}
+\end{tframe}
 
-\begin{frame}[t, fragile]{Otros elementos}
+\begin{tframe}{Otros elementos}
 	Otros detalles que tenemos en cuenta:
 	\begin{itemize}
 		\item<+-| alert@+> Temporalidad
 		\item Cambiar el tipo de descripciones (numéricas o no)
 		\item Estados que cambian en base a ciertos elementos
 	\end{itemize}
-\end{frame}
+\end{tframe}
 
-\begin{frame}[t, fragile]{Temporalidad}
+\begin{tframe}{Temporalidad}
 	Tenemos en cuenta la temporalidad:
 	\begin{itemize}
-		\item<+-| alert@+> Cuando el usuario equipa/desequipa/tira/use un elemento del inventario
+		\item<+-| alert@+> Cuando el usuario equipa/desequipa/tira/usa un elemento del inventario
 		\begin{figure}[h]
 			\includegraphics[width=8cm]{../img/temporalidadEquipar.PNG}
 		\end{figure}
 	\end{itemize}
-\end{frame}
+\end{tframe}
 
-\begin{frame}[t, fragile]{Temporalidad}
+\begin{tframe}{Temporalidad}
 	Tenemos en cuenta la temporalidad:
 	\begin{itemize}
 		\item Cuando el usuario equipa/desequipa/tira/use un elemento del inventario
@@ -544,9 +579,9 @@ La frase generada puede ser errónea:
 			\includegraphics[width=8cm]{../img/temporalidadAtaque.PNG}
 		\end{figure}
 	\end{itemize}
-\end{frame}
+\end{tframe}
 
-\begin{frame}[t, fragile]{Temporalidad}
+\begin{tframe}{Temporalidad}
 	Tenemos en cuenta la temporalidad:
 	\begin{itemize}
 		\item Cuando el usuario equipa/desequipa/tira/use un elemento del inventario
@@ -556,8 +591,98 @@ La frase generada puede ser errónea:
 			\includegraphics[width=8cm]{../img/temporalidadAtaque.PNG}
 		\end{figure}
 	\end{itemize}
-\end{frame}
+\end{tframe}
 
+% CAMBIAR EL TIPO DE DESCRIPCIONES %
 
-% Hablar de todos los diferentes casos y gramáticas que tenemos que generar
-% Otros detalles como el modo numeric description
+\begin{tframe}{Tipos de descripciones}
+	Otros detalles que tenemos en cuenta:
+	\begin{itemize}
+		\item Temporalidad
+		\item<+-| alert@+> Cambiar el tipo de descripciones (numéricas o no)
+		\item Estados que cambian en base a ciertos elementos
+	\end{itemize}
+\end{tframe}
+
+\begin{tframe}{Tipos de descripciones}
+	Descripciones sin ser numéricas:
+		\begin{figure}[h]
+			\includegraphics[width=8cm]{../img/temporalidadAtaque.PNG}
+		\end{figure}
+\end{tframe}
+
+\begin{tframe}{Tipos de descripciones}
+	Descripciones siendo numéricas:
+		\begin{figure}[h]
+			\includegraphics[width=8cm]{../img/temporalidadAtaque.PNG}
+		\end{figure}
+\end{tframe}
+
+% ESTADOS QUE CAMBIAN EN BASE A OTROS ELEMENTOS %
+
+\begin{tframe}{Estados que cambian en base a ciertos elementos}
+	Otros detalles que tenemos en cuenta:
+	\begin{itemize}
+		\item Temporalidad
+		\item Cambiar el tipo de descripciones (numéricas o no)
+		\item<+-| alert@+> Estados que cambian en base a ciertos elementos
+	\end{itemize}
+\end{tframe}
+
+\begin{tframe}{Estados que cambian en base a ciertos elementos}
+	
+\end{tframe}
+
+% EN CONCLUSIÓN %
+
+\begin{tframe}{En conclusión...}
+	Con este sistema de gramáticas y diccionarios podemos:
+	\begin{itemize}
+		\item<+-| alert@+> Dar soporte a otros idiomas sencillamente
+	\end{itemize}
+\end{tframe}
+
+\begin{tframe}{En conclusión...}
+	Con este sistema de gramáticas y diccionarios podemos:
+	\begin{itemize}
+		\item Dar soporte a otros idiomas sencillamente
+		\item<+-| alert@+> Aumentar la aleatoriedad de las frases
+		\begin{itemize}
+			\item Aumentando las gramáticas
+			\item Aumentando los diccionarios
+		\end{itemize}
+	\end{itemize}
+\end{tframe}
+
+\begin{tframe}{En conclusión...}
+	Con este sistema de gramáticas y diccionarios podemos:
+	\begin{itemize}
+		\item Dar soporte a otros idiomas sencillamente
+		\item Aumentar la aleatoriedad de las frases
+		\item<+-| alert@+> Permitir que cualquier persona sin muchos conocimientos informáticos pueda traducirlo
+	\end{itemize}
+\end{tframe}
+
+\begin{tframe}{En conclusión...}
+	Con este sistema de gramáticas y diccionarios podemos:
+	\begin{itemize}
+		\item Dar soporte a otros idiomas sencillamente
+		\item Aumentar la aleatoriedad de las frases
+		\item Permitir que cualquier persona sin muchos conocimientos informáticos pueda traducirlo
+		\item<+-| alert@+> Utilizar, en un futuro, diferentes librerías.
+	\end{itemize}
+\end{tframe}
+
+% PREGUNTAS Y GRACIAS %
+
+\begin{tframe}{Preguntas}
+	\vspace*{\fill}
+	\Large ¿Preguntas?
+	\vspace*{\fill}
+\end{tframe}
+
+\begin{tframe}{¡Gracias!}
+	\vspace*{\fill}
+	\Large ¡Gracias!
+	\vspace*{\fill}
+\end{tframe}
