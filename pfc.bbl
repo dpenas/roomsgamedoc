@@ -1,16 +1,26 @@
 \newcommand{\etalchar}[1]{$^{#1}$}
-\begin{thebibliography}{EG{\etalchar{+}}95}
+\begin{thebibliography}{CDM99}
 
 \bibitem[Bec02]{book:tdd}
 Kent Beck.
 \newblock {\em {Test Driven Development: By Example}}.
 \newblock 2002.
 
+\bibitem[CDM99]{book:statisticalfoundations}
+Hinrich~Schütze Christopher D.~Manning.
+\newblock {\em {Foundations of Statistical Natural Language Processing}}.
+\newblock 1999.
+
 \bibitem[CNB]{website:gamingsales}
 CNBC.
 \newblock {Digital gaming sales hit record \$61 billion in 2015: Report}.
 \newblock
   \url{http://www.cnbc.com/2016/01/26/digital-gaming-sales-hit-record-61-billion-in-2015-report.html}.
+
+\bibitem[DJ08]{book:speechlanguage}
+James H.~Martin Daniel~Jurafsky.
+\newblock {\em {Speech and Language Processing}}.
+\newblock 2008.
 
 \bibitem[EG{\etalchar{+}}95]{book:designpatterns}
 Richard~Helm Erich~Gamma et~al.

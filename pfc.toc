@@ -1,5 +1,5 @@
 \select@language {spanish}
-\contentsline {chapter}{\'{I}ndice de figuras}{\es@scroman {vii}}{chapter*.5}
+\contentsline {chapter}{\'{I}ndice de figuras}{\es@scroman {ix}}{chapter*.5}
 \contentsline {chapter}{\numberline {1}Introduci\IeC {\'o}n}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Videojuegos y personas invidentes}{1}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Visita a la \textit {ONCE}}{2}{subsection.1.1.1}
