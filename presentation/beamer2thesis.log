@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.4)  20 APR 2016 09:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.4)  20 APR 2016 09:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1836,9 +1836,74 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [67
 
-] [68
+] <../img/estado1.PNG, id=606, 390.86024pt x 16.26076pt>
+File: ../img/estado1.PNG Graphic file (type png)
 
-] [69
+<use ../img/estado1.PNG>
+Package pdftex.def Info: ../img/estado1.PNG used on input line 677.
+(pdftex.def)             Requested size: 227.62204pt x 9.46994pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[68
+
+ <../img/estado1.PNG>]
+<../img/estado2.PNG, id=616, 590.80725pt x 56.00925pt>
+File: ../img/estado2.PNG Graphic file (type png)
+
+<use ../img/estado2.PNG>
+Package pdftex.def Info: ../img/estado2.PNG used on input line 684.
+(pdftex.def)             Requested size: 227.62204pt x 21.57857pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[69
+
+ <../img/estado2.PNG>]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[70
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[71
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[72
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[73
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[74
+
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[75
 
 ])
 \tf@nav=\write7
@@ -1868,11 +1933,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 23.
  ) 
 Here is how much of TeX's memory you used:
- 27998 strings out of 493089
- 550906 string characters out of 6134843
+ 28033 strings out of 493089
+ 551348 string characters out of 6134843
  614751 words of memory out of 5000000
- 30753 multiletter control sequences out of 15000+600000
- 17021 words of font info for 61 fonts, out of 8000000 for 9000
+ 30774 multiletter control sequences out of 15000+600000
+ 17315 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,18n,63p,10411b,741s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pf
@@ -1884,10 +1949,10 @@ b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on beamer2thesis.pdf (69 pages, 566332 bytes).
+Output written on beamer2thesis.pdf (75 pages, 586380 bytes).
 PDF statistics:
- 679 PDF objects out of 1000 (max. 8388607)
- 556 compressed objects within 6 object streams
- 139 named destinations out of 1000 (max. 500000)
- 151 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 743 PDF objects out of 1000 (max. 8388607)
+ 609 compressed objects within 7 object streams
+ 151 named destinations out of 1000 (max. 500000)
+ 161 words of extra memory for PDF output out of 10000 (max. 10000000)
 
