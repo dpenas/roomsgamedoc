@@ -66,7 +66,7 @@
 \contentsline {paragraph}{B\IeC {\'u}squeda de bibliotecas que se adapten a nuestros requisitos}{33}{section*.48}
 \contentsline {paragraph}{Creaci\IeC {\'o}n y configuraci\IeC {\'o}n del ambiente de desarrollo para poder empezar la implementaci\IeC {\'o}n}{33}{section*.49}
 \contentsline {subsubsection}{\numberline {5.1.1.1}Tareas y seguimiento}{33}{subsubsection.5.1.1.1}
-\contentsline {subsubsection}{\numberline {5.1.1.2}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{33}{subsubsection.5.1.1.2}
+\contentsline {subsubsection}{\numberline {5.1.1.2}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{34}{subsubsection.5.1.1.2}
 \contentsline {subsubsection}{\numberline {5.1.1.3}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{34}{subsubsection.5.1.1.3}
 \contentsline {subsection}{\numberline {5.1.2}Segunda iteraci\IeC {\'o}n: Generaci\IeC {\'o}n de mapas y habitaciones}{34}{subsection.5.1.2}
 \contentsline {paragraph}{An\IeC {\'a}lisis de requisitos de los mapas y habitaciones}{34}{section*.51}
@@ -88,7 +88,7 @@
 \contentsline {subsubsection}{\numberline {5.2.1.3}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{38}{subsubsection.5.2.1.3}
 \contentsline {subsection}{\numberline {5.2.2}Segunda iteraci\IeC {\'o}n: an\IeC {\'a}lisis, dise\IeC {\~n}o, tests e implementaci\IeC {\'o}n de los personajes}{38}{subsection.5.2.2}
 \contentsline {paragraph}{An\IeC {\'a}lisis de requisitos para sobre personajes}{38}{section*.62}
-\contentsline {paragraph}{Creaci\IeC {\'o}n del dise\IeC {\~n}o de los personajes}{38}{section*.63}
+\contentsline {paragraph}{Creaci\IeC {\'o}n del dise\IeC {\~n}o de los personajes}{39}{section*.63}
 \contentsline {paragraph}{Implementaci\IeC {\'o}n de los tests}{39}{section*.64}
 \contentsline {paragraph}{Programaci\IeC {\'o}n de lo dise\IeC {\~n}ado y analizado previamente}{39}{section*.65}
 \contentsline {subsubsection}{\numberline {5.2.2.1}Tareas y seguimiento}{39}{subsubsection.5.2.2.1}
@@ -127,14 +127,14 @@
 \contentsline {paragraph}{Creaci\IeC {\'o}n de los tests para las gram\IeC {\'a}ticas NP}{48}{section*.83}
 \contentsline {paragraph}{Implementaci\IeC {\'o}n de las gram\IeC {\'a}ticas NP}{48}{section*.84}
 \contentsline {subsubsection}{\numberline {5.3.4.1}Tareas y seguimiento}{48}{subsubsection.5.3.4.1}
-\contentsline {subsubsection}{\numberline {5.3.4.2}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{48}{subsubsection.5.3.4.2}
+\contentsline {subsubsection}{\numberline {5.3.4.2}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{49}{subsubsection.5.3.4.2}
 \contentsline {subsubsection}{\numberline {5.3.4.3}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{49}{subsubsection.5.3.4.3}
 \contentsline {subsection}{\numberline {5.3.5}Quinta iteraci\IeC {\'o}n: An\IeC {\'a}lisis, dise\IeC {\~n}o e implementaci\IeC {\'o}n de las gram\IeC {\'a}ticas y frases m\IeC {\'a}s complejas}{49}{subsection.5.3.5}
 \contentsline {paragraph}{An\IeC {\'a}lisis sobre c\IeC {\'o}mo crear las gram\IeC {\'a}ticas complejas de forma gen\IeC {\'e}rica}{49}{section*.86}
 \contentsline {paragraph}{Dise\IeC {\~n}o de dichas gram\IeC {\'a}ticas}{49}{section*.87}
 \contentsline {paragraph}{Creaci\IeC {\'o}n de los tests para las gram\IeC {\'a}ticas complejas}{49}{section*.88}
 \contentsline {paragraph}{Implementaci\IeC {\'o}n y \textit {link} con el diccionario}{49}{section*.89}
-\contentsline {subsubsection}{\numberline {5.3.5.1}Tareas y seguimiento}{49}{subsubsection.5.3.5.1}
+\contentsline {subsubsection}{\numberline {5.3.5.1}Tareas y seguimiento}{50}{subsubsection.5.3.5.1}
 \contentsline {subsubsection}{\numberline {5.3.5.2}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{50}{subsubsection.5.3.5.2}
 \contentsline {subsubsection}{\numberline {5.3.5.3}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{50}{subsubsection.5.3.5.3}
 \contentsline {subsection}{\numberline {5.3.6}Sexta iteraci\IeC {\'o}n: Implementaci\IeC {\'o}n de las restricciones, gallego y castellano, creaci\IeC {\'o}n de la interfaz de usuario para con las frases generadas y primer v\IeC {\'\i }deo}{51}{subsection.5.3.6}
@@ -174,7 +174,7 @@
 \contentsline {paragraph}{Generar todas las frases con las gram\IeC {\'a}ticas}{57}{section*.113}
 \contentsline {paragraph}{Cuando pulsemos una tecla en la \textit {textarea}, el resultado deber\IeC {\'\i }a de afectar el juego}{57}{section*.114}
 \contentsline {paragraph}{Cambiar el tama\IeC {\~n}o y situaci\IeC {\'o}n de las ventanas.}{57}{section*.115}
-\contentsline {paragraph}{Refactorizar el c\IeC {\'o}digo}{58}{section*.116}
+\contentsline {paragraph}{Refactorizar el c\IeC {\'o}digo}{57}{section*.116}
 \contentsline {subsubsection}{\numberline {5.3.9.2}Tareas y seguimiento}{58}{subsubsection.5.3.9.2}
 \contentsline {subsubsection}{\numberline {5.3.9.3}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{58}{subsubsection.5.3.9.3}
 \contentsline {subsubsection}{\numberline {5.3.9.4}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{58}{subsubsection.5.3.9.4}
