@@ -8,21 +8,21 @@ En nuestro caso, al ser un proyecto realizado por una sola persona y con un tiem
 
 El desarrollo en cascada, también denominado como modelo en cascada, es una metodología con varias etapas donde, para pasar a la siguiente, es completamente necesario que la anterior haya acabado y haya sido completada en su totalidad.
 
-Las ventajas que ofrece en desarrollo en cascada es que es muy sencillo de implementar en comparación con otras metodologías, requiere menos tiempo y capital para hacerlo funcionar de manera óptima y es usado con bastante frecuencia, por lo que sus problemas y beneficios son conocidos de antemano y, gracias a ello, podemos planear las posibles dificultades que nos puede dar. La mayor de estas desventajas es que detectar un error en una de las fases finales puede significar tener que replantear los pasos tomados en las anteriores, perdiendo parte del progreso realizado. Incluso un pequeño cambio puede llegar a afectar otras partes del análisis o diseño y nos forzará a rehacer y perder parte del trabajo que hicimos. 
+Las ventajas que ofrece en desarrollo en cascada es que es muy sencillo de implementar en comparación con otras metodologías, requiere menos tiempo y capital para hacerlo funcionar de manera óptima y es usado con bastante frecuencia, por lo que sus problemas y beneficios son conocidos de antemano y, gracias a ello, podemos planear las posibles dificultades que nos puede dar. La mayor de estas desventajas es que detectar un error en una de las fases finales puede significar tener que replantear los pasos tomados en las anteriores, perdiendo parte del progreso realizado. Incluso un pequeño cambio puede llegar a afectar otras partes del análisis o diseño y nos forzará a rehacer y perder parte del trabajo hecho. 
 
 \subsection{Etapas del desarrollo en cascada}
 
 \paragraph{Análisis de requisitos}: 
 
-En esta fase se definen y determinan los requisitos que el \textit{software} debe de cumplir entre el desarrollador y el cliente. Generalmente se generan documentos que formalizan dichas decisiones para no tener que cambiarlos en el futuro, dado que un cambio en los requisitos puede significar cambiar gran parte del proyecto, por lo que llegar a un consenso es necesario.
+En esta fase se definen y determinan los requisitos que el \textit{software} debe de cumplir entre el desarrollador y el cliente. Generalmente se generan documentos que formalizan dichas decisiones para no tener que cambiarlos en el futuro, dado que un cambio en los requisitos puede significar cambiar gran parte del proyecto, tal y como acabamos de comentar, por lo que llegar a un consenso es necesario.
 
 \paragraph{Diseño}: 
 
-Una vez del análisis haya finalizado, es hora del diseño. La idea principal es descomponer lo detallado durante el análisis de requisitos con el cliente y crear diferentes diagramas y diseños que ayuden a los programadores a entender lo que debe de ser realizado y cómo debe de funcionar, incluyendo pseudocódigo o algoritmos a alto nivel en caso de que sea necesario.
+Una vez del análisis haya finalizado, es hora del diseño. La idea principal es descomponer lo detallado durante el análisis de requisitos con el cliente y crear diferentes diagramas y diseños que ayuden a los programadores a entender lo que debe de ser realizado y cómo debe de funcionar, incluyendo pseudocódigo o algoritmos de alto nivel en caso de que sea necesario.
 
 \paragraph{Implementación}:
 
-En esta fase es donde se escribe el código fuente en base a lo espeficicado anteriormente, intentando dar gran importancia a la reutilización del código siempre y cuando sea posible. También es importante tener en cuenta la creación de tests y la realización de las primeras pruebas preliminares por parte de los programadores.
+En esta fase es donde se escribe el código fuente en base a lo especificado anteriormente, intentando dar gran importancia a la reutilización del código siempre y cuando sea posible. También es importante tener en cuenta la creación de tests y la realización de las primeras pruebas preliminares por parte de los programadores.
 
 \paragraph{Verificación}:
 
@@ -30,7 +30,7 @@ Este es el momento final en el que el cliente es capaz de probar lo desarrollado
 
 \paragraph{Mantenimiento}:
 
-Una vez el software ha finalizado y se ha entregado al usuario final, empieza la fase de mantenimiento. En ella el usuario final pedirá que se resuelvan problemas, se añadan nuevas funcionalidades y se cambien otras ya añadidas en base a los nuevos requisitos que vayan apareciendo o funcionalidades que son necesarios y no se tuvieron en cuenta en el principio del diseño. Esta es una de las fases más críticas, dado que se estima que alrededor de un 80\% de los recursos de un proyecto se emplean en el mantenimiento \footnote{\url{http://eu.wiley.com/WileyCDA/WileyTitle/productCd-0471170011.html}}.
+Una vez el software ha finalizado y se ha entregado al usuario final, empieza la fase de mantenimiento. En ella el usuario pedirá que se resuelvan problemas, se añadan nuevas funcionalidades y se cambien otras características ya añadidas en base a los nuevos requisitos que vayan apareciendo o funcionalidades que sean necesarias y no se tuvieran en cuenta en las anteriores fases del desarrollo. Esta es una de las fases más críticas, dado que se estima que alrededor de un 80\% de los recursos de un proyecto se emplean en el mantenimiento \footnote{\url{http://eu.wiley.com/WileyCDA/WileyTitle/productCd-0471170011.html}}.
 
 \begin{figure}[H]
 		\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/Waterfall_model.png}
@@ -45,13 +45,13 @@ Scrum es una metodología ágil definida inicialmente por Hirotaka Takeuchi y Ik
 \subsection{Prácticas recomendadas y bases de Scrum}
 
 Uno de los aspectos esenciales de scrum es el ``sprint'', que se trata de un bloque temporal (comúnmente de entre 2 y 4 semanas) donde el equipo de desarrollo trabajará para llegar a un objetivo determinado, que generalmente se trata de acabar todas las tareas definidas para ese sprint. 
-Al principio de cada sprint  el ``product owner'' y ``scrum master'', junto con el equipo de desarrollo, definirán lo necesario a realizar en dicho sprint en base a las tareas que se encuentran en el backlog\footnote{Lista de tareas que se quieren realizar en el producto y que suele ir creciendo a medida que los usuarios encuentran fallos o necesitan nuevas funcionalidades. Normalmente el \textit{product owner} es el encargado de organizar y decidir aquellas que tienen más prioridad}. Todos los integrantes del grupo de desarrollo, así como el propio \textit{product owner} y \textit{scrum master}, decidirán cuánto esfuerzo o tiempo llevará realizar cada una de ellas (hay algunas formas de decidir esto, como \textit{planning poker}, pero no es muy relevante en nuestro caso), dividiéndola en tareas menores en caso de que sea demasiado grande. También se decidirá quién hará qué, aunque variaciones donde los programadores las vayan cogiendo a medida que finalizan en las que han estado trabajando. De esta manera no todas las tareas tienen un responsable al inicio del \textit{sprint}.
+Al principio de cada sprint  el ``product owner'' y ``scrum master'', junto con el equipo de programadores, definirán lo necesario a realizar en dicho sprint en base a las tareas que se encuentran en el backlog\footnote{Lista de tareas que se quieren realizar en el producto y que suele ir creciendo a medida que los usuarios encuentran fallos o necesitan nuevas funcionalidades. Normalmente el \textit{product owner} es el encargado de organizar y decidir aquellas que tienen más prioridad}. Todos los integrantes del grupo, así como el propio \textit{product owner} y \textit{scrum master}, decidirán cuánto esfuerzo o tiempo llevará realizar cada una de ellas (hay algunas formas de decidir esto, como \textit{planning poker}, pero no es muy relevante en nuestro caso), dividiéndola en tareas menores en caso de que sea demasiado grande. También se decidirá quién hará qué, aunque variaciones donde los desarrolladores las van cogiendo a medida que finalizan en las que han estado trabajando\footnote{Algunas compañias llevan Scrum al límite y entrenan a sus empleados para que puedan realizar cualquier tipo de tarea sin limitaciones, por lo que esto es algo que funcionaría muy bien en situaciones similares}. De esta manera no todas las tareas tienen un responsable al inicio del \textit{sprint}.
 
 Durante cada día del desarrollo hay una pequeña reunión llamada ``sprint stand-up'' donde cada uno de los programadores comenta brevemente lo que ha hecho el día anterior, qué tiene planteado realizar ese día y si se ha encontrado con algún problema que le impida continuar.
 
 Al acabar cada sprint, el equipo se reúne de nuevo para analizar lo que ha ido bien, qué problemas hubo y las mejoras que deben de aplicarse y tener en cuenta de cara al futuro, así como un resumen de estadísticas del equipo en general como la \textit{burn down chart}. De esta manera, cada nuevo sprint será más preciso (dado que sabremos la cantidad de trabajo que el equipo de desarrollo es capaz de hacer en el periodo definido de tiempo) e incluirán el ``feedback'' de los propios programadores para que su trabajo diario sea más llevadero.
 
-Estas son las características eseciales de \textit{Scrum}, pero al tratarse de una metodología ágil, nada es inamovible y existen bastantes variaciones (como la inclusión de otras metodologías como \textit{kanban}) que se adaptan a todo tipo de equipos. Dependiendo de la empresa, equipo y necesidades del mismo, se pueden cambiar o introducir nuevas ideas que mejoren el proceso para ese grupo de trabajadores y empresa en concreto.
+Estas son las características eseciales de \textit{Scrum}, pero al tratarse de una metodología ágil, nada es inamovible y existen bastantes variaciones (como la inclusión de otras metodologías como \textit{Kanban}) que se adaptan a todo tipo de equipos. Dependiendo de la empresa, equipo y necesidades del mismo, se pueden cambiar o introducir nuevas ideas que mejoren el proceso para ese grupo de trabajadores y empresa en concreto.
 
 \begin{figure}[H]
 		\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/scrumprocess.png}
@@ -73,15 +73,15 @@ Dado que \textit{Scrum} es una metodología de equipo, la ayuda entre cada uno d
 
 \subsubsection{Compromiso}
 
-Cada integrante tiene que saber lo que puede hacer y comprometerse a ello. Una vez la reunión inicial se haya completado, es importante que cada desarrollador sepa en lo que tiene que trabajar y pregunte al responsable de la tarea en caso de que no tenga algo claro o crea que no puede llegar a terminar lo especificado durante la reunión. Cada programador debe de comprometerse con lo establecido para lograr el éxito del equipo.
+Cada integrante tiene que saber lo que puede hacer y comprometerse a ello. Una vez la reunión inicial se haya completado, es importante que cada desarrollador sepa en lo que tiene que trabajar y pregunte al responsable de la tarea en caso de que no tenga algo claro o crea que no puede llegar a terminar lo acordado durante la reunión. Cada programador debe de comprometerse con lo establecido para lograr el éxito del equipo.
 
 \subsubsection{Sinceridad}
 
-Ser capaz de asumir los errores personales y del propio equipo es la clave para mejorar y evolucionar. Si un miembro del equipo de desarrollo se queda estancado en un problema y no avisa al resto de sus compañeros, el \textit{sprint} en su totalidad puede llegar a fracasar por su culpa. Asumir responsabilidades, errores y pedir ayuda cuando sea necesario debe de ser una práctica habitual para que la metodología de \textit{Scrum} funcione sin problemas.
+Ser capaz de asumir los errores personales y del propio equipo es la clave para mejorar y evolucionar. Si un miembro del equipo de desarrollo se queda estancado en un problema y no avisa al resto de sus compañeros, el \textit{sprint} en su totalidad puede llegar a fracasar por su culpa. Asumir responsabilidades, errores y pedir ayuda cuando sea necesario debe de ser una práctica habitual para que esta metodología funcione sin problemas.
 
 \subsubsection{Respeto}
 
-Similar al anterior punto. Al trabajar en equipo es imprescindible que tanto los logros como los fracasos se tomen como una nueva forma de aprender y mejorar, por lo que el respeto mutuo y asumir los errores es la mejor forma de evolucionar, tanto individualmente como en equipo.
+Similar al anterior punto. Al trabajar en equipo es imprescindible que tanto los logros como los fracasos se tomen como una nueva forma de aprender y mejorar, por lo que el respeto mutuo y asumir los fallos cometidos durante la iteración es la mejor forma de evolucionar, tanto individualmente como en equipo.
 
 \section{Metodología elegida}
 \label{sec:metodologiaelegida}
