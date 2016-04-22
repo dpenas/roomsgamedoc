@@ -47,23 +47,24 @@
 \BOOKMARK [2][-]{subsection.5.3.7}{S\351ptima iteraci\363n: Resoluci\363n de bugs detectados y a\361adidas peque\361as funcionalidades}{section.5.3}% 47
 \BOOKMARK [2][-]{subsection.5.3.8}{Octava iteraci\363n: Implementaci\363n en base al feedback recibido}{section.5.3}% 48
 \BOOKMARK [2][-]{subsection.5.3.9}{Novena iteraci\363n: M\341s implementaci\363n en base al feedback recibido}{section.5.3}% 49
-\BOOKMARK [0][-]{chapter.6}{An\341lisis de Requisitos}{}% 50
-\BOOKMARK [1][-]{section.6.1}{Consultas con la comunidad}{chapter.6}% 51
-\BOOKMARK [2][-]{subsection.6.1.1}{Resumen de las peticiones recibidas}{section.6.1}% 52
-\BOOKMARK [1][-]{section.6.2}{An\341lisis de los elementos del juego}{chapter.6}% 53
-\BOOKMARK [1][-]{section.6.3}{Requisitos del aplicativo}{chapter.6}% 54
-\BOOKMARK [0][-]{chapter.7}{Dise\361o e Implementaci\363n}{}% 55
-\BOOKMARK [1][-]{section.7.1}{Gram\341ticas y frases}{chapter.7}% 56
-\BOOKMARK [2][-]{subsection.7.1.1}{Explicaci\363n general del funcionamiento}{section.7.1}% 57
-\BOOKMARK [2][-]{subsection.7.1.2}{Input de gram\341ticas y diccionario}{section.7.1}% 58
-\BOOKMARK [1][-]{section.7.2}{Otras partes del sistema}{chapter.7}% 59
-\BOOKMARK [2][-]{subsection.7.2.1}{Interfaz de usuario para el texto generado}{section.7.2}% 60
-\BOOKMARK [2][-]{subsection.7.2.2}{Generaci\363n aleatoria de mapas y elementos}{section.7.2}% 61
-\BOOKMARK [2][-]{subsection.7.2.3}{Comportamiento de los enemigos}{section.7.2}% 62
-\BOOKMARK [0][-]{chapter.8}{Recepci\363n, conclusi\363n y trabajo futuro}{}% 63
-\BOOKMARK [1][-]{section.8.1}{Recepci\363n y Feedback}{chapter.8}% 64
-\BOOKMARK [1][-]{section.8.2}{Conclusi\363n}{chapter.8}% 65
-\BOOKMARK [1][-]{section.8.3}{Trabajo Futuro}{chapter.8}% 66
-\BOOKMARK [0][-]{appendix.Alph1}{Escoger la licencia}{}% 67
-\BOOKMARK [0][-]{appendix.Alph2}{Instalaci\363n e Instrucciones}{}% 68
-\BOOKMARK [0][-]{appendix.Alph3}{Bibliograf\355a}{}% 69
+\BOOKMARK [1][-]{section.5.4}{Coste del proyecto}{chapter.5}% 50
+\BOOKMARK [0][-]{chapter.6}{An\341lisis de Requisitos}{}% 51
+\BOOKMARK [1][-]{section.6.1}{Consultas con la comunidad}{chapter.6}% 52
+\BOOKMARK [2][-]{subsection.6.1.1}{Resumen de las peticiones recibidas}{section.6.1}% 53
+\BOOKMARK [1][-]{section.6.2}{An\341lisis de los elementos del juego}{chapter.6}% 54
+\BOOKMARK [1][-]{section.6.3}{Requisitos del aplicativo}{chapter.6}% 55
+\BOOKMARK [0][-]{chapter.7}{Dise\361o e Implementaci\363n}{}% 56
+\BOOKMARK [1][-]{section.7.1}{Gram\341ticas y frases}{chapter.7}% 57
+\BOOKMARK [2][-]{subsection.7.1.1}{Explicaci\363n general del funcionamiento}{section.7.1}% 58
+\BOOKMARK [2][-]{subsection.7.1.2}{Input de gram\341ticas y diccionario}{section.7.1}% 59
+\BOOKMARK [1][-]{section.7.2}{Otras partes del sistema}{chapter.7}% 60
+\BOOKMARK [2][-]{subsection.7.2.1}{Interfaz de usuario para el texto generado}{section.7.2}% 61
+\BOOKMARK [2][-]{subsection.7.2.2}{Generaci\363n aleatoria de mapas y elementos}{section.7.2}% 62
+\BOOKMARK [2][-]{subsection.7.2.3}{Comportamiento de los enemigos}{section.7.2}% 63
+\BOOKMARK [0][-]{chapter.8}{Recepci\363n, conclusi\363n y trabajo futuro}{}% 64
+\BOOKMARK [1][-]{section.8.1}{Recepci\363n y Feedback}{chapter.8}% 65
+\BOOKMARK [1][-]{section.8.2}{Conclusi\363n}{chapter.8}% 66
+\BOOKMARK [1][-]{section.8.3}{Trabajo Futuro}{chapter.8}% 67
+\BOOKMARK [0][-]{appendix.Alph1}{Escoger la licencia}{}% 68
+\BOOKMARK [0][-]{appendix.Alph2}{Instalaci\363n e Instrucciones}{}% 69
+\BOOKMARK [0][-]{appendix.Alph3}{Bibliograf\355a}{}% 70

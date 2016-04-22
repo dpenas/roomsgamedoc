@@ -178,6 +178,7 @@
 \contentsline {subsubsection}{\numberline {5.3.9.2}Tareas y seguimiento}{58}{subsubsection.5.3.9.2}
 \contentsline {subsubsection}{\numberline {5.3.9.3}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{58}{subsubsection.5.3.9.3}
 \contentsline {subsubsection}{\numberline {5.3.9.4}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{58}{subsubsection.5.3.9.4}
+\contentsline {section}{\numberline {5.4}Coste del proyecto}{59}{section.5.4}
 \contentsline {chapter}{\numberline {6}An\IeC {\'a}lisis de Requisitos}{61}{chapter.6}
 \contentsline {section}{\numberline {6.1}Consultas con la comunidad}{61}{section.6.1}
 \contentsline {subsection}{\numberline {6.1.1}Resumen de las peticiones recibidas}{61}{subsection.6.1.1}
