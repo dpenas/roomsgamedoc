@@ -40,9 +40,9 @@ this.changeValue(sentenceArray, toChange, changeToValue, typeChangeToValue);
 
 \end{lstlisting}
 
-De esta manera, siempre que haya una discordancia entre algunas de las palabras de una frase, iteraremos entre toda ella buscando una solución hasta que la frase sea coherente.
+De esta manera, siempre que haya una discordancia entre algunas de las palabras de una frase, iteraremos entre toda ella buscando una solución hasta que sea coherente, cambiando las palabras menos relevantes dentro de dicha frase para que se adapten al resto.
 
-La clase GeneralGrammar, por su parte, obtiene la información de varias gramáticas (que es como vienen dadas en el fichero, dado que para describir una misma situación puede haber varias gramáticas que funcionen de la misma forma) y dispone de una función que devuelve una gramática individual (de la clase GrammarIndividual), que es la que usaremos a la hora de generar la frase en sí. Es decir, cuando queremos generar una frase de una gramática en concreto (por ejemplo cuando un personaje ataca a otro), seleccionaremos una de estas gramáticas al azar de todas las que estén disponibles en el idioma que tenemos (esto lo realiza la clase GrammarsGeneral) y luego usamos esa gramática en particular con GrammarIndividual.  De esta forma no siempre usamos la misma gramática y dependerá de la seleccionada aleatoriamente en GrammarsGeneral.
+La clase GeneralGrammar, por su parte, obtiene la información de varias gramáticas (que es como vienen dadas en el fichero, dado que para describir una misma situación puede haber varias gramáticas que funcionen de la misma manera) y dispone de una función que devuelve una gramática individual (de la clase GrammarIndividual), que es la que usaremos a la hora de generar la frase en sí. Es decir, cuando queremos generar una frase de una gramática en concreto (por ejemplo cuando un personaje ataca a otro), seleccionaremos una de estas gramáticas al azar de todas las que estén disponibles en el idioma que tenemos (esto lo realiza la clase GrammarsGeneral) y luego usamos esa gramática en particular con GrammarIndividual.  De esta forma no siempre usamos la misma gramática y dependerá de la seleccionada aleatoriamente en GrammarsGeneral.
 
 La clase PrintableObject es una superclase abstracta de la que heredan todos los objetos que pueden ser representados en el juego. Esta clase se encarga de obligar que dichos objetos tengan ciertas variables como el nombre o la capacidad de traducir su nombre a diferentes idiomas, así como una función que devuelve la posición en la que se encuentra en base al usuario (usado a la hora de describir lo que hay alrededor de un personaje).
 
@@ -50,13 +50,13 @@ Cabe destacar que estas gramáticas, al igual que los diccionarios usados para c
 
 \subsection{\textit{Input} de gramáticas y diccionario}
 
-Tal y como hemos mencionado anteriormente, tanto las gramáticas como los diccionarios son archivos JSON que el usuario puede cambiar y que afectará al resultado de las frases generadas por el juego.
+Tal y como hemos mencionado anteriormente, tanto las gramáticas como los diccionarios son archivos JSON que el usuario puede cambiar y que afectará al resultado de las frases generadas.
 
-Para las gramáticas tenemos dos archivos por idioma. Uno de ellos son las gramáticas con las que creamos sintagmas nominales, mientras que las otras creamos frases usando, en su mayor parte, estos sintagmas nominales.
+Para las gramáticas tenemos dos archivos por idioma (tres si también contamos el diccionario). Uno de ellos son las gramáticas con las que creamos sintagmas nominales, mientras que las otras creamos frases usando, en su mayor parte, estos sintagmas nominales.
 
 \subsubsection{Gramáticas: Sintagmas nominales}
 
-Ejemplo de gramáticas de sigtagma nominal en inglés:
+Ejemplo de gramáticas de sintagma nominal en inglés:
 
 \begin{lstlisting}[style=json]
 "DETADJN": {
@@ -79,12 +79,12 @@ En estas gramáticas especificamos, primero, el nombre de la gramática (en este
 
 El siguiente nombre es el nombre de la gramática en particular. No es usado en el programa, pero su uso es necesario para poder definir varias gramáticas sobre el mismo árbol (si queremos varias gramáticas de tipo DETADJN, necesitaremos que se especifiquen el nombre de cada una de ellas).
 
-Luego viene el contenido relevante. Primero nos encontramos con \textit{S}, que es donde encontraremos la definición de la gramática en sí; y luego \textit{restrictions} que, como su nombre indica, es especificaremos las restricciones.
+Luego viene el contenido relevante. Primero nos encontramos con \textit{S}, que es donde se almacenará la definición de la gramática en sí; y luego \textit{restrictions} que, como su nombre indica, es donde especificaremos las restricciones de dicha gramática.
 
 En la parte de la gramática tenemos, en este caso, \textit{DET\_1}, que es el primer determinante (y único) de la gramática, \textit{ADJ\_1}, el primer y único adjetivo que tiene dicha gramática y \textit{N\_1}, que es el nombre o sustantivo.
 En las restricciones detallaremos las partes de la gramática que tienen que coincidir. En esta gramática solamente tenemos que el determinante, nombre y adjetivo tienen que ser iguales en número. Es decir, que ``the red swords'' no sería generada, sino que generaría ``the red sword''.
 
-Este es un ejemplo en inglés, cuyas restricciones son más sencillas que en otros idiomas como el español o el gallego, donde el nombres, determinante y adjetivo no solamente tiene que coincidir número, pero también en género. Por este motivo, para generar el mismo tipo de gramática para estos idiomas, necesitaremos hacer lo siguiente:
+Este es un ejemplo en inglés, cuyas restricciones son más sencillas que en otros idiomas como el español o el gallego, donde los nombres, determinantes y adjetivos no solamente tienen que coincidir número, pero también en género. Por este motivo, para generar el mismo tipo de gramática para estos idiomas necesitaremos hacer lo siguiente:
 
 \begin{lstlisting}[style=json]
 "DETADJN": {
@@ -105,15 +105,15 @@ Este es un ejemplo en inglés, cuyas restricciones son más sencillas que en otr
 }
 \end{lstlisting}
 
-Nótese que no solamente hemos añadido el género a las restricciones (para que no podamos generar frases como ``la espada rojo'' o ``el espada roja''), pero también hemos cambiado el orden del nombre y adjetivo para que se adapten a ambos idiomas. 
+Nótese que no solamente hemos añadido el género a las restricciones (para que no podamos generar frases como ``la espada rojo'' o ``el espada roja''), pero también hemos cambiado el orden del nombre y adjetivo para que se adapten tanto en español como en gallego. 
 
-A la hora de cambiar las palabras disponemos de un array donde ordenamos las palabras por importancia. Un sustantivo es más importante que un determinante, por lo que si una de las restricciones no se cumple por culpa de algunos de estos dos elementos, el determinante será en que cambiará para adaptarse al nombre.
+A la hora de cambiar las palabras dispondremos de un array donde somos capaces de ordenar las palabras por importancia. Un sustantivo es más importante que un determinante, por lo que si una de las restricciones no se cumple por culpa de algunos de estos dos elementos, el determinante será en que cambiará para adaptarse al género y número del nombre.
 
-De esta manera podemos adaptar gramáticas a idiomas diferentes de una forma muy fácil y sin necesidad de tocar nada de código.
+De esta manera podremos adaptar gramáticas a idiomas diferentes de una forma muy fácil y sin necesidad de tocar nada de código.
 
 \subsubsection{Gramáticas: Frases}
 
-Las gramáticas para la generación de frases también usa las gramáticas de sintagma nominal: 
+Las gramáticas para la generación de frases también usa aquellas de sintagma nominal: 
 
 \begin{lstlisting}[style=json]
 "ATTACK": {
@@ -143,7 +143,7 @@ Las gramáticas para la generación de frases también usa las gramáticas de si
 \end{lstlisting}
 
 La estructura de esta gramática es idéntica a la mencionada anteriormente. En este caso vemos que dentro de ``ATTACK'' disponemos de dos gramáticas distintas (este es solamente un ejemplo, en el juego tenemos muchas más disponibles) y éstas llaman a sintagmas nominales como el anterior.
-Con la primera gramática podríamos generar una frase como ``The mighty dragon attacks the brave hero with the sword"". En este ejemplo cabe destacar que las restricciones se pueden definir, no solamente entre palabras, pero también entre sintagmas nominales (siempre y cuando sea en comparación con una palabra que pueda ser cambiante, en este caso el verbo) y que los sintagmas nominales que son creados dentro de esta gramática tienen sus propias restricciones, por lo que siempre serán generadas de manera correcta.
+Con la primera gramática podríamos generar una frase del estilo ``The mighty dragon attacks the brave hero with the sword"". En este ejemplo cabe destacar que las restricciones se pueden definir, no solamente entre palabras, pero también entre sintagmas nominales (siempre y cuando sea en comparación con una palabra que pueda ser cambiante, en este caso el verbo) y que los sintagmas nominales que son creados dentro de esta gramática tienen sus propias restricciones, por lo que siempre serán generadas de manera correcta.
 
 \subsubsection{Diccionarios}
 
@@ -161,7 +161,7 @@ Al igual que las gramáticas, los diccionarios también están divididos por idi
 },
 \end{lstlisting}
 
-El primer elemento, ``DET'', especifica el tipo de palabra que es (determinante). El siguiente elemento, en la clave, se menciona la palabra en sí y el resto de elementos serán un array, aunque en este caso no importa el orden. El primer elemento en esta lista es ``num'', es decir, si el elemento es singular o plural (para esta palabra esta información es innecesaria, por eso es un string vacío) y en ``numopposite'' guardaremos la palabra en el número contrario (si la palabra es singular, entonces guardaremos la palabra en plural).
+El primer elemento, ``DET'', especifica el tipo de palabra que es (determinante). El siguiente elemento especifica la palabra en sí (``the''). El resto de elementos estarán en un array, aunque en este caso no importa el orden. El primer elemento en esta lista es ``num'', es decir, si el elemento es singular o plural (para esta palabra esta información es innecesaria, por eso es un string vacío) y en ``numopposite'' guardaremos la palabra en el número contrario (si la palabra es singular, entonces guardaremos la palabra en plural).
 El segundo es ``translation''. Todas las palabras entre los diccionarios serán las mismas o, por lo menos, las que están definidas en inglés también deben de estar en otros idiomas. En este valor almacenaremos la traducción de esta palabra en el idioma del diccionario que estaremos definiendo.
 ``gender'' y ``genopposite'', al igual que con ``num'' y ``numopposite'', almacenan el género de la palabra y la palabra en el género contrario.
 
@@ -200,11 +200,11 @@ Con los determinantes en inglés no hay mucho cambio, pero en español sí que e
     },
 \end{lstlisting}
 
-En este caso seguimos definiendo ``the'', dado que es la clave en inglés y la palabra que se tiene que mantener. Sí que vemos que ``numopposite'' y ``genopposite'' apuntan a ``la''y ``los'', que son las nuevas entradas de determinantes en español. De esta forma siempre obtendremos la palabra que queramos siempre y cuando el programa quiera obtener un tipo de palabra concreta en base a las restricciones que contenga la gramática.
+En este caso seguimos definiendo ``the'', dado que es la clave en inglés y la palabra que se tiene que mantener. Sí que vemos que ``numopposite'' y ``genopposite'' apuntan a ``la''y ``los'', que son las nuevas entradas de determinantes en español. De esta forma siempre obtendremos la palabra que queramos siempre y cuando el programa precise de obtener un tipo de palabra concreta en base a las restricciones que contenga la gramática.
 
 \section{Otras partes del sistema}
 
-Las gramáticas juegan un papel muy importante en el proyecto, pero hay otras partes también relevantes que requieren una atención especial.
+Las gramáticas juegan un papel muy importante en el proyecto, pero hay otras partes también relevantes que requieren una atención especial. Aquí mencionamos unas pocas:
 
 \subsection{Interfaz de usuario para el texto generado}
 
@@ -212,7 +212,7 @@ Los invidentes usan diferentes programas que leen el texto que se muestra en la 
 
 \subsubsection{Primera idea: pop-up}
 
-La forma más sencilla de mostrar este texto es generar un ``pop-up'' cada vez que una frase es generada. De esta forma el usuario se enterará inmediatamente de lo que está sucediendo y, en caso de que haya una persona vidente a su lado, ésta también podrá leer la frase que se ha generado. Además, la frase no desaparecerá hasta que se presione la tecla de intro o se haga click en \textit{Aceptar}, por lo que es muy sencillo que reproducirla la cantidad de veces que se quiera.
+La forma más sencilla de mostrar este texto es generar un ``pop-up'' cada vez que una frase es generada. De esta forma el usuario se enterará inmediatamente de lo que está sucediendo y, en caso de que haya una persona vidente a su lado, ésta también podrá leer la frase que se ha generado. Además, la frase no desaparecerá hasta que se presione la tecla de intro o se haga click en \textit{Aceptar}, por lo que es muy sencillo reproducirla la cantidad de veces que se desee.
 
 La imagen ~\ref{lastiterationui} muestra el aspecto de nuestro \textit{roguelike} con esta idea implementada.
 
@@ -224,11 +224,11 @@ La imagen ~\ref{lastiterationui} muestra el aspecto de nuestro \textit{roguelike
 
 \subsubsection{Segunda idea: \textit{TextArea}}
 
-Tras recibir el feedback decidimos cambiar la forma en la que mostramos al usuario estas frases por tres razones. La primera es que resulta desconcertante para el jugador vidente, dado que no es necesario para él o ella. Esto se podría solventar añadiendo una opción que se permita activar o desactivar esta opción, pero no es una solución óptima.
+Tras recibir el feedback decidimos cambiar la forma en la que mostramos al usuario estas frases por tres razones. La primera es que resulta desconcertante para el jugador vidente, dado que no es necesario para él o ella. Esto se podría solventar añadiendo una opción que se permita activar o desactivar esta opción, pero no es la mejor solución para este problema.
 La segunda razón es que estos ``pop-ups'' no son un mecanismo de salida óptimo para las salidas rutinarias, como en nuestro caso, y rompe el ``flujo de trabajo''.
 La tercera y última razón es que los usuarios invidentes no suelen usar elementos de este tipo, si no que están más acostumbrados a usar areas de texto donde se almacenan las últimas frases generadas.
 
-En base a estas ideas decidimos crear el área de texto seleccionada, que permanecerá abierta siempre y cuando el jugador no decida cerrarla (permitiendo a los usuarios videntes no usarla). Una vez que algo suceda en el juego que requiera que se genere una descripción, dicha descripción será enviada al área de texto, el ``foco'' de las aplicaciones cambiará para que se sitúa en esa área de texto y el lector de pantalla que usemos leerá dicha descripción. Para que el ``foco'' vuelva a situarse en el juego, deberemos de pulsar cualquier tecla.
+En base a estas ideas decidimos crear un área de texto que permanecerá abierta siempre y cuando el jugador no decida cerrarla (permitiendo a los usuarios videntes no usarla). Una vez que algo suceda en el juego que requiera que se genere una descripción, dicha descripción será enviada al área de texto, el ``foco'' de las aplicaciones cambiará para que se sitúe en esa misma ventana y el lector de pantalla que usemos leerá dicha descripción. Mientras generemos frases el ``foco'' seguirá en esa área de texto (las teclas que pulsemos seguirán afectando al juego en sí). El foco solamente volverá al juego cuando pulsemos una tecla que no genere una nueva frase.
 De esta forma solucionamos todos los inconvenientes que los ``pop-ups'' causaban a los usuarios y mejoramos la interfaz gráfica y accesibilidad del proyecto.
 
 En ~\ref{lastiterationui} se puede encontrar una captura de pantalla donde se muestra el estado final de la parte de la interfaz de usuario que muestra las frases generadas.
@@ -247,14 +247,14 @@ La generación aleatoria de mapas y elementos dentro del mismo es muy importante
 
 En un primer momento nuestra decisión fue la de generar todo de manera aleatoria, sin considerar ningún aspecto externo, pero manteniendo la generalidad en el código para poder cambiar su comportamiento en cualquier momento. Esto causaba que algunas mazmorras fueran muy complicadas cuando el jugador todavía no tenía el equipamiento necesario para enfrentarse a dichos enemigos o demasiado sencilla en otros momentos.
 
-Este problema fue mencionado la primera vez que recibimos feedback y por ello decidimos cambiarlo por algo un poco más complejo. En el mundo del rol, tener en cuenta ciertas características del usuario para generar elementos externos se denomina \textit{generación de encuentros}, que es lo que tuvimos en cuenta.
+Este problema fue mencionado la primera vez que recibimos \textit{feedback} y por ello decidimos cambiarlo por algo un poco más complejo. En el mundo del rol, tener en cuenta ciertas características del usuario para generar elementos externos se denomina \textit{generación de encuentros}.
 
 \subsubsection{Segunda idea: Generador de encuentros}
 \label{generadorencuentros}
 
-En vez de generar mapas, enemigos y elementos de manera completamente aleatoria, podemos generarlos en base al nivel que tienen ciertos personajes. Si el personaje que controla el usuario tiene nivel 10, entonces los enemigos que se encuentran deben de ser de un nivel, por ejemplo, entre 8 y 12, mientras que los elementos que los enemigos sueltan al morir (como las espadas y armaduras) también deben de tener un nivel similar para que la progresión tenga sentido y eliminar enemigos tenga un cierto nivel de recompensa.
+En vez de generar mapas, enemigos y elementos de manera completamente aleatoria, podemos generarlos en base al nivel que tienen ciertos personajes. Si el personaje que controla el usuario tiene nivel 10, entonces los adversarios que se encuentran deben de ser de un nivel, por ejemplo, entre 8 y 12, mientras que los elementos que los oponentes sueltan al morir (como las espadas y armaduras) también deben de tener un nivel similar para que la progresión tenga sentido y eliminar enemigos tenga un cierto nivel de recompensa.
 
-De esta forma podremos, en base al nivel dado, podremos generar enemigos con diferentes características que se adapten a lo que necesitamos:
+De esta forma podremos, en base al nivel dado, podremos generar contrincarios con diferentes características que se adapten a lo que necesitamos:
 
 \begin{lstlisting}[language=java]
 Rat rat = new Rat(this.getMap(), this, position, new ArrayList<String>(), level);
@@ -262,18 +262,18 @@ Rat rat = new Rat(this.getMap(), this, position, new ArrayList<String>(), level)
 
 \subsection{Comportamiento de los enemigos}
 
-Como cabe suponer, los enemigos que nos encontramos en el juego se moverán de diferentes formas, por lo que tendremos que diseñarlo de una manera genérica que nos permita realizar esto de la forma más simple posible.
+Como cabe suponer, los adversarios que nos encontramos en el juego se moverán de diferentes formas, por lo que tendremos que diseñarlo de una manera genérica que nos permita realizar esto de la forma más simple posible.
 Para ello nos hemos basado en el patrón de diseño \textit{estrategia} porque se adapta perfectamente a nuestros requisitos.
 
 Los tipos de movimiento que tenemos en el juego actualmente son los siguientes:
 
-\paragraph{RandomMovement} Los enemigos son ``pasivos'', es decir, no atacarán al usuario ni tampoco irán hacia él en ningún momento.
+\paragraph{RandomMovement} Los enemigos son ``pasivos'', es decir, no atacarán a ningún personaje ni tampoco irán hacia él en ningún momento.
 
-\paragraph{FollowingMovementDumb} Los personajes que tengan este tipo de movimiento son ``agresivos''. Seguirán al jugador e intentarán atacarle, pero no se mueven de una forma óptima para lograr su meta, por lo que esquivarlos no suele ser muy complicado.
+\paragraph{FollowingMovementDumb} Los contrincantes que tengan este tipo de movimiento son ``agresivos''. Seguirán al jugador e intentarán atacarle, pero no se mueven de una forma óptima para lograr su meta, por lo que esquivarlos no suele ser muy complicado.
 
 \paragraph{FollowingMovement} Este tipo de movimiento es el más complejo. El enemigo se moverá de manera precisa para llegar lo antes posible al usuario y usará todo tipo de herramientas para derrotarlo (como el uso de magia o atacándole cuerpo a cuerpo).
 
-Crear nuevos tipos de movimientos es una tarea trivial, ya que solamente tendríamos que implementar la interfaz \textit{Movement} con la única función que posee e insertar el código del nuevo tipo de movimimiento en él.
+Crear nuevos tipos de movimientos es una tarea trivial, ya que solamente tendríamos que implementar la interfaz \textit{Movement} con la única función que posee e insertar el código del nuevo tipo de movimiento en él.
 
 En ~\ref{iaenemy} mostramos el diagrama de clases que hemos implementado en nuestro sistema y que contiene el patrón de diseño \textit{estrategia}, tal y como hemos comentado.
 

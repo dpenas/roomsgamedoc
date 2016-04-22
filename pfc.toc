@@ -198,14 +198,14 @@
 \contentsline {section}{\numberline {7.2}Otras partes del sistema}{72}{section.7.2}
 \contentsline {subsection}{\numberline {7.2.1}Interfaz de usuario para el texto generado}{72}{subsection.7.2.1}
 \contentsline {subsubsection}{\numberline {7.2.1.1}Primera idea: pop-up}{73}{subsubsection.7.2.1.1}
-\contentsline {subsubsection}{\numberline {7.2.1.2}Segunda idea: \textit {TextArea}}{74}{subsubsection.7.2.1.2}
-\contentsline {subsection}{\numberline {7.2.2}Generaci\IeC {\'o}n aleatoria de mapas y elementos}{74}{subsection.7.2.2}
-\contentsline {subsubsection}{\numberline {7.2.2.1}Primera idea: Generaci\IeC {\'o}n completamente aleatoria}{74}{subsubsection.7.2.2.1}
+\contentsline {subsubsection}{\numberline {7.2.1.2}Segunda idea: \textit {TextArea}}{73}{subsubsection.7.2.1.2}
+\contentsline {subsection}{\numberline {7.2.2}Generaci\IeC {\'o}n aleatoria de mapas y elementos}{76}{subsection.7.2.2}
+\contentsline {subsubsection}{\numberline {7.2.2.1}Primera idea: Generaci\IeC {\'o}n completamente aleatoria}{76}{subsubsection.7.2.2.1}
 \contentsline {subsubsection}{\numberline {7.2.2.2}Segunda idea: Generador de encuentros}{76}{subsubsection.7.2.2.2}
 \contentsline {subsection}{\numberline {7.2.3}Comportamiento de los enemigos}{76}{subsection.7.2.3}
-\contentsline {paragraph}{RandomMovement}{76}{section*.127}
-\contentsline {paragraph}{FollowingMovementDumb}{76}{section*.128}
-\contentsline {paragraph}{FollowingMovement}{76}{section*.129}
+\contentsline {paragraph}{RandomMovement}{77}{section*.127}
+\contentsline {paragraph}{FollowingMovementDumb}{77}{section*.128}
+\contentsline {paragraph}{FollowingMovement}{77}{section*.129}
 \contentsline {chapter}{\numberline {8}Recepci\IeC {\'o}n, conclusi\IeC {\'o}n y trabajo futuro}{79}{chapter.8}
 \contentsline {section}{\numberline {8.1}Recepci\IeC {\'o}n y \textit {Feedback}}{79}{section.8.1}
 \contentsline {section}{\numberline {8.2}Conclusi\IeC {\'o}n}{79}{section.8.2}
