@@ -174,7 +174,8 @@
 \contentsline {paragraph}{Generar todas las frases con las gram\IeC {\'a}ticas}{57}{section*.113}
 \contentsline {paragraph}{Cuando pulsemos una tecla en la \textit {textarea}, el resultado deber\IeC {\'\i }a de afectar el juego}{57}{section*.114}
 \contentsline {paragraph}{Cambiar el tama\IeC {\~n}o y situaci\IeC {\'o}n de las ventanas.}{57}{section*.115}
-\contentsline {paragraph}{Refactorizar el c\IeC {\'o}digo}{57}{section*.116}
+\contentsline {paragraph}{A\IeC {\~n}adir sonido cuando el jugador se mueve.}{57}{section*.116}
+\contentsline {paragraph}{Refactorizar el c\IeC {\'o}digo}{58}{section*.117}
 \contentsline {subsubsection}{\numberline {5.3.9.2}Tareas y seguimiento}{58}{subsubsection.5.3.9.2}
 \contentsline {subsubsection}{\numberline {5.3.9.3}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{58}{subsubsection.5.3.9.3}
 \contentsline {subsubsection}{\numberline {5.3.9.4}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{58}{subsubsection.5.3.9.4}
@@ -182,11 +183,11 @@
 \contentsline {chapter}{\numberline {6}An\IeC {\'a}lisis de Requisitos}{61}{chapter.6}
 \contentsline {section}{\numberline {6.1}Consultas con la comunidad}{61}{section.6.1}
 \contentsline {subsection}{\numberline {6.1.1}Resumen de las peticiones recibidas}{61}{subsection.6.1.1}
-\contentsline {paragraph}{F\IeC {\'a}cil cambio de color de la interfaz}{61}{section*.118}
-\contentsline {paragraph}{Descripciones autom\IeC {\'a}ticas de todos los elementos posibles}{61}{section*.119}
-\contentsline {paragraph}{Diferentes idiomas}{62}{section*.120}
-\contentsline {paragraph}{Utilizar el idioma en nuestro favor}{62}{section*.121}
-\contentsline {paragraph}{Multiplataforma}{62}{section*.122}
+\contentsline {paragraph}{F\IeC {\'a}cil cambio de color de la interfaz}{61}{section*.119}
+\contentsline {paragraph}{Descripciones autom\IeC {\'a}ticas de todos los elementos posibles}{61}{section*.120}
+\contentsline {paragraph}{Diferentes idiomas}{62}{section*.121}
+\contentsline {paragraph}{Utilizar el idioma en nuestro favor}{62}{section*.122}
+\contentsline {paragraph}{Multiplataforma}{62}{section*.123}
 \contentsline {section}{\numberline {6.2}An\IeC {\'a}lisis de los elementos del juego}{62}{section.6.2}
 \contentsline {section}{\numberline {6.3}Requisitos del aplicativo}{62}{section.6.3}
 \contentsline {chapter}{\numberline {7}Dise\IeC {\~n}o e Implementaci\IeC {\'o}n}{65}{chapter.7}
@@ -204,22 +205,22 @@
 \contentsline {subsubsection}{\numberline {7.2.2.1}Primera idea: Generaci\IeC {\'o}n completamente aleatoria}{76}{subsubsection.7.2.2.1}
 \contentsline {subsubsection}{\numberline {7.2.2.2}Segunda idea: Generador de encuentros}{76}{subsubsection.7.2.2.2}
 \contentsline {subsection}{\numberline {7.2.3}Comportamiento de los enemigos}{76}{subsection.7.2.3}
-\contentsline {paragraph}{RandomMovement}{77}{section*.127}
-\contentsline {paragraph}{FollowingMovementDumb}{77}{section*.128}
-\contentsline {paragraph}{FollowingMovement}{77}{section*.129}
+\contentsline {paragraph}{RandomMovement}{77}{section*.128}
+\contentsline {paragraph}{FollowingMovementDumb}{77}{section*.129}
+\contentsline {paragraph}{FollowingMovement}{77}{section*.130}
 \contentsline {chapter}{\numberline {8}Recepci\IeC {\'o}n, conclusi\IeC {\'o}n y trabajo futuro}{79}{chapter.8}
 \contentsline {section}{\numberline {8.1}Recepci\IeC {\'o}n y \textit {Feedback}}{79}{section.8.1}
 \contentsline {section}{\numberline {8.2}Conclusi\IeC {\'o}n}{79}{section.8.2}
 \contentsline {section}{\numberline {8.3}Trabajo Futuro}{80}{section.8.3}
-\contentsline {paragraph}{Creaci\IeC {\'o}n de un men\IeC {\'u}.}{80}{section*.131}
-\contentsline {paragraph}{A\IeC {\~n}adir m\IeC {\'a}s variedad de enemigos y elementos.}{80}{section*.132}
-\contentsline {paragraph}{Crear un modo historia.}{80}{section*.133}
-\contentsline {paragraph}{Crear un tutorial.}{80}{section*.134}
-\contentsline {paragraph}{Crear un ``modo resumen''.}{81}{section*.135}
-\contentsline {paragraph}{Incluir elementos sonoros.}{81}{section*.136}
-\contentsline {paragraph}{A\IeC {\~n}adir m\IeC {\'a}s complejidad a las gram\IeC {\'a}ticas.}{81}{section*.137}
-\contentsline {paragraph}{A\IeC {\~n}adir m\IeC {\'a}s complejidad a los diccionarios.}{81}{section*.138}
-\contentsline {paragraph}{Crear opci\IeC {\'o}n de jugar en base a una semilla.}{81}{section*.139}
+\contentsline {paragraph}{Creaci\IeC {\'o}n de un men\IeC {\'u}.}{80}{section*.132}
+\contentsline {paragraph}{A\IeC {\~n}adir m\IeC {\'a}s variedad de enemigos y elementos.}{80}{section*.133}
+\contentsline {paragraph}{Crear un modo historia.}{80}{section*.134}
+\contentsline {paragraph}{Crear un tutorial.}{80}{section*.135}
+\contentsline {paragraph}{Crear un ``modo resumen''.}{81}{section*.136}
+\contentsline {paragraph}{Incluir elementos sonoros.}{81}{section*.137}
+\contentsline {paragraph}{A\IeC {\~n}adir m\IeC {\'a}s complejidad a las gram\IeC {\'a}ticas.}{81}{section*.138}
+\contentsline {paragraph}{A\IeC {\~n}adir m\IeC {\'a}s complejidad a los diccionarios.}{81}{section*.139}
+\contentsline {paragraph}{Crear opci\IeC {\'o}n de jugar en base a una semilla.}{81}{section*.140}
 \contentsline {chapter}{\numberline {A}Escoger la licencia}{83}{appendix.Alph1}
 \contentsline {chapter}{\numberline {B}Instalaci\IeC {\'o}n e Instrucciones}{85}{appendix.Alph2}
 \contentsline {chapter}{\numberline {C}Bibliograf\'{\i }a}{87}{appendix.Alph3}
