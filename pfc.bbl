@@ -11,11 +11,12 @@ Hinrich~Schütze Christopher D.~Manning.
 \newblock {\em {Foundations of Statistical Natural Language Processing}}.
 \newblock 1999.
 
-\bibitem[CNB]{website:gamingsales}
+\bibitem[CNB14]{website:gamingsales}
 CNBC.
 \newblock {Digital gaming sales hit record \$61 billion in 2015: Report}.
 \newblock
-  \url{http://www.cnbc.com/2016/01/26/digital-gaming-sales-hit-record-61-billion-in-2015-report.html}.
+  \url{http://www.cnbc.com/2016/01/26/digital-gaming-sales-hit-record-61-billion-in-2015-report.html},
+  2014.
 
 \bibitem[DJ08]{book:speechlanguage}
 James H.~Martin Daniel~Jurafsky.
@@ -27,27 +28,30 @@ Richard~Helm Erich~Gamma et~al.
 \newblock {\em {Elements of Reusable Object-Oriented Software}}.
 \newblock 1995.
 
-\bibitem[fou]{website:gameaccessibility}
+\bibitem[fou12]{website:gameaccessibility}
 The~Ablegamers foundation.
-\newblock {A Practica Guide to Game Accessibility}.
-\newblock \url{http://www.includification.com/AbleGamers\_Includification.pdf}.
+\newblock {A Practical Guide to Game Accessibility}.
+\newblock \url{http://www.includification.com/AbleGamers_Includification.pdf},
+  2012.
 
-\bibitem[Gam]{website:steamgamesmarket}
+\bibitem[Gam16]{website:steamgamesmarket}
 PC~Gamer.
 \newblock {Steam games market worth \$3.5 billion in 2015}.
 \newblock
-  \url{http://www.pcgamer.com/steam-games-market-worth-35-billion-in-2015/}.
+  \url{http://www.pcgamer.com/steam-games-market-worth-35-billion-in-2015/}, 5
+  de Enero, 2016.
 
 \bibitem[Git]{website:gitdoc}
 Git.
 \newblock {Git Documentation}.
 \newblock \url{https://git-scm.com/documentation}.
 
-\bibitem[Goo]{website:xboxonesales}
+\bibitem[Goo16]{website:xboxonesales}
 Owen~S. Good.
 \newblock {EA exec's remarks shine a light on Xbox One sales}.
 \newblock
-  \url{http://www.polygon.com/2016/1/30/10876042/ps4-xbox-one-sales-lifetime-million}.
+  \url{http://www.polygon.com/2016/1/30/10876042/ps4-xbox-one-sales-lifetime-million},
+  30 de Enero, 2016.
 
 \bibitem[JS]{website:scrumguide}
 Ken~Schwaber Jeff~Sutherland.
@@ -65,28 +69,32 @@ Oracle.
 \newblock {Java Documentation}.
 \newblock \url{https://docs.oracle.com/javase/7/docs/api/}.
 
-\bibitem[Pou]{website:machinesnetworks}
+\bibitem[Pou84]{website:machinesnetworks}
 Jerry Pournelle.
 \newblock {New Machines, Networks and Sundry Software}.
 \newblock
-  \url{http://archive.org/stream/byte-magazine-1984-03/1984_03_BYTE_09-03_Simulation#page/n47/mode/2up}.
+  \url{http://archive.org/stream/byte-magazine-1984-03/1984_03_BYTE_09-03_Simulation#page/n47/mode/2up},
+  1984.
 
-\bibitem[Rad]{website:designvisuallyimpaired}
+\bibitem[Rad12]{website:designvisuallyimpaired}
 Roguelike Radio.
 \newblock {Designing for the Visually Impaired}.
 \newblock
-  \url{http://www.roguelikeradio.com/2012/10/episode-48-designing-for-visually.html}.
+  \url{http://www.roguelikeradio.com/2012/10/episode-48-designing-for-visually.html},
+  2012.
 
-\bibitem[Sar]{website:ps4sales}
+\bibitem[Sar16]{website:ps4sales}
 Samit Sarkar.
 \newblock {PS4 sales surpass 35.9M units worldwide}.
 \newblock
-  \url{http://www.polygon.com/2016/1/5/10717142/ps4-lifetime-sales-35-9-million-holiday-2015}.
+  \url{http://www.polygon.com/2016/1/5/10717142/ps4-lifetime-sales-35-9-million-holiday-2015},
+  5 de Enero, 2016.
 
-\bibitem[The]{website:gamesimprovingeconomy}
+\bibitem[The14]{website:gamesimprovingeconomy}
 Theesa.
 \newblock {Games: Improving the Economy}.
 \newblock
-  \url{http://www.theesa.com/wp-content/uploads/2014/11/Games\_Economy-11-4-14.pdf}.
+  \url{http://www.theesa.com/wp-content/uploads/2014/11/Games\_Economy-11-4-14.pdf},
+  2014.
 
 \end{thebibliography}

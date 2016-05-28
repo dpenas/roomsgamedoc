@@ -15,10 +15,9 @@ A level-1 auxiliary file: A010_escogerlicencia.aux
 A level-1 auxiliary file: A020_instalacion.aux
 The style file: alpha.bst
 Database file #1: pfc_biblio.bib
-Warning--I didn't find a database entry for "xboxonesales"
 Warning--empty publisher in book:tdd
 Warning--empty publisher in book:statisticalfoundations
 Warning--empty publisher in book:speechlanguage
 Warning--empty publisher in book:designpatterns
 Warning--empty publisher in book:swordscircuitry
-(There were 6 warnings)
+(There were 5 warnings)

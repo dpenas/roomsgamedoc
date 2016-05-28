@@ -15,7 +15,25 @@ Ambas consultas, así como el resultado obtenido de las mismas, se han especific
 	\paragraph{Diferentes idiomas} Al ser un videojuego en el cual el idioma es esencial, debemos de tener en cuenta la inclusión de otras lenguas.
   \paragraph{Utilizar el idioma en nuestro favor} Usar elementos de temporalidad o diferentes adjetivos para definir ciertos elementos para que el lenguaje sea parte de la experiencia.
 	\paragraph{Multiplataforma} Tal y como mencionamos en la introducción, nuestro software debe de poder ser ejecutado en varios sistemas operativos (Linux, Mac OS, Windows...).
+	
+\subsection{Cómo hemos abordado el problema de accesibilidad para invidentes en nuestro proyecto}
 
+En el proyecto hemos creado descripciones para todos los elementos de la pantalla, por lo que el jugador siempre puede saber dónde se encuentra, qué hay a su alrededor, cuáles son sus características, las del enemigo y las de los elementos equipables, etc. También hemos creado una ventana que se encuentra al lado del juego y donde se van guardando todas las frases generadas, siendo la primera frase la última generada y leyéndose automáticamente por el reproductor de pantalla que esté siendo usado en ese momento (en nuestro caso se trata de \textit{NVDA}). De esta forma, una persona con visión siempre puede leer dicha frase mientras que el jugador invidente puede volver a escucharla las veces que quiera. Además de que el jugador también puede recordar lo sucedido anteriormente gracias a que los mensajes permanecen en la pantalla y pueden ser leidos por el lector de pantalla a usar.
+
+\begin{figure}[H]
+		\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/roomsGameTextArea.png}
+	\caption{Captura de pantalla del area donde mostramos las frases generadas de nuestro juego para los invidentes}
+	\label{fig:roomsgametextarea}
+\end{figure}
+
+\subsection{Cómo hemos solventado el problema en nuestro proyecto}
+\label{sec:solventadodaltonicos}
+
+En nuestro caso, al haber preguntado de antemano a los usuarios, siempre tuvimos desde el primer momento la idea de crear la interfaz gráfica con soporte para daltónicos en mente, a pesar de que, al haber tenido en cuenta a las personas invidentes, cualquier usuario podría jugarlo sin ninguna dificultad usando un lector de pantalla, de la misma forma que lo haría un jugador invidente.
+
+Todos los elementos que se encuentran en la interfaz gráfica están diferenciados con caracteres completamente diferentes por lo que, incluso aunque todos los colores fueran iguales, sería sencillo identificar cada elemento por su forma en vez de por su color. 
+
+De todas maneras, hemos creado una opción que cambia la paleta de colores a utilizar y facilita su visualización para aquellos usuarios que sufren de daltonismo.
 
 \section{Análisis de los elementos del juego}
 Al ser un \textit{roguelike}, debemos de incluir lo básico del género (aleatoriedad, dificultad, progreso, etc.). Los detalles de los mismos, así como lo que hemos introducido en el proyecto sobre ellos, se encuentran en la sección~\ref{sec:roguelikeinformacion}.
