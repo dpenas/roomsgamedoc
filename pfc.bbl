@@ -64,10 +64,24 @@ Jana~Halford Neal~Halford.
   playing games}}.
 \newblock 2001.
 
+\bibitem[Non86]{website:scrum}
+Hirotaka Takeuchi;~Ikujiro Nonaka.
+\newblock {NEW NEW PRODUCT DEVELOPMENT GAME}.
+\newblock \url{https://cb.hbsp.harvard.edu/cbmp/product/86116-PDF-ENG}, 1 de
+  enero, 1986.
+
 \bibitem[Ora]{website:javadoc}
 Oracle.
 \newblock {Java Documentation}.
 \newblock \url{https://docs.oracle.com/javase/7/docs/api/}.
+
+\bibitem[Pig96]{website:practicalsoftware}
+Thomas~M. Pigoski.
+\newblock {Practical Software Maintenance: Best Practices for Managing Your
+  Software Investment}.
+\newblock
+  \url{http://eu.wiley.com/WileyCDA/WileyTitle/productCd-0471170011.html},
+  Noviembre, 1996.
 
 \bibitem[Pou84]{website:machinesnetworks}
 Jerry Pournelle.

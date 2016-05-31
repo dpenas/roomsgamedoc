@@ -11,9 +11,9 @@
 \contentsline {subsection}{\numberline {2.1.2}Conclusi\IeC {\'o}n}{7}{subsection.2.1.2}
 \contentsline {section}{\numberline {2.2}El g\IeC {\'e}nero \textit {Roguelike.}}{7}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Qu\IeC {\'e} es y or\IeC {\'\i }genes}{7}{subsection.2.2.1}
-\contentsline {paragraph}{\textit {Permadeath}}{7}{section*.14}
-\contentsline {paragraph}{Aleatoriedad}{7}{section*.15}
-\contentsline {paragraph}{Progresi\IeC {\'o}n}{8}{section*.16}
+\contentsline {paragraph}{\textit {Permadeath:}}{7}{section*.14}
+\contentsline {paragraph}{Aleatoriedad:}{7}{section*.15}
+\contentsline {paragraph}{Progresi\IeC {\'o}n:}{8}{section*.16}
 \contentsline {subsection}{\numberline {2.2.2}En la actualidad}{8}{subsection.2.2.2}
 \contentsline {subsubsection}{\numberline {2.2.2.1}La aparici\IeC {\'o}n de subg\IeC {\'e}neros}{10}{subsubsection.2.2.2.1}
 \contentsline {subsection}{\numberline {2.2.3}Elementos \textit {roguelike} en nuestro proyecto}{11}{subsection.2.2.3}
@@ -26,198 +26,193 @@
 \contentsline {chapter}{\numberline {3}Metodolog\IeC {\'\i }a}{17}{chapter.3}
 \contentsline {section}{\numberline {3.1}Desarrollo en cascada}{17}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Etapas del desarrollo en cascada}{17}{subsection.3.1.1}
-\contentsline {paragraph}{An\IeC {\'a}lisis de requisitos}{17}{section*.22}
-\contentsline {paragraph}{Dise\IeC {\~n}o}{18}{section*.23}
-\contentsline {paragraph}{Implementaci\IeC {\'o}n}{18}{section*.24}
-\contentsline {paragraph}{Verificaci\IeC {\'o}n}{18}{section*.25}
-\contentsline {paragraph}{Mantenimiento}{18}{section*.26}
-\contentsline {section}{\numberline {3.2}Scrum}{19}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Pr\IeC {\'a}cticas recomendadas y bases de Scrum}{19}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Valores de \textit {Scrum}}{21}{subsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.2.1}Concentraci\IeC {\'o}n}{21}{subsubsection.3.2.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2.2}Coraje}{21}{subsubsection.3.2.2.2}
-\contentsline {subsubsection}{\numberline {3.2.2.3}Compromiso}{22}{subsubsection.3.2.2.3}
-\contentsline {subsubsection}{\numberline {3.2.2.4}Sinceridad}{22}{subsubsection.3.2.2.4}
-\contentsline {subsubsection}{\numberline {3.2.2.5}Respeto}{22}{subsubsection.3.2.2.5}
-\contentsline {section}{\numberline {3.3}Metodolog\IeC {\'\i }a elegida}{22}{section.3.3}
-\contentsline {chapter}{\numberline {4}Planificaci\IeC {\'o}n y Seguimiento}{25}{chapter.4}
-\contentsline {section}{\numberline {4.1}Junio 2014 - Septiembre 2014}{26}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Primera iteraci\IeC {\'o}n: An\IeC {\'a}lisis de requisitos generales, dise\IeC {\~n}o gen\IeC {\'e}rico y preparaci\IeC {\'o}n y configuraci\IeC {\'o}n de los elementos necesarios para el comienzo de la implementaci\IeC {\'o}n}{26}{subsection.4.1.1}
-\contentsline {paragraph}{An\IeC {\'a}lisis de requisitos generales}{26}{section*.29}
-\contentsline {paragraph}{Dise\IeC {\~n}o gen\IeC {\'e}rico del juego a implementar}{26}{section*.30}
-\contentsline {paragraph}{B\IeC {\'u}squeda de bibliotecas que se adapten a nuestros requisitos}{27}{section*.31}
-\contentsline {paragraph}{Creaci\IeC {\'o}n y configuraci\IeC {\'o}n del ambiente de desarrollo para poder empezar la implementaci\IeC {\'o}n}{27}{section*.32}
-\contentsline {subsubsection}{\numberline {4.1.1.1}Tareas y seguimiento}{27}{subsubsection.4.1.1.1}
-\contentsline {subsubsection}{\numberline {4.1.1.2}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{28}{subsubsection.4.1.1.2}
-\contentsline {subsubsection}{\numberline {4.1.1.3}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{28}{subsubsection.4.1.1.3}
-\contentsline {subsection}{\numberline {4.1.2}Segunda iteraci\IeC {\'o}n: Generaci\IeC {\'o}n de mapas y habitaciones}{28}{subsection.4.1.2}
-\contentsline {paragraph}{An\IeC {\'a}lisis de requisitos de los mapas y habitaciones}{28}{section*.34}
-\contentsline {paragraph}{Dise\IeC {\~n}o de los mapas y las habitaciones}{28}{section*.35}
-\contentsline {paragraph}{Creaci\IeC {\'o}n de tests que cubran lo analizado}{29}{section*.36}
-\contentsline {paragraph}{Implementaci\IeC {\'o}n del dise\IeC {\~n}o de mapas y habitaciones}{29}{section*.37}
-\contentsline {subsubsection}{\numberline {4.1.2.1}Tareas y seguimiento}{29}{subsubsection.4.1.2.1}
-\contentsline {subsubsection}{\numberline {4.1.2.2}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{29}{subsubsection.4.1.2.2}
-\contentsline {subsubsection}{\numberline {4.1.2.3}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{30}{subsubsection.4.1.2.3}
-\contentsline {section}{\numberline {4.2}Enero 2015 - Mayo 2015}{30}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Primera iteraci\IeC {\'o}n: mapas en IU, an\IeC {\'a}lisis, dise\IeC {\~n}o, tests e implementaci\IeC {\'o}n de los objetos}{30}{subsection.4.2.1}
-\contentsline {paragraph}{Mostrar los mapas y habitaciones en el interfaz de usuario}{30}{section*.39}
-\contentsline {paragraph}{An\IeC {\'a}lisis de requisitos para sobre los objetos}{31}{section*.40}
-\contentsline {paragraph}{Crear un dise\IeC {\~n}o simple sobre c\IeC {\'o}mo los objetos interactuar\IeC {\'a}n con el mapa}{31}{section*.41}
-\contentsline {paragraph}{Creaci\IeC {\'o}n de tests que cubran lo analizado}{31}{section*.42}
-\contentsline {paragraph}{Implementaci\IeC {\'o}n de los objetos en el juego}{31}{section*.43}
-\contentsline {subsubsection}{\numberline {4.2.1.1}Tareas y seguimiento}{31}{subsubsection.4.2.1.1}
-\contentsline {subsubsection}{\numberline {4.2.1.2}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{32}{subsubsection.4.2.1.2}
-\contentsline {subsubsection}{\numberline {4.2.1.3}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{32}{subsubsection.4.2.1.3}
-\contentsline {subsection}{\numberline {4.2.2}Segunda iteraci\IeC {\'o}n: an\IeC {\'a}lisis, dise\IeC {\~n}o, tests e implementaci\IeC {\'o}n de los personajes}{32}{subsection.4.2.2}
-\contentsline {paragraph}{An\IeC {\'a}lisis de requisitos para sobre personajes}{32}{section*.45}
-\contentsline {paragraph}{Creaci\IeC {\'o}n del dise\IeC {\~n}o de los personajes}{33}{section*.46}
-\contentsline {paragraph}{Implementaci\IeC {\'o}n de los tests}{33}{section*.47}
-\contentsline {paragraph}{Programaci\IeC {\'o}n de lo dise\IeC {\~n}ado y analizado previamente}{33}{section*.48}
-\contentsline {subsubsection}{\numberline {4.2.2.1}Tareas y seguimiento}{33}{subsubsection.4.2.2.1}
-\contentsline {subsubsection}{\numberline {4.2.2.2}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{34}{subsubsection.4.2.2.2}
-\contentsline {subsubsection}{\numberline {4.2.2.3}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{34}{subsubsection.4.2.2.3}
-\contentsline {subsection}{\numberline {4.2.3}Tercera iteraci\IeC {\'o}n: interacci\IeC {\'o}n entre personajes, tests e implementaci\IeC {\'o}n}{34}{subsection.4.2.3}
-\contentsline {paragraph}{Ampliar los tests sobre la interacci\IeC {\'o}n entre los objetos y personajes}{35}{section*.50}
-\contentsline {paragraph}{Implementaci\IeC {\'o}n en base a los tests, an\IeC {\'a}lisis y dise\IeC {\~n}o de la anterior iteraci\IeC {\'o}n}{35}{section*.51}
-\contentsline {subsubsection}{\numberline {4.2.3.1}Tareas y seguimiento}{35}{subsubsection.4.2.3.1}
-\contentsline {subsubsection}{\numberline {4.2.3.2}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{35}{subsubsection.4.2.3.2}
-\contentsline {subsubsection}{\numberline {4.2.3.3}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{36}{subsubsection.4.2.3.3}
-\contentsline {section}{\numberline {4.3}Septiembre 2015 - Abril 2016}{36}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Primera iteraci\IeC {\'o}n: Aumentar interacci\IeC {\'o}n entre objetos, mapas y personajes, a\IeC {\~n}adir movimiento para el jugador}{36}{subsection.4.3.1}
-\contentsline {paragraph}{Aumentar la interacci\IeC {\'o}n entre objetos, personajes y mapa}{36}{section*.53}
-\contentsline {paragraph}{Agregar \textit {listeners} para que el jugador pueda decidir lo que hacer}{37}{section*.54}
-\contentsline {subsubsection}{\numberline {4.3.1.1}Tareas y seguimiento}{37}{subsubsection.4.3.1.1}
-\contentsline {subsubsection}{\numberline {4.3.1.2}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{37}{subsubsection.4.3.1.2}
-\contentsline {subsubsection}{\numberline {4.3.1.3}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{38}{subsubsection.4.3.1.3}
-\contentsline {subsection}{\numberline {4.3.2}Segunda iteraci\IeC {\'o}n: Dise\IeC {\~n}o e implementaci\IeC {\'o}n de los portales, IA de los enemigos y accesibilidad para dalt\IeC {\'o}nicos}{38}{subsection.4.3.2}
-\contentsline {paragraph}{Dise\IeC {\~n}o e implementaci\IeC {\'o}n de los portales}{38}{section*.56}
-\contentsline {paragraph}{A\IeC {\~n}adir inteligencia artificial}{38}{section*.57}
-\contentsline {paragraph}{A\IeC {\~n}adir opciones para cambiar el color de la interfaz gr\IeC {\'a}fica}{38}{section*.58}
-\contentsline {subsubsection}{\numberline {4.3.2.1}Tareas y seguimiento}{38}{subsubsection.4.3.2.1}
-\contentsline {subsubsection}{\numberline {4.3.2.2}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{39}{subsubsection.4.3.2.2}
-\contentsline {subsubsection}{\numberline {4.3.2.3}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{39}{subsubsection.4.3.2.3}
-\contentsline {subsection}{\numberline {4.3.3}Tercera iteraci\IeC {\'o}n: An\IeC {\'a}lisis, dise\IeC {\~n}o b\IeC {\'a}sico y comienzo de la implementaci\IeC {\'o}n de las gram\IeC {\'a}ticas}{40}{subsection.4.3.3}
-\contentsline {paragraph}{An\IeC {\'a}lisis de las gram\IeC {\'a}ticas}{40}{section*.60}
-\contentsline {paragraph}{Dise\IeC {\~n}o general sobre la generaci\IeC {\'o}n del lenguaje}{40}{section*.61}
-\contentsline {paragraph}{Creaci\IeC {\'o}n de gram\IeC {\'a}ticas y diccionarios base}{40}{section*.62}
-\contentsline {subsubsection}{\numberline {4.3.3.1}Tareas y seguimiento}{40}{subsubsection.4.3.3.1}
-\contentsline {subsubsection}{\numberline {4.3.3.2}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{41}{subsubsection.4.3.3.2}
-\contentsline {subsubsection}{\numberline {4.3.3.3}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{41}{subsubsection.4.3.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Cuarta iteraci\IeC {\'o}n: An\IeC {\'a}lisis, dise\IeC {\~n}o y comienzo de la implementaci\IeC {\'o}n de las gram\IeC {\'a}ticas}{41}{subsection.4.3.4}
-\contentsline {paragraph}{An\IeC {\'a}lisis sobre c\IeC {\'o}mo crear las gram\IeC {\'a}ticas NP}{41}{section*.64}
-\contentsline {paragraph}{Dise\IeC {\~n}o de las gram\IeC {\'a}ticas NP}{41}{section*.65}
-\contentsline {paragraph}{Creaci\IeC {\'o}n de los tests para las gram\IeC {\'a}ticas NP}{42}{section*.66}
-\contentsline {paragraph}{Implementaci\IeC {\'o}n de las gram\IeC {\'a}ticas NP}{42}{section*.67}
-\contentsline {subsubsection}{\numberline {4.3.4.1}Tareas y seguimiento}{42}{subsubsection.4.3.4.1}
-\contentsline {subsubsection}{\numberline {4.3.4.2}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{43}{subsubsection.4.3.4.2}
-\contentsline {subsubsection}{\numberline {4.3.4.3}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{43}{subsubsection.4.3.4.3}
-\contentsline {subsection}{\numberline {4.3.5}Quinta iteraci\IeC {\'o}n: An\IeC {\'a}lisis, dise\IeC {\~n}o e implementaci\IeC {\'o}n de las gram\IeC {\'a}ticas y frases m\IeC {\'a}s complejas}{43}{subsection.4.3.5}
-\contentsline {paragraph}{An\IeC {\'a}lisis sobre c\IeC {\'o}mo crear las gram\IeC {\'a}ticas complejas de forma gen\IeC {\'e}rica}{43}{section*.69}
-\contentsline {paragraph}{Dise\IeC {\~n}o de dichas gram\IeC {\'a}ticas}{43}{section*.70}
-\contentsline {paragraph}{Creaci\IeC {\'o}n de los tests para las gram\IeC {\'a}ticas complejas}{43}{section*.71}
-\contentsline {paragraph}{Implementaci\IeC {\'o}n y \textit {link} con el diccionario}{43}{section*.72}
-\contentsline {subsubsection}{\numberline {4.3.5.1}Tareas y seguimiento}{44}{subsubsection.4.3.5.1}
-\contentsline {subsubsection}{\numberline {4.3.5.2}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{44}{subsubsection.4.3.5.2}
-\contentsline {subsubsection}{\numberline {4.3.5.3}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{44}{subsubsection.4.3.5.3}
-\contentsline {subsection}{\numberline {4.3.6}Sexta iteraci\IeC {\'o}n: Implementaci\IeC {\'o}n de las restricciones, gallego y castellano, creaci\IeC {\'o}n de la interfaz de usuario para con las frases generadas y primer v\IeC {\'\i }deo}{45}{subsection.4.3.6}
-\contentsline {paragraph}{Creaci\IeC {\'o}n de la interfaz de usuario para mostrar las frases generadas al usuario}{45}{section*.74}
-\contentsline {paragraph}{Implementaci\IeC {\'o}n de las restricciones para el resto de idiomas}{45}{section*.75}
-\contentsline {paragraph}{A\IeC {\~n}adir gram\IeC {\'a}ticas y diccionarios para gallego y castellano}{45}{section*.76}
-\contentsline {paragraph}{A\IeC {\~n}adir las teclas necesarias para mostrar las descripciones del inventario y ambiente}{45}{section*.77}
-\contentsline {paragraph}{Crear primer v\IeC {\'\i }deo para recibir \textit {feedback}}{45}{section*.78}
-\contentsline {subsubsection}{\numberline {4.3.6.1}Tareas y seguimiento}{45}{subsubsection.4.3.6.1}
-\contentsline {subsubsection}{\numberline {4.3.6.2}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{46}{subsubsection.4.3.6.2}
-\contentsline {subsubsection}{\numberline {4.3.6.3}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{46}{subsubsection.4.3.6.3}
-\contentsline {subsection}{\numberline {4.3.7}S\IeC {\'e}ptima iteraci\IeC {\'o}n: Resoluci\IeC {\'o}n de bugs detectados y a\IeC {\~n}adidas peque\IeC {\~n}as funcionalidades}{46}{subsection.4.3.7}
-\contentsline {paragraph}{Solucionar bug donde la pantalla no se refresca}{47}{section*.80}
-\contentsline {paragraph}{Cambiar las teclas que usamos por defecto}{47}{section*.81}
-\contentsline {paragraph}{Hacer los adjetivos que definen los personajes variables}{47}{section*.82}
-\contentsline {paragraph}{A\IeC {\~n}adir opci\IeC {\'o}n para que las descripciones sean descriptivas o num\IeC {\'e}ricas}{47}{section*.83}
-\contentsline {subsubsection}{\numberline {4.3.7.1}Tareas y seguimiento}{47}{subsubsection.4.3.7.1}
-\contentsline {subsubsection}{\numberline {4.3.7.2}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{48}{subsubsection.4.3.7.2}
-\contentsline {subsubsection}{\numberline {4.3.7.3}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{48}{subsubsection.4.3.7.3}
-\contentsline {subsection}{\numberline {4.3.8}Octava iteraci\IeC {\'o}n: Implementaci\IeC {\'o}n en base al \textit {feedback} recibido}{48}{subsection.4.3.8}
-\contentsline {subsubsection}{\numberline {4.3.8.1}Feedback recibido}{48}{subsubsection.4.3.8.1}
-\contentsline {paragraph}{Tener en cuenta la persistencia del tiempo}{48}{section*.85}
-\contentsline {paragraph}{Cambiar el sistema de salida de las frases generadas}{49}{section*.86}
-\contentsline {paragraph}{Peque\IeC {\~n}os cambios en los adjetivos usados}{49}{section*.87}
-\contentsline {paragraph}{Adici\IeC {\'o}n de niveles y experiencia}{49}{section*.88}
-\contentsline {paragraph}{Cambio en la aleatoriedad}{49}{section*.89}
-\contentsline {paragraph}{Evitar la repetitividad}{49}{section*.90}
-\contentsline {paragraph}{Darle nombre al h\IeC {\'e}roe}{49}{section*.91}
-\contentsline {paragraph}{Mostrar una serie de estad\IeC {\'\i }sticas al cambiar de mazmorra}{49}{section*.92}
-\contentsline {subsubsection}{\numberline {4.3.8.2}Tareas y seguimiento}{50}{subsubsection.4.3.8.2}
-\contentsline {subsubsection}{\numberline {4.3.8.3}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{50}{subsubsection.4.3.8.3}
-\contentsline {subsubsection}{\numberline {4.3.8.4}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{50}{subsubsection.4.3.8.4}
-\contentsline {subsection}{\numberline {4.3.9}Novena iteraci\IeC {\'o}n: M\IeC {\'a}s implementaci\IeC {\'o}n en base al \textit {feedback} recibido}{51}{subsection.4.3.9}
-\contentsline {subsubsection}{\numberline {4.3.9.1}Feedback recibido}{51}{subsubsection.4.3.9.1}
-\contentsline {paragraph}{A\IeC {\~n}adir el resto de signos de puntuaci\IeC {\'o}n necesarios}{51}{section*.94}
-\contentsline {paragraph}{Incrementar el tama\IeC {\~n}o de la fuente dentro del \IeC {\'a}rea de texto}{51}{section*.95}
-\contentsline {paragraph}{Generar todas las frases con las gram\IeC {\'a}ticas}{51}{section*.96}
-\contentsline {paragraph}{Cuando pulsemos una tecla en la \textit {textarea}, el resultado deber\IeC {\'\i }a de afectar el juego}{51}{section*.97}
-\contentsline {paragraph}{Cambiar el tama\IeC {\~n}o y situaci\IeC {\'o}n de las ventanas.}{51}{section*.98}
-\contentsline {paragraph}{A\IeC {\~n}adir sonido cuando el jugador se mueve.}{51}{section*.99}
-\contentsline {paragraph}{Refactorizar el c\IeC {\'o}digo}{52}{section*.100}
-\contentsline {subsubsection}{\numberline {4.3.9.2}Tareas y seguimiento}{52}{subsubsection.4.3.9.2}
-\contentsline {subsubsection}{\numberline {4.3.9.3}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{52}{subsubsection.4.3.9.3}
-\contentsline {subsubsection}{\numberline {4.3.9.4}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{52}{subsubsection.4.3.9.4}
-\contentsline {section}{\numberline {4.4}Coste del proyecto}{53}{section.4.4}
-\contentsline {chapter}{\numberline {5}An\IeC {\'a}lisis de Requisitos}{55}{chapter.5}
-\contentsline {section}{\numberline {5.1}Consultas con la comunidad}{55}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Resumen de las peticiones recibidas}{55}{subsection.5.1.1}
-\contentsline {paragraph}{F\IeC {\'a}cil cambio de color de la interfaz}{55}{section*.102}
-\contentsline {paragraph}{Descripciones autom\IeC {\'a}ticas de todos los elementos posibles}{55}{section*.103}
-\contentsline {paragraph}{Diferentes idiomas}{56}{section*.104}
-\contentsline {paragraph}{Utilizar el idioma en nuestro favor}{56}{section*.105}
-\contentsline {paragraph}{Multiplataforma}{56}{section*.106}
-\contentsline {subsection}{\numberline {5.1.2}C\IeC {\'o}mo hemos abordado el problema de accesibilidad para invidentes en nuestro proyecto}{56}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}C\IeC {\'o}mo hemos solventado el problema en nuestro proyecto}{57}{subsection.5.1.3}
-\contentsline {section}{\numberline {5.2}An\IeC {\'a}lisis de los elementos del juego}{57}{section.5.2}
-\contentsline {section}{\numberline {5.3}Requisitos del aplicativo}{58}{section.5.3}
-\contentsline {chapter}{\numberline {6}Dise\IeC {\~n}o e Implementaci\IeC {\'o}n}{61}{chapter.6}
-\contentsline {section}{\numberline {6.1}Gram\IeC {\'a}ticas y frases}{61}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Explicaci\IeC {\'o}n general del funcionamiento}{61}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}\textit {Input} de gram\IeC {\'a}ticas y diccionario}{64}{subsection.6.1.2}
-\contentsline {subsubsection}{\numberline {6.1.2.1}Gram\IeC {\'a}ticas: Sintagmas nominales}{64}{subsubsection.6.1.2.1}
-\contentsline {subsubsection}{\numberline {6.1.2.2}Gram\IeC {\'a}ticas: Frases}{66}{subsubsection.6.1.2.2}
-\contentsline {subsubsection}{\numberline {6.1.2.3}Diccionarios}{67}{subsubsection.6.1.2.3}
-\contentsline {section}{\numberline {6.2}Otras partes del sistema}{68}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Interfaz de usuario para el texto generado}{68}{subsection.6.2.1}
-\contentsline {subsubsection}{\numberline {6.2.1.1}Primera idea: pop-up}{69}{subsubsection.6.2.1.1}
-\contentsline {subsubsection}{\numberline {6.2.1.2}Segunda idea: \textit {TextArea}}{69}{subsubsection.6.2.1.2}
-\contentsline {subsection}{\numberline {6.2.2}Generaci\IeC {\'o}n aleatoria de mapas y elementos}{72}{subsection.6.2.2}
-\contentsline {subsubsection}{\numberline {6.2.2.1}Primera idea: Generaci\IeC {\'o}n completamente aleatoria}{72}{subsubsection.6.2.2.1}
-\contentsline {subsubsection}{\numberline {6.2.2.2}Segunda idea: Generador de encuentros}{72}{subsubsection.6.2.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Comportamiento de los enemigos}{72}{subsection.6.2.3}
-\contentsline {paragraph}{RandomMovement}{73}{section*.112}
-\contentsline {paragraph}{FollowingMovementDumb}{73}{section*.113}
-\contentsline {paragraph}{FollowingMovement}{73}{section*.114}
-\contentsline {section}{\numberline {6.3}Herramientas empleadas}{73}{section.6.3}
-\contentsline {paragraph}{Java}{74}{section*.116}
-\contentsline {paragraph}{\href {https://eclipse.org}{Eclipse}}{74}{section*.117}
-\contentsline {paragraph}{\href {https://goo.gl/IKsKt5}{Git}}{74}{section*.118}
-\contentsline {paragraph}{\href {github.com}{GitHub}}{74}{section*.119}
-\contentsline {paragraph}{JSON}{74}{section*.120}
-\contentsline {paragraph}{\href {www.nvaccess.org}{\textit {NVDA}}}{74}{section*.121}
-\contentsline {paragraph}{\href {https://goo.gl/zPCXen}{\textit {Gson}}}{74}{section*.122}
-\contentsline {paragraph}{\href {https://github.com/sunhong/jcurses}{JCurses}}{75}{section*.123}
-\contentsline {paragraph}{\href {www.slashie.net/libjcsi}{Libjcsi}}{75}{section*.124}
-\contentsline {section}{\numberline {6.4}Herramientas de comunicaci\IeC {\'o}n con usuarios y \textit {testers}}{75}{section.6.4}
-\contentsline {paragraph}{Listas de Correo}{75}{section*.125}
-\contentsline {paragraph}{\href {www.reddit.com}{Reddit}}{75}{section*.126}
-\contentsline {chapter}{\numberline {7}Recepci\IeC {\'o}n, conclusi\IeC {\'o}n y trabajo futuro}{77}{chapter.7}
-\contentsline {section}{\numberline {7.1}Recepci\IeC {\'o}n y \textit {Feedback}}{77}{section.7.1}
-\contentsline {section}{\numberline {7.2}Conclusi\IeC {\'o}n}{77}{section.7.2}
-\contentsline {section}{\numberline {7.3}Trabajo Futuro}{78}{section.7.3}
-\contentsline {paragraph}{Creaci\IeC {\'o}n de un men\IeC {\'u}.}{78}{section*.127}
-\contentsline {paragraph}{A\IeC {\~n}adir m\IeC {\'a}s variedad de enemigos y elementos.}{78}{section*.128}
-\contentsline {paragraph}{Crear un modo historia.}{78}{section*.129}
-\contentsline {paragraph}{Crear un tutorial.}{78}{section*.130}
-\contentsline {paragraph}{Crear un ``modo resumen''.}{79}{section*.131}
-\contentsline {paragraph}{Incluir elementos sonoros.}{79}{section*.132}
-\contentsline {paragraph}{A\IeC {\~n}adir m\IeC {\'a}s complejidad a las gram\IeC {\'a}ticas.}{79}{section*.133}
-\contentsline {paragraph}{A\IeC {\~n}adir m\IeC {\'a}s complejidad a los diccionarios.}{79}{section*.134}
-\contentsline {paragraph}{Crear opci\IeC {\'o}n de jugar en base a una semilla.}{79}{section*.135}
-\contentsline {chapter}{\numberline {A}Escoger la licencia}{81}{appendix.Alph1}
-\contentsline {chapter}{\numberline {B}Instalaci\IeC {\'o}n e Instrucciones}{83}{appendix.Alph2}
-\contentsline {chapter}{\numberline {C}Bibliograf\'{\i }a}{85}{appendix.Alph3}
+\contentsline {paragraph}{An\IeC {\'a}lisis de requisitos:}{17}{section*.22}
+\contentsline {paragraph}{Dise\IeC {\~n}o:}{18}{section*.23}
+\contentsline {paragraph}{Implementaci\IeC {\'o}n:}{18}{section*.24}
+\contentsline {paragraph}{Verificaci\IeC {\'o}n:}{18}{section*.25}
+\contentsline {paragraph}{Mantenimiento:}{18}{section*.26}
+\contentsline {section}{\numberline {3.2}\textit {Scrum}}{19}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Pr\IeC {\'a}cticas recomendadas y bases de \textit {Scrum}}{19}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Valores}{21}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Metodolog\IeC {\'\i }a elegida}{21}{section.3.3}
+\contentsline {chapter}{\numberline {4}Planificaci\IeC {\'o}n y Seguimiento}{23}{chapter.4}
+\contentsline {section}{\numberline {4.1}Junio 2014 - Septiembre 2014}{24}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Primera iteraci\IeC {\'o}n: An\IeC {\'a}lisis de requisitos generales, dise\IeC {\~n}o gen\IeC {\'e}rico y preparaci\IeC {\'o}n y configuraci\IeC {\'o}n de los elementos necesarios para el comienzo de la implementaci\IeC {\'o}n}{24}{subsection.4.1.1}
+\contentsline {paragraph}{An\IeC {\'a}lisis de requisitos generales:}{24}{section*.29}
+\contentsline {paragraph}{Dise\IeC {\~n}o gen\IeC {\'e}rico del juego a implementar:}{24}{section*.30}
+\contentsline {paragraph}{B\IeC {\'u}squeda de bibliotecas que se adapten a nuestros requisitos:}{25}{section*.31}
+\contentsline {paragraph}{Creaci\IeC {\'o}n y configuraci\IeC {\'o}n del entorno de desarrollo para poder empezar la implementaci\IeC {\'o}n:}{25}{section*.32}
+\contentsline {subsubsection}{\numberline {4.1.1.1}Tareas y seguimiento}{25}{subsubsection.4.1.1.1}
+\contentsline {subsubsection}{\numberline {4.1.1.2}Qu\IeC {\'e} se ha conseguido en esta iteraci\IeC {\'o}n}{25}{subsubsection.4.1.1.2}
+\contentsline {subsubsection}{\numberline {4.1.1.3}Qu\IeC {\'e} se quiere conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{26}{subsubsection.4.1.1.3}
+\contentsline {subsection}{\numberline {4.1.2}Segunda iteraci\IeC {\'o}n: Generaci\IeC {\'o}n de mapas y habitaciones}{26}{subsection.4.1.2}
+\contentsline {paragraph}{An\IeC {\'a}lisis de requisitos de los mapas y habitaciones:}{26}{section*.34}
+\contentsline {paragraph}{Dise\IeC {\~n}o de los mapas y las habitaciones:}{26}{section*.35}
+\contentsline {paragraph}{Creaci\IeC {\'o}n de tests que cubran lo analizado:}{27}{section*.36}
+\contentsline {paragraph}{Implementaci\IeC {\'o}n del dise\IeC {\~n}o de mapas y habitaciones:}{27}{section*.37}
+\contentsline {subsubsection}{\numberline {4.1.2.1}Tareas y seguimiento}{27}{subsubsection.4.1.2.1}
+\contentsline {subsubsection}{\numberline {4.1.2.2}Qu\IeC {\'e} se ha conseguido en esta iteraci\IeC {\'o}n}{28}{subsubsection.4.1.2.2}
+\contentsline {subsubsection}{\numberline {4.1.2.3}Qu\IeC {\'e} se quiere conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{28}{subsubsection.4.1.2.3}
+\contentsline {section}{\numberline {4.2}Enero 2015 - Mayo 2015}{28}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Primera iteraci\IeC {\'o}n: mapas en IU, an\IeC {\'a}lisis, dise\IeC {\~n}o, tests e implementaci\IeC {\'o}n de los objetos}{28}{subsection.4.2.1}
+\contentsline {paragraph}{Mostrar los mapas y habitaciones en el interfaz de usuario:}{29}{section*.39}
+\contentsline {paragraph}{An\IeC {\'a}lisis de requisitos sobre los objetos:}{29}{section*.40}
+\contentsline {paragraph}{Crear un dise\IeC {\~n}o simple sobre c\IeC {\'o}mo los objetos interactuar\IeC {\'a}n con el mapa:}{29}{section*.41}
+\contentsline {paragraph}{Creaci\IeC {\'o}n de tests que cubran lo analizado:}{29}{section*.42}
+\contentsline {paragraph}{Implementaci\IeC {\'o}n de los objetos en el juego:}{29}{section*.43}
+\contentsline {subsubsection}{\numberline {4.2.1.1}Tareas y seguimiento}{29}{subsubsection.4.2.1.1}
+\contentsline {subsubsection}{\numberline {4.2.1.2}Qu\IeC {\'e} se ha conseguido en esta iteraci\IeC {\'o}n}{30}{subsubsection.4.2.1.2}
+\contentsline {subsubsection}{\numberline {4.2.1.3}Qu\IeC {\'e} se quiere conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{30}{subsubsection.4.2.1.3}
+\contentsline {subsection}{\numberline {4.2.2}Segunda iteraci\IeC {\'o}n: An\IeC {\'a}lisis, dise\IeC {\~n}o, tests e implementaci\IeC {\'o}n de los personajes}{30}{subsection.4.2.2}
+\contentsline {paragraph}{An\IeC {\'a}lisis de requisitos sobre personajes:}{30}{section*.45}
+\contentsline {paragraph}{Creaci\IeC {\'o}n del dise\IeC {\~n}o de los personajes:}{31}{section*.46}
+\contentsline {paragraph}{Implementaci\IeC {\'o}n de los tests:}{31}{section*.47}
+\contentsline {paragraph}{Programaci\IeC {\'o}n de lo dise\IeC {\~n}ado y analizado previamente:}{31}{section*.48}
+\contentsline {subsubsection}{\numberline {4.2.2.1}Tareas y seguimiento}{31}{subsubsection.4.2.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2.2}Qu\IeC {\'e} se ha conseguido en esta iteraci\IeC {\'o}n}{32}{subsubsection.4.2.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.3}Qu\IeC {\'e} se quiere conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{32}{subsubsection.4.2.2.3}
+\contentsline {subsection}{\numberline {4.2.3}Tercera iteraci\IeC {\'o}n: interacci\IeC {\'o}n entre personajes, tests e implementaci\IeC {\'o}n}{32}{subsection.4.2.3}
+\contentsline {paragraph}{Ampliar los tests sobre la interacci\IeC {\'o}n entre los objetos y personajes:}{33}{section*.50}
+\contentsline {paragraph}{Implementaci\IeC {\'o}n en base a los tests, an\IeC {\'a}lisis y dise\IeC {\~n}o de la anterior iteraci\IeC {\'o}n:}{33}{section*.51}
+\contentsline {subsubsection}{\numberline {4.2.3.1}Tareas y seguimiento}{33}{subsubsection.4.2.3.1}
+\contentsline {subsubsection}{\numberline {4.2.3.2}Qu\IeC {\'e} se ha conseguido en esta iteraci\IeC {\'o}n}{34}{subsubsection.4.2.3.2}
+\contentsline {subsubsection}{\numberline {4.2.3.3}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{34}{subsubsection.4.2.3.3}
+\contentsline {section}{\numberline {4.3}Septiembre 2015 - Abril 2016}{34}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Primera iteraci\IeC {\'o}n: Aumentar interacci\IeC {\'o}n entre objetos, mapas y personajes, a\IeC {\~n}adir movimiento para el jugador}{34}{subsection.4.3.1}
+\contentsline {paragraph}{Aumentar la interacci\IeC {\'o}n entre objetos, personajes y mapa:}{35}{section*.53}
+\contentsline {paragraph}{Agregar \textit {listeners} para que el jugador pueda enviar \IeC {\'o}rdenes al juego}{35}{section*.54}
+\contentsline {subsubsection}{\numberline {4.3.1.1}Tareas y seguimiento}{35}{subsubsection.4.3.1.1}
+\contentsline {subsubsection}{\numberline {4.3.1.2}Qu\IeC {\'e} se ha conseguido en esta iteraci\IeC {\'o}n}{35}{subsubsection.4.3.1.2}
+\contentsline {subsubsection}{\numberline {4.3.1.3}Qu\IeC {\'e} se quiere conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{36}{subsubsection.4.3.1.3}
+\contentsline {subsection}{\numberline {4.3.2}Segunda iteraci\IeC {\'o}n: Dise\IeC {\~n}o e implementaci\IeC {\'o}n de los portales, IA de los enemigos y accesibilidad para dalt\IeC {\'o}nicos}{36}{subsection.4.3.2}
+\contentsline {paragraph}{Dise\IeC {\~n}o e implementaci\IeC {\'o}n de los portales:}{36}{section*.56}
+\contentsline {paragraph}{A\IeC {\~n}adir inteligencia artificial:}{36}{section*.57}
+\contentsline {paragraph}{A\IeC {\~n}adir opciones para cambiar el color de la interfaz gr\IeC {\'a}fica:}{37}{section*.58}
+\contentsline {subsubsection}{\numberline {4.3.2.1}Tareas y seguimiento}{37}{subsubsection.4.3.2.1}
+\contentsline {subsubsection}{\numberline {4.3.2.2}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{37}{subsubsection.4.3.2.2}
+\contentsline {subsubsection}{\numberline {4.3.2.3}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{38}{subsubsection.4.3.2.3}
+\contentsline {subsection}{\numberline {4.3.3}Tercera iteraci\IeC {\'o}n: An\IeC {\'a}lisis, dise\IeC {\~n}o b\IeC {\'a}sico y comienzo de la implementaci\IeC {\'o}n de las gram\IeC {\'a}ticas}{38}{subsection.4.3.3}
+\contentsline {paragraph}{An\IeC {\'a}lisis de las gram\IeC {\'a}ticas:}{38}{section*.60}
+\contentsline {paragraph}{Dise\IeC {\~n}o general sobre la generaci\IeC {\'o}n del lenguaje:}{38}{section*.61}
+\contentsline {paragraph}{Creaci\IeC {\'o}n de gram\IeC {\'a}ticas y diccionarios base:}{38}{section*.62}
+\contentsline {subsubsection}{\numberline {4.3.3.1}Tareas y seguimiento}{38}{subsubsection.4.3.3.1}
+\contentsline {subsubsection}{\numberline {4.3.3.2}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{39}{subsubsection.4.3.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3.3}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{39}{subsubsection.4.3.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Cuarta iteraci\IeC {\'o}n: An\IeC {\'a}lisis, dise\IeC {\~n}o y comienzo de la implementaci\IeC {\'o}n de las gram\IeC {\'a}ticas}{39}{subsection.4.3.4}
+\contentsline {paragraph}{An\IeC {\'a}lisis sobre c\IeC {\'o}mo crear las gram\IeC {\'a}ticas NP:}{40}{section*.64}
+\contentsline {paragraph}{Dise\IeC {\~n}o de las gram\IeC {\'a}ticas NP:}{40}{section*.65}
+\contentsline {paragraph}{Creaci\IeC {\'o}n de los tests para las gram\IeC {\'a}ticas NP:}{40}{section*.66}
+\contentsline {paragraph}{Implementaci\IeC {\'o}n de las gram\IeC {\'a}ticas NP:}{40}{section*.67}
+\contentsline {subsubsection}{\numberline {4.3.4.1}Tareas y seguimiento}{40}{subsubsection.4.3.4.1}
+\contentsline {subsubsection}{\numberline {4.3.4.2}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{41}{subsubsection.4.3.4.2}
+\contentsline {subsubsection}{\numberline {4.3.4.3}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{41}{subsubsection.4.3.4.3}
+\contentsline {subsection}{\numberline {4.3.5}Quinta iteraci\IeC {\'o}n: An\IeC {\'a}lisis, dise\IeC {\~n}o e implementaci\IeC {\'o}n de las gram\IeC {\'a}ticas y frases m\IeC {\'a}s complejas}{41}{subsection.4.3.5}
+\contentsline {paragraph}{An\IeC {\'a}lisis sobre c\IeC {\'o}mo crear las gram\IeC {\'a}ticas complejas de forma gen\IeC {\'e}rica:}{41}{section*.69}
+\contentsline {paragraph}{Dise\IeC {\~n}o de dichas gram\IeC {\'a}ticas:}{41}{section*.70}
+\contentsline {paragraph}{Creaci\IeC {\'o}n de los tests para las gram\IeC {\'a}ticas complejas:}{41}{section*.71}
+\contentsline {paragraph}{Implementaci\IeC {\'o}n y \textit {link} con el diccionario:}{42}{section*.72}
+\contentsline {subsubsection}{\numberline {4.3.5.1}Tareas y seguimiento}{42}{subsubsection.4.3.5.1}
+\contentsline {subsubsection}{\numberline {4.3.5.2}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{42}{subsubsection.4.3.5.2}
+\contentsline {subsubsection}{\numberline {4.3.5.3}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{42}{subsubsection.4.3.5.3}
+\contentsline {subsection}{\numberline {4.3.6}Sexta iteraci\IeC {\'o}n: Implementaci\IeC {\'o}n de las restricciones, gallego y castellano, creaci\IeC {\'o}n de la interfaz de usuario para con las frases generadas y primer v\IeC {\'\i }deo}{43}{subsection.4.3.6}
+\contentsline {paragraph}{Creaci\IeC {\'o}n de la interfaz de usuario para mostrar las frases generadas al usuario:}{43}{section*.74}
+\contentsline {paragraph}{Implementaci\IeC {\'o}n de las restricciones para el resto de idiomas:}{43}{section*.75}
+\contentsline {paragraph}{A\IeC {\~n}adir gram\IeC {\'a}ticas y diccionarios para gallego y castellano:}{43}{section*.76}
+\contentsline {paragraph}{A\IeC {\~n}adir las teclas necesarias para mostrar las descripciones del inventario y ambiente:}{43}{section*.77}
+\contentsline {paragraph}{Crear primer v\IeC {\'\i }deo para recibir \textit {feedback}:}{43}{section*.78}
+\contentsline {subsubsection}{\numberline {4.3.6.1}Tareas y seguimiento}{44}{subsubsection.4.3.6.1}
+\contentsline {subsubsection}{\numberline {4.3.6.2}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{44}{subsubsection.4.3.6.2}
+\contentsline {subsubsection}{\numberline {4.3.6.3}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{44}{subsubsection.4.3.6.3}
+\contentsline {subsection}{\numberline {4.3.7}S\IeC {\'e}ptima iteraci\IeC {\'o}n: Resoluci\IeC {\'o}n de bugs detectados y a\IeC {\~n}adidas peque\IeC {\~n}as funcionalidades}{45}{subsection.4.3.7}
+\contentsline {paragraph}{Solucionar bug donde la pantalla no se refresca:}{45}{section*.80}
+\contentsline {paragraph}{Cambiar las teclas que usamos por defecto:}{45}{section*.81}
+\contentsline {paragraph}{Hacer los adjetivos que definen los personajes variables:}{45}{section*.82}
+\contentsline {paragraph}{A\IeC {\~n}adir opci\IeC {\'o}n para que las descripciones sean descriptivas o num\IeC {\'e}ricas:}{45}{section*.83}
+\contentsline {subsubsection}{\numberline {4.3.7.1}Tareas y seguimiento}{45}{subsubsection.4.3.7.1}
+\contentsline {subsubsection}{\numberline {4.3.7.2}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{46}{subsubsection.4.3.7.2}
+\contentsline {subsubsection}{\numberline {4.3.7.3}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{46}{subsubsection.4.3.7.3}
+\contentsline {subsection}{\numberline {4.3.8}Octava iteraci\IeC {\'o}n: Implementaci\IeC {\'o}n en base al \textit {feedback} recibido}{46}{subsection.4.3.8}
+\contentsline {subsubsection}{\numberline {4.3.8.1}Feedback recibido}{46}{subsubsection.4.3.8.1}
+\contentsline {paragraph}{Tener en cuenta la persistencia del tiempo:}{47}{section*.85}
+\contentsline {paragraph}{Cambiar el sistema de salida de las frases generadas:}{47}{section*.86}
+\contentsline {paragraph}{Peque\IeC {\~n}os cambios en los adjetivos usados:}{47}{section*.87}
+\contentsline {paragraph}{Adici\IeC {\'o}n de niveles y experiencia:}{47}{section*.88}
+\contentsline {paragraph}{Cambio en la aleatoriedad:}{47}{section*.89}
+\contentsline {paragraph}{Evitar la repetitividad:}{47}{section*.90}
+\contentsline {paragraph}{Darle nombre al h\IeC {\'e}roe:}{47}{section*.91}
+\contentsline {paragraph}{Mostrar una serie de estad\IeC {\'\i }sticas al cambiar de mazmorra:}{48}{section*.92}
+\contentsline {subsubsection}{\numberline {4.3.8.2}Tareas y seguimiento}{48}{subsubsection.4.3.8.2}
+\contentsline {subsubsection}{\numberline {4.3.8.3}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{48}{subsubsection.4.3.8.3}
+\contentsline {subsubsection}{\numberline {4.3.8.4}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{49}{subsubsection.4.3.8.4}
+\contentsline {subsection}{\numberline {4.3.9}Novena iteraci\IeC {\'o}n: M\IeC {\'a}s implementaci\IeC {\'o}n en base al \textit {feedback} recibido}{49}{subsection.4.3.9}
+\contentsline {subsubsection}{\numberline {4.3.9.1}Feedback recibido}{49}{subsubsection.4.3.9.1}
+\contentsline {paragraph}{A\IeC {\~n}adir el resto de signos de puntuaci\IeC {\'o}n necesarios:}{49}{section*.94}
+\contentsline {paragraph}{Incrementar el tama\IeC {\~n}o de la fuente dentro del \IeC {\'a}rea de texto:}{49}{section*.95}
+\contentsline {paragraph}{Generar todas las frases con las gram\IeC {\'a}ticas:}{49}{section*.96}
+\contentsline {paragraph}{Cuando pulsemos una tecla en la \textit {textarea}, el resultado deber\IeC {\'\i }a de afectar el juego:}{49}{section*.97}
+\contentsline {paragraph}{Cambiar el tama\IeC {\~n}o y situaci\IeC {\'o}n de las ventanas:}{50}{section*.98}
+\contentsline {paragraph}{A\IeC {\~n}adir sonido cuando el jugador se mueve:}{50}{section*.99}
+\contentsline {paragraph}{Refactorizar el c\IeC {\'o}digo:}{50}{section*.100}
+\contentsline {subsubsection}{\numberline {4.3.9.2}Tareas y seguimiento}{50}{subsubsection.4.3.9.2}
+\contentsline {subsubsection}{\numberline {4.3.9.3}Qu\IeC {\'e} hemos conseguido en esta iteraci\IeC {\'o}n}{51}{subsubsection.4.3.9.3}
+\contentsline {subsubsection}{\numberline {4.3.9.4}Qu\IeC {\'e} queremos conseguir en la pr\IeC {\'o}xima iteraci\IeC {\'o}n}{51}{subsubsection.4.3.9.4}
+\contentsline {section}{\numberline {4.4}Coste del proyecto}{51}{section.4.4}
+\contentsline {chapter}{\numberline {5}An\IeC {\'a}lisis de Requisitos}{53}{chapter.5}
+\contentsline {section}{\numberline {5.1}Consultas con la comunidad}{53}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Resumen de las peticiones recibidas}{53}{subsection.5.1.1}
+\contentsline {paragraph}{F\IeC {\'a}cil cambio de color de la interfaz}{53}{section*.102}
+\contentsline {paragraph}{Descripciones autom\IeC {\'a}ticas de todos los elementos posibles}{53}{section*.103}
+\contentsline {paragraph}{Diferentes idiomas}{54}{section*.104}
+\contentsline {paragraph}{Utilizar el idioma en nuestro favor}{54}{section*.105}
+\contentsline {paragraph}{Multiplataforma}{54}{section*.106}
+\contentsline {subsection}{\numberline {5.1.2}C\IeC {\'o}mo hemos abordado el problema de accesibilidad para invidentes en nuestro proyecto}{54}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}C\IeC {\'o}mo hemos solventado el problema en nuestro proyecto}{55}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}An\IeC {\'a}lisis de los elementos del juego}{55}{section.5.2}
+\contentsline {section}{\numberline {5.3}Requisitos del aplicativo}{56}{section.5.3}
+\contentsline {chapter}{\numberline {6}Dise\IeC {\~n}o e Implementaci\IeC {\'o}n}{59}{chapter.6}
+\contentsline {section}{\numberline {6.1}Gram\IeC {\'a}ticas y frases}{59}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Explicaci\IeC {\'o}n general del funcionamiento}{59}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}\textit {Input} de gram\IeC {\'a}ticas y diccionario}{62}{subsection.6.1.2}
+\contentsline {subsubsection}{\numberline {6.1.2.1}Gram\IeC {\'a}ticas: Sintagmas nominales}{62}{subsubsection.6.1.2.1}
+\contentsline {subsubsection}{\numberline {6.1.2.2}Gram\IeC {\'a}ticas: Frases}{64}{subsubsection.6.1.2.2}
+\contentsline {subsubsection}{\numberline {6.1.2.3}Diccionarios}{65}{subsubsection.6.1.2.3}
+\contentsline {section}{\numberline {6.2}Otras partes del sistema}{66}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Interfaz de usuario para el texto generado}{66}{subsection.6.2.1}
+\contentsline {subsubsection}{\numberline {6.2.1.1}Primera idea: pop-up}{67}{subsubsection.6.2.1.1}
+\contentsline {subsubsection}{\numberline {6.2.1.2}Segunda idea: \textit {TextArea}}{67}{subsubsection.6.2.1.2}
+\contentsline {subsection}{\numberline {6.2.2}Generaci\IeC {\'o}n aleatoria de mapas y elementos}{70}{subsection.6.2.2}
+\contentsline {subsubsection}{\numberline {6.2.2.1}Primera idea: Generaci\IeC {\'o}n completamente aleatoria}{70}{subsubsection.6.2.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2.2}Segunda idea: Generador de encuentros}{70}{subsubsection.6.2.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Comportamiento de los enemigos}{70}{subsection.6.2.3}
+\contentsline {paragraph}{RandomMovement:}{71}{section*.112}
+\contentsline {paragraph}{FollowingMovementDumb:}{71}{section*.113}
+\contentsline {paragraph}{FollowingMovement:}{71}{section*.114}
+\contentsline {section}{\numberline {6.3}Herramientas empleadas}{71}{section.6.3}
+\contentsline {paragraph}{Java:}{72}{section*.116}
+\contentsline {paragraph}{\href {https://eclipse.org}{Eclipse}:}{72}{section*.117}
+\contentsline {paragraph}{\href {https://goo.gl/IKsKt5}{Git}:}{72}{section*.118}
+\contentsline {paragraph}{\href {github.com}{GitHub}:}{72}{section*.119}
+\contentsline {paragraph}{JSON:}{72}{section*.120}
+\contentsline {paragraph}{\href {www.nvaccess.org}{\textit {NVDA}}:}{72}{section*.121}
+\contentsline {paragraph}{\href {https://goo.gl/zPCXen}{\textit {Gson}}:}{72}{section*.122}
+\contentsline {paragraph}{\href {https://github.com/sunhong/jcurses}{JCurses}:}{73}{section*.123}
+\contentsline {paragraph}{\href {www.slashie.net/libjcsi}{Libjcsi}:}{73}{section*.124}
+\contentsline {section}{\numberline {6.4}Herramientas de comunicaci\IeC {\'o}n con usuarios y \textit {testers}}{73}{section.6.4}
+\contentsline {paragraph}{Listas de Correo:}{73}{section*.125}
+\contentsline {paragraph}{\href {www.reddit.com}{Reddit}:}{73}{section*.126}
+\contentsline {chapter}{\numberline {7}Recepci\IeC {\'o}n, conclusi\IeC {\'o}n y trabajo futuro}{75}{chapter.7}
+\contentsline {section}{\numberline {7.1}Recepci\IeC {\'o}n y \textit {Feedback}}{75}{section.7.1}
+\contentsline {section}{\numberline {7.2}Conclusi\IeC {\'o}n}{75}{section.7.2}
+\contentsline {section}{\numberline {7.3}Trabajo Futuro}{76}{section.7.3}
+\contentsline {paragraph}{Creaci\IeC {\'o}n de un men\IeC {\'u}:}{76}{section*.127}
+\contentsline {paragraph}{A\IeC {\~n}adir m\IeC {\'a}s variedad de enemigos y elementos:}{76}{section*.128}
+\contentsline {paragraph}{Crear un modo historia:}{76}{section*.129}
+\contentsline {paragraph}{Crear un tutorial:}{76}{section*.130}
+\contentsline {paragraph}{Crear un ``modo resumen'':}{77}{section*.131}
+\contentsline {paragraph}{Incluir elementos sonoros:}{77}{section*.132}
+\contentsline {paragraph}{A\IeC {\~n}adir m\IeC {\'a}s complejidad a las gram\IeC {\'a}ticas:}{77}{section*.133}
+\contentsline {paragraph}{A\IeC {\~n}adir m\IeC {\'a}s complejidad a los diccionarios:}{77}{section*.134}
+\contentsline {paragraph}{Crear opci\IeC {\'o}n de jugar en base a una semilla:}{77}{section*.135}
+\contentsline {chapter}{\numberline {A}Escoger la licencia}{79}{appendix.Alph1}
+\contentsline {chapter}{\numberline {B}Instalaci\IeC {\'o}n e Instrucciones}{81}{appendix.Alph2}
+\contentsline {chapter}{\numberline {C}Bibliograf\'{\i }a}{83}{appendix.Alph3}
