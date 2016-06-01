@@ -298,34 +298,34 @@ En la próxima iteración deberemos completar los elementos básicos del videoju
 
 Esta segunda iteración comienza el 6 de octubre y termina el 8 de noviembre, con 4 semanas y media para su completa realización.
 
-\paragraph{Diseño e implementación de los portales:} El sistema de portales fue la idea principal que tuvimos para crear un sistema de puntuación y progreso para el usuario. El objetivo está en encontrar el portal dentro del mapa y, una vez encontrado, un nuevo mapa será generado, con otro portal en una posición diferente a la anterior. De esta manera, la meta del juego se centra en derrotar enemigos (consiguiendo mejores armas y armaduras en el proceso) para encontrar el mayor número de portales posibles, consiguiendo así mejor puntuación.
-Deberemos de diseñar e implementar estos portales en esta iteración, dado que otorgará de un objetivo al título.
+\paragraph{Diseño e implementación de los portales:} El sistema de portales fue la idea principal que tuvimos para crear un sistema de puntuación y progreso para el usuario. El objetivo es encontrar el portal dentro del mapa y, una vez localizado, un nuevo mapa será generado, con otro portal en una posición diferente a la anterior. De esta manera, la meta del juego se centra en derrotar enemigos (consiguiendo mejores armas y armaduras en el proceso) para desplazarse de mapa en mapa empleando los portales, y así llegar cada vez más lejos, consiguiendo mejor puntuación.
+Deberemos diseñar e implementar estos portales en esta iteración, dado que dotará de un objetivo al título.
 
-\paragraph{Añadir inteligencia artificial:} Dependiendo del enemigo al que nos enfrentemos, éste se comportará de forma distinta. Habrá enemigos que sean activos y vayan contra el usuario, mientras que otros serán pasivos y no querrán atacarlo. Puede ser que en el futuro queramos incrementar el número de este tipo de comportamientos, por lo que deberemos de diseñarlo de la mejor forma posible.
+\paragraph{Dotar de inteligencia artificial:} Dependiendo del tipo de enemigo al que nos enfrentemos, éste se comportará de forma distinta. Habrá enemigos que serán activos y se lanzan contra el usuario, mientras que otros serán pasivos e inicialmente no querrán atacarlo. Puede ser que en el futuro queramos incrementar la variedad de este tipo de comportamientos. En la Sección \cite{sec:ia} explicamos cómo se ha desarrollado.
 
-\paragraph{Añadir opciones para cambiar el color de la interfaz gráfica:} El punto central de este proyecto es la accesibilidad e incluir una opción para que daltónicos puedan disfrutar de nuestro juego, es decisivo.
+\paragraph{Añadir opciones para cambiar el color de la interfaz gráfica:} El punto central de este proyecto es la accesibilidad, e incluir una opción para para mejorar la accesibilidad de los jugadores daltónicos a nuestro juego es muy importante.
 
 \subsubsection{Tareas y seguimiento}
 
 La descomposición de las tareas es la siguiente:
 
-\begin{enumerate}[label=\bfseries WBS 2.\arabic*]
-  \item Diseño e implementación de los portales.
-    \begin{enumerate}[label=\bfseries WBS 2.1.\arabic*]
-      \item Diseñar la mejor manera para incluir los portales en nuestro diseño (en el análisis es algo que se había considerado hacer).
-      \item Creación de los tests.
-      \item Implementación de los portales.
-    \end{enumerate}
-  \item Añadir inteligencia artificial.
-  	\begin{enumerate}[label=\bfseries WBS 2.2.\arabic*]
-      \item Diseñar la mejor manera para incluir diferentes tipos de IA.
-      \item Crear los tests de IA.
-      \item Implementar esta IA para los enemigos.
-    \end{enumerate}
-  \item Añadir opciones para cambiar el color de la interfaz gráfica para usuarios daltónicos
-\end{enumerate}
+\begin{itemize}
+  \item \textbf{2.1} Diseño e implementación de los portales.
+    \begin{itemize}
+      \item \textbf{2.1.1} Diseñar la mejor manera para incluir los portales en nuestro diseño (en el análisis es algo que se había considerado hacer).
+      \item \textbf{2.1.2} Creación de los tests.
+      \item \textbf{2.1.3} Implementación de los portales.
+    \end{itemize}
+  \item \textbf{2.2} Dotar de IA a los enemigos.
+  	\begin{itemize}
+      \item \textbf{2.2.1} Diseñar la mejor manera para incluir diferentes tipos de IA.
+      \item \textbf{2.2.2} Crear los tests de IA.
+      \item \textbf{2.2.3} Implementar esta IA para los enemigos.
+    \end{itemize}
+  \item \textbf{2.3} Añadir opciones para cambiar el color de la interfaz gráfica para usuarios daltónicos
+\end{itemize}
 
-48 horas fueron las que creímos suficientes para la estimación del \textit{sprint} y que fueron necesarias para la conclusión del mismo con todas las tareas terminadas. Ver la figura ~\ref{fig:sec3it2} como referencia para recabar más información sobre la distribución de las tareas mencionadas en este \textit{sprint}.
+\noindent 48 horas fueron las que estimamos suficientes para este \textit{sprint}, resultando suficientes para la conclusión del mismo con todas las tareas terminadas. La Figura ~\ref{fig:sec3it2} proporciona más información sobre la distribución de las tareas mencionadas.
 
 \begin{figure}
     \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/sec3it2.png}
@@ -333,40 +333,40 @@ La descomposición de las tareas es la siguiente:
   \label{fig:sec3it2}
 \end{figure}
 
-\subsubsection{Qué hemos conseguido en esta iteración}
+\subsubsection{Qué se ha conseguido en esta iteración}
 
-Con esta última iteración tenemos la parte básica del juego completada. Hay un objetivo, enemigos con IA que deberemos de batir, diferentes objetos que podemos coger, puertas que conectan distintas habitaciones y varias acciones que se pueden realizar y que nos permitirán interactuar con el resto de elementos que acabamos de mencionar.
+Con esta última iteración tenemos la parte básica del juego completada. Hay un objetivo, enemigos con IA que deberemos batir, diferentes objetos que podemos coger, puertas para conectar distintas habitaciones y varias acciones que nos permitirán interactuar con los elementos que acabamos de mencionar.
 
-\subsubsection{Qué queremos conseguir en la próxima iteración}
+\subsubsection{Qué se quiere conseguir en la próxima iteración}
 
-Con el juego en sí completado (o por lo menos la parte primordial), es hora de empezar a analizar y diseñar la parte de la generación automática del lenguaje y estudiar su relación con lo que ya tenemos terminado.
+Con el juego en sí completado (o por lo menos la parte primordial), es hora de volver nuestra atención a la parte de generación automática del lenguaje y estudiar su integración con lo ya terminado.
 
 \subsection{Tercera iteración: Análisis, diseño básico y comienzo de la implementación de las gramáticas}
 
 Esta segunda iteración comienza el 9 de noviembre y termina el 31 de diciembre, con 6 semanas y media para su finalización.
 
-\paragraph{Análisis de las gramáticas:} Una parte muy importante del juego es crear frases que sean generadas de forma automática y pseudo-aleatoria en base a una serie de gramáticas y diccionario dado. Si conseguimos realizar esto, traducir nuestro juego a diferentes idiomas sería trivial (solamente tendríamos que cambiar la gramática en caso de que en dicho idioma sea diferente y traducir el diccionario empleado). Para ello tendremos que investigar cómo podemos hacerlo en nuestro caso de la manera más genérica posible y cómo han solventado este problema otros proyectos similares.
+\paragraph{Análisis de las gramáticas:} Un aspecto clave de nuestro sistema es la generación automática de descripciones de lo que ocurre en el juego para su posterior lectura mediante un lector de pantalla. Buscaremos expresividad y variedad en las descripciones, que se generarán en base a una serie de gramáticas y diccionarios. Esto permitirá, además, traducir nuestro juego a diferentes idiomas de forma relativamente sencilla, pues bastaría con adaptar la gramática y traducir el diccionario empleado. Para construir este motor descriptivo, primero tendremos que investigar cómo podemos hacerlo en nuestro caso de la manera más genérica posible y cómo han solventado este problema otros sistemas similares.
 
-\paragraph{Diseño general sobre la generación del lenguaje:} Una vez hemos analizado y decidido lo que debemos de realizar, crearemos un diseño lo más simple y adaptable posible para la generación de dichas frases en base a las gramáticas dadas. El objetivo primordial es que la traducción y la adición de nuevas palabras sea lo más fácil posible para que añadir variedad sea una tarea sencilla.
+\paragraph{Diseño general sobre la generación del lenguaje:} Una vez hemos analizado y decidido lo que debemos realizar, crearemos un diseño lo más simple y adaptable posible para la generación de dichas frases en base a unas gramáticas del lenguaje dadas. El objetivo principal es, en primer lugar, que la adición de nuevas palabras sea lo más fácil posible para que añadir expresividad y variedad sea sencillo y, en segundo lugar, facilitar al máximo la traducción del juego a otros idiomas.
 
-\paragraph{Creación de gramáticas y diccionarios base:} Para empezar el desarrollo necesitamos tener una gramática y diccionaro base con lo que poder ver los diferentes resultados obtenidos. Empezaremos con gramáticas y diccionarios en inglés, dado que sus restricciones son más fáciles que en otros idiomas.
+\paragraph{Creación de gramáticas y diccionarios base:} Para empezar el desarrollo necesitamos tener una gramática y un diccionario base sobre los cuales se comienza a trabajar, analizando los resultados obtenidos. Empezaremos con gramáticas y diccionarios para inglés, dado que sus restricciones iniciales son más sencillas de tratar que en otros idiomas y el número de usuarios potenciales es mayor.
 
 \subsubsection{Tareas y seguimiento}
 
 La descomposición de las tareas es la siguiente:
 
-\begin{enumerate}[label=\bfseries WBS 3.\arabic*]
-  \item Análisis de las gramáticas.
-    \begin{enumerate}[label=\bfseries WBS 3.1.\arabic*]
-      \item Leer la información que existe sobre la generación automática de lenguaje.
-      \item Estudiar cómo lo podemos implementar en nuestro proyecto con lo ya existente.
-      \item Tomar la decisión en base a lo encontrado y sentar las bases sobre ello.
-    \end{enumerate}
-  \item Diseño general sobre la generación del lenguaje y cómo las gramáticas interactuarán con nuestro programa.
-  \item Creación de gramáticas y diccionarios base para tener una base con lo que testar lo que implementaremos.
-\end{enumerate}
+\begin{itemize}[label=\bfseries WBS 3.\arabic*]
+  \item \textbf{3.1} Análisis de las gramáticas.
+    \begin{itemize}[label=\bfseries WBS 3.1.\arabic*]
+      \item \textbf{3.1.1} Familiarizarse con los principios básicos de generación automática de lenguaje.
+      \item \textbf{3.1.2} Estudiar cómo construir e integrar un sistema de este tipo en nuestro proyecto en base a lo ya existente.
+      \item \textbf{3.1.3} Tomar la decisión en base a lo encontrado y sentar las bases sobre ello.
+    \end{itemize}
+  \item \textbf{3.2} Diseño general del proceso de la generación del lenguaje y cómo las gramáticas interactuarán con nuestro programa.
+  \item \textbf{3.3} Creación de las gramáticas y diccionarios iniciales para tener una base con la que testar nuestra implementación.
+\end{itemize}
 
-Hemos reservado 130 horas para esta iteración y hemos conseguido terminar todas las tareas asignadas a tiempo. Ver la figura ~\ref{fig:sec3it3} para ver el diagrama de Gantt asociado y obtener más información sobre esta iteración.
+\noindent Hemos reservado 130 horas para esta iteración y hemos conseguido terminar todas las tareas asignadas a tiempo. En la Figura ~\ref{fig:sec3it3} se puede ver el diagrama de Gantt asociado y obtener más información sobre esta iteración.
 
 \begin{figure}
     \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/sec3it3.png}
@@ -374,38 +374,38 @@ Hemos reservado 130 horas para esta iteración y hemos conseguido terminar todas
   \label{fig:sec3it3}
 \end{figure}
 
-\subsubsection{Qué hemos conseguido en esta iteración}
+\subsubsection{Qué se ha conseguido en esta iteración}
 
-Hemos sentado las bases de lo que queremos implementar con las gramáticas en un futuro y hemos empezado a crear gramáticas y diccionarios en inglés que iremos ampliando y que servirán de base para el resto de idiomas.
+Hemos sentado las bases de lo que queremos implementar con las gramáticas en un futuro y hemos creado unas gramáticas y diccionarios iniciales para inglés que iremos ampliando y que servirán de base para el resto de idiomas.
 
-\subsubsection{Qué queremos conseguir en la próxima iteración}
+\subsubsection{Qué se quiere conseguir en la próxima iteración}
 
-En la siguiente iteración empezaremos creando los tests para definir cómo las frases automáticas deben de generarse y empezaremos con el desarrollo de lo que hemos investigado en esta iteración.
+En la siguiente iteración empezaremos creando los tests para definir cómo las frases automáticas deben generarse e iniciaremos el desarrollo de lo que hemos investigado en esta iteración.
 
 \subsection{Cuarta iteración: Análisis, diseño y comienzo de la implementación de las gramáticas}
 
 Esta segunda iteración comienza el 1 de enero y termina el 14 de enero. Es decir, solamente durará 2 semanas.
 
-\paragraph{Análisis sobre cómo crear las gramáticas NP:} Las gramáticas NP\footnote{Gramáticas de sintagma nominal.} son básicas para describir sustantivos, usando solamente determinantes y adjetivos, pero no iguales en todos los idiomas (por ejemplo, su orden cambian entre inglés y castellano o gallego). Debemos de estudiar qué planteamientos existen que faciliten su implementación de la forma más genérica posible.
+\paragraph{Análisis sobre cómo crear las gramáticas NP:} Los sintagmas nominales o frases nominales (NP por \emph{noun phrase}) son elementos básicos de cualquier lengua constituidos, en general, por sustantivos acompañados por sus determinantes (ej. artículos) y modificadores (ej. adjetivos). Sin embargo, su estructura, dada por su gramática, no es igual en todos los idiomas, el orden de los elementos cambia entre inglés y castellano o gallego, por ejemplo. Asimismo debemos estudiar qué planteamientos existen que faciliten su implementación de la forma más genérica posible.
 
-\paragraph{Diseño de las gramáticas NP:} Las frases de sintagma nominal serán las más usadas dentro de nuestro juego. No solamente serán utilizadas para la generación de las frases, pero también a la hora de representar los elementos en la interfaz de usuario. Por ello debemos de crearlas de la forma más extendible y accesible que podamos.
+\paragraph{Diseño de las gramáticas NP:} Las frases de sintagma nominal serán las más usadas dentro de nuestro juego. No sólamente serán utilizadas al describir lo que sucede en el juego, sino también a la hora de representar los elementos en la interfaz de usuario. Por ello debemos crearlas de la forma más extensible y accesible que podamos.
 
 \paragraph{Creación de los tests para las gramáticas NP:} Al igual que en otras iteraciones, realizamos los tests antes de empezar con ningún tipo de implementación para tener una base sobre cómo las funciones y clases deben de comportase.
 
-\paragraph{Implementación de las gramáticas NP:} Con los tests realizados, debemos de empezar con la implementación. Tenemos que tener en cuenta que hay que ser capaces de sustituir las clases de palabras por las palabras en sí que se encuentran en el diccionario. También hay que tener en cuenta las restricciones posibles. Por el momento solamente contamos con las restricciones que existen en inglés. Es decir, en número, pero con español también tendremos que tener en cuenta el género.
+\paragraph{Implementación de las gramáticas NP:} Con los tests realizados, debemos empezar con la implementación, teniendo en cuenta el formalismo escogido y las restricciones aplicables en base al idioma. En el caso inicial del inglés, se necesitará abordar el caso de la congruencia en númerp, por ejemplo pero, en su momento, con español también tendremos que tener en cuenta el género.
 
 \subsubsection{Tareas y seguimiento}
 
 La descomposición de las tareas es la siguiente:
 
 \begin{enumerate}[label=\bfseries WBS 4.\arabic*]
-  \item Análisis sobre cómo crear las gramáticas NP de forma genérica y fácilmente extendibles para otros idiomas.
-  \item Diseño de las gramáticas NP.
-  \item Creación de los tests para las gramáticas NP.
-  \item Implementación de las gramáticas NP y \textit{link} con el diccionario.
+  \item Análisis sobre el formalismo a emplear para representar las gramáticas NP y cómo construir un motor de generación de textos descriptivos a partir de ellas para su integración en nuestro sistema, todo ello primando la generidad y la extensibilidad.
+  \item Diseño de las gramáticas NP y del motor descriptivo.
+  \item Creación de los tests para las gramáticas NP y el motor.
+  \item Desarrollo de las gramáticas NP, su enlace con el diccionario e implementación del motor.
 \end{enumerate}
 
-Hemos reservado 40 horas para esta iteración y terminamos todas las tareas a tiempo. Ver la figura ~\ref{fig:sec3it4} para más información y para ver el diagrama de Gantt que muestra la distribución de tiempo durante estas semanas para estas tareas.
+\noindent Hemos reservado 40 horas para esta iteración y terminamos todas las tareas a tiempo. En la Figura ~\ref{fig:sec3it4} se puede encontrar más información y para ver el diagrama de Gantt que muestra la distribución de tiempo para estas tareas.
 
 \begin{figure}
     \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/sec3it4.png}
@@ -413,38 +413,38 @@ Hemos reservado 40 horas para esta iteración y terminamos todas las tareas a ti
   \label{fig:sec3it4}
 \end{figure}
 
-\subsubsection{Qué hemos conseguido en esta iteración}
+\subsubsection{Qué se ha conseguido en esta iteración}
 
-Al finalizar esta iteración hemos conseguido generar sintagmas nominales de forma pseudo-aleatoria que recogen la información en las gramáticas y diccionarios dados. De momento esto solamente está disponible en inglés, pero su implementación en otros idiomas es sencillo y será algo que se realizará en iteraciones posteriores.
+Al finalizar esta iteración hemos conseguido generar sintagmas nominales destinados a describir la acción del juego en base a las gramáticas y diccionarios dados. De momento solamente está disponible para inglés, pero su ampliación a otros idiomas debería resultar sencillo gracias a nuestro diseño y será algo que se realizará en iteraciones posteriores.
 
 \subsubsection{Qué queremos conseguir en la próxima iteración}
 
-Aumentar lo que las gramáticas pueden generar para que las frases que mostremos no sean solamente sean sintagmas nominales, pero también frases que usen estos sintagmas nominales. De esta forma podríamos crear todo tipo de clases que serían capaces de describir todo lo que tenemos en nuestro juego sin problema.
+Aumentar el rango de las construcciones sintácticas generables a otro tipo de sinftagmas. De esta forma podremos generar diversos tipos de construcciones que permitirán describir todo lo que ocurre dentro de nuestro juego sin problema.
 
 \subsection{Quinta iteración: Análisis, diseño e implementación de las gramáticas y frases más complejas}
 
 Esta segunda iteración comienza el 15 de enero y termina el 29 de enero. Es decir, tiene 2 semanas y media de duración, un poco más que la anterior.
 
-\paragraph{Análisis sobre cómo crear las gramáticas complejas de forma genérica:} Una vez somos capaces de crear sintagmas nominales, deberemos de ser capaces de combinarlos con otros elementos del lenguaje como verbos para generar frases que sean capaces de describir todo lo que realmente deseamos. Deberemos de analizar las diferentes formas de hacer esto.
+\paragraph{Análisis sobre cómo crear las gramáticas complejas de forma genérica:} Una vez somos capaces de generar sintagmas nominales, pasaremos a combinarlos con otros elementos del lenguaje, tales como verbos para, así, generar estructuras sintácticas más complejas que sean capaces de describir todo lo que realmente deseamos. Deberemos analizar las diferentes formas de hacer esto.
 
 \paragraph{Diseño de dichas gramáticas:} Una vez hayamos analizado y decidido los pasos que vamos a seguir, nos quedará realizar el diseño del mismo.
 
 \paragraph{Creación de los tests para las gramáticas complejas:} Al igual que en las veces anteriores, tendremos que crear los tests antes de empezar con la implementación para estar seguros de que lo que implementamos sea coherente con lo que queremos realizar.
 
-\paragraph{Implementación y \textit{link} con el diccionario:} Implementar las gramáticas más complejas que se comuniquen con las gramáticas NP y nos permitan generar frases que describan lo que ocurre en el juego de forma aleatoria y automática.
+\paragraph{Implementación y enlace con el diccionario:} Desarrollar las nuevas gramáticas más complejas y ampliar el motor de generación acorde con ello para que se comuniquen con las gramáticas NP y nos permitan generar frases y oraciones que describan lo que ocurre en el juego.
 
 \subsubsection{Tareas y seguimiento}
 
 La descomposición de las tareas es la siguiente:
 
-\begin{enumerate}[label=\bfseries WBS 5.\arabic*]
-  \item Análisis sobre cómo crear las gramáticas complejas de forma genérica, extendibles para otros idiomas y que hagan uso de las NP.
-  \item Diseño de dichas gramáticas.
-  \item Creación de los tests para las gramáticas complejas, al igual que su relación con las NP y diccionario.
-  \item Implementación y \textit{link} con el diccionario.
-\end{enumerate}
+\begin{itemize}
+  \item \textbf{WBS 5.1} Análisis sobre cómo crear las gramáticas complejas de forma genérica, extendibles para otros idiomas y que hagan uso de las NP.
+  \item \textbf{WBS 5.2} Diseño de dichas gramáticas.
+  \item \textbf{WBS 5.3} Creación de los tests para las gramáticas complejas.
+  \item \textbf{WBS 5.4} Implementación y enlace con el diccionario.
+\end{itemize}
 
-Hemos reservado 48 horas para esta iteración y la hemos acabado a tiempo. En la figura ~\ref{fig:sec3it5} se muestra el diagrama de Gantt de esta iteración.
+\noindent Hemos reservado 48 horas para esta iteración y la hemos acabado a tiempo. En la Figura ~\ref{fig:sec3it5} se muestra el diagrama de Gantt de esta iteración.
 
 \begin{figure}
     \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/sec3it5.png}
@@ -452,41 +452,41 @@ Hemos reservado 48 horas para esta iteración y la hemos acabado a tiempo. En la
   \label{fig:sec3it5}
 \end{figure}
 
-\subsubsection{Qué hemos conseguido en esta iteración}
+\subsubsection{Qué se ha conseguido en esta iteración}
 
-Tener gramáticas que generen frases de manera pseudo-aleatoria para todas las descripciones que contemplamos actualmente en nuestro proyecto. Estas nuevas gramáticas utilizan lo creado en la iteración anterior para formar frases complejas. También hemos aumentado el tipo de palabras a usar (ahora incluimos verbos y una mayor cantidad de adjetivos y sustantivos), por lo que el diccionario en ingés va creciendo. En esta iteración todavía no hemos añadido diccionarios o gramáticas en otros idiomas.
+Disponer de gramáticas que generen texto para todas las descripciones que contemplamos actualmente en nuestro proyecto. Estas nuevas gramáticas utilizan lo desarrollado en la iteración anterior para, a su vez, formar frases más complejas. También hemos aumentado el tipo de palabras a usar (ahora incluimos verbos y una mayor cantidad de adjetivos y sustantivos), por lo que el diccionario del sistema en inglés, va creciendo. En esta iteración todavía no hemos añadido diccionarios o gramáticas para otros idiomas.
 
-\subsubsection{Qué queremos conseguir en la próxima iteración}
+\subsubsection{Qué se quiere conseguir en la próxima iteración}
 
-Las frases son generadas, pero todavía no las mostramos en ninguna parte de la interfaz gráfica, por lo que el jugador no puede ni verlas ni escucharlas. En el siguiente \textit{sprint} tenemos que añadir esta opción, además de incluir otros idiomas (es decir, crear las gramáticas y diccionarios) como el gallego y español.
+Las frases y oraciones son generadas, pero todavía no las mostramos en ninguna parte de la interfaz gráfica, por lo que el jugador no puede ni verlas ni escucharlas. En el siguiente \textit{sprint} tenemos que añadir esta opción, además de incluir otros idiomas (es decir, crear las gramáticas y diccionarios correspondientes) como el gallego y español.
 
 \subsection{Sexta iteración: Implementación de las restricciones, gallego y castellano, creación de la interfaz de usuario para con las frases generadas y primer vídeo}
 
-La sexta iteración dará comienzo el 30 de enero y terminará el 6 de febrero, por lo que solamente tiene 1 semana de desarrollo, una de las más cortas del todo el proyecto, pero fue una semana de 8 horas al día en la práctica, por lo que en total fueron 56 horas de trabajo en la misma.
+La sexta iteración da comienzo el 30 de enero y terminará el 6 de febrero, por lo que sólamente tiene 1 semana de desarrollo, una de las más cortas del todo el proyecto, si bien con una jornada de 8 horas al día en la práctica, por lo que en total fueron 56 horas de trabajo en la misma.
 
-\paragraph{Creación de la interfaz de usuario para mostrar las frases generadas al usuario:} Hasta ahora somos capaces de generar frases que describan lo que sucede en el juego, pero no las mostramos. Ahora es el momento de mostrar en una ventana la frase generada (similar a un \textit{popup}).
+\paragraph{Creación de la interfaz de usuario para mostrar las frases generadas al usuario:} Hasta ahora somos capaces de generar frases que describan lo que sucede en el juego, pero no mostrarlas. Ahora es el momento de mostrar en una ventana la frase generada (de forma similar a un \textit{popup}).
 
-\paragraph{Implementación de las restricciones para el resto de idiomas:} En inglés solamente tenemos la restricción en número entre palabras, pero otros idiomas, como el castellano o gallego, tienen otras restricciones adicionales como el género. Tenemos que tener esto en cuenta e introducirlo en el código.
+\paragraph{Implementación de las restricciones para el resto de idiomas:} En inglés solamente tenemos que respetar la congruencia en número entre palabras, pero otros idiomas, como el castellano o gallego, tienen otras restricciones adicionales como, por ejemplo, la congruencia en género. Tenemos que tener esto en cuenta e introducirlo en el código.
 
-\paragraph{Añadir gramáticas y diccionarios para gallego y castellano:} La idea desde un principio fue en tener el proyecto en la mayor cantidad posible de idiomas, por lo que añadirlo en gallego y castellano es importante. Para ello tendremos que traducir las gramáticas y diccionarios a ambos idiomas y crear una opción para elegir su uso en un fichero de configuración.
+\paragraph{Añadir gramáticas y diccionarios para gallego y castellano:} La idea desde un principio fue la de extender nuestro sistema la mayor cantidad posible de idiomas, por lo que incluir gallego y castellano es importante. Para ello tendremos que ``traducir'' las gramáticas y diccionarios a ambos idiomas y crear una opción para elegir su uso en un fichero de configuración.
 
-\paragraph{Añadir las teclas necesarias para mostrar las descripciones del inventario y ambiente:} El usuario podrá pedir que se genere una frase que describa algo en concreto. Se debería de realizar en base a lo que está especificado en el diagrama de casos de uso.
+\paragraph{Añadir las teclas necesarias para mostrar las descripciones del inventario y ambiente:} El usuario podrá pedir que se genere una frase que describa algo en concreto. Se debería realizar en base a lo que está especificado en el diagrama de casos de uso.
 
-\paragraph{Crear primer vídeo para recibir \textit{feedback}:} Al terminar esta iteración tendremos la base del proyecto completada. Por ello grabaremos un vídeo mostrando el punto en el que estamos y con el que recibiremos comentarios con los que podremos incluir mejoras en las futuras iteraciones \footnote{\url{https://www.youtube.com/watch?v=RgND1IGZ-68}}.
+\paragraph{Crear primer vídeo para recibir \textit{feedback}:} Al terminar esta iteración tendremos el proyecto base completado. Por ello procederemos a grabar un vídeo mostrando el punto en el actual estado de desarollo del sistema con sus funcionalidades y que nos servirá para obtener un primer \textit{feedback} a partir del cual podremos incluir mejoras en futuras iteraciones. A efectos de documentación dicho vídeo aún está disponible en Youtube\footnote{\url{https://www.youtube.com/watch?v=RgND1IGZ-68}}.
 
 \subsubsection{Tareas y seguimiento}
 
 La descomposición de las tareas es la siguiente:
 
-\begin{enumerate}[label=\bfseries WBS 6.\arabic*]
-  \item Creación de la interfaz de usuario para mostrar las frases generadas al usuario.
-  \item Añadir las teclas necesarias para mostrar las descripciones del inventario y ambiente, tal y como está definido en el diagrama de casos de uso.
-  \item Implementación de las restricciones para el resto de idiomas.
-  \item Añadir gramáticas y diccionarios para gallego y castellano.
-  \item Crear primer vídeo para recibir \textit{feedback}.
-\end{enumerate}
+\begin{itemize}
+  \item \textbf{WBS 6.1} Creación de la interfaz de usuario para mostrar las descripciones textuales generadas al usuario.
+  \item \textbf{WBS 6.2} Añadir las teclas necesarias para mostrar las descripciones del inventario y ambiente, tal y como está definido en el diagrama de casos de uso.
+  \item \textbf{WBS 6.3} Integración en el formalismo de las restricciones para el resto de idiomas.
+  \item \textbf{WBS 6.4} Añadir gramáticas y diccionarios para gallego y castellano.
+  \item \textbf{WBS 6.4} Crear primer vídeo para recibir \textit{feedback}.
+\end{itemize}
 
-En la figura ~\ref{fig:sec3it6} se muestra el diagrama de Gantt de esta iteración. Hemos reservado, tal y como ya hemos comentado, 56 horas, que fueron suficientes para terminar todas las tareas mencionadas. En dicha figura mostraremos la distribución del tiempo que hemos pasado en cada una de ellas.
+\noindent En la Figura ~\ref{fig:sec3it6} se muestra el diagrama de Gantt de esta iteración. Hemos reservado, tal y como ya hemos comentado, 56 horas, que fueron suficientes para terminar todas las tareas mencionadas. En dicha figura mostraremos la distribución del tiempo que hemos pasado en cada una de ellas.
 
 \begin{figure}
     \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/sec3it6.png}
@@ -494,39 +494,39 @@ En la figura ~\ref{fig:sec3it6} se muestra el diagrama de Gantt de esta iteraci�
   \label{fig:sec3it6}
 \end{figure}
 
-\subsubsection{Qué hemos conseguido en esta iteración}
+\subsubsection{Qué se ha conseguido en esta iteración}
 
-Terminar el funcionamiento básico de las gramáticas en dos idiomas adicionales (inglés, español y gallego), generando las frases necesarias para que el usuario tenga toda la información necesaria y creando un vídeo que nos ayudará a mostrar el funcionamiento del juego a toda la gente interesada para que podamos mejorarlo en base a sus comentarios.
+Ampliar la cobertura básica del sistema a dos idiomas adicionales (inglés, español y gallego), permitiendo generar las frases necesarias para que el usuario tenga toda la información necesaria y creando un vídeo que nos ayudará a mostrar el funcionamiento del juego a un primer grupo de jugadores (videntes por ahora) para que podamos mejorarlo en base a sus comentarios.
 
-\subsubsection{Qué queremos conseguir en la próxima iteración}
+\subsubsection{Qué se quiere conseguir en la próxima iteración}
 
-Debemos de esperar por los comentarios recibidos en el vídeo y, mientras, mejoraremos diferentes aspectos y características del título realizando alguna de las tareas que tenemos en el \textit{backlog}.
+Debemos esperar por los comentarios y sugerencias recibidos a raíz del visionado del vídeo y, mientras, mejoraremos diferentes aspectos y características del título realizando alguna de las tareas pendientes que tenemos en el \textit{backlog}.
 
 \subsection{Séptima iteración: Resolución de bugs detectados y añadidas pequeñas funcionalidades}
 
-La séptima iteración empieza el 7 de febrero y acaba el 21 de febrero, con una duración de 2 semanas, volviendo a las 20 horas de trabajo por semana y 40 horas en total para la iteración. Se han decidido dar un par de semanas de margen para poder leer y recopilar el \textit{feedback} recibido de la iteración anterior.
+La séptima iteración empieza el 7 de febrero y acaba el 21 de febrero, con una duración de 2 semanas, volviendo a las 20 horas de trabajo por semana dedicadas al proyecto y 40 horas en total para la iteración. Se ha decidido dar un par de semanas de margen para poder leer y recopilar el \textit{feedback} recibido en el marco de la iteración anterior.
 
-\paragraph{Solucionar bug donde la pantalla no se refresca:} En algunas ocasiones y al realizar ciertas acciones, la interfaz gráfica no se actualiza hasta la siguiente acción. Tenemos que solucionar este problema para que lo que se muestre siempre sea lo más nuevo y no haya ningún tipo de retraso.
+\paragraph{Solucionar \textit{bug} en el que la pantalla no se refresca:} En algunas ocasiones y al realizar ciertas acciones, la interfaz gráfica no se actualiza hasta la siguiente acción. Tenemos que solucionar este problema para que lo que se muestre siempre sea lo más nuevo y no haya ningún tipo de retraso.
 
-\paragraph{Cambiar las teclas que usamos por defecto:} Las teclas que tenemos por defecto no son del todo intuitivas. Deberemos de cambiarlas para que tengan más sentido.
+\paragraph{Cambiar las teclas que usamos por defecto:} Las teclas que tenemos por defecto no son del todo intuitivas. Deberemos cambiarlas para que tengan más sentido.
 
-\paragraph{Hacer los adjetivos que definen los personajes variables:} Si un enemigo tiene poca vida y el personaje que controla el usuario tiene mucha más vida, habrá la posibilidad de que el adjetivo a usar sobre el enemigo sea ``pequeño'', ``insignificante''... mientras que si es al revés, se usará ``grande'', ``poderoso'', de forma que se verá al enemigo de forma distinta dependiendo de ciertos estados.
+\paragraph{Definir los adjetivos que describen el estado de los personajes:} Si, por ejemplo, un enemigo tiene poca vida y el personaje que controla el usuario tiene mucha más vida, el sistema reflejará este hecho a nivel descriptivo calificando al enemigo como ``pequeño'', ``insignificante'', etc., mientras que si la situación es al revés, se usará ``grande'' o ``poderoso'', de modo que se verá al enemigo de forma distinta dependiendo del contexto.
 
-\paragraph{Añadir opción para que las descripciones sean descriptivas o numéricas:} Cuando escuchamos una descripción, a veces queremos que dicha descripción sea numérica, es decir, que mencione exactamente la vida o posición de los personajes. Otras veces deseamos que esto no sea así y que todas las descripciones se hagan de una forma más poética y se usen palabras para las definiciones. Crearemos una opción en la que el usuario será capaz de seleccionar lo que prefiera.
+\paragraph{Añadir opción para que las descripciones sean cualitativas o cuantitativas:} Cuando escuchamos una descripción, a veces queremos que los contenidos de dicha descripción sean de un carácter más cuantitativo, es decir, que mencione exactamente la vida o posición en coordenadas de los personajes, por ejemplo. Otras veces deseamos que esto no sea así y que todas las descripciones usen expresiones más cualitativas. Crearemos una opción en la que el usuario será capaz de seleccionar lo que prefiera.
 
 \subsubsection{Tareas y seguimiento}
 
 La descomposición de las tareas es la siguiente:
 
-\begin{enumerate}[label=\bfseries WBS 7.\arabic*]
-  \item Solucionar bug donde la pantalla no se refresca cuando es necesario.
-  \item Cambiar las teclas que usamos por defecto.
-  \item Cambiar los adjetivos que definen los personajes dependiendo de la vida de dichos personajes.
-  \item Añadir opción para que las descripciones sean descriptivas o numéricas, dependiendo de lo que el usuario desee.
-\end{enumerate}
+\begin{itemize}
+  \item \textbf{7.1} Solucionar bug en el que la pantalla no se refresca cuando es necesario.
+  \item \textbf{7.2} Cambiar las teclas que usamos por defecto.
+  \item \textbf{7.3} Cambiar los adjetivos que describen los personajes dependiendo de la vida de dichos personajes.
+  \item \textbf{7.4} Añadir opción para que las descripciones sean cualitativas o cuantitativas, dependiendo de lo que el usuario desee.
+\end{itemize}
 
 
-En la figura ~\ref{fig:sec3it7} se muestra el diagrama de Gantt de esta iteración.
+\noindent En la Figura ~\ref{fig:sec3it7} se muestra el diagrama de Gantt de esta iteración.
 
 \begin{figure}
     \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/sec3it7.png}
@@ -534,55 +534,55 @@ En la figura ~\ref{fig:sec3it7} se muestra el diagrama de Gantt de esta iteraci�
   \label{fig:sec3it7}
 \end{figure}
 
-\subsubsection{Qué hemos conseguido en esta iteración}
+\subsubsection{Qué se ha conseguido en esta iteración}
 
 Mejorar el juego en diferentes aspectos al añadir nuevas funcionalidades que afectarán directamente al jugador y solucionar algunos de los \textit{bugs} que fueron detectados mientras jugábamos.
 
-\subsubsection{Qué queremos conseguir en la próxima iteración}
+\subsubsection{Qué se quiere conseguir en la próxima iteración}
 
-El día 19 de febrero es cuando recibimos el feedback que presentamos en la anterior iteración, así que crearemos un sprint donde podamos analizarla e implementar los cambios que nos piden.
+El día 19 de febrero es cuando recibimos el \textit{feedback} que presentamos en la anterior iteración, así que crearemos un \textit{sprint} donde podamos analizar e implementar en su caso los cambios y sugerencias que se nos plantean.
 
 \subsection{Octava iteración: Implementación en base al \textit{feedback} recibido}
 
-En esta iteración nos centraremos en realizar los cambios más importantes sobre el \textit{feedback} recibido. Dado que estos comentarios pueden llevar bastante tiempo (quizás haya más ideas), es mejor terminarlos en menor tiempo posible para poder recibir \textit{feedback} más rápidamente.
-Por este motivo esta iteración contará solamente con 4 días y 20 horas en total, empezando el 22 y acabando el 26, que es cuando crearemos un nuevo vídeo con los cambios realizados durante las últimas dos iteraciones.
+En esta iteración nos centraremos en realizar los cambios más importantes, fruto del \textit{feedback} recibido a raíz del vídeo.
+Esta iteración contará solamente con 4 días y 20 horas en total, empezando el 22 y acabando el 26, que es cuando publicaremos un nuevo vídeo con los cambios realizados durante las últimas dos iteraciones.
 
 \subsubsection{Feedback recibido}
 
-Todo este feedback es el recibido por parte de mis supervisores que a su vez se basaron en lo que ellos mismos y otros usuarios les han comentado.
+Todo este \textit{feedback} es el recibido de mano de mis supervisores que, a su vez, se basan en su propio criterio y experiencia y en lo que otros usuarios les han comentado.
 
-\paragraph{Tener en cuenta la persistencia del tiempo:} Si matamos a un enemigo, sería una buen adición que las descripciones lo tuvieran en cuenta. Por ejemplo a la hora de enumerar los elementos que hay alrededor del usuario, se podría comentar que también se encuentra un ``goblin'' muerto.
+\paragraph{Tener en cuenta la persistencia en el tiempo:} Si, por ejemplo, derrotamos a un enemigo, sería una buen adición que las descripciones lo tuvieran en cuenta. De este modo, a la hora de describir de nuevo una sala por la que ya se había pasado y donde se desarrolló un combate, se podría comentar que también se encuentra allí un cadáver.
 
-\paragraph{Cambiar el sistema de salida de las frases generadas:} Hasta ahora, cada vez que una frase era generada (tanto a petición del usuario o en base a una acción que ha sucedido en el juego), mostrábamos una nueva ventana con dicha frase, que tendríamos que cerrar en cada ocasión. Esto es un inconveniente para aquellas personas que sí pueden ver y no quieren ser molestadas por este tipo de ventanas. Tampoco es una gran solución para los usuarios invidentes, dado que no es lo que se suelen encontrar en otros títulos del género. Lo que mayoría de ellos usan es una \textit{textarea}, es decir, una ventana aparte donde se vaya almacenando todas las frases generadas, de tal forma que siempre podemos volver a ella cuando queramos y que, del mismo modo, servirá como un \textit{log}. Lo importante está en cambiar el ``foco'' del juego a esta ventana cada vez que una frase sea generada para que el lector sea capaz de leerla.
+\paragraph{Cambiar el sistema de salida de las frases generadas:} Hasta ahora, cada vez que una frase era generada, tanto a petición del usuario o en base a una acción que ha sucedido en el juego, mostrábamos una nueva ventana con dicho texto, que tendríamos que cerrar en cada ocasión. Esto es un inconveniente para aquellas personas que sí pueden ver y no quieren ser molestadas por este tipo de ventanas. Tampoco es una solución óptima para los usuarios invidentes, dado que no es lo que se suelen encontrar en otros títulos. La solución que se suele plantear en estos casos es emplear una \textit{textarea}, es decir, una ventana aparte donde se vaya almacenando todas las frases generadas, de tal forma que siempre podemos volver a ella cuando queramos y que, del mismo modo, servirá como un \textit{log} de los sucesos acaecidos durante el juego. En el caso de los jugadores invidentes es importante cambiar el ``foco'' del juego a esta ventana cada vez que una frase sea generada para que el software lector sea capaz de leer lo generado.
 
-\paragraph{Pequeños cambios en los adjetivos usados:} En algunas ocasiones usábamos adjetivos poco comunes a la hora de definir ciertos nombres. Tenemos que cambiarlo para que dichos adjetivos tengan sentido.
+\paragraph{Pequeños cambios en los adjetivos usados:} En algunas descripciones el sistema usaba adjetivos poco comunes a la hora de calificar ciertos nombres. Tenemos que cambiarlo para que las expresiones resultantes no resulten extrañas.
 
-\paragraph{Adición de niveles y experiencia:} Los enemigos, armas y el propio usuario deberían de tener niveles para que el juego escale en dificultad. Cada vez que se destruye un enemigo, el jugador ganará una serie de puntos que serán usados para subir niveles y, a su vez, cambien el tipo de enemigos a los que se enfrentarán para que la progresión tenga sentido.
+\paragraph{Adición de niveles y experiencia:} Los enemigos, armas y el propio usuario deberían tener niveles para que el juego escale en dificultad y aumente en atractivo. Cada vez que se destruye un enemigo, el jugador ganará una serie de puntos que serán usados para subir niveles y, conscientemente, mejorar sus habilidades a la vez que evoluciona el tipo de enemigos a los que se enfrentarán para que la progresión tenga sentido y la experiencia de juego sea gratificante
 
-\paragraph{Cambio en la aleatoriedad:} Hasta ahora, todo lo generado era aleatorio (el tipo de enemigos que nos encontrábamos, los objetos que soltaban, los propios objetos encontrados...). Es mejor que esta aleatoriedad venga dada por el nivel del usuario para que el juego escale mejor en dificultad. Esto se explica con mayor profundidad en la sección: ~\ref{generado}.
+\paragraph{Cambio en la aleatoriedad:} Hasta ahora, todo lo generado era aleatorio: el tipo de enemigos que nos encontrábamos, los objetos que dejaban atrás éstos al morir, los tesoros etc. Es mejor que esta aleatoriedad venga dada por el nivel del usuario para que el juego escale mejor en dificultad. Esto se explica con mayor profundidad en la Sección: ~\ref{generadorencuentros}.
 
-\paragraph{Evitar la repetitividad:} Algunas de las frases que generamos tienden a ser bastante repetitivas (el héroe desequipa la espada, el héroe desequipa la armadura...), en vez de tener un lenguaje más natural (el héroe desequipa la espada y la armadura...). Esto sucede en un par de casos y debemos de tratarlo lo mejor posible.
+\paragraph{Mejorar la expresividad:} Algunas de las frases que generamos, por ejemplo, tienden a ser bastante repetitivas o cargantes (``el héroe desequipa la espada'', ``el héroe desequipa la armadura''), en vez de hacer un lenguaje más natural y pulido (``el héroe desequipa la espada y la armadura''). Este tipo de fenómenos han sido tenidos en cuenta.
 
-\paragraph{Darle nombre al héroe:} Siempre nos referimos al personaje que controla el usuario como ``héroe'' o por su pronombre (``él''). Podríamos darle un nombre o dejar que el usuario elija para dar una mayor variedad.
+\paragraph{Darle nombre al héroe:} Siempre nos referimos al personaje que controla el usuario como ``e héroe'' o símplemente ``él'', lo que resulta impersonal. Podríamos darle un nombre o dejar que el usuario elija para dar una mayor variedad y favorecer la empatía con el personaje.
 
-\paragraph{Mostrar una serie de estadísticas al cambiar de mazmorra:} Cuando pasamos de una mazmorra a otra usando el portal, podríamos mostrar una serie de estadísticas de los enemigos batidos, la cantidad de experiencia obtenida, el nivel actual del usuario...
+\paragraph{Mostrar estadísticas al cambiar de mazmorra:} Cuando pasamos de una mazmorra a otra usando un portal, podríamos mostrar una serie de estadísticas con los enemigos batidos, la cantidad de experiencia obtenida, el nivel actual del usuario, etc. y, de este modo, dar más sensación de progreso.
 
-A mayores, crearemos otro vídeo informando sobre los cambios que hemos realizado en base a estos comentarios \footnote{\url{https://www.youtube.com/watch?v=3lS0WFrwOeQ}}.
+\paragraph {Nuevo vídeo} Crearemos otro vídeo integrando los cambios que hemos realizado en base a los comentarios recibidos a raíz del anterior. El vídeo sigue disponible en Youtube.\footnote{\url{https://www.youtube.com/watch?v=3lS0WFrwOeQ}}.
 
 \subsubsection{Tareas y seguimiento}
 
 La descomposición de las tareas que realizaremos este \textit{sprint} es la siguiente:
 
-\begin{enumerate}[label=\bfseries WBS 8.\arabic*]
-  \item Tener en cuenta la persistencia del tiempo.
-  \item Cambiar el sistema de salida de las frases generadas.
-  \item Pequeños cambios en los adjetivos usados.
-  \item Adición de niveles y experiencia.
-  \item Cambio en la aleatoriedad.
-  \item Evitar la repetitividad.
-\end{enumerate}
+\begin{itemize}
+  \item \textbf{WBS 8.1} Tener en cuenta la persistencia en el tiempo.
+  \item \textbf{WBS 8.2} Cambiar el sistema de salida de las frases generadas.
+  \item \textbf{WBS 8.3} Pequeños cambios en los adjetivos usados.
+  \item \textbf{WBS 8.4} Adición de niveles y experiencia.
+  \item \textbf{WBS 8.5} Cambio en la aleatoriedad.
+  \item \textbf{WBS 8.6} Mejorar la expresividad.
+\end{itemize}
 
-En la figura ~\ref{fig:sec3it8} se muestra el diagrama de Gantt de esta iteración.
+\noindent En la Figura ~\ref{fig:sec3it8} se muestra el diagrama de Gantt de esta iteración.
 
 \begin{figure}
     \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/sec3it8.png}
@@ -590,50 +590,50 @@ En la figura ~\ref{fig:sec3it8} se muestra el diagrama de Gantt de esta iteraci�
   \label{fig:sec3it8}
 \end{figure}
 
-\subsubsection{Qué hemos conseguido en esta iteración}
+\subsubsection{Qué se ha conseguido en esta iteración}
 
-Hemos conseguido implementar los cambios más importantes en base a los comentarios recibidos, teniendo así un título mucho más sólido y adaptado a lo que la comunidad ha considerado más importante.
+Hemos conseguido implementar los cambios más importantes en base a los comentarios recibidos, obteniendo así un producto mucho más sólido y adaptado a lo que la comunidad ha considerado más importante.
 
-\subsubsection{Qué queremos conseguir en la próxima iteración}
+\subsubsection{Qué se quiere conseguir en la próxima iteración}
 
 En la próxima iteración, que será la última, tendremos que seguir implementando algunas de las tareas que se encuentran en el \textit{backlog} y debemos de tener en cuenta el \textit{feedback} del resto de usuarios, así como el que recibamos de esta iteración.
 Las tareas que no vayamos a implementar porque no son completamente necesarias deberán de añadirse al \textit{backlog} para que otros desarrolladores o nosotros mismos podamos tenerlas en cuenta en el futuro.
 
 \subsection{Novena iteración: Más implementación en base al \textit{feedback} recibido}
 
-En esta última iteración daremos los últimos retoques en base al \textit{feedback} recibido de la anterior iteración. Esta última itereación empieza el día 3 de abril, que es cuando recibimos dicho \textit{feedback}, y termina el 13 de abril, fecha que hemos decidido suficiente para terminar las tareas que mencionaremos a continuación. La cantidad de horas usada es la misma que en la anterior iteración, 5 horas al día, por lo que en total trabajaremos 50 horas para finalizar todas las tareas asociadas.
+En esta última iteración daremos los últimos retoques en base al \textit{feedback} recibido de la anterior iteración. Esta última itereación empieza el día 3 de abril, que es cuando recibimos dicho \textit{feedback}, y termina el 13 de abril, fecha que hemos estimado suficiente para terminar las tareas que mencionaremos a continuación. La cantidad de horas usada es la misma que en la anterior iteración, 5 horas al día, por lo que en total trabajaremos 50 horas para finalizar todas las tareas asociadas.
 
 \subsubsection{Feedback recibido}
 
-\paragraph{Añadir el resto de signos de puntuación necesarios:} Algunas de las frases son generadas con los signos de puntuación correspondientes, pero todavía existen partes que no tienen estos signos de puntuación.
+\paragraph{Añadir el resto de signos de puntuación necesarios:} Algunas de las frases son generadas con los signos de puntuación correspondientes, pero todavía existen partes que no tienen estos signos de puntuación, dando lugar a redacciones extrañas.
 
-\paragraph{Incrementar el tamaño de la fuente dentro del área de texto:} El texto que usamos en la \textit{textarea} no es muy grande, por lo que podría causar problemas a aquellas personas con dificultad para leer letras pequeñas. Debemos de incrementar el tamaño de la fuente.
+\paragraph{Incrementar el tamaño de la fuente dentro del área de texto:} El texto que usamos en la \textit{textarea} no es muy grande, por lo que podría causar problemas a aquellos usuarios videntes con dificultad para leer letras pequeñas. Debemos incrementar el tamaño de la fuente.
 
-\paragraph{Generar todas las frases con las gramáticas:} En el juego tenemos algunas frases que no usan las gramáticas para ser generadas (como cuando el usuario muere). Tenemos que cambiar esto para que se adapte al resto del juego y puedan ser fácilmente traducibles.
+\paragraph{Generar todas las frases con las gramáticas:} En el juego tenemos algunas frases que no usan las gramáticas para ser generadas como, por ejemplo, cuando el personaje del jugador muere. Tenemos que cambiar esto para que se adapte al resto del juego y puedan ser fácilmente traducibles.
 
-\paragraph{Cuando pulsemos una tecla en la \textit{textarea}, el resultado debería de afectar el juego:} Cuando pulsamos una tecla mientras el foco está en el área de texto, el foco cambia para el juego, pero la tecla pulsada no es ejecutada en el juego. Deberemos de realizarlo de tal forma que sí afecte la tecla pulsada.
+\paragraph{Cuando pulsemos una tecla en la \textit{textarea}, el resultado debería de afectar el juego:} Cuando pulsamos una tecla para, por ejemplo, desplazar al héroe, mientras el foco está en el área de texto, el foco cambia para el juego, pero la acción correspondiente a la tecla pulsada no es ejecutada. Deberemos solucionar dicho problema.
 
-\paragraph{Cambiar el tamaño y situación de las ventanas:} El juego tiene dos ventanas. La primera de ellas la interfaz gráfica que muestra el juego en sí, mientras que la segunda es donde se encuentran las frases generadas. Haremos cambios para que desde el inicio ambas se sitúen en el espacio correspondiente y no se molesten entre sí.
+\paragraph{Cambiar el tamaño y situación de las ventanas:} La interfaz del juego consta de dos ventanas: la primera de ellas corresponde a la interfaz gráfica que muestra el juego en sí, mientras que la segunda es donde se encuentran las descripciones generadas por el sistema. Haremos cambios para que desde el inicio ambas se coloquen y adecúen a la pantalla y no se molesten entre sí.
 
-\paragraph{Añadir sonido cuando el jugador se mueve:} Uno de los consejos que recibimos de la comunidad es el de agregar algún tipo de sonido cuando movemos al personaje, dado que el usuario no recibe ningún tipo de feedback de que la acción ha sido realizada.
+\paragraph{Añadir sonido cuando el jugador se mueve:} Uno de los consejos que recibimos de la comunidad es el de agregar algún tipo de sonido cuando movemos al personaje, dado que el usuario no recibe ningún tipo de \textit{feedback} de que la acción ha sido realizada.
 
-\paragraph{Refactorizar el código:} Durante el último sprint algunos de los módulos contienen código que no es el adecuado. Debemos de refactorizarlo.
+\paragraph{Refactorizar el código:} Durante el último \textit{sprint} algunos de los módulos contienen código que no es el adecuado. Debemos de refactorizarlo.
 
 \subsubsection{Tareas y seguimiento}
 
 La descomposición de las tareas que realizaremos este \textit{sprint} es la siguiente:
 
-\begin{enumerate}[label=\bfseries WBS 9.\arabic*]
-  \item Añadir el resto de signos de puntuación necesarios.
-  \item Incrementar el tamaño de la fuente dentro del área de texto.
-  \item Generar todas las frases con las gramáticas.
-  \item Cuando pulsemos una tecla en la \textit{textarea}, el resultado debería de afectar el juego.
-  \item Cambiar el tamaño y situación de las ventanas.
-  \item Añadir sonido cuando el jugador se mueve.
-  \item Refactorizar el código.
-\end{enumerate}
+\begin{itemize}
+  \item \textbf{WBS 9.1} Añadir el resto de signos de puntuación necesarios.
+  \item \textbf{WBS 9.2} Incrementar el tamaño de la fuente dentro del área de texto.
+  \item \textbf{WBS 9.3} Generar todas las frases con las gramáticas.
+  \item \textbf{WBS 9.4} Cuando pulsemos una tecla en la \textit{textarea}, el resultado debería afectar el juego.
+  \item \textbf{WBS 9.5} Cambiar el tamaño y situación de las ventanas.
+  \item \textbf{WBS 9.6} Añadir sonido cuando el jugador se mueve.
+  \item \textbf{WBS 9.7} Refactorizar el código.
+\end{itemize}
 
-En la figura ~\ref{fig:sec3it9} se muestra el diagrama de Gantt de esta iteración.
+\noindent La figura ~\ref{fig:sec3it9} se muestra el diagrama de Gantt de esta iteración.
 
 \begin{figure}
     \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/sec3it9.png}
@@ -641,16 +641,16 @@ En la figura ~\ref{fig:sec3it9} se muestra el diagrama de Gantt de esta iteraci�
   \label{fig:sec3it9}
 \end{figure}
 
-\subsubsection{Qué hemos conseguido en esta iteración}
+\subsubsection{Qué se ha conseguido en esta iteración}
 
-Terminamos de implementar los puntos más importantes que faltaban o necesitaban revisión del juego entregado, por lo que al final esta iteración tenemos un juego sólido y listo para ser jugado y extendible por el resto de la comunidad.
+Terminamos de implementar los puntos más importantes que faltaban o necesitaban revisión, por lo que al final de esta iteración tenemos un juego sólido, extensible y listo para ser jugado y modificado por el resto de la comunidad.
 
 \subsubsection{Qué queremos conseguir en la próxima iteración}
-Esta ha sido la última iteración ``oficial'' del proyecto. En el futuro el juego seguirá evolucionando con nuevas características y aspectos que vendrán dados tanto por nosotros como por la propia comunidad de usuarios, pero actualmente ha llegado al punto necesario para considerar esta primera versión como finalizada.
+Ésta ha sido la última iteración ``oficial'' del proyecto. En el futuro el juego seguirá evolucionando con nuevas características y aspectos que vendrán dados tanto por nosotros como por la propia comunidad de usuarios, si bien actualmente ha llegado al punto necesario para considerar esta primera versión como finalizada.
 
-Durante el resto de semanas nos dedicaremos a introducir nuevos idiomas (holandés podría estar disponible en un futuro cercano e intentaremos buscar miembros de la comunidad que nos puedan ayudar a la hora de traducirlos a otros lenguajes diferentes), dar a conocer nuestro juego a distintas personas y comunidades online para que lo prueben y nos digan lo que creen que debe de ser mejorable o añadido (documentando todo el \textit{feedback} recibido) y a crear la documentación del propio título.
+Durante el resto de semanas nos dedicaremos a integrar nuevos idiomas (el holandés podría estar disponible en un futuro cercano) e intentaremos buscar miembros de la comunidad que nos puedan ayudar en dicha tarea; dar a conocer nuestro juego a distintas personas y comunidades online para que lo prueben y valores, documentando todo el \textit{feedback} recibido; y crear la documentación del propio título.
 
 \section{Coste del proyecto}
 
 Durante un periodo de trabajo de 15 meses (casi dos años si no contamos los meses sin realizar grandes cambios en la práctica), hemos empleado 1040 horas en la realización del mismo.
-El único recurso necesario es el personal, dado que no necesitamos comprar nada de hardware ni ninguna licencia a mayores. Por lo tanto, el coste total del proyecto, suponiendo que el programador trabajará a tiempo completo y cobrará 1200 euros al mes (con una media de 5 euros la hora, contando fines de semana y festivos), sería de 5200 euros.
+El único recurso necesario es el personal, dado que no necesitamos comprar nada de hardware ni ninguna licencia a mayores. Por lo tanto, el coste total del proyecto, suponiendo que el programador trabajara a tiempo completo y cobrará 1200 euros al mes (con una media de 5 euros la hora, contando fines de semana y festivos), sería de 5200 euros.
