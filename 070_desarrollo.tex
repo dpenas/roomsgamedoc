@@ -240,7 +240,7 @@ En la Figura ~\ref{fig:lastiterationui} se puede encontrar una captura de pantal
 
 \subsection{Generación aleatoria de mapas y elementos}
 
-Como ya se indicó en la Sección \ref{game:roguelikeis}, la generación aleatoria de los mapas y de los elementos dentro de los mismos es una de las características que un juego de género \textit{roguelike}. A continuación explicaremos las decisiones tomadas a este respecto.
+Como ya se indicó en la Sección ~\ref{game:roguelikeis}, la generación aleatoria de los mapas y de los elementos dentro de los mismos es una de las características que un juego de género \textit{roguelike}. A continuación explicaremos las decisiones tomadas a este respecto.
 
 A la hora de generar el mapa en sí tenemos en cuenta tres elementos fundamentales: mapas, habitaciones y puertas. Cada mapa generado consta de un conjunto de habitaciones (que vienen limitadas por sus propias paredes), cuyo tamaño y forma cambia de manera aleatoria. Cada puerta une dos habitaciones, asegurándonos que ninguna de las estancias queda sin la posibilidad de ser alcanzable por el jugador. También se han introducido columnas que se encuentran dentro de cada habitación para que tanto el jugador que controla el usuario como los enemigos tengan que esquivarlas y puedan usarlas en su favor en los combates. Hay que tener en cuenta que ningún personaje puede moverse a una posición donde se encuentra una columna por lo que, a la hora de generarlas, se comprueba que no bloquean el acceso a la puerta o, si lo hacen, que haya otra entrada por la que se pueda acceder a dicha estancia.
 
@@ -287,7 +287,7 @@ La Figura ~\ref{fig:iaenemy} mostramos el diagrama de clases que hemos implement
 
 \subsection{Interacción entre objetos, personajes y hechizos}
 
-La Figura \ref{fig:charactersitems} muestra las relaciones entre las clases abstractas e interfaces de los objetos, personajes, movimientos y hechizos de nuestro juego.
+La Figura ~\ref{fig:charactersitems} muestra las relaciones entre las clases abstractas e interfaces de los objetos, personajes, movimientos y hechizos de nuestro juego.
 
 La clase \texttt{Character} contiene la información básica de los personajes, mientras que en \texttt{ActiveCharacter} se encuentra información adicional que posibilita que el personaje se mueva en base a una clase que implemente la interfaz \texttt{Movement} e interactúe con el resto de elementos del juego, por lo que es la clase de la que todos los enemigos heredan. Esto ayuda a que en un futuro puedan crearse personajes como vendedores que no necesiten moverse de manera sencilla. 
 Todos los personajes pueden tener \texttt{Items}, que son consumibles (pociones) o elementos que el jugador puede equipar (espadas, cascos, botas, etc.). Sin embargo, éstos no tienen por qué pertenecer a ningún personaje, se pueden encontrar en el mapa para que el personaje que el jugador controla pueda cogerlos.
@@ -295,7 +295,8 @@ Por último, un personaje en concreto también puede tener diferente número de 
 
 \begin{figure}
     \includegraphics[width=\textwidth,height=0.15\textwidth]{./img/charactersitems.png}
-  \label{fig:charactersitems}
+	\caption{Diagrama de clases abstractas e interfaces sobre los objetos, personajes, hechizos y movimiento}
+	\label{fig:charactersitems}
 \end{figure}
 
 \section{Herramientas empleadas}
