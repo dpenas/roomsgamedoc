@@ -43,7 +43,7 @@ this.changeValue(sentenceArray, toChange, changeToValue, typeChangeToValue);
 \noindent De esta manera, siempre que haya una discordancia entre algunos de los contribuyentes de una frase, iteraremos entre sus elementos ella buscando una solución hasta que sea coherente, cambiando sucesivamente la flexión de las palabras de menos rango dentro de dicha frase para que se adapten al resto.
 
 La clase \texttt{GeneralGrammar}, por su parte, obtiene la información de varias gramáticas, ya que es así como vienen dadas en el fichero, puesto que para describir una misma situación puede haber varias gramáticas aplicables válidas, lo que concuerda con el concepto de \emph{variedad lingüística} del lenguaje humano, es decir, cómo nuestro concepto permite expresar una misma idea o mensaje de diferentes formas. Por ejemplo, ``el héroe ataca al dragón'' y ``él se lanza contra el dragón con la espada mágica''. 
-Para ello la clase \texttt{GeneralGrammar}, dispone de una función que devuelve una gramática individual (de la clase \texttt{GrammarIndividual}) que es la que usaremos a la hora de generar la frase en sí. Es decir, cuando queremos generar una frase para describir una situación en concreto (por ejemplo cuando un personaje ataca a otro), seleccionaremos una de las gramáticas de todas las que estén disponibles para este tipo de encuentros en el idioma actual (esto lo realiza la clase \texttt{GrammarsGeneral}) y luego usamos esa gramática en particular (clase \texttt{GrammarIndividual}). De esta forma no siempre usaremos la misma para describir un mismo evento (o similar), aumentando la expresividad del sistema y evitando así resultar cargantes.
+Para ello la clase \texttt{GeneralGrammar}, dispone de una función que devuelve una gramática individual (de la clase \texttt{GrammarIndividual}) de todas las disponibles para cierto caso y es la que usaremos a la hora de generar la frase en sí. Es decir, cuando queremos generar una frase para describir una situación en concreto (por ejemplo cuando un personaje ataca a otro), seleccionaremos una de las gramáticas de todas las que estén disponibles para este tipo de encuentros en el idioma actual (esto lo realiza la clase \texttt{GrammarsGeneral}) y luego usamos esa gramática en particular (clase \texttt{GrammarIndividual}). De esta forma no siempre usaremos la misma para describir un mismo evento (o similar), aumentando la expresividad del sistema y evitando así resultar cargantes.
 
 La clase \texttt{PrintableObject} es una superclase abstracta de la que heredan todos los objetos que pueden ser representados en el juego. Esta clase se encarga de obligar que dichos objetos tengan ciertas variables como el nombre o la capacidad de traducir su nombre a diferentes idiomas, así como una función que devuelve la posición en la que se encuentra en base al usuario y que emplearemos a la hora de describir lo que hay alrededor del personaje.
 
@@ -74,14 +74,14 @@ A continuación mostramos un ejemplo de gramática generadora de sintagma nomina
 }
 \end{lstlisting}
 
-\noindent En estas gramáticas especificamos, primero, el nombre del grupo de gramáticas (en este caso, \texttt{DETADJN}). Este identificador es usado por el programa y ayudará al traductor del sistema a entender el tipo de gramáticas que son.
+\noindent En estas gramáticas especificamos, primero, el nombre del grupo de gramáticas (en este caso, \texttt{DETADJN}). Este identificador es usado por el programa y ayudará al traductor del sistema a entender el tipo que son.
 
-El siguiente identificador es el nombre de la gramática en particular. Éste no es empleado en el programa, pero su uso es necesario para poder definir varias gramáticas sobre el mismo árbol. Por ejemplo, si queremos varias gramáticas de tipo \texttt{DETADJN}, necesitaremos que se especifique un nombre para cada una de ellas.
+El siguiente identificador es el nombre de la gramática en particular. Éste no es empleado en el programa, pero su uso es necesario para poder definir varias de ellas sobre el mismo árbol. Por ejemplo, si queremos más gramáticas de tipo \texttt{DETADJN}, necesitaremos que se especifique un nombre para cada una de ellas.
 
-A continuación viene la definición de la gramática en sí. Primero nos encontramos con el apartado \texttt{S}, que es donde se almacenará la definición de la gramática en sí; y luego el apartado \texttt{restrictions} que, como su nombre indica, es donde especificaremos las restricciones aplicables al anterior.
+A continuación viene la definición de la gramática en sí. Primero nos encontramos con el apartado \texttt{S}, que es donde se almacenará su definición; y luego el apartado \texttt{restrictions} que, como su nombre indica, es donde especificaremos las restricciones aplicables al anterior.
 
 En el caso de nuestro ejemplo, en la parte de la gramática tenemos, en este caso, \texttt{DET\_1}, que es el primer determinante (y único) de la gramática; \texttt{ADJ\_1}, el primer y único adjetivo que tiene dicha gramática y \texttt{N\_1}, que es el nombre o sustantivo.
-En las restricciones detallamos las partes de la gramática que tienen que coincidir. En este caso solamente tenemos que el determinante, nombre y adjetivo tienen que ser iguales (congruentes) en número. Es decir, que ``the red swords'' no sería generada, sino que generaría ``the red sword''.
+En las restricciones detallamos las partes que tienen que coincidir. En este caso solamente tenemos que el determinante, nombre y adjetivo tienen que ser iguales (congruentes) en número. Es decir, que ``the red swords'' no sería generada, sino que generaría ``the red sword''.
 
 Este primer era para inglés, cuyas restricciones son más sencillas que en otros idiomas como el español o el gallego, donde los nombres, determinantes y adjetivos no solamente tienen que coincidir en número, sino también en género. De este modo, la gramática equivalente para el español (y también gallego) sería la siguiente:
 
@@ -112,7 +112,7 @@ De esta manera podremos adaptar las gramáticas a diferentes idiomas de una form
 
 \subsubsection{Gramáticas: Estructuras complejas}
 
-Las gramáticas para la generación de este tipo de estructuras también pueden hacer a su vez uso de aquellas gramáticas de sintagmas nominales. En ete caso, a modo de ejemplo mostramos una gramática correspondiente a la descripción (sencilla) de un ataque: 
+Las gramáticas para la generación de este tipo de estructuras también pueden hacer a su vez uso de aquellas gramáticas de sintagmas nominales. En este caso, a modo de ejemplo mostramos una gramática correspondiente a la descripción (sencilla) de un ataque: 
 
 \begin{lstlisting}[style=json]
 "ATTACK": {
@@ -242,6 +242,8 @@ En la Figura ~\ref{fig:lastiterationui} se puede encontrar una captura de pantal
 
 Como ya se indicó en la Sección \ref{game:roguelikeis}, la generación aleatoria de los mapas y de los elementos dentro de los mismos es una de las características que un juego de género \textit{roguelike}. A continuación explicaremos las decisiones tomadas a este respecto.
 
+A la hora de generar el mapa en sí tenemos en cuenta tres elementos fundamentales: mapas, habitaciones y puertas. Cada mapa generado consta de un conjunto de habitaciones (que vienen limitadas por sus propias paredes), cuyo tamaño y forma cambia de manera aleatoria. Cada puerta une dos habitaciones, asegurándonos que ninguna de las estancias queda sin la posibilidad de ser alcanzable por el jugador. También se han introducido columnas que se encuentran dentro de cada habitación para que tanto el jugador que controla el usuario como los enemigos tengan que esquivarlas y puedan usarlas en su favor en los combates. Hay que tener en cuenta que ningún personaje puede moverse a una posición donde se encuentra una columna por lo que, a la hora de generarlas, se comprueba que no bloquean el acceso a la puerta o, si lo hacen, que haya otra entrada por la que se pueda acceder a dicha estancia.
+
 \subsubsection{Primer planteamiento: Generación completamente aleatoria}
 
 En un primer momento nuestra decisión fue la de generar todo de manera aleatoria, sin considerar ningún aspecto externo, pero manteniendo la generalidad en el código para poder cambiar su comportamiento en cualquier momento. Esto causaba que algunas mazmorras fueran muy complicadas cuando el jugador todavía no tenía el equipamiento necesario para enfrentarse a dichos enemigos o demasiado sencilla en otros momentos.
@@ -251,7 +253,7 @@ Este problema fue mencionado la primera vez que recibimos \textit{feedback} y po
 \subsubsection{Segunda idea: Generador de encuentros}
 \label{generadorencuentros}
 
-En el mundo del rol, tener en cuenta ciertas características del usuario para generar elementos externos se denomina \textit{generación de encuentros}. De este modo, en vez de generar mapas, enemigos y elementos de manera completamente aleatoria, podemos generarlos en base al nivel que tienen ciertos personajes. Si el personaje que controla el usuario tiene nivel 10, entonces los adversarios que se encuentren deberían ser de un nivel similar, por ejemplo entre 8 y 12 y así mantener un nivel de dificultad equilibrado, no demasiado fácil ni demasiado difícil, y así envitar que el jugador caiga en el tedio o en la frustración. De forma similar, los elementos que dichos oponentes suelten al morir, tales como espadas y armaduras, también deberían tener un nivel similar para que la progresión tenga sentido y eliminar enemigos implique un cierto nivel de recompensa.
+En el mundo del rol, tener en cuenta ciertas características del usuario para generar elementos externos se denomina \textit{generación de encuentros}. De este modo, en vez de generar mapas, enemigos y elementos de manera completamente aleatoria, podemos generarlos en base al nivel que tienen ciertos personajes. Si el personaje que controla el usuario tiene nivel 10, entonces los adversarios que se encuentren deberían ser de un nivel similar, por ejemplo entre 8 y 12 y así mantener un nivel de dificultad equilibrado, no demasiado fácil ni demasiado difícil, envitando que el jugador caiga en el tedio o en la frustración. De forma similar, los elementos que dichos oponentes suelten al morir, tales como espadas y armaduras, también deberían tener un nivel similar para que la progresión tenga sentido y eliminar enemigos implique un cierto nivel de recompensa.
 
 De esta forma, en base al nivel dado, podremos generar contrincantes con diferentes características que se adapten a lo que necesitamos. Mostramos un ejemplo cómo generar un enemigo en una habitación en concreto:
 
@@ -283,9 +285,24 @@ La Figura ~\ref{fig:iaenemy} mostramos el diagrama de clases que hemos implement
   \label{fig:iaenemy}
 \end{figure}
 
+\subsection{Interacción entre objetos, personajes y hechizos}
+
+La Figura \ref{fig:charactersitems} muestra las relaciones entre las clases abstractas e interfaces de los objetos, personajes, movimientos y hechizos de nuestro juego.
+
+La clase \texttt{Character} contiene la información básica de los personajes, mientras que en \texttt{ActiveCharacter} se encuentra información adicional que posibilita que el personaje se mueva en base a una clase que implemente la interfaz \texttt{Movement} e interactúe con el resto de elementos del juego, por lo que es la clase de la que todos los enemigos heredan. Esto ayuda a que en un futuro puedan crearse personajes como vendedores que no necesiten moverse de manera sencilla. 
+Todos los personajes pueden tener \texttt{Items}, que son consumibles (pociones) o elementos que el jugador puede equipar (espadas, cascos, botas, etc.). Sin embargo, éstos no tienen por qué pertenecer a ningún personaje, se pueden encontrar en el mapa para que el personaje que el jugador controla pueda cogerlos.
+Por último, un personaje en concreto también puede tener diferente número de hechizos, representados en el diagrama por la clase abstracta \texttt{Spell}, que harán daño en cierta área y que también costarán maná. De la misma manera que con las clases \texttt{Movement} o \texttt{ActiveCharacter}, extenderla para crear nuevos hechizos es muy sencillo, lo que permite que los elementos primordiales del juego sean fácilmente extendibles.
+
+\begin{figure}
+    \includegraphics[width=\textwidth,height=0.15\textwidth]{./img/charactersitems.png}
+  \label{fig:charactersitems}
+\end{figure}
+
 \section{Herramientas empleadas}
 
 En esta sección hablaremos sobre las tecnologías y herramientas empleadas en este proyecto y, si cabe, las razones por la que fueron elegidas. En primer lugar describiremos las herramientas y bibliotecas que hemos usado y, en segundo lugar, las herramientas de comunicación con usuarios y \textit{testers}.
+
+\subsection{Herramientas software empleadas}
 
 \paragraph{Java:} Este lenguaje de programación orientado a objetos es uno de los lenguajes de programación más utilizados en la industria. Una de sus principales características es que es multiplataforma, es decir, puede ser ejecutado en cualquier sistema operativo que tenga la \textit{Java Virtual Machine} instalada sin necesidad de realizar cambios en el código (WORA, \textit{``Write once, run anywhere''}). Esta característica es primordial en nuestro caso, dado que nuestros usuarios potenciales usan gran variedad de sistemas operativos, mayor incluso que respecto al usuario estándard	.
 
@@ -306,7 +323,7 @@ Orca\footnote{\url{https://goo.gl/nW9UaZ}} es, en cierta medida, su equivalente 
 
 \paragraph{Libjcsi:}\footnote{\url{www.slashie.net/libjcsi}} Biblioteca de representación gráfica que trabaja sobre JCurses y simplifica la tarea de representar y refrescar elementos del terminal.
 
-\section{Herramientas de comunicación con usuarios y \textit{testers}}
+\subsection{Herramientas de comunicación con usuarios y \textit{testers}}
 
 \paragraph{Listas de Correo:} Las listas de correo son un método de comunicación muy usado por diferentes comunidades, especialmente en el desarrollo de software, que ayudan a los usuarios que participan en ellas a enviar correos a múltiples personas que lo deseen de forma anónima y, al mismo tiempo, tener un historial de las respuestas devueltas por los mismos. En nuestro caso las hemos usado para comunicarnos con un grupo de usuarios y desarrolladores de videojuegos para invidentes\footnote{\url{tiflo-juegos@googlegroups.com}} y recibir \textit{feedback} por parte de la comunidad.
 

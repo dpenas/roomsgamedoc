@@ -182,37 +182,39 @@
 \contentsline {subsubsection}{\numberline {6.2.1.1}Primer planteamiento: \textit {pop-ups}}{67}{subsubsection.6.2.1.1}
 \contentsline {subsubsection}{\numberline {6.2.1.2}Segundo planteamiento: \textit {TextArea}}{67}{subsubsection.6.2.1.2}
 \contentsline {subsection}{\numberline {6.2.2}Generaci\IeC {\'o}n aleatoria de mapas y elementos}{69}{subsection.6.2.2}
-\contentsline {subsubsection}{\numberline {6.2.2.1}Primer planteamiento: Generaci\IeC {\'o}n completamente aleatoria}{69}{subsubsection.6.2.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2.1}Primer planteamiento: Generaci\IeC {\'o}n completamente aleatoria}{71}{subsubsection.6.2.2.1}
 \contentsline {subsubsection}{\numberline {6.2.2.2}Segunda idea: Generador de encuentros}{71}{subsubsection.6.2.2.2}
 \contentsline {subsection}{\numberline {6.2.3}Comportamiento de los enemigos}{71}{subsection.6.2.3}
-\contentsline {paragraph}{RandomMovement:}{71}{section*.113}
-\contentsline {paragraph}{FollowingMovementDumb:}{71}{section*.114}
-\contentsline {paragraph}{FollowingMovement:}{71}{section*.115}
-\contentsline {section}{\numberline {6.3}Herramientas empleadas}{72}{section.6.3}
-\contentsline {paragraph}{Java:}{72}{section*.117}
-\contentsline {paragraph}{Eclipse:}{72}{section*.118}
-\contentsline {paragraph}{Git:}{73}{section*.119}
-\contentsline {paragraph}{GitHub:}{73}{section*.120}
-\contentsline {paragraph}{JSON:}{73}{section*.121}
-\contentsline {paragraph}{\textit {NVDA}:}{73}{section*.122}
-\contentsline {paragraph}{\textit {Gson}:}{73}{section*.123}
-\contentsline {paragraph}{JCurses:}{73}{section*.124}
-\contentsline {paragraph}{Libjcsi:}{74}{section*.125}
-\contentsline {section}{\numberline {6.4}Herramientas de comunicaci\IeC {\'o}n con usuarios y \textit {testers}}{74}{section.6.4}
-\contentsline {paragraph}{Listas de Correo:}{74}{section*.126}
-\contentsline {paragraph}{Reddit:}{74}{section*.127}
-\contentsline {chapter}{\numberline {7}Conclusiones y trabajo futuro}{75}{chapter.7}
-\contentsline {section}{\numberline {7.1}Conclusiones}{75}{section.7.1}
-\contentsline {section}{\numberline {7.2}Trabajo Futuro}{75}{section.7.2}
-\contentsline {paragraph}{Creaci\IeC {\'o}n de un men\IeC {\'u} de configuraci\IeC {\'o}n:}{76}{section*.128}
-\contentsline {paragraph}{A\IeC {\~n}adir m\IeC {\'a}s variedad de enemigos y elementos:}{76}{section*.129}
-\contentsline {paragraph}{Integrar un modo historia:}{76}{section*.130}
-\contentsline {paragraph}{Crear un tutorial:}{76}{section*.131}
-\contentsline {paragraph}{Integrar un ``modo resumen'':}{76}{section*.132}
-\contentsline {paragraph}{Incluir elementos sonoros:}{77}{section*.133}
-\contentsline {paragraph}{A\IeC {\~n}adir m\IeC {\'a}s complejidad a las gram\IeC {\'a}ticas:}{77}{section*.134}
-\contentsline {paragraph}{Integrar recursos l\IeC {\'o}gicos de terceros:}{77}{section*.135}
-\contentsline {paragraph}{A\IeC {\~n}adir opci\IeC {\'o}n de jugar en base a una semilla:}{77}{section*.136}
-\contentsline {chapter}{\numberline {A}Escoger la licencia}{79}{appendix.Alph1}
-\contentsline {chapter}{\numberline {B}Instalaci\IeC {\'o}n e Instrucciones del Juego}{81}{appendix.Alph2}
-\contentsline {chapter}{\numberline {C}Bibliograf\'{\i }a}{83}{appendix.Alph3}
+\contentsline {paragraph}{RandomMovement:}{72}{section*.113}
+\contentsline {paragraph}{FollowingMovementDumb:}{72}{section*.114}
+\contentsline {paragraph}{FollowingMovement:}{72}{section*.115}
+\contentsline {subsection}{\numberline {6.2.4}Interacci\IeC {\'o}n entre objetos, personajes y hechizos}{72}{subsection.6.2.4}
+\contentsline {section}{\numberline {6.3}Herramientas empleadas}{73}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Herramientas software empleadas}{73}{subsection.6.3.1}
+\contentsline {paragraph}{Java:}{73}{section*.118}
+\contentsline {paragraph}{Eclipse:}{73}{section*.119}
+\contentsline {paragraph}{Git:}{74}{section*.120}
+\contentsline {paragraph}{GitHub:}{74}{section*.121}
+\contentsline {paragraph}{JSON:}{74}{section*.122}
+\contentsline {paragraph}{\textit {NVDA}:}{74}{section*.123}
+\contentsline {paragraph}{\textit {Gson}:}{74}{section*.124}
+\contentsline {paragraph}{JCurses:}{74}{section*.125}
+\contentsline {paragraph}{Libjcsi:}{74}{section*.126}
+\contentsline {subsection}{\numberline {6.3.2}Herramientas de comunicaci\IeC {\'o}n con usuarios y \textit {testers}}{75}{subsection.6.3.2}
+\contentsline {paragraph}{Listas de Correo:}{75}{section*.127}
+\contentsline {paragraph}{Reddit:}{75}{section*.128}
+\contentsline {chapter}{\numberline {7}Conclusiones y trabajo futuro}{77}{chapter.7}
+\contentsline {section}{\numberline {7.1}Conclusiones}{77}{section.7.1}
+\contentsline {section}{\numberline {7.2}Trabajo Futuro}{77}{section.7.2}
+\contentsline {paragraph}{Creaci\IeC {\'o}n de un men\IeC {\'u} de configuraci\IeC {\'o}n:}{78}{section*.129}
+\contentsline {paragraph}{A\IeC {\~n}adir m\IeC {\'a}s variedad de enemigos y elementos:}{78}{section*.130}
+\contentsline {paragraph}{Integrar un modo historia:}{78}{section*.131}
+\contentsline {paragraph}{Crear un tutorial:}{78}{section*.132}
+\contentsline {paragraph}{Integrar un ``modo resumen'':}{78}{section*.133}
+\contentsline {paragraph}{Incluir elementos sonoros:}{79}{section*.134}
+\contentsline {paragraph}{A\IeC {\~n}adir m\IeC {\'a}s complejidad a las gram\IeC {\'a}ticas:}{79}{section*.135}
+\contentsline {paragraph}{Integrar recursos l\IeC {\'o}gicos de terceros:}{79}{section*.136}
+\contentsline {paragraph}{A\IeC {\~n}adir opci\IeC {\'o}n de jugar en base a una semilla:}{79}{section*.137}
+\contentsline {chapter}{\numberline {A}Escoger la licencia}{81}{appendix.Alph1}
+\contentsline {chapter}{\numberline {B}Instalaci\IeC {\'o}n e Instrucciones del Juego}{83}{appendix.Alph2}
+\contentsline {chapter}{\numberline {C}Bibliograf\'{\i }a}{85}{appendix.Alph3}
