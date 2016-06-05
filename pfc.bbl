@@ -111,4 +111,12 @@ Theesa.
   \url{http://www.theesa.com/wp-content/uploads/2014/11/Games\_Economy-11-4-14.pdf},
   2014.
 
+\bibitem[web]{website:apachelicense}
+{Apache License}.
+\newblock \url{http://www.apache.org/foundation/license-faq.html}.
+
+\bibitem[web07]{website:gnulicense}
+{GNU Licenses}.
+\newblock \url{http://www.gnu.org/licenses/lgpl-3.0.en.html}, 2007.
+
 \end{thebibliography}

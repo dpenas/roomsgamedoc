@@ -1,17 +1,17 @@
-\chapter{Instalación e Instrucciones}
+\chapter{Instalación e Instrucciones del Juego}
 \label{ref:instalacion}
 
-El \textit{roguelike} es software libre y el código fuente se puede encontrar en Github\footnote{\url{https://github.com/dpenas/roomsgame}}, al igual que varias versiones ejecutables. Dichas versiones ejecutables contienen un archivo .jar que solamente requiere tener una versión de JRE\footnote{\url{http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html}}{\footnote{Java Runtime Environment} superior a la 6 instalada en el sistema a usar. 
+Nuestro \textit{roguelike} es software libre y el código fuente está libremente disponible en Github,\footnote{\url{https://github.com/dpenas/roomsgame}} al igual que varias versiones ejecutables del mismo. Dichas versiones ejecutables contienen un archivo \texttt{.jar} que solamente requiere tener una versión de JRE\footnote{\url{http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html}}{\footnote{Java Runtime Environment} superior a la 6 instalada en el sistema a usar. 
 
-Para su ejecución basta con hacer doble clic en el archivo .jar o ir al directorio donde se encuentre dicho archivo e introducir:
+Para su ejecución basta con hacer doble clic en el archivo \texttt{.jar} o ir al directorio donde se encuentre dicho archivo e introducir:
 
 \begin{lstlisting}[label=lst:bash,caption=Comando para la ejecución del videojuego]
 java -jar game.jar
 \end{lstlisting}
 
-Para cambiar el idioma del proyecto se debe de localizar el archivo languages.properties y cambiar el idioma a ES, GL o EN para obtenerlo en español, gallego o inglés, respectivamente. También es posible cambiar las teclas del propio juego. Las que vienen por defecto se puede encontrar en la wiki del proyecto.\footnote{\url{https://github.com/dpenas/roomsgame/wiki}}.
+Para cambiar el idioma del proyecto se debe de localizar el archivo \texttt{languages.properties} y cambiar el idioma a ES, GL, EN o NL para jugar en español, gallego, inglés u holandés, respectivamente. También es posible cambiar las teclas del propio juego. Las que vienen por defecto se puede encontrar en la wiki del proyecto.\footnote{\url{https://github.com/dpenas/roomsgame/wiki}}.
 
-En algunas ocasiones las frases generadas no se leen directamente. Esto viene causado porque no tener activado el \textit{Java Access Bridge} o no está instalado la versión correcta (se recomienda tener instalada la versión de 32 y 64 bits para evitar problemas). 
+En algunas ocasiones las frases generadas no se leen directamente. Esto viene causado por no tener activado el \textit{Java Access Bridge} o si no está instalada la versión correcta del mismo (se recomienda tener instalada la versión de 32 y 64 bits para evitar problemas). 
 En sistemas Windows \textit{Java Access Bridge} se puede activar fácilmente de la forma siguiente:
 
 \begin{itemize}
@@ -20,7 +20,7 @@ En sistemas Windows \textit{Java Access Bridge} se puede activar fácilmente de 
 \item En la sección \textbf{Other programs installed}, seleccionar: \textbf{Enable Java Access Bridge}
 \end{itemize}
 
-Estas instrucciones deberían de servir para Windows Vista y posteriores. En caso contrario, también se podrá hacer:
+\noindent Estas instrucciones deberían servir para Windows Vista y posteriores. En caso contrario, también se podrá hacer:
 
 \begin{verbatim}
 %JRE_HOME%\bin\jabswitch -enable
@@ -28,4 +28,4 @@ Estas instrucciones deberían de servir para Windows Vista y posteriores. En cas
 
 donde \textit{\%JRE\_HOME\%} es el directorio donde Java está instalado.
 
-Para otros sistemas operativos será necesario la descarga y activación de manera manual.  \footnote{\url{http://www.oracle.com/technetwork/articles/javase/index-jsp-136191.html}}}
+\noindent Para otros sistemas operativos será necesario la descarga y activación de manera manual.\footnote{\url{http://www.oracle.com/technetwork/articles/javase/index-jsp-136191.html}}}
