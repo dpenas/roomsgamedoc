@@ -262,20 +262,20 @@ Rat rat = new Rat(this.getMap(), this, position, new ArrayList<String>(), level)
 \subsection{Comportamiento de los enemigos}
 \label{sec:ia}
 
-Como cabe suponer, los adversarios que nos encontramos en el juego se moverán de diferentes formas, por lo que tendremos que diseñarlo de una manera genérica que nos permita realizar esto de la forma más simple posible.
-Para ello nos hemos basado en el patrón de diseño \textit{estrategia} porque se adapta perfectamente a nuestros requisitos.
+Como cabe suponer, los adversarios que nos encontramos en el juego se moverán y comportarán de diferentes formas de acuerdo a su tipo y en base a su IA,\cite{Schwab2009a}. De nuevo buscamos un diseño genérico ques nos permita introducir modificaciones de la forma más simple posible.
+Para ello nos hemos basado en el patrón de diseño \textit{estrategia} pues se adapta perfectamente a nuestros requisitos.
 
-Los tipos de movimiento que tenemos disponibles en el juego actualmente de cara a los enemigos son los siguientes:
+Los tipos de comportamiento que tenemos disponibles en el juego actualmente de cara a los enemigos son los siguientes:
 
 \paragraph{RandomMovement:} Los enemigos son ``pasivos'', es decir, no atacarán a ningún personaje ni tampoco irán hacia él en ningún momento.
 
-\paragraph{FollowingMovementDumb:} Los contrincantes que tengan este tipo de comportamiento son más ``agresivos''. Seguirán al jugador e intentarán atacarle, pero no se mueven de una forma óptima para lograr su meta, por lo que esquivarlos no suele ser muy complicado.
+\paragraph{FollowingMovementDumb:} Los contrincantes que tengan este tipo de comportamiento son más ``agresivos''. Seguirán al jugador e intentarán atacarle, pero se mueven de una forma torpe, por lo que esquivarlos no suele ser muy complicado.
 
-\paragraph{FollowingMovement:} Este tipo de comportamiento es el más complejo y ``agresivo''. El enemigo se moverá de manera precisa para llegar lo antes posible al usuario y usará todo tipo de tácticas para derrotarlo, tales como el uso de magia o atacándole cuerpo a cuerpo.
+\paragraph{FollowingMovement:} Este tipo de comportamiento es el más complejo y ``agresivo''. El enemigo se moverá de manera ágil y precisa para llegar lo antes posible al usuario y usará todo tipo de tácticas para derrotarlo, tales como el uso de magia o los ataques cuerpo a cuerpo.
 
 \noindent Gracias a nuestro diseño, crear nuevos tipos de comportamientos es una tarea trivial, ya que solamente tendríamos que implementar la interfaz \textit{Movement} con la única función que posee e insertar en él el código del nuevo tipo de movimiento.
 
-La Figura ~\ref{fig:iaenemy} mostramos el diagrama de clases que hemos implementado en nuestro sistema y que contiene el patrón de diseño \textit{estrategia}, tal y como hemos comentado.
+En la Figura ~\ref{fig:iaenemy} mostramos el diagrama de clases de nuestra implementación y que contiene el patrón de diseño \textit{estrategia}, tal y como hemos comentado.
 
 \begin{figure}
     \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{./img/iaenemy.png}
@@ -287,9 +287,9 @@ La Figura ~\ref{fig:iaenemy} mostramos el diagrama de clases que hemos implement
 
 La Figura ~\ref{fig:charactersitems} muestra las relaciones entre las clases abstractas e interfaces de los objetos, personajes, movimientos y hechizos de nuestro juego.
 
-La clase \texttt{Character} contiene la información básica de los personajes, mientras que en \texttt{ActiveCharacter} se encuentra información adicional que posibilita que el personaje se mueva en base a una clase que implemente la interfaz \texttt{Movement} e interactúe con el resto de elementos del juego, por lo que es la clase de la que todos los enemigos heredan. Esto ayuda a que en un futuro puedan crearse personajes como vendedores que no necesiten moverse de manera sencilla. 
-Todos los personajes pueden tener \texttt{Items}, que son consumibles (pociones) o elementos que el jugador puede equipar (espadas, cascos, botas, etc.). Sin embargo, éstos no tienen por qué pertenecer a ningún personaje, se pueden encontrar en el mapa para que el personaje que el jugador controla pueda cogerlos.
-Por último, un personaje en concreto también puede tener diferente número de hechizos, representados en el diagrama por la clase abstracta \texttt{Spell}, que harán daño en cierta área y que también costarán maná. De la misma manera que con las clases \texttt{Movement} o \texttt{ActiveCharacter}, extenderla para crear nuevos hechizos es muy sencillo, lo que permite que los elementos primordiales del juego sean fácilmente extendibles.
+La clase \texttt{Character} contiene la información básica de los personajes, mientras que en \texttt{ActiveCharacter} se encuentra información adicional que posibilita que el personaje se mueva en base a una clase que implemente la interfaz \texttt{Movement} e interactúe con el resto de elementos del juego, siendo la clase de la que todos los enemigos heredan. Esto ayuda a que en un futuro puedan crearse nuevos personajes, tales como vendedores con los que comerciar y que no necesiten desplazarse (mascotas o aventureros) o compañeros de aventura que se unen al héroe en su búsqueda, cada uno con sus propios comportamientos \cite[Capítulo 4]{Schwab2009a}. 
+Todos los personajes pueden tener \texttt{Items}, que son consumibles (pociones) o elementos que el jugador puede equipar (espadas, cascos, botas, etc). Sin embargo, éstos no tienen por qué pertenecer a ningún personaje, se pueden encontrar dispersos por el mapa para que el jugador pueda cogerlos.
+Por último, un personaje en concreto también puede tener diferente número de hechizos, representados en el diagrama por la clase abstracta \texttt{Spell}, que harán daño en cierta área y que también costarán maná. De la misma manera que con las clases \texttt{Movement} o \texttt{ActiveCharacter}, extenderla para crear nuevos hechizos es muy sencillo, lo que permite que los elementos primordiales del juego sean fácilmente extensibles.
 
 \begin{figure}
     \includegraphics[width=\textwidth,height=0.15\textwidth]{./img/charactersitems.png}
@@ -299,31 +299,45 @@ Por último, un personaje en concreto también puede tener diferente número de 
 
 \section{Herramientas empleadas}
 
-En esta sección hablaremos sobre las tecnologías y herramientas empleadas en este proyecto y, si cabe, las razones por la que fueron elegidas. En primer lugar describiremos las herramientas y bibliotecas que hemos usado y, en segundo lugar, las herramientas de comunicación con usuarios y \textit{testers}.
+En esta sección hablaremos sobre las tecnologías y herramientas empleadas en este proyecto y, de ser relevante, las razones por la que fueron elegidas. En primer lugar describiremos las herramientas y bibliotecas que hemos usado y, en segundo lugar, las herramientas de comunicación con usuarios y \textit{testers}.
 
 \subsection{Herramientas software empleadas}
 
 \paragraph{Java:} Este lenguaje de programación orientado a objetos es uno de los lenguajes de programación más utilizados en la industria. Una de sus principales características es que es multiplataforma, es decir, puede ser ejecutado en cualquier sistema operativo que tenga la \textit{Java Virtual Machine} instalada sin necesidad de realizar cambios en el código (WORA, \textit{``Write once, run anywhere''}). Esta característica es primordial en nuestro caso, dado que nuestros usuarios potenciales usan gran variedad de sistemas operativos, mayor incluso que respecto al usuario estándard	.
 
- \paragraph{Eclipse:}\footnote{\url{https://eclipse.org}} Es un IDE (entorno de desarrollo integrado) usado para escribir código en múltiples lenguajes. También incluye una serie de \textit{plugins} que facilitan y automatizan muchas de las labores a realizar, tales como el uso de sistema de controles, ejecución de código y tests, herramientas de \textit{debug}, autocompletado de código, etc.
+ \paragraph{Eclipse:\protect\footnote{\protect\url{https://eclipse.org}}} Es un IDE (entorno de desarrollo integrado) usado para escribir código en múltiples lenguajes. También incluye una serie de \textit{plugins} que facilitan y automatizan muchas de las labores a realizar, tales como el uso de sistema de controles, ejecución de código y tests, herramientas de \textit{debug}, autocompletado de código, etc.
 
- \paragraph{Git:}\footnote{\url{https://goo.gl/IKsKt5}} Sistema de control de versiones distribuido. Es el control de versiones referencia en la mayoría de empresas y proyectos de software libre gracias a su rapidez y, al ser distribuido, permite trabajar y realizar \textit{commits} del código sin necesidad de conexión a Internet.
+ \paragraph{Git:\protect\footnote{\protect\url{https://git-scm.com}}} Sistema de control de versiones distribuido. Es el control de versiones referencia en la mayoría de empresas y proyectos de software libre gracias a su rapidez y, al ser distribuido, permite trabajar y realizar \textit{commits} del código sin necesidad de conexión a Internet.
 
- \paragraph{GitHub:}\footnote{\url{github.com}} Plataforma de desarrollo colaborativo usada para alojar proyectos usando el sistema de control de versiones Git. La mayoría de proyectos de código abierto lo usan, dado que es gratuito, aunque permite la opción de almacenar el código de forma privada previo pago.
+ \paragraph{GitHub:\protect\footnote{\url{github.com}}} Plataforma de desarrollo colaborativo usada para alojar proyectos usando el sistema de control de versiones Git. La mayoría de proyectos de código abierto lo usan, dado que es gratuito, aunque permite la opción de almacenar el código de forma privada previo pago.
 
 \paragraph{JSON:} \textit{JavaScript Object Notation}. Es un formato muy usado en APIs para intercambio de datos, similar a XML. En nuestro caso lo usamos para definir las gramáticas y diccionarios de nuestro proyecto, dado que es muy sencillo de leer y especificar.
 
-\paragraph{\textit{NVDA}:}\footnote{\url{www.nvaccess.org}} Lector de pantalla de código libre para Windows que lee el tipo de ventanas y texto que se encuentran en la pantalla, facilitando el uso del ordenador y otros dispositivos a los usuarios invidentes. 
-Orca\footnote{\url{https://goo.gl/nW9UaZ}} es, en cierta medida, su equivalente en Linux. Otras alternativas son BrowseAloud\footnote{\url{https://goo.gl/GoghW7}} o Microsoft Narrator\footnote{\url{http://goo.gl/OAB7VC}}. Hemos elegido \textit{NVDA} por ser la alternativa libre más usada por este tipo de usuarios.
+\paragraph{\textit{NVDA}:\protect\footnote{\protect\url{www.nvaccess.org}}} Lector de pantalla de código libre para Windows. 
+Orca\footnote{\url{https://goo.gl/nW9UaZ}} es, en cierta medida, su equivalente en Linux. Otras alternativas son BrowseAloud\footnote{\url{https://goo.gl/GoghW7}} o Microsoft Narrator.\footnote{\url{http://goo.gl/OAB7VC}} Hemos elegido \textit{NVDA} por ser la alternativa libre más extendida entre usuarios invidentes.
 
-\paragraph{\textit{Gson}:}\footnote{\url{https://goo.gl/zPCXen}} Hay numerosas bibliotecas que nos permiten analizar y trabajar con este formato en Java. En nuestro caso hemos usado \href{https://goo.gl/zPCXen}{\textit{Gson}} para transformar archivos JSON a objetos de Java y viceversa.
+\paragraph{\textit{Gson}:\protect\footnote{\protect\url{https://github.com/google/gson}}} Hay numerosas bibliotecas que nos permiten analizar y trabajar con este formato en Java. En nuestro caso hemos usado \href{https://goo.gl/zPCXen}{\textit{Gson}} para transformar archivos JSON a objetos de Java y viceversa.
 
-\paragraph{JCurses:}\footnote{\url{https://github.com/sunhong/jcurses}} \textit{The Java Curses Library} es una biblioteca para el desarrollo de aplicaciones de terminal para JAVA. Es similar a AWT,\footnote{\textit{Abstract Window Toolkit.} Kit de herramientas de interfaz de usuario de la plataforma original de Java} pero basada en el sistema de ventanas \textit{Curses} de \textit{UNIX}.
+\paragraph{JCurses:\protect\footnote{\protect\url{https://github.com/sunhong/jcurses}}} \textit{The Java Curses Library} es una biblioteca para el desarrollo de aplicaciones de terminal para JAVA. Es similar a AWT,\footnote{\textit{Abstract Window Toolkit.} Kit de herramientas de interfaz de usuario de la plataforma original de Java} pero basada en el sistema de ventanas \textit{Curses} de \textit{UNIX}.
 
-\paragraph{Libjcsi:}\footnote{\url{www.slashie.net/libjcsi}} Biblioteca de representación gráfica que trabaja sobre JCurses y simplifica la tarea de representar y refrescar elementos del terminal.
+\paragraph{Libjcsi:\protect\footnote{\protect\url{www.slashie.net/libjcsi}}} Biblioteca de representación gráfica que trabaja sobre JCurses y simplifica la tarea de representar y refrescar elementos del terminal.
 
 \subsection{Herramientas de comunicación con usuarios y \textit{testers}}
 
 \paragraph{Listas de Correo:} Las listas de correo son un método de comunicación muy usado por diferentes comunidades, especialmente en el desarrollo de software, que ayudan a los usuarios que participan en ellas a enviar correos a múltiples personas que lo deseen de forma anónima y, al mismo tiempo, tener un historial de las respuestas devueltas por los mismos. En nuestro caso las hemos usado para comunicarnos con un grupo de usuarios y desarrolladores de videojuegos para invidentes\footnote{\url{tiflo-juegos@googlegroups.com}} y recibir \textit{feedback} por parte de la comunidad.
 
- \paragraph{Reddit:}\footnote{\url{www.reddit.com}} Web creada en 2005 y que actualmente se encuentra en el top 50 de las más visitadas del mundo. Cuenta con una comunidad gigante que está dividida en muchísimos subgrupos dependiendo del tema a tratar. La hemos usado como una herramienta de \textit{feedback}. Especialmente los \textit{subreddits} de \href{https://www.reddit.com/r/ColorBlind/}{daltónicos}, de \href{https://www.reddit.com/r/blind/}{personas que sufren de ceguera}, \href{https://www.reddit.com/r/gamedev/}{desarrolladores de videojuegos} y \href{https://www.reddit.com/r/roguelikes/}{roguelikes}.
+ \paragraph{Reddit:\protect\footnote{\protect\url{www.reddit.com}}} Web creada en 2005 y que actualmente se encuentra en el top 50 de las más visitadas del mundo. Cuenta con una comunidad gigante que está dividida en muchísimos subgrupos dependiendo del tema a tratar. La hemos usado como una herramienta de \textit{feedback}. Especialmente los \textit{subreddits} de \href{https://www.reddit.com/r/ColorBlind/}{daltónicos}, de \href{https://www.reddit.com/r/blind/}{personas que sufren de ceguera}, \href{https://www.reddit.com/r/gamedev/}{desarrolladores de videojuegos} y \href{https://www.reddit.com/r/roguelikes/}{roguelikes}.
+
+\section{Licencia}
+
+Cuando tenemos que escoger una licencia para un nuevo programa también debemos tener en cuenta las licencias de las bibliotecas y recursos que hemos usado en el mismo. Las bibliotecas que hemos usado en nuestro proyecto y sus respectivas licencias son éstas:
+
+\begin{itemize}
+  \item \textbf{Gson} Apache 2.0 license
+  \item \textbf{JCurses} GNU Lesser General Public License v3
+  \item \textbf{libjcsi} GNU Lesser General Public License v2.1
+\end{itemize}
+
+\noindent Como podemos apreciar, Gson usa una licencia Apache 2.0\cite{website:apachelicense} mientras que JCurses y libjcsi tienen GNU Lesser GPL \cite{website:gnulicense}.
+La licencia de Apache 2.0 no es compatible con las versiones de GNU Lesser GPL anteriores a la 3, pero las versiones de GNU Lesser GPL son compatibles entre sí.
+Por este motivo decidimos usar GNU General Public Licence v3, dado que es compatible con todas las licencias de las librerías que hemos usado.
