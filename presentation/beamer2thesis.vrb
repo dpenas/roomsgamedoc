@@ -1,6 +1,5 @@
-\frametitle{Idiomas disponibles}
-El juego lo tenemos disponible, con gramáticas y diccionarios, en los siguientes idiomas:
-	\begin{itemize}
+\frametitle{\textbf {Idiomas disponibles}}
+\begin{itemize}
 		\item Gallego
 		\item Castellano
 		\item Inglés

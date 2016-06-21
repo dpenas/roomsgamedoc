@@ -139,7 +139,7 @@
 		   \renewcommand\beamer@torinoth@superv{Relatori}%
 		 \else%
 		    \ifx\beamer@torinoth@language\beamer@torinoth@englishtext%
-		      \renewcommand\beamer@torinoth@superv{Supervisores}%
+		      \renewcommand\beamer@torinoth@superv{Directores}%
 		    \else%
 		      \def\setrellabel#1{\gdef\@setrellab{#1}}%
             \def\@setrellab{\PackageError{Beamer2Thesis}%
@@ -155,12 +155,12 @@
 		    \renewcommand\beamer@torinoth@superv{Relatore}%
 		 \else%
 		    \ifx\beamer@torinoth@language\beamer@torinoth@englishtext%
-		      \renewcommand\beamer@torinoth@superv{Supervisor}%
+		      \renewcommand\beamer@torinoth@superv{Director}%
 		    \else%
 		      \def\setrellabel#1{\gdef\@setrellab{#1}}%
             \def\@setrellab{\PackageError{Beamer2Thesis}%
             {\protect\setrellabel\space not given. Please insert it in your language}%
-            {Example in english: \protect\setrellabel{Supervisor}}
+            {Example in english: \protect\setrellabel{Director}}
             }   
             \renewcommand\beamer@torinoth@superv{\@setrellab}%
           \fi%  

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.14)  25 APR 2016 22:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.14)  21 JUN 2016 22:37
 entering extended mode
 **./beamer2thesis.tex
 (beamer2thesis.tex
@@ -1156,11 +1156,11 @@ LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <12> not available
 (Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 1.
 
-<logo_udc.jpg, id=29, 447.5922pt x 288.1164pt>
-File: logo_udc.jpg Graphic file (type jpg)
- <use logo_udc.jpg>
-Package pdftex.def Info: logo_udc.jpg used on input line 1.
-(pdftex.def)             Requested size: 84.86581pt x 54.62848pt.
+<logoudc.png, id=29, 443.6575pt x 217.81375pt>
+File: logoudc.png Graphic file (type png)
+ <use logoudc.png>
+Package pdftex.def Info: logoudc.png used on input line 1.
+(pdftex.def)             Requested size: 111.26611pt x 54.62848pt.
 LaTeX Font Info:    Try loading font information for U+msa on input line 1.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
@@ -1177,7 +1177,7 @@ LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input l
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/mathkerncmss.
 ) [1
 
-{C:/Users/Dario/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./logo_udc.jpg>]
+{C:/Users/Dario/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./logoudc.png>]
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 (Font)              size <5> substituted on input line 10.
@@ -1238,31 +1238,21 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [9
 
-] <../img/ftl.jpg, id=109, 642.4pt x 361.35pt>
-File: ../img/ftl.jpg Graphic file (type jpg)
- <use ../img/ftl.jpg>
-Package pdftex.def Info: ../img/ftl.jpg used on input line 124.
-(pdftex.def)             Requested size: 227.62204pt x 128.03477pt.
-
+]
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
 [10
 
- <../img/ftl.jpg>] <../img/enterthegungeon.png, id=118, 1927.2pt x 1084.05pt>
-File: ../img/enterthegungeon.png Graphic file (type png)
- <use ../img/enterthegungeon.png>
-Package pdftex.def Info: ../img/enterthegungeon.png used on input line 131.
-(pdftex.def)             Requested size: 227.62204pt x 128.02927pt.
-
+]
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
 [11
 
- <../img/enterthegungeon.png (PNG copy)>]
+]
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1290,14 +1280,19 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [15
 
-]
+] <../img/frozendepths.png, id=159, 804.00375pt x 453.695pt>
+File: ../img/frozendepths.png Graphic file (type png)
+ <use ../img/frozendepths.png>
+Package pdftex.def Info: ../img/frozendepths.png used on input line 116.
+(pdftex.def)             Requested size: 227.62204pt x 128.44598pt.
+
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
 [16
 
-]
+ <../img/frozendepths.png>]
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1318,53 +1313,52 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [19
 
-] <../img/paletaColores1.PNG, id=193, 333.6465pt x 187.902pt>
-File: ../img/paletaColores1.PNG Graphic file (type png)
- <use ../img/paletaColores1.PNG>
-Package pdftex.def Info: ../img/paletaColores1.PNG used on input line 200.
-(pdftex.def)             Requested size: 227.62204pt x 128.19313pt.
-
+]
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
 [20
 
- <../img/paletaColores1.PNG>] <../img/paletaColores2.PNG, id=204, 333.6465pt x 189.1065pt>
-File: ../img/paletaColores2.PNG Graphic file (type png)
-
-<use ../img/paletaColores2.PNG>
-Package pdftex.def Info: ../img/paletaColores2.PNG used on input line 207.
-(pdftex.def)             Requested size: 227.62204pt x 129.01488pt.
-
+]
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
 [21
 
- <../img/paletaColores2.PNG>]
+]
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
 [22
 
-]
+] <../img/ftl.jpg, id=217, 642.4pt x 361.35pt>
+File: ../img/ftl.jpg Graphic file (type jpg)
+ <use ../img/ftl.jpg>
+Package pdftex.def Info: ../img/ftl.jpg used on input line 184.
+(pdftex.def)             Requested size: 227.62204pt x 128.03477pt.
+
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
 [23
 
-]
+ <../img/ftl.jpg>] <../img/enterthegungeon.png, id=226, 1927.2pt x 1084.05pt>
+File: ../img/enterthegungeon.png Graphic file (type png)
+ <use ../img/enterthegungeon.png>
+Package pdftex.def Info: ../img/enterthegungeon.png used on input line 191.
+(pdftex.def)             Requested size: 227.62204pt x 128.02927pt.
+
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
 [24
 
-]
+ <../img/enterthegungeon.png (PNG copy)>]
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1399,30 +1393,32 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [29
 
-]
-\openout4 = `beamer2thesis.vrb'.
+] <../img/paletaColores1.PNG, id=276, 333.6465pt x 187.902pt>
+File: ../img/paletaColores1.PNG Graphic file (type png)
+ <use ../img/paletaColores1.PNG>
+Package pdftex.def Info: ../img/paletaColores1.PNG used on input line 239.
+(pdftex.def)             Requested size: 227.62204pt x 128.19313pt.
 
- (beamer2thesis.vrb)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
 [30
 
-]
-\openout4 = `beamer2thesis.vrb'.
+ <../img/paletaColores1.PNG>] <../img/paletaColores2.PNG, id=286, 333.6465pt x 189.1065pt>
+File: ../img/paletaColores2.PNG Graphic file (type png)
 
- (beamer2thesis.vrb)
+<use ../img/paletaColores2.PNG>
+Package pdftex.def Info: ../img/paletaColores2.PNG used on input line 246.
+(pdftex.def)             Requested size: 227.62204pt x 129.01488pt.
+
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
 [31
 
-]
-\openout4 = `beamer2thesis.vrb'.
-
- (beamer2thesis.vrb)
+ <../img/paletaColores2.PNG>]
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1430,9 +1426,6 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [32
 
 ]
-\openout4 = `beamer2thesis.vrb'.
-
- (beamer2thesis.vrb)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1440,9 +1433,6 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [33
 
 ]
-\openout4 = `beamer2thesis.vrb'.
-
- (beamer2thesis.vrb)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1450,9 +1440,6 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [34
 
 ]
-\openout4 = `beamer2thesis.vrb'.
-
- (beamer2thesis.vrb)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1460,9 +1447,6 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [35
 
 ]
-\openout4 = `beamer2thesis.vrb'.
-
- (beamer2thesis.vrb)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1470,9 +1454,6 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [36
 
 ]
-\openout4 = `beamer2thesis.vrb'.
-
- (beamer2thesis.vrb)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1480,9 +1461,6 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [37
 
 ]
-\openout4 = `beamer2thesis.vrb'.
-
- (beamer2thesis.vrb)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1490,9 +1468,6 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [38
 
 ]
-\openout4 = `beamer2thesis.vrb'.
-
- (beamer2thesis.vrb)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1503,10 +1478,6 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \openout4 = `beamer2thesis.vrb'.
 
  (beamer2thesis.vrb)
-Overfull \vbox (9.99426pt too high) detected at line 424
- []
-
-
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1527,10 +1498,6 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \openout4 = `beamer2thesis.vrb'.
 
  (beamer2thesis.vrb)
-Overfull \vbox (10.60262pt too high) detected at line 450
- []
-
-
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1558,6 +1525,13 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [44
 
 ]
+\openout4 = `beamer2thesis.vrb'.
+
+ (beamer2thesis.vrb)
+Overfull \vbox (12.99426pt too high) detected at line 395
+ []
+
+
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1565,6 +1539,9 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [45
 
 ]
+\openout4 = `beamer2thesis.vrb'.
+
+ (beamer2thesis.vrb)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1572,6 +1549,9 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [46
 
 ]
+\openout4 = `beamer2thesis.vrb'.
+
+ (beamer2thesis.vrb)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1579,6 +1559,9 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [47
 
 ]
+\openout4 = `beamer2thesis.vrb'.
+
+ (beamer2thesis.vrb)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1596,6 +1579,9 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [49
 
 ]
+\openout4 = `beamer2thesis.vrb'.
+
+ (beamer2thesis.vrb)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1617,9 +1603,6 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [52
 
 ]
-\openout4 = `beamer2thesis.vrb'.
-
- (beamer2thesis.vrb)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1634,62 +1617,57 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [54
 
 ]
+\openout4 = `beamer2thesis.vrb'.
+
+ (beamer2thesis.vrb)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
 [55
 
-] <../img/temporalidadEquipar.PNG, id=493, 405.31425pt x 110.21175pt>
-File: ../img/temporalidadEquipar.PNG Graphic file (type png)
- <use ../img/temporalidadEquipar.PNG>
-Package pdftex.def Info: ../img/temporalidadEquipar.PNG used on input line 571.
-(pdftex.def)             Requested size: 227.62204pt x 61.89304pt.
+]
+\openout4 = `beamer2thesis.vrb'.
 
+ (beamer2thesis.vrb)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
 [56
 
- <../img/temporalidadEquipar.PNG>] <../img/temporalidadAtaque.PNG, id=503, 457.71pt x 52.39575pt>
-File: ../img/temporalidadAtaque.PNG Graphic file (type png)
-
-<use ../img/temporalidadAtaque.PNG>
-Package pdftex.def Info: ../img/temporalidadAtaque.PNG used on input line 582.
-(pdftex.def)             Requested size: 227.62204pt x 26.05629pt.
-
+]
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
 [57
 
- <../img/temporalidadAtaque.PNG>] <../img/enemigosderrotados.PNG, id=513, 609.477pt x 33.726pt>
-File: ../img/enemigosderrotados.PNG Graphic file (type png)
-
-<use ../img/enemigosderrotados.PNG>
-Package pdftex.def Info: ../img/enemigosderrotados.PNG used on input line 594.
-(pdftex.def)             Requested size: 227.62204pt x 12.59575pt.
-
+]
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
 [58
 
- <../img/enemigosderrotados.PNG>]
+] <../img/temporalidadEquipar.PNG, id=518, 405.31425pt x 110.21175pt>
+File: ../img/temporalidadEquipar.PNG Graphic file (type png)
+ <use ../img/temporalidadEquipar.PNG>
+Package pdftex.def Info: ../img/temporalidadEquipar.PNG used on input line 536.
+(pdftex.def)             Requested size: 227.62204pt x 61.89304pt.
+
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
 [59
 
-] <../img/descripcionnonumerica.PNG, id=531, 484.209pt x 18.66975pt>
-File: ../img/descripcionnonumerica.PNG Graphic file (type png)
- <use ../img/descripcionnonumerica.PNG>
-Package pdftex.def Info: ../img/descripcionnonumerica.PNG used on input line 612.
-(pdftex.def)             Requested size: 227.62204pt x 8.77647pt.
+ <../img/temporalidadEquipar.PNG>] <../img/temporalidadAtaque.PNG, id=528, 456.5055pt x 68.6565pt>
+File: ../img/temporalidadAtaque.PNG Graphic file (type png)
+
+<use ../img/temporalidadAtaque.PNG>
+Package pdftex.def Info: ../img/temporalidadAtaque.PNG used on input line 547.
+(pdftex.def)             Requested size: 227.62204pt x 34.23282pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
@@ -1697,12 +1675,12 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [60
 
- <../img/descripcionnonumerica.PNG>] <../img/descripcionnumerica.PNG, id=541, 501.67426pt x 19.87425pt>
-File: ../img/descripcionnumerica.PNG Graphic file (type png)
+ <../img/temporalidadAtaque.PNG>] <../img/enemigosderrotados.PNG, id=538, 609.477pt x 33.726pt>
+File: ../img/enemigosderrotados.PNG Graphic file (type png)
 
-<use ../img/descripcionnumerica.PNG>
-Package pdftex.def Info: ../img/descripcionnumerica.PNG used on input line 619.
-(pdftex.def)             Requested size: 227.62204pt x 9.01732pt.
+<use ../img/enemigosderrotados.PNG>
+Package pdftex.def Info: ../img/enemigosderrotados.PNG used on input line 559.
+(pdftex.def)             Requested size: 227.62204pt x 12.59575pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
@@ -1710,28 +1688,39 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [61
 
- <../img/descripcionnumerica.PNG>]
+ <../img/enemigosderrotados.PNG>]
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
 [62
 
-]
+] <../img/descripcionnonumerica.PNG, id=557, 484.209pt x 18.66975pt>
+File: ../img/descripcionnonumerica.PNG Graphic file (type png)
+ <use ../img/descripcionnonumerica.PNG>
+Package pdftex.def Info: ../img/descripcionnonumerica.PNG used on input line 577.
+(pdftex.def)             Requested size: 227.62204pt x 8.77647pt.
+
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
 [63
 
-]
+ <../img/descripcionnonumerica.PNG>] <../img/descripcionnumerica.PNG, id=567, 501.67426pt x 19.87425pt>
+File: ../img/descripcionnumerica.PNG Graphic file (type png)
+
+<use ../img/descripcionnumerica.PNG>
+Package pdftex.def Info: ../img/descripcionnumerica.PNG used on input line 584.
+(pdftex.def)             Requested size: 227.62204pt x 9.01732pt.
+
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
 [64
 
-]
+ <../img/descripcionnumerica.PNG>]
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1752,31 +1741,21 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [67
 
-] <../img/estado1.PNG, id=601, 390.86024pt x 16.26076pt>
-File: ../img/estado1.PNG Graphic file (type png)
- <use ../img/estado1.PNG>
-Package pdftex.def Info: ../img/estado1.PNG used on input line 677.
-(pdftex.def)             Requested size: 227.62204pt x 9.46994pt.
-
+]
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
 [68
 
- <../img/estado1.PNG>] <../img/estado2.PNG, id=611, 590.80725pt x 56.00925pt>
-File: ../img/estado2.PNG Graphic file (type png)
- <use ../img/estado2.PNG>
-Package pdftex.def Info: ../img/estado2.PNG used on input line 684.
-(pdftex.def)             Requested size: 227.62204pt x 21.57857pt.
-
+]
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
 [69
 
- <../img/estado2.PNG>]
+]
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1818,6 +1797,13 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [75
 
+]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[76
+
 ])
 \tf@nav=\write7
 \openout7 = `beamer2thesis.nav'.
@@ -1846,22 +1832,24 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 23.
  ) 
 Here is how much of TeX's memory you used:
- 28997 strings out of 493634
- 572286 string characters out of 3141314
- 622827 words of memory out of 3000000
- 31644 multiletter control sequences out of 15000+200000
- 17315 words of font info for 62 fonts, out of 3000000 for 9000
+ 28998 strings out of 493634
+ 572385 string characters out of 3141314
+ 622819 words of memory out of 3000000
+ 31652 multiletter control sequences out of 15000+200000
+ 17544 words of font info for 63 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 58i,18n,63p,10413b,737s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on beamer2thesis.pdf (75 pages, 682336 bytes).
+ 58i,18n,63p,10413b,747s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Navigation77} has been referenced but does not exist, replaced by a fixed one
+
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmss10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmtt10.pfb>
+Output written on beamer2thesis.pdf (76 pages, 487827 bytes).
 PDF statistics:
- 735 PDF objects out of 1000 (max. 8388607)
- 151 named destinations out of 1000 (max. 500000)
- 161 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 739 PDF objects out of 1000 (max. 8388607)
+ 154 named destinations out of 1000 (max. 500000)
+ 156 words of extra memory for PDF output out of 10000 (max. 10000000)
 
