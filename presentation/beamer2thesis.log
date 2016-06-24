@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.14)  21 JUN 2016 22:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.14)  24 JUN 2016 10:29
 entering extended mode
 **./beamer2thesis.tex
 (beamer2thesis.tex
@@ -1273,14 +1273,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [14
 
-]
-Underfull \hbox (badness 10000) has occurred while \output is active
-[]
- []
-
-[15
-
-] <../img/frozendepths.png, id=159, 804.00375pt x 453.695pt>
+] <../img/frozendepths.png, id=151, 804.00375pt x 453.695pt>
 File: ../img/frozendepths.png Graphic file (type png)
  <use ../img/frozendepths.png>
 Package pdftex.def Info: ../img/frozendepths.png used on input line 116.
@@ -1290,9 +1283,16 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
-[16
+[15
 
  <../img/frozendepths.png>]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[16
+
+]
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1327,14 +1327,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [21
 
-]
-Underfull \hbox (badness 10000) has occurred while \output is active
-[]
- []
-
-[22
-
-] <../img/ftl.jpg, id=217, 642.4pt x 361.35pt>
+] <../img/ftl.jpg, id=209, 642.4pt x 361.35pt>
 File: ../img/ftl.jpg Graphic file (type jpg)
  <use ../img/ftl.jpg>
 Package pdftex.def Info: ../img/ftl.jpg used on input line 184.
@@ -1344,9 +1337,9 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
-[23
+[22
 
- <../img/ftl.jpg>] <../img/enterthegungeon.png, id=226, 1927.2pt x 1084.05pt>
+ <../img/ftl.jpg>] <../img/enterthegungeon.png, id=218, 1927.2pt x 1084.05pt>
 File: ../img/enterthegungeon.png Graphic file (type png)
  <use ../img/enterthegungeon.png>
 Package pdftex.def Info: ../img/enterthegungeon.png used on input line 191.
@@ -1356,9 +1349,16 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
-[24
+[23
 
  <../img/enterthegungeon.png (PNG copy)>]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[24
+
+]
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1386,14 +1386,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [28
 
-]
-Underfull \hbox (badness 10000) has occurred while \output is active
-[]
- []
-
-[29
-
-] <../img/paletaColores1.PNG, id=276, 333.6465pt x 187.902pt>
+] <../img/paletaColores1.PNG, id=268, 333.6465pt x 187.902pt>
 File: ../img/paletaColores1.PNG Graphic file (type png)
  <use ../img/paletaColores1.PNG>
 Package pdftex.def Info: ../img/paletaColores1.PNG used on input line 239.
@@ -1403,9 +1396,9 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
-[30
+[29
 
- <../img/paletaColores1.PNG>] <../img/paletaColores2.PNG, id=286, 333.6465pt x 189.1065pt>
+ <../img/paletaColores1.PNG>] <../img/paletaColores2.PNG, id=278, 333.6465pt x 189.1065pt>
 File: ../img/paletaColores2.PNG Graphic file (type png)
 
 <use ../img/paletaColores2.PNG>
@@ -1416,9 +1409,16 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
-[31
+[30
 
  <../img/paletaColores2.PNG>]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[31
+
+]
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1468,6 +1468,9 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [38
 
 ]
+\openout4 = `beamer2thesis.vrb'.
+
+ (beamer2thesis.vrb)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1518,6 +1521,10 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \openout4 = `beamer2thesis.vrb'.
 
  (beamer2thesis.vrb)
+Overfull \vbox (12.99426pt too high) detected at line 395
+ []
+
+
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1528,10 +1535,6 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \openout4 = `beamer2thesis.vrb'.
 
  (beamer2thesis.vrb)
-Overfull \vbox (12.99426pt too high) detected at line 395
- []
-
-
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1579,9 +1582,6 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [49
 
 ]
-\openout4 = `beamer2thesis.vrb'.
-
- (beamer2thesis.vrb)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1610,6 +1610,9 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [53
 
 ]
+\openout4 = `beamer2thesis.vrb'.
+
+ (beamer2thesis.vrb)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1627,9 +1630,6 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [55
 
 ]
-\openout4 = `beamer2thesis.vrb'.
-
- (beamer2thesis.vrb)
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1643,14 +1643,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [57
 
-]
-Underfull \hbox (badness 10000) has occurred while \output is active
-[]
- []
-
-[58
-
-] <../img/temporalidadEquipar.PNG, id=518, 405.31425pt x 110.21175pt>
+] <../img/temporalidadEquipar.PNG, id=510, 405.31425pt x 110.21175pt>
 File: ../img/temporalidadEquipar.PNG Graphic file (type png)
  <use ../img/temporalidadEquipar.PNG>
 Package pdftex.def Info: ../img/temporalidadEquipar.PNG used on input line 536.
@@ -1660,9 +1653,9 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
-[59
+[58
 
- <../img/temporalidadEquipar.PNG>] <../img/temporalidadAtaque.PNG, id=528, 456.5055pt x 68.6565pt>
+ <../img/temporalidadEquipar.PNG>] <../img/temporalidadAtaque.PNG, id=520, 456.5055pt x 68.6565pt>
 File: ../img/temporalidadAtaque.PNG Graphic file (type png)
 
 <use ../img/temporalidadAtaque.PNG>
@@ -1673,9 +1666,9 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
-[60
+[59
 
- <../img/temporalidadAtaque.PNG>] <../img/enemigosderrotados.PNG, id=538, 609.477pt x 33.726pt>
+ <../img/temporalidadAtaque.PNG>] <../img/enemigosderrotados.PNG, id=530, 609.477pt x 33.726pt>
 File: ../img/enemigosderrotados.PNG Graphic file (type png)
 
 <use ../img/enemigosderrotados.PNG>
@@ -1686,16 +1679,16 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
-[61
+[60
 
  <../img/enemigosderrotados.PNG>]
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
-[62
+[61
 
-] <../img/descripcionnonumerica.PNG, id=557, 484.209pt x 18.66975pt>
+] <../img/descripcionnonumerica.PNG, id=549, 484.209pt x 18.66975pt>
 File: ../img/descripcionnonumerica.PNG Graphic file (type png)
  <use ../img/descripcionnonumerica.PNG>
 Package pdftex.def Info: ../img/descripcionnonumerica.PNG used on input line 577.
@@ -1705,9 +1698,9 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
-[63
+[62
 
- <../img/descripcionnonumerica.PNG>] <../img/descripcionnumerica.PNG, id=567, 501.67426pt x 19.87425pt>
+ <../img/descripcionnonumerica.PNG>] <../img/descripcionnumerica.PNG, id=559, 501.67426pt x 19.87425pt>
 File: ../img/descripcionnumerica.PNG Graphic file (type png)
 
 <use ../img/descripcionnumerica.PNG>
@@ -1718,9 +1711,16 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
 
-[64
+[63
 
  <../img/descripcionnumerica.PNG>]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[64
+
+]
 Underfull \hbox (badness 10000) has occurred while \output is active
 []
  []
@@ -1832,24 +1832,22 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 23.
  ) 
 Here is how much of TeX's memory you used:
- 28998 strings out of 493634
- 572385 string characters out of 3141314
- 622819 words of memory out of 3000000
- 31652 multiletter control sequences out of 15000+200000
+ 28996 strings out of 493634
+ 572358 string characters out of 3141314
+ 622851 words of memory out of 3000000
+ 31651 multiletter control sequences out of 15000+200000
  17544 words of font info for 63 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 58i,18n,63p,10413b,747s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Navigation77} has been referenced but does not exist, replaced by a fixed one
-
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmss10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmtt10.pfb>
-Output written on beamer2thesis.pdf (76 pages, 487827 bytes).
+ 58i,18n,63p,10413b,737s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmtt10.pfb>
+Output written on beamer2thesis.pdf (76 pages, 487667 bytes).
 PDF statistics:
- 739 PDF objects out of 1000 (max. 8388607)
- 154 named destinations out of 1000 (max. 500000)
+ 738 PDF objects out of 1000 (max. 8388607)
+ 153 named destinations out of 1000 (max. 500000)
  156 words of extra memory for PDF output out of 10000 (max. 10000000)
 
