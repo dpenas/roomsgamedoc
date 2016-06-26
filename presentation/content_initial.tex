@@ -89,7 +89,7 @@
 	\begin{itemize}
 		\item Exploración
 		\item Gran dificultad
-		\item<+-| alert@+> Aleatoriedad
+		\item<+-| alert@+> Generación procedural
 		\begin{itemize}
 			\item Mapas
 			\item Enemigos
@@ -103,7 +103,7 @@
 	\begin{itemize}
 		\item Exploración
 		\item Gran dificultad
-		\item Aleatoriedad
+		\item Generación procedural
 		\item<+-| alert@+> Pseudo-gráficos ASCII
 	\end{itemize}
 \end{tframe}
@@ -120,44 +120,9 @@
 	\begin{itemize}
 		\item Exploración
 		\item Gran dificultad
-		\item Aleatoriedad
+		\item Generación procedural
 		\item Pseudo-gráficos ASCII
 		\item<+-| alert@+> Género para aficionados
-	\end{itemize}
-\end{tframe}
-
-% Roguelike en nuestro proyecto %
-
-\begin{tframe}{\textbf{Elementos \textit{roguelike} en nuestro proyecto}}
-	\begin{itemize}
-		\item<+-| alert@+> Exploración
-			\begin{itemize}
-				\item Nuevos objetos
-				\item Encontrar el siguiente nivel de la mazmorra
-			\end{itemize}
-	\end{itemize}
-\end{tframe}
-
-\begin{tframe}{\textbf{Elementos \textit{roguelike} en nuestro proyecto}}
-	\begin{itemize}
-		\item Exploración
-		\item<+-| alert@+> Gran dificultad
-		\begin{itemize}
-			\item Generación de encuentros
-			\item Enemigos con distintas IAs
-		\end{itemize}
-	\end{itemize}
-\end{tframe}
-
-\begin{tframe}{\textbf{Elementos \textit{roguelike} en nuestro proyecto}}
-	\begin{itemize}
-		\item Exploración
-		\item Gran dificultad
-		\item<+-| alert@+> Aleatoriedad
-		\begin{itemize}
-			\item Aleatoriedad en mapa y habitaciones
-			\item Generador de encuentros: enemigos y objetos
-		\end{itemize}
 	\end{itemize}
 \end{tframe}
 
@@ -196,6 +161,44 @@
 	\begin{itemize}
 		\item Crear las bases, extensibles y genéricas, de un videojuego \textit{roguelike}
 		\item<+-| alert@+> Añadir elementos de accesibilidad, en especial para invidentes, empleando técnicas de Procesamiento de Lenguaje Natural
+		\begin{itemize}
+			\item Prueba con usuarios reales
+		\end{itemize}
+	\end{itemize}
+\end{tframe}
+
+% Roguelike en nuestro proyecto %
+
+\begin{tframe}{\textbf{Elementos \textit{roguelike} en nuestro proyecto}}
+	\begin{itemize}
+		\item<+-| alert@+> Exploración
+			\begin{itemize}
+				\item Nuevos objetos
+				\item Encontrar el siguiente nivel de la mazmorra
+			\end{itemize}
+	\end{itemize}
+\end{tframe}
+
+\begin{tframe}{\textbf{Elementos \textit{roguelike} en nuestro proyecto}}
+	\begin{itemize}
+		\item Exploración
+		\item<+-| alert@+> Gran dificultad
+		\begin{itemize}
+			\item Generación de encuentros
+			\item Enemigos con distintas IAs
+		\end{itemize}
+	\end{itemize}
+\end{tframe}
+
+\begin{tframe}{\textbf{Elementos \textit{roguelike} en nuestro proyecto}}
+	\begin{itemize}
+		\item Exploración
+		\item Gran dificultad
+		\item<+-| alert@+> Generación procedural
+		\begin{itemize}
+			\item Aleatoriedad en mapa y habitaciones
+			\item Generador de encuentros: enemigos y objetos
+		\end{itemize}
 	\end{itemize}
 \end{tframe}
 
@@ -294,6 +297,10 @@
 		\item Tener en cuenta la temporalidad
 		\item Extensibilidad
 		\item<+-| alert@+> No dejar de lado al jugador vidente
+		\begin{itemize}
+			\item Como acompañante
+			\item Como jugador (mayor integración)
+		\end{itemize}
 	\end{itemize}
 \end{tframe}
 
@@ -316,7 +323,7 @@
 \begin{frame}[t, fragile]{\textbf{Gramáticas}}
 	\vspace*{\fill}
 	\begin{Verbatim}
-El    héroe   coge   la   espada   metálica
+El    héroe   coge   la   espada   mágica
 	\end{Verbatim}
 	\vspace*{\fill}
 \end{frame}
@@ -324,7 +331,7 @@ El    héroe   coge   la   espada   metálica
 \begin{frame}[t, fragile]{\textbf{Gramáticas}}
 	\vspace*{\fill}
 	\begin{Verbatim}
-El    héroe   coge   la   espada   metálica
+El    héroe   coge   la   espada   mágica
 	\end{Verbatim}
 	\begin{verbatim}
 		DET     S       V     D     S        ADJ
@@ -336,7 +343,7 @@ El    héroe   coge   la   espada   metálica
 \textbf{En inglés:}
 
 	\begin{Verbatim}
-The     hero   picks    the    metallic    sword
+The     hero   picks    the    magic    sword
 	\end{Verbatim}
 	\begin{Verbatim}
 DET       S      V        D        ADJ       S
@@ -344,7 +351,7 @@ DET       S      V        D        ADJ       S
 \vspace*{12px}
 \textbf{En español:}
 	\begin{Verbatim}
-El    héroe   coge   la   espada   metálica
+El    héroe   coge   la   espada   mágica
 	\end{Verbatim}
 	\begin{Verbatim}
 DET     S       V     D     S        ADJ
@@ -369,7 +376,7 @@ Diferentes para cada idioma. Especificadas en archivos JSON:
 La frase generada puede ser errónea:
 	\vspace*{\fill}
 		\begin{Verbatim}[commandchars=+\[\]]
-La*    héroe   coge   el*   espada   metálico*
+La*    héroe   cogen*   el*   espada   mágico*
 		\end{Verbatim}
 		\begin{verbatim}
 			DET     S       V     D     S        ADJ
@@ -378,8 +385,8 @@ La*    héroe   coge   el*   espada   metálico*
 \end{frame}
 
 \begin{frame}[t, fragile]{\textbf{Gramáticas}}
-	Debemos añadir restricciones para cada congruencia, diferentes para cada idioma:
-	\begin{verbatim}
+	Debemos añadir restricciones para cada concordancia gramatical, diferentes para cada idioma:
+	\begin{Verbatim}[fontsize=\tiny]
 "S": [
    {"DET_1": ""},
    {"S_1": ""},
@@ -391,13 +398,46 @@ La*    héroe   coge   el*   espada   metálico*
    {"ADJ_1.num": "S_1.num"},
    {"ADJ_1.gen": "S_1.gen"}
 ]
-	\end{verbatim}
+	\end{Verbatim}
+\end{frame}
+
+\begin{frame}[t, fragile]{\textbf{Gramáticas}}
+	\vspace*{\fill}
+	\begin{Verbatim}
+El    héroe   cogen*   la   espada   mágica
+	\end{Verbatim}
+	\vspace*{\fill}
+\end{frame}
+
+\begin{frame}[t, fragile]{\textbf{Gramáticas}}
+	Debemos añadir restricciones para cada concordancia gramatical, diferentes para cada idioma:
+	\begin{Verbatim}[fontsize=\tiny]
+"S": [
+   {"SN_1": ""},
+   {"V_1": ""},
+   {"SN_2": ""}
+   ],
+"restrictions": [
+   {"SN_1.num": "V_1.num"},
+   {"SN_1.gen": "V_1.gen"},
+   {"SN_2.num": "V_1.num"},
+   {"SN_2.gen": "V_1.gen"}
+]
+	\end{Verbatim}
+\end{frame}
+
+\begin{frame}[t, fragile]{\textbf{Gramáticas}}
+	\vspace*{\fill}
+	\begin{Verbatim}
+El    héroe   coge   la   espada   mágica
+	\end{Verbatim}
+	\vspace*{\fill}
 \end{frame}
 
 % CANTIDAD DE GRAMÁTICAS QUE GENERAMOS %
 
-\begin{frame}[t, fragile]{\textbf{Gramáticas: Importancia de las palabras}}
-	Tenemos que generar frases para muchas situaciones diferentes:
+\begin{frame}[t, fragile]{\textbf{Gramáticas: Tipos de descripciones}}
+	Tenemos que generar frases para multitud de descripciones situaciones diferentes:
 	\begin{itemize}
 		\item<+-| alert@+> Descripciones en base al jugador
 			\begin{itemize}
@@ -409,8 +449,8 @@ La*    héroe   coge   el*   espada   metálico*
 	\end{itemize}
 \end{frame}
 
-\begin{frame}[t, fragile]{\textbf{Gramáticas: Importancia de las palabras}}
-	Tenemos que generar frases para muchas situaciones diferentes:
+\begin{frame}[t, fragile]{\textbf{Gramáticas: Tipos de descripciones}}
+	Tenemos que generar frases para multitud de descripciones situaciones diferentes:
 	\begin{itemize}
 		\item Descripciones en base al jugador
 		\item<+-| alert@+> Descripciones del mapa
@@ -422,8 +462,8 @@ La*    héroe   coge   el*   espada   metálico*
 	\end{itemize}
 \end{frame}
 
-\begin{frame}[t, fragile]{\textbf{Gramáticas: Importancia de las palabras}}
-	Tenemos que generar frases para muchas situaciones diferentes:
+\begin{frame}[t, fragile]{\textbf{Gramáticas: Tipos de descripciones}}
+	Tenemos que generar frases para multitud de descripciones situaciones diferentes:
 	\begin{itemize}
 		\item Descripciones en base al jugador
 		\item Descripciones del mapa
@@ -434,23 +474,6 @@ La*    héroe   coge   el*   espada   metálico*
 				\item Coger/tirar/equipar/desequipar elementos
 			\end{itemize}
 	\end{itemize}
-\end{frame}
-
-\begin{frame}[t, fragile]{\textbf{Gramáticas: Importancia de las palabras}}
-	\vspace*{\fill}
-		\begin{Verbatim}[commandchars=+\[\]]
-El    +underline[héroe]   coge   la   +underline[espada]   metálica
-		\end{Verbatim}
-	\vspace*{\fill}
-\end{frame}
-
-\begin{frame}[t, fragile]{\textbf{Gramáticas: Importancia de las palabras}}
-	Si los núcleos cambian, el resto se adaptan a ellos:
-	\vspace*{\fill}
-		\begin{Verbatim}[commandchars=+\[\]]
-Los    +underline[héroes]   cogen   las   +underline[espadas]   metálicas
-		\end{Verbatim}
-	\vspace*{\fill}
 \end{frame}
 
 % DICCIONARIOS %
@@ -497,12 +520,24 @@ Los    +underline[héroes]   cogen   las   +underline[espadas]   metálicas
 % GRAMÁTICAS: IDIOMAS DISPONIBLES %
 
 \begin{frame}[t, fragile]{\textbf{Idiomas disponibles}}
-	\begin{itemize}
+	\begin{enumerate}
 		\item Gallego
+			\begin{itemize}
+				\item O heroe colle a espada máxica
+			\end{itemize}
 		\item Castellano
+			\begin{itemize}
+				\item El héroe coge la espada mágica
+			\end{itemize}
 		\item Inglés
+			\begin{itemize}
+				\item The heroe picks the magic sword
+			\end{itemize}
 		\item Holandés
-	\end{itemize}
+			\begin{itemize}
+				\item De held kiest de magisch zwaard
+			\end{itemize}
+	\end{enumerate}
 \end{frame}
 
 % TEMPORALIDAD %
@@ -530,7 +565,7 @@ Los    +underline[héroes]   cogen   las   +underline[espadas]   metálicas
 	\begin{itemize}
 		\item<+-| alert@+> Cuando el jugador equipa/desequipa/tira/usa un elemento del inventario
 		\begin{figure}[h]
-			\includegraphics[width=8cm]{../img/temporalidadEquipar.PNG}
+			\includegraphics[width=4cm]{../img/temporalidadEquipar.PNG}
 		\end{figure}
 	\end{itemize}
 \end{tframe}

@@ -1,7 +1,19 @@
 \frametitle{\textbf {Idiomas disponibles}}
-\begin{itemize}
+\begin{enumerate}
 		\item Gallego
+			\begin{itemize}
+				\item O heroe colle a espada máxica
+			\end{itemize}
 		\item Castellano
+			\begin{itemize}
+				\item El héroe coge la espada mágica
+			\end{itemize}
 		\item Inglés
+			\begin{itemize}
+				\item The heroe picks the magic sword
+			\end{itemize}
 		\item Holandés
-	\end{itemize}
+			\begin{itemize}
+				\item De held kiest de magisch zwaard
+			\end{itemize}
+	\end{enumerate}
